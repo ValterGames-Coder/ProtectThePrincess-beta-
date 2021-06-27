@@ -5,6 +5,6 @@ public class ScoreManager : MonoBehaviour
 
     public void Kill()
     {
-        killedEnemies++;
+        killedEnemies += 1;
     }
 }

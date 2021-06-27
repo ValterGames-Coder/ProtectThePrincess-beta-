@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - Left Notification
-  - Right Notification
+  - Building
+  - Ground
   layers:
   - Default
   - TransparentFX
