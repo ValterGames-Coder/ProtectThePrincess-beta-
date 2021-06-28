@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class SwipeCamera : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class SwipeCamera : MonoBehaviour
     [HideInInspector] public int state;
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             if (Input.mousePosition.x > 1000 && state == 0) state = 1;
             else if (Input.mousePosition.x > 1000 && state == -1) state = 0;

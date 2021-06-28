@@ -4,56 +4,83 @@ using UnityEngine.UI;
 
 public class SpawnerEnemies : MonoBehaviour
 {
-    [SerializeField] private GameObject[] _enemies;
-    [SerializeField] private Transform[] _spawns;
-    [SerializeField] private int fromEnemies;
-    [SerializeField] private float _startTimeToSpawn;
-    [SerializeField] private Text _waveText, howMuchEnemiesText;
-    public int wave;
-    public int enemyCount;
-    private float _timeToSpawn;
+    [SerializeField] private GameObject[] _prefabEnemies;
+    [SerializeField] private Transform[] _spawnPositions;
+    public int _wave, _howManyEnemies, _endWave;
+    [SerializeField] private float _timeToSpawn, _startTimeToSpawn;
+    [SerializeField] private Text _waveText, _howManyEnemiesText;
     private ScoreManager _scoreManager;
-    public bool isWave;
+    [SerializeField] private bool _isWave, _firstWave, _win;
+    [SerializeField] private GameObject _panelWin;
 
     private void Start()
     {
+        _endWave = Random.Range(5, 15);
         _timeToSpawn = _startTimeToSpawn;
         _scoreManager = FindObjectOfType<ScoreManager>();
     }
+
     private void Update()
     {
-        _waveText.text = "Волна: " + (wave + 1);
-        howMuchEnemiesText.text = "Осталось врагов: " + (fromEnemies - _scoreManager.killedEnemies);
-        if (_scoreManager.killedEnemies == fromEnemies)
+        if(_wave == 0) _waveText.text = $"Волна: 1 / {_endWave}";
+        else _waveText.text = $"Волна: {_wave + 1} / {_endWave}";
+        if (!_win)
         {
-            isWave = false;
-            _scoreManager.killedEnemies = 0;
-            wave++;
-            var newItem = fromEnemies + Random.Range(1, 10);
-            fromEnemies = Random.Range(fromEnemies + 1, newItem);
+            if (!_isWave)
+            {
+                _timeToSpawn -= Time.deltaTime;
+                if (_wave == 0) _howManyEnemiesText.text = $"До волны осталось: {_timeToSpawn.ToString("F1")} секунд";
+                else _howManyEnemiesText.text = $"До новой волны осталось: {_timeToSpawn.ToString("F1")} секунд";
+            }
+            else
+            {
+                _howManyEnemiesText.text = $"Осталось врагов: {_howManyEnemies - _scoreManager.killedEnemies}";
+            }
+
+            if (_scoreManager.killedEnemies == _howManyEnemies)
+            {
+                if (_wave + 1 == _endWave)
+                {
+                    _win = true;
+                }
+                _isWave = false;
+                _timeToSpawn = Random.Range(_startTimeToSpawn, 10);
+                _howManyEnemies = Random.Range(_howManyEnemies + 1, Random.Range(_howManyEnemies, _howManyEnemies + 5));
+                _scoreManager.killedEnemies = 0;
+            }
+
+            if (_timeToSpawn <= 0 && !_isWave && !_firstWave)
+            {
+                _wave++;
+                _isWave = true;
+                _timeToSpawn = Random.Range(_startTimeToSpawn, 10);
+                StartCoroutine(Spawn(_howManyEnemies));
+            }
+            else if (_timeToSpawn <= 0 && !_isWave && _firstWave)
+            {
+                _firstWave = false;
+                _isWave = true;
+                _timeToSpawn = Random.Range(_startTimeToSpawn, 10);
+                _scoreManager.killedEnemies = 0;
+                StartCoroutine(Spawn(_howManyEnemies));
+            }
         }
-        if (_timeToSpawn <= 0 && !isWave)
+        else if (_win)
         {
-            isWave = true;
-            enemyCount = fromEnemies;
-            StartCoroutine(Spawn());
-            _timeToSpawn = _startTimeToSpawn;
+            _panelWin.SetActive(true);
+            Time.timeScale = 0f;
         }
-        
-        if(isWave == false) _timeToSpawn -= Time.deltaTime;
     }
 
-    private IEnumerator Spawn()
+    IEnumerator Spawn(int enemyCount)
     {
-        for (; enemyCount > 0; enemyCount--)
+        for (int i = 0; i < enemyCount; i++)
         {
-            if (enemyCount > 0)
-            {
-                var randomEnemy = Random.Range(0, _enemies.Length);
-                var randomSpawn = Random.Range(0, _spawns.Length);
-                Instantiate(_enemies[randomEnemy], _spawns[randomSpawn].position, Quaternion.identity);
-                yield return new WaitForSeconds(Random.Range(0.2f, 5f));
-            }
+            int randomEnemy = Random.Range(0, _prefabEnemies.Length);
+            int radnomPosition = Random.Range(0, _spawnPositions.Length);
+            Instantiate(_prefabEnemies[randomEnemy], _spawnPositions[radnomPosition].position,
+                        Quaternion.identity);
+            yield return new WaitForSeconds(Random.Range(1f, 3f));
         }
     }
 }

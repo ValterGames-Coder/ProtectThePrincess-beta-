@@ -15,7 +15,7 @@ public class EnemyAttack : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Building"))
+        if (other.gameObject.GetComponent<Health>())
         {
             if (_timeAttack <= 0)
             {

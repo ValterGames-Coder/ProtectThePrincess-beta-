@@ -46,17 +46,20 @@ public class Health : MonoBehaviour
 
     private IEnumerator Died()
     {
-        health = 0.1f;
-        GetComponent<Collider2D>().enabled = false;
-        GetComponent<SpriteRenderer>().color = Color.Lerp(GetComponent<SpriteRenderer>().color, _colorDied, 0.05f);
         if (gameObject.CompareTag("Enemy"))
         {
+            health = 0.1f;
+            GetComponent<Collider2D>().enabled = false;
+            GetComponent<SpriteRenderer>().color = Color.Lerp(GetComponent<SpriteRenderer>().color, _colorDied, 0.05f);
             GetComponent<Enemy>()._speed = 0;
             GetComponent<Enemy>()._healthBar.gameObject.SetActive(false);
+            yield return new WaitForSeconds(0.2f);
+            health = 0;
+            if (FindObjectOfType<SpawnerEnemies>()._howManyEnemies > _scoreManager.killedEnemies)
+            {
+                _scoreManager.killedEnemies++;
+            }
         }
-        yield return new WaitForSeconds(0.2f);
-        if(health > 0f) _scoreManager.killedEnemies = _scoreManager.killedEnemies + 1;
-        health = 0;
         Destroy(gameObject);
     }
 }

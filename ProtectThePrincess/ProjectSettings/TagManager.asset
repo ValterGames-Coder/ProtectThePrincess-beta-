@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - Building
   - Ground
+  - Building
   layers:
   - Default
   - TransparentFX
@@ -14,7 +14,7 @@ TagManager:
   - Enemy
   - Water
   - UI
-  - Tower
+  - 
   - Bullet
   - 
   - 
