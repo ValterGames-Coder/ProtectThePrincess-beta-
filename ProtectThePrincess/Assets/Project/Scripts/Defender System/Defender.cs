@@ -4,8 +4,8 @@ using UnityEngine;
 public class Defender : MonoBehaviour
 {
     // Поиск врагов
-    public List<GameObject> _enemies = new List<GameObject>();
-    public Collider2D[] zone;
+    private List<GameObject> _enemies = new List<GameObject>();
+    private Collider2D[] zone;
     [Header("Zone")]
     [SerializeField] private Vector3 _zonePosition;
     [Range(0, 100), SerializeField] private float _zoneRadius;
