@@ -5,11 +5,11 @@ using UnityEngine;
 public class DefenderItem : ScriptableObject
 {
     [Header("Zone")]
-    [SerializeField] private Vector3 _zonePosition;
-    [Range(0, 100), SerializeField] private float _zoneRadius;
+    public Vector3 zonePosition;
+    [Range(-100, 100)] public float zoneRadius, min, max;
     //Атака 
     [Header("Attack")]
-    [SerializeField] private GameObject _bullet;
-    [SerializeField] private Transform _attackPosition;
-    [SerializeField] private float _offset;
+    public GameObject bullet;
+    public Vector2 attackPosition;
+    public float offset;
 }

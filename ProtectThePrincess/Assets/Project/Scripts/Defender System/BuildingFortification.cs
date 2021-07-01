@@ -1,5 +1,7 @@
 using System.Collections;
 using UnityEngine;
+using System.Collections.Generic;
+
 public class BuildingFortification : MonoBehaviour
 {
     [SerializeField] private GameObject[] _buildings;

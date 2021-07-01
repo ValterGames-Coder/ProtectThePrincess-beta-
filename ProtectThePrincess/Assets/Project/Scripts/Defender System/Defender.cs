@@ -6,15 +6,32 @@ public class Defender : MonoBehaviour
     // Поиск врагов
     private List<GameObject> _enemies = new List<GameObject>();
     private Collider2D[] zone;
+    [SerializeField] private DefenderItem _item;
+    [SerializeField] private List<DefenderItem> _items = new List<DefenderItem>();
+    [SerializeField] private int _index;
     [Header("Zone")]
     [SerializeField] private Vector3 _zonePosition;
-    [Range(0, 100), SerializeField] private float _zoneRadius;
+    [Range(0, 100), SerializeField] private float _zoneRadius, min, max;
     [SerializeField] private LayerMask _zoneMask;
     //Атака 
     [Header("Attack")]
     [SerializeField] private GameObject _bullet;
     [SerializeField] private Transform _attackPosition;
     [SerializeField] private float _offset;
+
+    void Start()
+    {
+        _index = PlayerPrefs.GetInt("SelectedDefender");
+        _item = _items[_index];
+        _zonePosition = _item.zonePosition;
+        if (gameObject.name == "LeftDefender") _zonePosition.x = -_zonePosition.x;
+        _zoneRadius = _item.zoneRadius;
+        min = _item.min;
+        max = _item.max;
+        _bullet = _item.bullet;
+        _attackPosition.localPosition = _item.attackPosition;
+        _offset = _item.offset;
+    }
 
     void Update()
     {
@@ -32,12 +49,12 @@ public class Defender : MonoBehaviour
             if (state == 0)
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
-                _zonePosition.x = 5f;
+                _zonePosition.x = _item.zonePosition.x;
             }
             else if (state == -1)
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
-                _zonePosition.x = -5f;
+                _zonePosition.x = -_item.zonePosition.x;
             }
         }
         if (gameObject.name == "LeftDefender")
@@ -45,12 +62,12 @@ public class Defender : MonoBehaviour
             if (state == 0)
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
-                _zonePosition.x = -5f;
+                _zonePosition.x = -_item.zonePosition.x;
             }
             else if (state == 1)
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
-                _zonePosition.x = 5f;
+                _zonePosition.x = _item.zonePosition.x;
             }
         }
 
@@ -99,7 +116,7 @@ public class Defender : MonoBehaviour
             Vector3 difference = GetClosetEnemy().position - _attackPosition.position;
             float rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
             _attackPosition.rotation = Quaternion.Euler(0f, 0f,
-                rotateZ + _offset + Random.Range(_bullet.GetComponent<Bullet>().min, _bullet.GetComponent<Bullet>().max));
+                rotateZ + _offset + Random.Range(min, max));
         }
     }
 
