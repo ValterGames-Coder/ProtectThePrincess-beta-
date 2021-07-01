@@ -3,17 +3,19 @@ using UnityEngine.UI;
 
 public class BuyOnShop : MonoBehaviour
 {
+    private enum ControlType{Defender, Building}
     [Header("Int переменные")]
     [SerializeField] private int index, price;
     [Header("Текст")]
     [SerializeField] private Text textMeaning;
     [Header("Тип товара")]
-    [SerializeField] private string _productType;
+    [SerializeField] private ControlType _productType;
 
     void Start()
     {
+        if(PlayerPrefs.HasKey("AllBuilding")) PlayerPrefs.SetInt("AllBuilding", 1);
         textMeaning = textMeaning.GetComponent<Text>();
-        if (_productType == "Defender") 
+        if (_productType == ControlType.Defender) 
         {
             if (index == 0)
             {
@@ -24,7 +26,7 @@ public class BuyOnShop : MonoBehaviour
                 }
             }
         }
-        if (_productType == "Building")
+        if (_productType == ControlType.Building)
         {
             if (index == 0)
             {
@@ -36,7 +38,7 @@ public class BuyOnShop : MonoBehaviour
 
     void Update()
     {
-        if (_productType == "Defender")
+        if (_productType == ControlType.Defender)
         {
             if (PlayerPrefs.GetInt("SelectedDefender") != index) // если оружие выбранное != этому
             {
@@ -56,7 +58,7 @@ public class BuyOnShop : MonoBehaviour
                 textMeaning.color = Color.red; // картинка становится серой
             }
         }
-        if (_productType == "Building")
+        if (_productType == ControlType.Building)
         {
             if (PlayerPrefs.GetInt("BuyBuilding" + index) == 0) // если оружие не купленное
             {
@@ -75,7 +77,7 @@ public class BuyOnShop : MonoBehaviour
 
     public void Click() // метод нажатия
     {
-        if (_productType == "Defender")
+        if (_productType == ControlType.Defender)
         {
             if (PlayerPrefs.GetInt("BuyDefender" + index) == 0) // если оружие не купленно 
             {
@@ -99,7 +101,7 @@ public class BuyOnShop : MonoBehaviour
                 PlayerPrefs.Save(); // сохраняем
             }
         }
-        if (_productType == "Building")
+        if (_productType == ControlType.Building)
         {
             if (PlayerPrefs.GetInt("BuyBuilding" + index) == 0) // если оружие не купленно 
             {
@@ -109,7 +111,8 @@ public class BuyOnShop : MonoBehaviour
                         price; // вычитаем цену из общего количества монет
                     PlayerPrefs.SetInt("Money",
                         GameObject.Find("Shop").GetComponent<ShopManager>().money); // сохраняем монеты
-                    PlayerPrefs.SetInt("BuyBuilding", PlayerPrefs.GetInt("BuyBuilding") + 1); // сохраняем что оружие купленно
+                    PlayerPrefs.SetInt("BuyBuilding" + index, 1);
+                    PlayerPrefs.SetInt("AllBuilding",PlayerPrefs.GetInt("AllBuilding") + 1); // сохраняем что оружие купленно
                     GetComponent<Button>().interactable = false;
                 }
                 PlayerPrefs.Save(); // сохраняем
