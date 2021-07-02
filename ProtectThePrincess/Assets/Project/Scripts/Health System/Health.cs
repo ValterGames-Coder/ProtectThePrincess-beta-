@@ -7,10 +7,13 @@ public class Health : MonoBehaviour
     [HideInInspector] public float maxHealth;
     private ScoreManager _scoreManager;
     [SerializeField] private Color _colorDied;
+    [SerializeField] private GameObject _money;
+    [SerializeField, Range(0, 15)] private float _howManyMoney;
     private void Start()
     {
         maxHealth = health;
         _scoreManager = FindObjectOfType<ScoreManager>();
+        _howManyMoney = Random.Range(1, 15);
     }
 
     private void Update()
@@ -48,6 +51,10 @@ public class Health : MonoBehaviour
     {
         if (gameObject.CompareTag("Enemy"))
         {
+            for (int i = 0; i < _howManyMoney; i++)
+            {
+                Instantiate(_money, transform.position, Quaternion.identity);
+            }
             health = 0.1f;
             GetComponent<Collider2D>().enabled = false;
             GetComponent<SpriteRenderer>().color = Color.Lerp(GetComponent<SpriteRenderer>().color, _colorDied, 0.05f);

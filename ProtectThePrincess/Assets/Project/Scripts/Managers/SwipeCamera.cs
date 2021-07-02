@@ -21,7 +21,6 @@ public class SwipeCamera : MonoBehaviour
         transform.position = Vector3.SmoothDamp(transform.position, _cameraPosition.position, ref velocity, _speed * Time.deltaTime);
         
     }
-    
     void Switch()
     {
         if (state == 0)
