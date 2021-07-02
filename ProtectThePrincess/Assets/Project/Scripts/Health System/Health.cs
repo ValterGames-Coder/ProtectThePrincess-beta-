@@ -18,12 +18,6 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
-        if (GetComponentInChildren<BarHealth>())
-        {
-            float size = health / maxHealth;
-            GetComponentInChildren<BarHealth>().SetSize(size);
-        }
-
         if (health <= 0)
         {
             if (gameObject.CompareTag("Building"))
@@ -49,24 +43,34 @@ public class Health : MonoBehaviour
 
     private IEnumerator Died()
     {
-        if (gameObject.CompareTag("Enemy"))
+        if (gameObject.name != "Tower")
         {
-            for (int i = 0; i < _howManyMoney; i++)
+            if (gameObject.CompareTag("Enemy"))
             {
-                Instantiate(_money, transform.position, Quaternion.identity);
+                for (int i = 0; i < _howManyMoney; i++)
+                {
+                    Instantiate(_money, transform.position, Quaternion.identity);
+                }
+
+                health = 0.1f;
+                GetComponent<Collider2D>().enabled = false;
+                GetComponent<SpriteRenderer>().color =
+                    Color.Lerp(GetComponent<SpriteRenderer>().color, _colorDied, 0.05f);
+                GetComponent<Enemy>()._speed = 0;
+                yield return new WaitForSeconds(0.2f);
+                health = 0;
+                if (FindObjectOfType<SpawnerEnemies>()._howManyEnemies > _scoreManager.killedEnemies)
+                {
+                    _scoreManager.killedEnemies++;
+                }
             }
-            health = 0.1f;
-            GetComponent<Collider2D>().enabled = false;
-            GetComponent<SpriteRenderer>().color = Color.Lerp(GetComponent<SpriteRenderer>().color, _colorDied, 0.05f);
-            GetComponent<Enemy>()._speed = 0;
-            GetComponent<Enemy>()._healthBar.gameObject.SetActive(false);
-            yield return new WaitForSeconds(0.2f);
-            health = 0;
-            if (FindObjectOfType<SpawnerEnemies>()._howManyEnemies > _scoreManager.killedEnemies)
-            {
-                _scoreManager.killedEnemies++;
-            }
+
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+        if (gameObject.name == "Tower")
+        {
+            yield return new WaitForSeconds(1f);
+            FindObjectOfType<SpawnerEnemies>()._lose = true;
+        }
     }
 }

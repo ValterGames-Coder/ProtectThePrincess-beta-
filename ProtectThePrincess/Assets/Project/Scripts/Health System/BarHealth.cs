@@ -1,13 +1,19 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BarHealth : MonoBehaviour
 {
-    [SerializeField] private Transform _bar;
-    
-    public void SetSize(float size)
+    [SerializeField] private Image _bar;
+    private Health _health;
+
+    void Start()
     {
-        var barLocalScale = _bar.localScale;
-        barLocalScale.x = Mathf.Lerp(barLocalScale.x, size, 0.1f);
-        if (barLocalScale.x > 0) _bar.localScale = new Vector3(barLocalScale.x, 1f);
+        _health = GetComponentInParent<Health>();
+    }
+
+    private void Update()
+    {
+        //_bar.fillAmount = _health.health / _health.maxHealth;
+        _bar.fillAmount = Mathf.Lerp(_bar.fillAmount, _health.health / _health.maxHealth, 5f * Time.deltaTime);
     }
 }

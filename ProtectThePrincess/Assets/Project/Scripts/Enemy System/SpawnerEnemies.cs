@@ -10,8 +10,9 @@ public class SpawnerEnemies : MonoBehaviour
     [SerializeField] private float _timeToSpawn, _startTimeToSpawn;
     [SerializeField] private Text _waveText, _howManyEnemiesText;
     private ScoreManager _scoreManager;
-    [SerializeField] private bool _isWave, _firstWave, _win;
-    [SerializeField] private GameObject _panelWin;
+    [SerializeField] private bool _isWave, _firstWave;
+    public bool _win, _lose;
+    [SerializeField] private GameObject _panelWin, _panelLose;
 
     private void Start()
     {
@@ -24,7 +25,7 @@ public class SpawnerEnemies : MonoBehaviour
     {
         if(_wave == 0) _waveText.text = $"Волна: 1 / {_endWave}";
         else _waveText.text = $"Волна: {_wave + 1} / {_endWave}";
-        if (!_win)
+        if (!_win && !_lose)
         {
             if (!_isWave)
             {
@@ -68,6 +69,11 @@ public class SpawnerEnemies : MonoBehaviour
         else if (_win)
         {
             _panelWin.SetActive(true);
+            Time.timeScale = 0f;
+        }
+        else if (_lose)
+        {
+            _panelLose.SetActive(true);
             Time.timeScale = 0f;
         }
     }
