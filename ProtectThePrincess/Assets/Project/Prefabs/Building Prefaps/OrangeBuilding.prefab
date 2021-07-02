@@ -126,6 +126,8 @@ MonoBehaviour:
   health: 6
   maxHealth: 0
   _colorDied: {r: 0, g: 0, b: 0, a: 0}
+  _money: {fileID: 0}
+  _howManyMoney: 0
 --- !u!1001 &5885501687885721598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -138,8 +140,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4200216126897613073, guid: 7911289f4f9df2e2ea61ab51627090d9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200216126897613073, guid: 7911289f4f9df2e2ea61ab51627090d9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.15
+      value: -0.18
       objectReference: {fileID: 0}
     - target: {fileID: 4200216126897613073, guid: 7911289f4f9df2e2ea61ab51627090d9, type: 3}
       propertyPath: m_LocalPosition.y

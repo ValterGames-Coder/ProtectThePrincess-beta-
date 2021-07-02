@@ -7,7 +7,7 @@ public class BuildingFortification : MonoBehaviour
     [SerializeField] private GameObject[] _buildings;
     [SerializeField] private float[] _timeBuild;
     [SerializeField] private Transform _transformBuilding;
-    [SerializeField] private Quaternion _rotate;
+    [SerializeField] private bool _rotate;
     [SerializeField] private Color alphaColor;
     private int _indexBuilding;
     public bool inPlace;
@@ -22,7 +22,8 @@ public class BuildingFortification : MonoBehaviour
         if (!inPlace)
         {
             inPlace = true;
-            GameObject building = Instantiate(_buildings[_indexBuilding], _transformBuilding.position, _rotate);
+            GameObject building = Instantiate(_buildings[_indexBuilding], _transformBuilding.position, Quaternion.identity);
+            if (_rotate) building.GetComponent<SpriteRenderer>().flipX = true;
             Color oldColor = building.GetComponent<SpriteRenderer>().color;
             building.GetComponent<SpriteRenderer>().color = alphaColor;
             building.GetComponent<Collider2D>().enabled = false;

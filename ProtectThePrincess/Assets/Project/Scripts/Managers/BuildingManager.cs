@@ -14,7 +14,7 @@ public class BuildingManager : MonoBehaviour
         _howMuch = PlayerPrefs.GetInt("AllBuilding") + 1;
         for (int i = 0; i < _howMuch; i++)
         {
-            if (PlayerPrefs.GetInt("BuyDefender" + i) == 1)
+            if (PlayerPrefs.GetInt("BuyBuilding" + i) == 1)
             {
                 _rightButtons[i].interactable = true;
                 _leftButtons[i].interactable = true;

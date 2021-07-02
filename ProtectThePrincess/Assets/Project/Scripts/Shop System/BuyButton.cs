@@ -23,6 +23,7 @@ public class BuyButton : MonoBehaviour
                 if (PlayerPrefs.GetInt("SelectedDefender") == 0)
                 {
                     PlayerPrefs.SetInt("SelectedDefender", index);
+                    PlayerPrefs.Save();
                 }
             }
         }
@@ -32,6 +33,7 @@ public class BuyButton : MonoBehaviour
             {
                 PlayerPrefs.SetInt("BuyBuilding" + index, 1);
                 GetComponent<Button>().interactable = false;
+                PlayerPrefs.Save();
             }
         }
     }

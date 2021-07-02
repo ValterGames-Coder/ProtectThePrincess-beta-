@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _uiPosition: {x: 0, y: 0, z: 0}
+  _effect: {fileID: 7479248538275275313, guid: 0987e63efea7d1ef78e7f5c01b5f099f, type: 3}
 --- !u!58 &7346265761462387448
 CircleCollider2D:
   m_ObjectHideFlags: 0
