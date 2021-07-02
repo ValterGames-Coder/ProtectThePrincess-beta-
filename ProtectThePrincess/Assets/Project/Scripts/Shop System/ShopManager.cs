@@ -12,6 +12,7 @@ public class ShopManager : MonoBehaviour
     //Метод для добавления денег(В вашем проекте не обязательно, можете заменить на другую систему)
     void Update()
     {
+        if (money < 0) money = 0;
         money = PlayerPrefs.GetInt("Money");
         moneyText.text = money.ToString();
         if (Input.GetKey(KeyCode.Space)) //Если клавиша Space нажата

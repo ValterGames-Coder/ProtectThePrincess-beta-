@@ -29,7 +29,7 @@ public class Money : MonoBehaviour
         _uiPosition = Camera.main.ScreenToWorldPoint(GameObject.Find("MoneyImage").GetComponent<Transform>().position);
         if(_fly) transform.position =
             Vector2.SmoothDamp(transform.position, _uiPosition, ref vel, Random.Range(25f, 40f) * Time.deltaTime);
-        if (_uiPosition.x - transform.position.x < 0.5f && _uiPosition.y - transform.position.y < 0.5f)
+        if (_uiPosition.x - transform.position.x <= 0.5f && _uiPosition.y - transform.position.y <= 0.5f)
         {
             Destroy(gameObject);
             Instantiate(_effect, _uiPosition, Quaternion.identity);
