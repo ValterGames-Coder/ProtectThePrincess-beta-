@@ -1,6 +1,7 @@
 using UnityEngine;
 public class EnemyNotification : MonoBehaviour
 {
+    [Header("Points")]
     [SerializeField] private GameObject leftNotification, rightNotification; // Правый и левый указатель 
 
     public void SetActive(bool active, string name)

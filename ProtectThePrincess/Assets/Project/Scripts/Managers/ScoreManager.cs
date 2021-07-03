@@ -1,10 +1,6 @@
 using UnityEngine;
+
 public class ScoreManager : MonoBehaviour
 {
-    public int killedEnemies;
-
-    public void Kill()
-    {
-        killedEnemies += 1;
-    }
+    public int killedEnemies; // Количество убитых
 }

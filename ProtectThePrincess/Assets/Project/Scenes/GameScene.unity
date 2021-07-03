@@ -171,6 +171,9 @@ MonoBehaviour:
   _prefabEnemies:
   - {fileID: 2296576300036895662, guid: 7b15520c9d8ac49bf908d89d3bdcf321, type: 3}
   - {fileID: 218256400875550741, guid: c0c6454c7692020a4b0b532d168d0daa, type: 3}
+  _probabilities:
+  - 100
+  - 50
   _spawnPositions:
   - {fileID: 379078786}
   - {fileID: 812763873}
@@ -181,10 +184,10 @@ MonoBehaviour:
   _startTimeToSpawn: 5
   _waveText: {fileID: 1862600468}
   _howManyEnemiesText: {fileID: 2125602301}
-  _isWave: 0
-  _firstWave: 1
   _win: 0
   _lose: 0
+  _isWave: 0
+  _firstWave: 1
   _panelWin: {fileID: 1519429934}
   _panelLose: {fileID: 1449391332}
 --- !u!1 &46787253

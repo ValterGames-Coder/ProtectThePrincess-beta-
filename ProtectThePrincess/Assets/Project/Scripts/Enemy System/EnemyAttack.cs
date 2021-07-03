@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
-    [SerializeField] private float _timeAttack, _startTimeAttack;
-    [SerializeField] private float _damage;
+    [Header("Time")]
+    [SerializeField] private float _timeAttack, _startTimeAttack; // Время атака, начало время атаки 
+    [Header("Damage")]
+    [SerializeField] private float _damage; // Дамаг 
+
     void Update()
     {
         if (_timeAttack <= 0)

@@ -2,6 +2,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     private Transform _tower; // Позиция башни
+    [Header("Speed")]
     public float _speed; // Скорость врага
     private EnemyNotification _enemyNotification; // Где находится враг
 

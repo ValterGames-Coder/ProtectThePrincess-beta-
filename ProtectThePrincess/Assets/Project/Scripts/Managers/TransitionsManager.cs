@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,25 +5,25 @@ public class TransitionsManager : MonoBehaviour
 {
     private void Start()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 1; // Время идёт
     }
 
-    public void LoadScene(int index)
+    public void LoadScene(int index) // Загрузка сцены 
     {
-        SceneManager.LoadScene(index);
+        SceneManager.LoadScene(index); 
     }
 
-    public void Pause()
+    public void Pause() // Пауза
     {
-        Time.timeScale = 0;
+        Time.timeScale = 0; // Время стоит
     }
     
-    public void Play()
+    public void Play() // Не пауза
     {
-        Time.timeScale = 1;
+        Time.timeScale = 1; // Время идёт
     }
 
-    public void Quit()
+    public void Quit() // Выход
     {
         
     }

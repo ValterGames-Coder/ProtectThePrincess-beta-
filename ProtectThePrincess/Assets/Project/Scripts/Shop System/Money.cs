@@ -1,46 +1,40 @@
-using System;
 using System.Collections;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class Money : MonoBehaviour
 {
-    [SerializeField] private Vector3 _uiPosition;
-    private Vector2 vel = Vector2.zero;
-    private bool _fly;
-    private Rigidbody2D _rigidbody;
-    [SerializeField] private GameObject _effect;
+    [Header("Position")]
+    [SerializeField] private Vector3 _uiPosition; // Позиция UI монеты
+    private Vector2 vel = Vector2.zero; // Сила
+    private bool _fly; // Полёт ли 
+    private Rigidbody2D _rigidbody; // Физика 
+    [Header("Physics")]
+    [SerializeField] private GameObject _effect; // Эффект для монеты
 
     void Start()
     {
-        _rigidbody = GetComponent<Rigidbody2D>();
-        _uiPosition = Camera.main.ScreenToWorldPoint(GameObject.Find("MoneyImage").GetComponent<Transform>().position);
-        StartCoroutine(Fly());
-    }
-
-    private void OnMouseDown()
-    {
-        _rigidbody.bodyType = RigidbodyType2D.Kinematic;
-        _fly = true;
+        _rigidbody = GetComponent<Rigidbody2D>(); // Получаем компонент
+        _uiPosition = Camera.main.ScreenToWorldPoint(GameObject.Find("MoneyImage").GetComponent<Transform>().position); // Получаем компонент
+        StartCoroutine(Fly()); // Запускаем корутина полёта
     }
 
     private void Update()
     {
-        _uiPosition = Camera.main.ScreenToWorldPoint(GameObject.Find("MoneyImage").GetComponent<Transform>().position);
+        _uiPosition = Camera.main.ScreenToWorldPoint(GameObject.Find("MoneyImage").GetComponent<Transform>().position); // Получаем позицию UI
         if(_fly) transform.position =
-            Vector2.SmoothDamp(transform.position, _uiPosition, ref vel, Random.Range(25f, 40f) * Time.deltaTime);
-        if (_uiPosition.x - transform.position.x <= 0.5f && _uiPosition.y - transform.position.y <= 0.5f)
+            Vector2.SmoothDamp(transform.position, _uiPosition, ref vel, Random.Range(25f, 40f) * Time.deltaTime); // Если можем лететь, летим
+        if (_uiPosition.x - transform.position.x <= 0.5f && _uiPosition.y - transform.position.y <= 0.5f) // Если позиция меньше или равняеться 0.5
         {
-            Destroy(gameObject);
-            Instantiate(_effect, _uiPosition, Quaternion.identity);
-            PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money") + 1);
+            Destroy(gameObject); // Уничтожаем монету
+            Instantiate(_effect, _uiPosition, Quaternion.identity); // Создаём эффект
+            FindObjectOfType<ShopManager>().money++; // Прибавляем монету
         }
     }
 
-    IEnumerator Fly()
+    IEnumerator Fly() // Корутина полёта
     {
-        yield return  new WaitForSeconds(Random.Range(2.5f, 3.5f));
-        _rigidbody.bodyType = RigidbodyType2D.Kinematic;
-        _fly = true;
+        yield return new WaitForSeconds(Random.Range(2.5f, 3.5f)); // Ждём
+        _rigidbody.bodyType = RigidbodyType2D.Kinematic; //Отключаем физику
+        _fly = true; // Можем лететь
     }
 }

@@ -3,74 +3,76 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public float health;
-    [HideInInspector] public float maxHealth;
-    private ScoreManager _scoreManager;
-    [SerializeField] private Color _colorDied;
-    [SerializeField] private GameObject _money;
-    [SerializeField, Range(0, 15)] private float _howManyMoney;
+    [Header("Health")]
+    public float health; // Здоровье 
+    [HideInInspector] public float maxHealth; // Максимальное здоровье 
+    private ScoreManager _scoreManager; // Очки
+    [Header("Color")]
+    [SerializeField] private Color _colorDied; // Цвет после смерти
+    [Header("Money prefab")]
+    [SerializeField] private GameObject _money; // Монета
+    [Header("How many money spawn")]
+    [SerializeField, Range(0, 15)] private float _howManyMoney; // Количество монет для спавна
+
     private void Start()
     {
-        maxHealth = health;
-        _scoreManager = FindObjectOfType<ScoreManager>();
-        _howManyMoney = Random.Range(1, 15);
+        maxHealth = health; // Максимальное здоровье равняется 
+        _scoreManager = FindObjectOfType<ScoreManager>(); // Подключаем компонент
+        _howManyMoney = Random.Range(1, 10); //Выбираем количество монет
     }
 
     private void Update()
     {
-        if (health <= 0)
+        if (health <= 0) // Если здововье меньше или равняется нулю
         {
-            if (gameObject.CompareTag("Building"))
+            if (gameObject.CompareTag("Building")) // Если это постройка 
             {
-                if (gameObject.transform.position.x > 0)
+                if (gameObject.transform.position.x > 0) // Если она справа
                 {
-                    GameObject.Find("RightDefender").GetComponent<BuildingFortification>().inPlace = false;
+                    GameObject.Find("RightDefender").GetComponent<BuildingFortification>().inPlace = false; // Теперь там пусто
                 }
-                if (gameObject.transform.position.x < 0)
+                if (gameObject.transform.position.x < 0) // Если она слево
                 {
-                    GameObject.Find("LeftDefender").GetComponent<BuildingFortification>().inPlace = false;
+                    GameObject.Find("LeftDefender").GetComponent<BuildingFortification>().inPlace = false; // Теперь там пусто
                 }
             }
             
-            StartCoroutine(Died());
+            StartCoroutine(Died()); // Старт корутины смерти
         }
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damage) // Получение дамага
     {
-        health -= damage;
+        health -= damage; // Вычитаем дамаг из здоровья 
     }
 
     private IEnumerator Died()
     {
-        if (gameObject.name != "Tower")
+        if (gameObject.name != "Tower") // Если это не башня
         {
-            if (gameObject.CompareTag("Enemy"))
+            if (gameObject.CompareTag("Enemy")) // Если это враг 
             {
-                for (int i = 0; i < _howManyMoney; i++)
+                for (int i = 0; i < _howManyMoney; i++) // Запускаем цикл 
                 {
-                    Instantiate(_money, transform.position, Quaternion.identity);
+                    Instantiate(_money, transform.position, Quaternion.identity); // Спавним монеты
                 }
-
-                health = 0.1f;
-                GetComponent<Collider2D>().enabled = false;
-                GetComponent<SpriteRenderer>().color =
-                    Color.Lerp(GetComponent<SpriteRenderer>().color, _colorDied, 0.05f);
+                GetComponent<Collider2D>().enabled = false; // Отключаем коллайдеры
+                GetComponent<SpriteRenderer>().color = 
+                    Color.Lerp(GetComponent<SpriteRenderer>().color, _colorDied, 0.05f); // Анимация смерти
                 GetComponent<Enemy>()._speed = 0;
-                yield return new WaitForSeconds(0.2f);
-                health = 0;
-                if (FindObjectOfType<SpawnerEnemies>()._howManyEnemies > _scoreManager.killedEnemies)
+                yield return new WaitForSeconds(0.2f); // Ждём
+                if (FindObjectOfType<SpawnerEnemies>()._howManyEnemies > _scoreManager.killedEnemies) // Если убитых меньше чем нужно
                 {
-                    _scoreManager.killedEnemies++;
+                    _scoreManager.killedEnemies++; //Прибавляем
                 }
             }
 
-            Destroy(gameObject);
+            Destroy(gameObject); // Уничтожаем обьект
         }
-        if (gameObject.name == "Tower")
+        if (gameObject.name == "Tower") // Если это башня
         {
-            yield return new WaitForSeconds(1f);
-            FindObjectOfType<SpawnerEnemies>()._lose = true;
+            yield return new WaitForSeconds(1f); // Ждём 
+            FindObjectOfType<SpawnerEnemies>()._lose = true; // Проигрываем
         }
     }
 }
