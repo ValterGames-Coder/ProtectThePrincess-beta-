@@ -1,35 +1,34 @@
 using System.Collections;
 using UnityEngine;
-using System.Collections.Generic;
 
 public class BuildingFortification : MonoBehaviour
 {
-    [SerializeField] private GameObject[] _buildings;
-    [SerializeField] private float[] _timeBuild;
-    [SerializeField] private Transform _transformBuilding;
-    [SerializeField] private bool _rotate;
-    [SerializeField] private Color alphaColor;
-    private int _indexBuilding;
-    public bool inPlace;
+    [SerializeField] private GameObject[] _buildings; // Постройки
+    [SerializeField] private float[] _timeBuild; // Время постройки
+    [SerializeField] private Transform _transformBuilding; // Позиция для постройки постройки
+    [SerializeField] private bool _rotate; // Поворот постройки
+    [SerializeField] private Color alphaColor; // Цвет 
+    private int _indexBuilding; // Номер постройки
+    public bool inPlace; // Если ли постройка на месте
 
-    public void Build(int indexBuilding)
+    public void Build(int indexBuilding) // Метод постройки
     {
-        _indexBuilding = indexBuilding;
-        StartCoroutine(Build());
+        _indexBuilding = indexBuilding; // Получаем номер постройки
+        StartCoroutine(Build()); // Запускаем корутину
     }
-    private IEnumerator Build()
+    private IEnumerator Build() // Корутина постройки
     {
-        if (!inPlace)
+        if (!inPlace) // Если на месте нет постройки
         {
-            inPlace = true;
-            GameObject building = Instantiate(_buildings[_indexBuilding], _transformBuilding.position, Quaternion.identity);
-            if (_rotate) building.GetComponent<SpriteRenderer>().flipX = true;
-            Color oldColor = building.GetComponent<SpriteRenderer>().color;
-            building.GetComponent<SpriteRenderer>().color = alphaColor;
-            building.GetComponent<Collider2D>().enabled = false;
-            yield return new WaitForSeconds(_timeBuild[_indexBuilding]);
-            building.GetComponent<Collider2D>().enabled = true;
-            building.GetComponent<SpriteRenderer>().color = oldColor;
+            inPlace = true; // На месте есть постройка 
+            GameObject building = Instantiate(_buildings[_indexBuilding], _transformBuilding.position, Quaternion.identity); // Создаём постройку
+            if (_rotate) building.GetComponent<SpriteRenderer>().flipX = true; // Если надо повернуть, поворачиваем
+            Color oldColor = building.GetComponent<SpriteRenderer>().color; // получаем старый цвет
+            building.GetComponent<SpriteRenderer>().color = alphaColor; // Изменяем цвет на время строительсва 
+            building.GetComponent<Collider2D>().enabled = false; // Отключаем коллайдер
+            yield return new WaitForSeconds(_timeBuild[_indexBuilding]); // Ждём время постройки
+            building.GetComponent<Collider2D>().enabled = true; // Включаем коллайдер
+            building.GetComponent<SpriteRenderer>().color = oldColor; // Возращаем норм цвет
         }
     }
 }

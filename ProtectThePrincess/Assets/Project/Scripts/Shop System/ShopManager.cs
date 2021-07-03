@@ -12,8 +12,8 @@ public class ShopManager : MonoBehaviour
     //Метод для добавления денег(В вашем проекте не обязательно, можете заменить на другую систему)
     void Update()
     {
-        if (money < 0) money = 0;
-        money = PlayerPrefs.GetInt("Money");
+        if (money < 0) money = 0; // Если монет меньше 0 то они будут равняться 0
+        money = PlayerPrefs.GetInt("Money"); 
         moneyText.text = money.ToString();
         if (Input.GetKey(KeyCode.Space)) //Если клавиша Space нажата
         {
@@ -23,6 +23,6 @@ public class ShopManager : MonoBehaviour
     }
     public void Remove() //Метод удаления данных
     {
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll(); // Удаляем все сохранения
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DefenderItem : ScriptableObject
 {
+    // Поиск врага
     [Header("Zone")]
     public Vector3 zonePosition;
     [Range(-100, 100)] public float zoneRadius, min, max;

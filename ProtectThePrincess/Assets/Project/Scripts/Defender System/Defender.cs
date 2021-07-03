@@ -1,15 +1,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+
 public class Defender : MonoBehaviour
 {
-    // Поиск врагов
-    private List<GameObject> _enemies = new List<GameObject>();
-    private Collider2D[] zone;
+    //Какой тип защитника
+    [Header("Defender")]
     [SerializeField] private DefenderItem _item;
     [SerializeField] private List<DefenderItem> _items = new List<DefenderItem>();
     [SerializeField] private int _index;
+    // Поиск врагов
     [Header("Zone")]
+    private List<GameObject> _enemies = new List<GameObject>();
+    private Collider2D[] zone;
     [SerializeField] private Vector3 _zonePosition;
     [Range(0, 100), SerializeField] private float _zoneRadius, min, max;
     [SerializeField] private LayerMask _zoneMask;
@@ -21,6 +24,7 @@ public class Defender : MonoBehaviour
 
     void Start()
     {
+        // Выбераем и сохраняем выбраного защитника
         _index = PlayerPrefs.GetInt("SelectedDefender");
         _item = _items[_index];
         _zonePosition = _item.zonePosition;
@@ -35,36 +39,37 @@ public class Defender : MonoBehaviour
 
     void Update()
     {
-        ChangeEnemy();
-        Attack();
-        BulletRotation();
-        WhereToLook();
+        ChangeEnemy(); // Ищем врагов
+        Attack(); // Атака врагов
+        BulletRotation(); // Прицеливание
+        WhereToLook(); // Поворот защитника
+        GetClosetEnemy(); // Ищем ближайщего врага
     }
 
     private void WhereToLook()
     {
-        int state = Camera.main.GetComponent<SwipeCamera>().state;
-        if (gameObject.name == "RightDefender")
+        int state = Camera.main.GetComponent<SwipeCamera>().state; // Получаем инфу и месте камеры
+        if (gameObject.name == "RightDefender") // Если это правый защитник
         {
-            if (state == 0)
+            if (state == 0) // Если камера на месте, то защитник смотрит в свою сторону
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
                 _zonePosition.x = _item.zonePosition.x;
             }
-            else if (state == -1)
+            else if (state == -1) // Если камера смотрит налево, то защитник смотрит влево
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
                 _zonePosition.x = -_item.zonePosition.x;
             }
         }
-        if (gameObject.name == "LeftDefender")
+        if (gameObject.name == "LeftDefender") // Если это левый защитник
         {
-            if (state == 0)
+            if (state == 0) // Если камера на месте, то защитник смотрит в свою сторону
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
                 _zonePosition.x = -_item.zonePosition.x;
             }
-            else if (state == 1)
+            else if (state == 1) // Если камера смотрит направо, то защитник смотрит вправо
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
                 _zonePosition.x = _item.zonePosition.x;
@@ -73,71 +78,71 @@ public class Defender : MonoBehaviour
 
     }
 
-    private Transform GetClosetEnemy()
+    private Transform GetClosetEnemy() 
     {
-        float closetDistance = Mathf.Infinity;
-        Transform closetEnemy = null;
-        float currentDistance;
-        if (_enemies != null)
+        float closetDistance = Mathf.Infinity; // Дистанция до врага
+        Transform closetEnemy = null; // Позиция врага
+        float currentDistance; // Дистанция до врага
+        if (_enemies != null) // Если есть в зоне враги
         {
-            foreach (var enemy in _enemies.ToList())
+            foreach (var enemy in _enemies.ToList()) // Проверяем каждого врага в списке врагов
             { 
-                if (enemy != null) currentDistance = Vector3.Distance(transform.position, enemy.transform.position);
-                else 
+                if (enemy != null) currentDistance = Vector3.Distance(transform.position, enemy.transform.position); // Если есть враг, то получаем расстояние до него 
+                else // Иначе удаляем врага и продолжаем
                 { 
                     _enemies.Remove(enemy); 
                     continue;
                 }
-                if (currentDistance < closetDistance)
+                if (currentDistance < closetDistance) // Если расстояние до врага меньше чем бесконечность
                 { 
-                    closetDistance = currentDistance; 
-                    closetEnemy = enemy.transform;
+                    closetDistance = currentDistance; // Присваем к бесконечности расстоние
+                    closetEnemy = enemy.transform; // Получаем позицию ближайщего врага
                 }
             }
         }
-        return closetEnemy;
+        return closetEnemy; // Возращаем позицию
     }
     
     private void ChangeEnemy()
     {
-        zone = Physics2D.OverlapCircleAll(_zonePosition, _zoneRadius, _zoneMask);
-        for (int i = 0; i < zone.Length; i++)
+        zone = Physics2D.OverlapCircleAll(_zonePosition, _zoneRadius, _zoneMask); // Ищем всех в радиусе по слою врага
+        for (int i = 0; i < zone.Length; i++) // Проходимся по врагам
         {
-            if (!_enemies.Contains(zone[i].gameObject)) _enemies.Add(zone[i].gameObject);
+            if (!_enemies.Contains(zone[i].gameObject)) _enemies.Add(zone[i].gameObject); // Если в списке врагов его нет, то добавляем
         }
         
-        if(_enemies.Count > zone.Length) _enemies.Remove(_enemies[zone.Length]);
+        if(_enemies.Count > zone.Length) _enemies.Remove(_enemies[zone.Length]); //Если в списке врагов больше чем в зоне, то удаляем последнего из списка
     }
 
     void BulletRotation()
     {
-        if (GetClosetEnemy() != null)
+        if (GetClosetEnemy() != null) // Если есть ближайщий враг
         {
-            Vector3 difference = GetClosetEnemy().position - _attackPosition.position;
-            float rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
+            Vector3 difference = GetClosetEnemy().position - _attackPosition.position; // Вычитаем позицию ближайего врага из позиции атаки
+            float rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg; // Узнаем поворот для пули 
             _attackPosition.rotation = Quaternion.Euler(0f, 0f,
-                rotateZ + _offset + Random.Range(min, max));
+                rotateZ + 1.5f + _offset + Random.Range(min, max)); // Разворачиваем позицию для атаки
         }
     }
 
     private void Attack()
     {
-        if (GetClosetEnemy() != null)
+        if (GetClosetEnemy() != null) // Если есть ближайщий враг
         {
-            var position = _attackPosition.position;
-            if (_bullet.GetComponent<Bullet>().timeAttack <= 0f)
+            var position = _attackPosition.position; // Позиция будет равна к позиции атаки 
+            if (_bullet.GetComponent<Bullet>().timeAttack <= 0f) // Если время закончено
             {
-                Instantiate(_bullet, new Vector2(position.x, position.y), _attackPosition.rotation);
-                _bullet.GetComponent<Bullet>().timeAttack = _bullet.GetComponent<Bullet>().startTimeAttack;
+                Instantiate(_bullet, new Vector2(position.x, position.y), _attackPosition.rotation); // Создаём пулю
+                _bullet.GetComponent<Bullet>().timeAttack = _bullet.GetComponent<Bullet>().startTimeAttack; // Время возращаем
             }
 
-            _bullet.GetComponent<Bullet>().timeAttack -= Time.deltaTime;
+            _bullet.GetComponent<Bullet>().timeAttack -= Time.deltaTime; // Уменьшаем время
         }
     }
     
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(_zonePosition, _zoneRadius);
+        Gizmos.color = Color.green; // Цвет зелёный
+        Gizmos.DrawWireSphere(_zonePosition, _zoneRadius); // Рисуем круг
     }
 }
