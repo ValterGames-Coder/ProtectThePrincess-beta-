@@ -28,6 +28,7 @@ public class Money : MonoBehaviour
             Destroy(gameObject); // Уничтожаем монету
             Instantiate(_effect, _uiPosition, Quaternion.identity); // Создаём эффект
             FindObjectOfType<ShopManager>().money++; // Прибавляем монету
+            FindObjectOfType<BattleStatistics>().howMoney++; 
         }
     }
 

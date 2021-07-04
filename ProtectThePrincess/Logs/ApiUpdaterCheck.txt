@@ -1018,3 +1018,23 @@ C# parse time         : 408ms
 candidates check time : 60ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 7/4/2021 3:05:32 PM : Starting /home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 502.635ms
+moved types parse time: 85ms
+candidates parse time : 1ms
+C# parse time         : 560ms
+candidates check time : 102ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 7/4/2021 3:07:04 PM : Starting /home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 63.132ms
+moved types parse time: 70ms
+candidates parse time : 1ms
+C# parse time         : 337ms
+candidates check time : 129ms
+console write time    : 0ms
+
