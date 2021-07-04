@@ -178,7 +178,7 @@ MonoBehaviour:
   - {fileID: 379078786}
   - {fileID: 812763873}
   wave: 0
-  howManyEnemies: 0
+  _howManyEnemies: 2
   endWave: 0
   _timeToSpawn: 0
   _startTimeToSpawn: 5
@@ -4543,7 +4543,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261805646}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 

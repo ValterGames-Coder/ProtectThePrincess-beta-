@@ -25,7 +25,7 @@ public class ShopManager : MonoBehaviour
         }
         if (SceneManager.GetActiveScene().buildIndex == 1) // Если победа
         {
-            if(FindObjectOfType<SpawnerEnemies>().win) PlayerPrefs.SetInt("Money", money); // Сохраняем
+            if(FindObjectOfType<SpawnerEnemies>().win || FindObjectOfType<SpawnerEnemies>().lose) PlayerPrefs.SetInt("Money", money); // Сохраняем
         }
     }
 

@@ -52,7 +52,6 @@ public class Health : MonoBehaviour
         {
             if (gameObject.CompareTag("Enemy")) // Если это враг 
             {
-                FindObjectOfType<BattleStatistics>().allKill++;
                 for (int i = 0; i < _howManyMoney; i++) // Запускаем цикл 
                 {
                     Instantiate(_money, transform.position, Quaternion.identity); // Спавним монеты
@@ -65,6 +64,7 @@ public class Health : MonoBehaviour
                 if (FindObjectOfType<SpawnerEnemies>()._howManyEnemies > _scoreManager.killedEnemies) // Если убитых меньше чем нужно
                 {
                     _scoreManager.killedEnemies++; //Прибавляем
+                    FindObjectOfType<BattleStatistics>().allKill += 1;
                 }
             }
 
