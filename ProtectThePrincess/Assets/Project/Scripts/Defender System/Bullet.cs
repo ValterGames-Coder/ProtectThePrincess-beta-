@@ -3,15 +3,12 @@ public class Bullet : MonoBehaviour
 {
     [Header("Speed")]
     public float speed;
-    [Header("Time")]
-    public float startTimeAttack;
     [Header("Damage")]
     [SerializeField] private float damage;
-    [HideInInspector] public float timeAttack;
 
     private void Start()
     {
-        timeAttack = startTimeAttack; // Время атаки равняется старту время атаки
+       
         Destroy(gameObject, 5); // Уничтажает через пять секунд после создания
     }
     void FixedUpdate()

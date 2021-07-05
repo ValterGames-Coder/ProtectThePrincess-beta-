@@ -41,6 +41,7 @@ public class UpgradeButton : MonoBehaviour
                 _defender.zoneRadius += _upgradeList[_upgrade]; // Улучшаем защитника
                 _defender.min += _upgradeList[_upgrade];
                 _defender.max -= _upgradeList[_upgrade];
+                _defender.startTimeAttack -= 0.2f;
             }
         }
     }

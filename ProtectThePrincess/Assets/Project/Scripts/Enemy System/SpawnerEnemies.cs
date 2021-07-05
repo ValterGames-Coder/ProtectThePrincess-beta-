@@ -70,13 +70,15 @@ public class SpawnerEnemies : MonoBehaviour
                 StartCoroutine(Spawn(_howManyEnemies));// Начинается спавн врагов
             }
         }
-        else if (win) // Если выиграли 
+        else if (win && !FindObjectOfType<TransitionsManager>().pause) // Если выиграли 
         {
+            FindObjectOfType<SpeedUpTime>().speedUpTime = false;
             _panelWin.SetActive(true); // Включаем панель выиграша
             Time.timeScale = 0f; // Останавливаем время
         }
-        else if (lose) // Если проиграли 
+        else if (lose && !FindObjectOfType<TransitionsManager>().pause) // Если проиграли 
         {
+            FindObjectOfType<SpeedUpTime>().speedUpTime = false;
             _panelLose.SetActive(true); // Включаем панель проигрыша
             Time.timeScale = 0f; // Останавливаем время
         }
