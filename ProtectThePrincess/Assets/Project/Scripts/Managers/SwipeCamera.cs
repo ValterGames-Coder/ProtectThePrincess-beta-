@@ -13,12 +13,12 @@ public class SwipeCamera : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) || Input.touchCount > 0 && Input.touchCount < 1 && !EventSystem.current.IsPointerOverGameObject()) // Если  нажали на экран и это не UI элементы
+        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()) // Если  нажали на экран и это не UI элементы
         {
-            if (Input.mousePosition.x > 1000 || Input.GetTouch(0).position.x > 0 && state == 0) state = 1; // Если нажали на права и состояние равно 0, то состояние равно 1
-            else if (Input.mousePosition.x > 1000 || Input.GetTouch(0).position.x > 0 && state == -1) state = 0; // Если нажали на права и состояние равно -1, то состояние равно 0
-            else if (Input.mousePosition.x < 1000 || Input.GetTouch(0).position.x < 0 && state == 0) state = -1; // Если нажали на права и состояние равно 0, то состояние равно -1
-            else if (Input.mousePosition.x < 1000 || Input.GetTouch(0).position.x < 0 && state == 1) state = 0; // Если нажали на права и состояние равно 1, то состояние равно 0
+            if (Input.mousePosition.x > 1000 && state == 0) state = 1; // Если нажали на права и состояние равно 0, то состояние равно 1
+            else if (Input.mousePosition.x > 1000 && state == -1) state = 0; // Если нажали на права и состояние равно -1, то состояние равно 0
+            else if (Input.mousePosition.x < 1000 && state == 0) state = -1; // Если нажали на права и состояние равно 0, то состояние равно -1
+            else if (Input.mousePosition.x < 1000 && state == 1) state = 0; // Если нажали на права и состояние равно 1, то состояние равно 0
         }
         Switch(); // Свайп камеры
         transform.position = Vector3.SmoothDamp(transform.position, _cameraPosition.position, ref velocity, _speed * Time.deltaTime); // Перемещаем камеру
