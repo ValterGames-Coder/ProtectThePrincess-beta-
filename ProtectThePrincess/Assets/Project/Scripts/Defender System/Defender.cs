@@ -21,9 +21,12 @@ public class Defender : MonoBehaviour
     [SerializeField] private GameObject _bullet;
     [SerializeField] private Transform _attackPosition;
     [SerializeField] private float _offset;
+    private float _timeAttack;
+    [SerializeField] private float _startTimeAttack;
 
     void Start()
     {
+        _timeAttack = _startTimeAttack; // Время атаки равняется старту время атаки
         // Выбераем и сохраняем выбраного защитника
         _index = PlayerPrefs.GetInt("SelectedDefender");
         _item = _items[_index];
@@ -35,15 +38,19 @@ public class Defender : MonoBehaviour
         _bullet = _item.bullet;
         _attackPosition.localPosition = _item.attackPosition;
         _offset = _item.offset;
+        _startTimeAttack = _item.startTimeAttack;
+        
+        ChangeEnemy(); // Ищем врагов
+        GetClosetEnemy(); // Ищем ближайщего врага
     }
 
     void Update()
     {
         ChangeEnemy(); // Ищем врагов
-        Attack(); // Атака врагов
-        BulletRotation(); // Прицеливание
-        WhereToLook(); // Поворот защитника
         GetClosetEnemy(); // Ищем ближайщего врага
+        BulletRotation(); // Прицеливание
+        Attack(); // Атака врагов
+        WhereToLook(); // Поворот защитника
     }
 
     private void WhereToLook()
@@ -121,7 +128,7 @@ public class Defender : MonoBehaviour
             Vector3 difference = GetClosetEnemy().position - _attackPosition.position; // Вычитаем позицию ближайего врага из позиции атаки
             float rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg; // Узнаем поворот для пули 
             _attackPosition.rotation = Quaternion.Euler(0f, 0f,
-                rotateZ + 1.5f + _offset + Random.Range(min, max)); // Разворачиваем позицию для атаки
+                rotateZ - 4f + _offset + Random.Range(min, max)); // Разворачиваем позицию для атаки
         }
     }
 
@@ -130,13 +137,13 @@ public class Defender : MonoBehaviour
         if (GetClosetEnemy() != null) // Если есть ближайщий враг
         {
             var position = _attackPosition.position; // Позиция будет равна к позиции атаки 
-            if (_bullet.GetComponent<Bullet>().timeAttack <= 0f) // Если время закончено
+            if (_timeAttack <= 0f) // Если время закончено
             {
                 Instantiate(_bullet, new Vector2(position.x, position.y), _attackPosition.rotation); // Создаём пулю
-                _bullet.GetComponent<Bullet>().timeAttack = _bullet.GetComponent<Bullet>().startTimeAttack; // Время возращаем
+                _timeAttack = _startTimeAttack; // Время возращаем
             }
 
-            _bullet.GetComponent<Bullet>().timeAttack -= Time.deltaTime; // Уменьшаем время
+            _timeAttack -= Time.deltaTime; // Уменьшаем время
         }
     }
     

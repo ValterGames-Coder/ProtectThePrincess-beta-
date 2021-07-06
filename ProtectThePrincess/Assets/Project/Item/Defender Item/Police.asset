@@ -19,3 +19,4 @@ MonoBehaviour:
   bullet: {fileID: 2970235239118018223, guid: ef7aa58cfae3f7790ad7f2648bf10e6b, type: 3}
   attackPosition: {x: 0.2, y: -0.07}
   offset: 0
+  startTimeAttack: 2

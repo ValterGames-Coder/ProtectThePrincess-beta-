@@ -21,8 +21,11 @@ public class Money : MonoBehaviour
     private void Update()
     {
         _uiPosition = Camera.main.ScreenToWorldPoint(GameObject.Find("MoneyImage").GetComponent<Transform>().position); // Получаем позицию UI
-        if(_fly) transform.position =
-            Vector2.SmoothDamp(transform.position, _uiPosition, ref vel, Random.Range(25f, 40f) * Time.deltaTime); // Если можем лететь, летим
+        if(_fly) {
+            transform.position =
+                Vector2.MoveTowards(transform.position, _uiPosition, Random.Range(25f, 40f) * Time.deltaTime); // Если можем лететь, летим
+            GetComponent<Collider2D>().enabled = false;
+        }
         if (_uiPosition.x - transform.position.x <= 0.5f && _uiPosition.y - transform.position.y <= 0.5f) // Если позиция меньше или равняеться 0.5
         {
             Destroy(gameObject); // Уничтожаем монету

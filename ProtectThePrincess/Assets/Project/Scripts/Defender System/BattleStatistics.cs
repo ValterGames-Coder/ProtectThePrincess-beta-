@@ -9,15 +9,18 @@ public class BattleStatistics : MonoBehaviour
 
     void Update()
     {
-        if(!FindObjectOfType<SpawnerEnemies>().win || !FindObjectOfType<SpawnerEnemies>().lose) timer += Time.deltaTime; // Работа таймера
+        if(!FindObjectOfType<SpawnerEnemies>().win || !FindObjectOfType<SpawnerEnemies>().lose || !FindObjectOfType<TransitionsManager>().pause) timer += Time.deltaTime; // Работа таймера
+        
         if(FindObjectOfType<SpawnerEnemies>().win)
         {
+            Time.timeScale = 0f;
             _timeTextWin.text = timer.ToString("F2");
             _allKillTextWin.text = allKill.ToString();
             _howMoneyTextWin.text = howMoney.ToString();
         }
         else if (FindObjectOfType<SpawnerEnemies>().lose)
         {
+            Time.timeScale = 0f;
             _timeTextLose.text = timer.ToString("F2");
             _allKillTextLose.text = allKill.ToString();
             _howMoneyTextLose.text = howMoney.ToString();
