@@ -500,3 +500,89 @@ System memory in use after: 47,7 MB.
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2411.
 Total: 7,936790 ms (FindLiveObjects: 0,557389 ms CreateObjectMapping: 0,212223 ms MarkObjects: 6,907569 ms  DeleteObjects: 0,256356 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 301,381086 seconds.
+  path: Assets/Project/Scenes/SettingScene.unity
+  artifactKey: Guid(c88c7b0aba6b6b6bb8b9d7456cff4d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/SettingScene.unity using Guid(c88c7b0aba6b6b6bb8b9d7456cff4d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e22073099a9b8ddb38343a974b8bf9') in 0,001711 seconds
+  Import took 0,007116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96,672414 seconds.
+  path: Assets/Project/Scripts/Localization System
+  artifactKey: Guid(c6ac7866502b9312593b8ebdec200bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Localization System using Guid(c6ac7866502b9312593b8ebdec200bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63069e1859744ccb4d3708ddc3e5efae') in 0,003134 seconds
+  Import took 0,009849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15,355389 seconds.
+  path: Assets/Project/Scripts/Localization System/LocalizationManager.cs
+  artifactKey: Guid(107ff778ee5a3af1ebeb9366dcc2e333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Localization System/LocalizationManager.cs using Guid(107ff778ee5a3af1ebeb9366dcc2e333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df325c483320d585ab4a8bf09b0a79f') in 0,015193 seconds
+  Import took 0,022195 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,025256 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,565 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1,01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84,1 MB.
+System memory in use after: 84,1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2416.
+Total: 7,557244 ms (FindLiveObjects: 0,372142 ms CreateObjectMapping: 0,097000 ms MarkObjects: 6,664238 ms  DeleteObjects: 0,418870 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 24,734165 seconds.
+  path: Assets/Project/Scripts/Localization System/LocalizationText.cs
+  artifactKey: Guid(480572ef11fe5e45cb21a818ec9c9643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Localization System/LocalizationText.cs using Guid(480572ef11fe5e45cb21a818ec9c9643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f272be6465cfd52eec33ab77096be9') in 0,008115 seconds
+  Import took 0,013685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001628 seconds.
+  path: Assets/Project/Scripts/Localization System/LocalizationText.cs
+  artifactKey: Guid(480572ef11fe5e45cb21a818ec9c9643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Localization System/LocalizationText.cs using Guid(480572ef11fe5e45cb21a818ec9c9643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f272be6465cfd52eec33ab77096be9') in 0,001828 seconds
+  Import took 0,008481 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003288 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,399 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1,15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1893 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84,2 MB.
+System memory in use after: 84,2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2421.
+Total: 9,673579 ms (FindLiveObjects: 0,665325 ms CreateObjectMapping: 0,145963 ms MarkObjects: 8,481063 ms  DeleteObjects: 0,376596 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
