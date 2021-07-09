@@ -238,7 +238,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: /home/valter/Projects/git/MyProject-master/Game)/valter.keystore
+  AndroidKeystoreName: /home/kids/git/Game)/valter.keystore
   AndroidKeyaliasName: valtergames
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
