@@ -1,18 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LocalizationManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string[] langunges;
+    public void Language(string langunge)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        PlayerPrefs.SetString("Laungunge", langunge);
+        SceneManager.LoadScene(2);
     }
 }
