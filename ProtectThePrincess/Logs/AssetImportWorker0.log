@@ -1286,3 +1286,22 @@ Total: 6,763614 ms (FindLiveObjects: 0,474355 ms CreateObjectMapping: 0,140049 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5,47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47,4 MB.
+System memory in use after: 47,4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2584.
+Total: 5,676247 ms (FindLiveObjects: 0,454050 ms CreateObjectMapping: 0,126264 ms MarkObjects: 4,765870 ms  DeleteObjects: 0,327675 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2379,451552 seconds.
+  path: Assets/Project/Scenes/SettingScene.unity
+  artifactKey: Guid(c88c7b0aba6b6b6bb8b9d7456cff4d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/SettingScene.unity using Guid(c88c7b0aba6b6b6bb8b9d7456cff4d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5771e4063470d3e68c601b2b9156f8bb') in 0,212442 seconds
+  Import took 0,283035 seconds .
+

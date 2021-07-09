@@ -18,16 +18,23 @@ ScriptsOnlyBuild:
     - EnemyAttack
     - EnemyNotification
     - Health
+    - LocalizationManager
+    - LocalizationText
     - Money
+    - RewardedManager
     - ScoreManager
     - ShopManager
+    - SocialNetworksManager
     - SpawnerEnemies
     - SpeedUpTime
     - SwipeCamera
     - TransitionsManager
     - UpgradeButton
+    GoogleMobileAds.Common.dll:
+    - GoogleMobileAds.Common.MobileAdsEventExecutor
     GoogleMobileAds.Editor.dll:
     - GoogleMobileAds.Editor.GoogleMobileAdsSettings
+    - GoogleMobileAds.Editor.GoogleMobileAdsSettingsEditor
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -115,6 +122,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1742}
     - Class: 114
+      Script: {instanceID: 1826}
+    - Class: 114
       Script: {instanceID: 2136}
     - Class: 114
       Script: {instanceID: 2156}
@@ -123,43 +132,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2268}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 2692}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 3100}
+      Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 3202}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3204}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3290}
     - Class: 114
-      Script: {instanceID: 3610}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 3666}
+      Script: {instanceID: 3472}
     - Class: 114
-      Script: {instanceID: 3746}
+      Script: {instanceID: 3612}
     - Class: 114
-      Script: {instanceID: 4020}
+      Script: {instanceID: 3668}
     - Class: 114
-      Script: {instanceID: 4182}
+      Script: {instanceID: 3748}
     - Class: 114
-      Script: {instanceID: 4190}
+      Script: {instanceID: 4022}
     - Class: 114
-      Script: {instanceID: 4210}
+      Script: {instanceID: 4184}
     - Class: 114
-      Script: {instanceID: 4554}
+      Script: {instanceID: 4192}
     - Class: 114
-      Script: {instanceID: 4728}
+      Script: {instanceID: 4212}
     - Class: 114
-      Script: {instanceID: 4942}
+      Script: {instanceID: 4390}
+    - Class: 114
+      Script: {instanceID: 4558}
+    - Class: 114
+      Script: {instanceID: 4732}
+    - Class: 114
+      Script: {instanceID: 4946}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -210,21 +225,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1826}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2732}
+      Script: {instanceID: 2692}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 3202}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3256}
+      Script: {instanceID: 3204}
     - Class: 114
-      Script: {instanceID: 4182}
+      Script: {instanceID: 3258}
     - Class: 114
-      Script: {instanceID: 4928}
+      Script: {instanceID: 4184}
+    - Class: 114
+      Script: {instanceID: 4390}
+    - Class: 114
+      Script: {instanceID: 4932}
+    - Class: 114
+      Script: {instanceID: 23122}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -275,37 +296,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2148}
     - Class: 114
-      Script: {instanceID: 2156}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2544}
+      Script: {instanceID: 2546}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 2692}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 3030}
+      Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 3032}
     - Class: 114
-      Script: {instanceID: 3202}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3610}
+      Script: {instanceID: 3204}
     - Class: 114
-      Script: {instanceID: 3772}
+      Script: {instanceID: 3612}
     - Class: 114
-      Script: {instanceID: 4176}
+      Script: {instanceID: 3774}
     - Class: 114
-      Script: {instanceID: 4182}
+      Script: {instanceID: 4178}
     - Class: 114
-      Script: {instanceID: 4272}
+      Script: {instanceID: 4184}
     - Class: 114
-      Script: {instanceID: 4394}
+      Script: {instanceID: 4274}
     - Class: 114
-      Script: {instanceID: 4554}
+      Script: {instanceID: 4390}
     - Class: 114
-      Script: {instanceID: 4736}
+      Script: {instanceID: 4398}
+    - Class: 114
+      Script: {instanceID: 4558}
+    - Class: 114
+      Script: {instanceID: 4740}
+    - Class: 114
+      Script: {instanceID: 23820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -513,7 +540,7 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
-      Hash: bba9cbf91c622425fb34b2260fcee12e
+      Hash: d6a947d5b1ab2af878cc04d37155195d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpeedUpTime
@@ -535,6 +562,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 971798e3f5efcb060b62cb1db9237403
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LocalizationManager
   - hash:
       serializedVersion: 2
       Hash: cfdd0010efd7b54c2b7512656dbc9119
@@ -561,7 +594,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 2157245110d58229b6c726f3e925aaa5
+      Hash: 807e6e0b4b08cddb13dbbde3961487e3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BuyButton
@@ -633,7 +666,7 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
-      Hash: 448e5c176b0eb814cbc0a7dd66237bf5
+      Hash: 9d47c917272443477621067c67078e4e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShopManager
@@ -771,7 +804,7 @@ ScriptsOnlyBuild:
     className: TMP_FrameRateCounter
   - hash:
       serializedVersion: 2
-      Hash: 635f6e4ee940805a528f34b0a79a98d5
+      Hash: adb7e3fd3107c28fb801cb7770e68418
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnerEnemies
@@ -1059,6 +1092,12 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
+      Hash: 3e446fea757c58b24e3d4f4e9f2660e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LocalizationText
+  - hash:
+      serializedVersion: 2
       Hash: 87ad3705a58f19c47136728d4a6e9c47
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1231,6 +1270,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SocialNetworksManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8b4c9967126cff7acc9a1689e8d5c0c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RewardedManager
   platform: 13
   scenePathNames:
   - Assets/Project/Scenes/ShopScene.unity
