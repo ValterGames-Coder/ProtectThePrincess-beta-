@@ -127,3 +127,27 @@ System memory in use after: 44,7 MB.
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2354.
 Total: 7,334659 ms (FindLiveObjects: 0,333727 ms CreateObjectMapping: 0,092492 ms MarkObjects: 6,524603 ms  DeleteObjects: 0,380644 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 4400,141081 seconds.
+  path: Assets/Project/Sprites/Concept.png
+  artifactKey: Guid(910f42dc209e8abadbf199f835717997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Concept.png using Guid(910f42dc209e8abadbf199f835717997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6e7b7d9ae0246851efada722ac39ac') in 0,496050 seconds
+  Import took 0,503006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45,291816 seconds.
+  path: Assets/Project/Scenes/GameScene.unity
+  artifactKey: Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/GameScene.unity using Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5cd8a085b557daea5e65e3334bdb24') in 0,001664 seconds
+  Import took 0,006945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001731 seconds.
+  path: Assets/Project/Scenes/GameScene.unity
+  artifactKey: Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/GameScene.unity using Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5cd8a085b557daea5e65e3334bdb24') in 0,001389 seconds
+  Import took 0,006282 seconds .
+
