@@ -72,11 +72,13 @@ public class BuyButton : MonoBehaviour
         {
             if (PlayerPrefs.GetInt("BuyBuilding" + index) == 0) // Если не купленное
             {
-                textMeaning.text = "Buy"; // Текст "купить"
+                textMeaning.text = "Buy";
+                textMeaning.color = Color.red; // Текст "купить"
             }
             else if (PlayerPrefs.GetInt("BuyBuilding" + index) != 0) // Если купленное
             {
                 textMeaning.text = "Bought";
+                textMeaning.color = Color.green;
                 GetComponent<Button>().interactable = false; // Текст "куплено"
             }
             if(PlayerPrefs.GetInt("BuyBuilding" + index) == 1 || GameObject.Find("Shop").GetComponent<ShopManager>().money >= price) // Если купленно или хватает денег

@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class SpawnerEnemies : MonoBehaviour
 {
@@ -13,23 +13,25 @@ public class SpawnerEnemies : MonoBehaviour
     [Header("Time")]
     [SerializeField] private float _timeToSpawn, _startTimeToSpawn; // Время спавна, старт время спавна
     [Header("Text")]
-    [SerializeField] private Text _waveText, _howManyEnemiesText; // Текст для волн, Текст для показа сколько осталось врагов
+    [SerializeField] private TMP_Text _waveText, _howManyEnemiesText; // Текст для волн, Текст для показа сколько осталось врагов
     private ScoreManager _scoreManager; // Счётчик очков
     public bool win, lose, isWave, _firstWave = true; // Победа , проигрышь, волны ли, первая волна ли 
     [Header("Panels")]
     [SerializeField] private GameObject _panelWin, _panelLose; // Панель победы, паенль проигрыша 
+    private LocalizationText _waveLT;
 
     private void Start()
     {
         endWave = Random.Range(5, 15); // Выбираем сколько будет всего волн
         _timeToSpawn = _startTimeToSpawn; // Настраиваем время 
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключание очков 
+        _waveLT = _waveText.GetComponent<LocalizationText>();
     }
 
     private void Update()
     {
-        if(wave == 0) _waveText.text = $"Волна: 1 / {endWave}"; // Текст с волноми
-        else _waveText.text = $"Волна: {wave + 1} / {endWave}"; 
+        if(wave == 0) _waveText.text = $"{_waveLT.texts[_waveLT.index]} 1 / {endWave}"; // Текст с волноми
+        else _waveText.text = $"{_waveLT.texts[_waveLT.index]} {wave + 1} / {endWave}"; 
         if (!win && !lose) // Если не выиграли и не проигрыли 
         {
             if (!isWave) // Если нет волны

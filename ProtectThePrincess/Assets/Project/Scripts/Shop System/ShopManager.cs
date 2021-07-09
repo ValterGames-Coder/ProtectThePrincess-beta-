@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
+using TMPro;
 
 public class ShopManager : MonoBehaviour
 {
     [Header("Money")]
     public int money; // Монеты
     [Header("Text")]
-    public Text moneyText; // Текст для монет
+    public TMP_Text moneyText; // Текст для монет
 
     void Start()
     {
