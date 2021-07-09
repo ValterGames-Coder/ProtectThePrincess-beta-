@@ -1,26 +1,26 @@
 # Starting compiling UnityEngine.TestRunner.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d5ba5b10a5c1344ac9debadb60b18324
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-90613d0e6a3c7b0f689c001cb9ff71c0
 # Starting compiling UnityEngine.UI.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f5fbb7ee60fc6625b9f0340bef2d1223
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e43cc047a9498ea38b0256df863fd3e4
 # Starting compiling Unity.InternalAPIEngineBridge.001.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-53289686ae6413241a94ecf6337b8ba2
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4b3dbe1c6842879b5b23f018fe71eb02
 # Starting compiling Unity.2D.PixelPerfect.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b70e4ee0b51fa26cebb24bbd41e1a543
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f36175fb7494377c685551f346c34cfe
 # Starting compiling Unity.Timeline.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cd7c49d1c1d45ac8da86036f1426e721
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d492528ef7c7145b4b2b96021cd808ee
 # Starting compiling Unity.TextMeshPro.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5fdef69a968940f04a8e00a7fc1ed8b9
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d1ebe2f230d9231938163acf35517a61
 # Starting compiling Unity.Mathematics.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e07bb5d4c19a7b666a82f8b118138ffe
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ccf932c4ec9ccf94b8614bea30387908
 # Starting compiling Unity.2D.IK.Runtime.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7b80b8f7311bfa4a8b77706c0422d58e
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-221ba10d650a70f73b5ed017a4ffebd4
 # Starting compiling Unity.2D.Animation.Triangle.Runtime.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c4144bfc0865a46168d590be5cd274ae
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e74c8284d38df6a0eb68354119f6daea
 # Starting compiling Unity.2D.Common.Runtime.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-0efa49784c71e23ca8588626785a291b
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e0548a0a61fc274d097ce9c55fafa899
 # Starting compiling Unity.2D.Animation.Runtime.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-af7fb539262487022b3de160b60f4822
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ffc58eb7be620a93880cca39a5ddf3d5
 # Starting compiling Unity.2D.SpriteShape.Runtime.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6e73c2e631305ac86b2d6dc7f2274d97
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6ad790462b896ac5eabbbf9a6467d8a0
 # Starting compiling Assembly-CSharp.dll
-/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4f9e84675b1c152dbacfed815d0b142c
+/home/kids/Документы/Unity/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cfed6452ee1bd4d42a15b19318f25485
