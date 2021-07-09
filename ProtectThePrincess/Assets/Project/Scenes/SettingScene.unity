@@ -242,7 +242,6 @@ GameObject:
   - component: {fileID: 45904127}
   - component: {fileID: 45904130}
   - component: {fileID: 45904129}
-  - component: {fileID: 45904128}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -269,21 +268,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.000022888184}
   m_SizeDelta: {x: 0, y: 0.000045776}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &45904128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 45904126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - Russian
-  - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
 --- !u!114 &45904129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1126,7 +1110,6 @@ GameObject:
   - component: {fileID: 1083538906}
   - component: {fileID: 1083538909}
   - component: {fileID: 1083538908}
-  - component: {fileID: 1083538907}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1153,21 +1136,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.000022888184}
   m_SizeDelta: {x: 0, y: 0.000045776}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1083538907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1083538905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - Russian
-  - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
 --- !u!114 &1083538908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1276,7 +1244,6 @@ GameObject:
   - component: {fileID: 1140470587}
   - component: {fileID: 1140470590}
   - component: {fileID: 1140470589}
-  - component: {fileID: 1140470588}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1303,21 +1270,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.000022888184}
   m_SizeDelta: {x: 0, y: 0.000045776}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1140470588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1140470586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - Russian
-  - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
 --- !u!114 &1140470589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1468,6 +1420,7 @@ MonoBehaviour:
   texts:
   - English
   - "\u0410\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0439"
+  index: 0
 --- !u!114 &1198312314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2357,6 +2310,7 @@ MonoBehaviour:
   texts:
   - Russian
   - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+  index: 0
 --- !u!114 &1841118222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2599,7 +2553,6 @@ GameObject:
   - component: {fileID: 2016071745}
   - component: {fileID: 2016071748}
   - component: {fileID: 2016071747}
-  - component: {fileID: 2016071746}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2626,21 +2579,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.000022888184}
   m_SizeDelta: {x: 0, y: 0.000045776}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2016071746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016071744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - Russian
-  - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
 --- !u!114 &2016071747
 MonoBehaviour:
   m_ObjectHideFlags: 0

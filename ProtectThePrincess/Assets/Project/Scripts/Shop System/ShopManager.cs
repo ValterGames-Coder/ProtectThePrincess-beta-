@@ -16,6 +16,7 @@ public class ShopManager : MonoBehaviour
 
     void Update()
     {
+        money = PlayerPrefs.GetInt("Money");
         if (money < 0) money = 0; // Если монет меньше 0 то они будут равняться 0
         moneyText.text = money.ToString();
         if (Input.GetKey(KeyCode.Space)) //Если клавиша Space нажата

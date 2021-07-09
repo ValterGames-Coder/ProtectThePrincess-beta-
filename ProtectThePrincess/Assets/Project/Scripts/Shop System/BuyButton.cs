@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class BuyButton : MonoBehaviour
 {
@@ -7,14 +8,14 @@ public class BuyButton : MonoBehaviour
     [Header("Int переменные")]
     [SerializeField] private int index, price; // Номер, стоимость
     [Header("Текст")]
-    [SerializeField] private Text textMeaning; // Текст состояние покупки
+    [SerializeField] private TMP_Text textMeaning; // Текст состояние покупки
     [Header("Тип товара")]
     [SerializeField] private ControlType _productType; // Выбор типа товара
 
     void Start()
     {
         if(PlayerPrefs.HasKey("AllBuilding")) PlayerPrefs.SetInt("AllBuilding", 1); // Если есть билдинги,то сохраняем 1
-        textMeaning = textMeaning.GetComponent<Text>(); // Получаем компонент
+        textMeaning = textMeaning.GetComponent<TMP_Text>(); // Получаем компонент
         if (_productType == ControlType.Defender) // Если это защитник
         {
             if (index == 0) // Если это первый защитник 

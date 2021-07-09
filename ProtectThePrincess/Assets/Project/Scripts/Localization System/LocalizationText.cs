@@ -3,8 +3,9 @@ using TMPro;
 
 public class LocalizationText : MonoBehaviour
 {
-    [SerializeField] private string[] texts;
+    public string[] texts;
     private string _langunge;
+    [HideInInspector] public int index;
     private LocalizationManager _lm;
 
     void Start()
@@ -16,6 +17,7 @@ public class LocalizationText : MonoBehaviour
             if(_langunge == _lm.langunges[i])
             {
                 GetComponent<TMP_Text>().text = texts[i];
+                index = i;
             }
         }
     }
