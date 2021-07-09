@@ -18,7 +18,7 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
-    <uses-feature android:glEsVersion="0x00030000" />
+    <uses-feature android:glEsVersion="0x00020000" />
     <uses-feature
         android:name="android.hardware.vulkan.version"
         android:required="false" />
@@ -98,7 +98,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="2a98eea7-3c1c-4470-ad49-f59d29768c43" />
+            android:value="9cc00ec0-004e-4ed6-9dd7-da95f35ab030" />
 
         <uses-library
             android:name="org.apache.http.legacy"

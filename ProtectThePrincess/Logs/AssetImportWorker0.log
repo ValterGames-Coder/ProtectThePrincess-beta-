@@ -166,3 +166,14 @@ Total: 9,741029 ms (FindLiveObjects: 0,521040 ms CreateObjectMapping: 0,209226 m
 AssetImportParameters requested are different than current active one (requested -> active):
   buildTarget: platform 13, subtarget 537460868, extendedPlatform 0 -> platform 13, subtarget 537395332, extendedPlatform 0
   graphicsApiMask: 2099456 -> 2099200
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 91,39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46,4 MB.
+System memory in use after: 46,3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 5,165357 ms (FindLiveObjects: 0,356894 ms CreateObjectMapping: 0,097031 ms MarkObjects: 4,417869 ms  DeleteObjects: 0,289872 ms)
+

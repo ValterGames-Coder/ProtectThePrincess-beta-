@@ -28,7 +28,6 @@ ScriptsOnlyBuild:
     - UpgradeButton
     GoogleMobileAds.Editor.dll:
     - GoogleMobileAds.Editor.GoogleMobileAdsSettings
-    - GoogleMobileAds.Editor.GoogleMobileAdsSettingsEditor
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -1237,4 +1236,4 @@ ScriptsOnlyBuild:
   - Assets/Project/Scenes/ShopScene.unity
   - Assets/Project/Scenes/GameScene.unity
   - Assets/Project/Scenes/SettingScene.unity
-  playerPath: /home/kids/git/ProtectThePrincess/ProtectThePrincess/ProtectThePrincess.apk
+  playerPath: /home/kids/ProtectThePrincess.apk

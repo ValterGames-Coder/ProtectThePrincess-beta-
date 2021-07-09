@@ -214,7 +214,7 @@ INJECTED from /home/kids/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOu
 		ADDED from /home/kids/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 		MERGED from /home/kids/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 		INJECTED from /home/kids/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
-uses-feature#0x00030000
+uses-feature#0x00020000
 ADDED from [:unityLibrary] /home/kids/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-54
 	android:glEsVersion
 		ADDED from [:unityLibrary] /home/kids/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:19-51

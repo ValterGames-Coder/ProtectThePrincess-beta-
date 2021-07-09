@@ -85,7 +85,7 @@ ADDED from /home/kids/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/u
 		ADDED from /home/kids/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:46-98
 	android:name
 		ADDED from /home/kids/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:16-45
-uses-feature#0x00030000
+uses-feature#0x00020000
 ADDED from /home/kids/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:3-52
 	android:glEsVersion
 		ADDED from /home/kids/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:17-49
