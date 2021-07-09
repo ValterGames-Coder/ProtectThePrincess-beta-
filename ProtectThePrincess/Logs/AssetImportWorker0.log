@@ -151,3 +151,18 @@ Received Import Request.
 Start importing Assets/Project/Scenes/GameScene.unity using Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5cd8a085b557daea5e65e3334bdb24') in 0,001389 seconds
   Import took 0,006282 seconds .
 
+========================================================================
+Received Prepare
+Switching build target platform(13) subTarget(537395332) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 5,44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46,4 MB.
+System memory in use after: 46,3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 9,741029 ms (FindLiveObjects: 0,521040 ms CreateObjectMapping: 0,209226 ms MarkObjects: 8,451111 ms  DeleteObjects: 0,553780 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 13, subtarget 537460868, extendedPlatform 0 -> platform 13, subtarget 537395332, extendedPlatform 0
+  graphicsApiMask: 2099456 -> 2099200
