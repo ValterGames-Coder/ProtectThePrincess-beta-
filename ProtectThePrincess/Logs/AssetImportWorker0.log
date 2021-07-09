@@ -76,3 +76,159 @@ Received Import Request.
 Start importing Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset using Guid(4affd7048f4b9b94088033baf893e85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b4c01c9191031d4056d7554817692e') in 0,036031 seconds
   Import took 0,042127 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 285,490331 seconds.
+  path: Assets/Project/Scripts/Ads System
+  artifactKey: Guid(38f5bab247c1dc6b1aa9f80d0e2c33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Ads System using Guid(38f5bab247c1dc6b1aa9f80d0e2c33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c7abc8bef0844a82d6a96f786bbdb7') in 0,001922 seconds
+  Import took 0,006953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41,455800 seconds.
+  path: Assets/Project/Scripts/Ads System/AdsInitializ.cs
+  artifactKey: Guid(7f36aba8083fb1006a6a59a9d2027175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Ads System/AdsInitializ.cs using Guid(7f36aba8083fb1006a6a59a9d2027175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02a6597a6e142ed011b3dec83762cc1') in 0,002945 seconds
+  Import took 0,008569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,011011 seconds.
+  path: Assets/Project/Scripts/Ads System/AdsInitializ.cs
+  artifactKey: Guid(7f36aba8083fb1006a6a59a9d2027175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Ads System/AdsInitializ.cs using Guid(7f36aba8083fb1006a6a59a9d2027175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02a6597a6e142ed011b3dec83762cc1') in 0,002344 seconds
+  Import took 0,007128 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,004966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,482 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0,81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1889 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82,1 MB.
+System memory in use after: 82,0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2356.
+Total: 9,386350 ms (FindLiveObjects: 0,881240 ms CreateObjectMapping: 0,271387 ms MarkObjects: 7,853213 ms  DeleteObjects: 0,375426 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 46,428452 seconds.
+  path: Assets/Project/Scripts/Ads System/AdsInterstitial.cs
+  artifactKey: Guid(8e76b382cc9eb8f0895c6d2f1f06363f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Ads System/AdsInterstitial.cs using Guid(8e76b382cc9eb8f0895c6d2f1f06363f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89be8cc87cce1f02ce993ffdfd20730') in 0,010460 seconds
+  Import took 0,017372 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,004911 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,345 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1,03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1890 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82,1 MB.
+System memory in use after: 82,1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2361.
+Total: 9,913665 ms (FindLiveObjects: 0,417138 ms CreateObjectMapping: 0,107944 ms MarkObjects: 9,007895 ms  DeleteObjects: 0,376377 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 16,240207 seconds.
+  path: Assets/Project/Scripts/Ads System/New Folder
+  artifactKey: Guid(36f6f474f7ec0834e9b1e69d4ae66049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Ads System/New Folder using Guid(36f6f474f7ec0834e9b1e69d4ae66049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbe8bba22f075f222652160db84cb06') in 0,008333 seconds
+  Import took 0,014789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8,999853 seconds.
+  path: Assets/Project/Scripts/Ads System/AdsRewarded.cs
+  artifactKey: Guid(6cf20a4f3ee100d83b9bb4687eb0d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Ads System/AdsRewarded.cs using Guid(6cf20a4f3ee100d83b9bb4687eb0d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfed265f6de20352b8c37c49a680c257') in 0,002683 seconds
+  Import took 0,008252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001847 seconds.
+  path: Assets/Project/Scripts/Ads System/AdsRewarded.cs
+  artifactKey: Guid(6cf20a4f3ee100d83b9bb4687eb0d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Ads System/AdsRewarded.cs using Guid(6cf20a4f3ee100d83b9bb4687eb0d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfed265f6de20352b8c37c49a680c257') in 0,001375 seconds
+  Import took 0,005993 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,740 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1,12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82,2 MB.
+System memory in use after: 82,1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2366.
+Total: 6,970490 ms (FindLiveObjects: 0,589498 ms CreateObjectMapping: 0,107875 ms MarkObjects: 5,946509 ms  DeleteObjects: 0,322880 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,005448 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,369 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395332) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0,91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82,2 MB.
+System memory in use after: 82,1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2370.
+Total: 8,447939 ms (FindLiveObjects: 0,776496 ms CreateObjectMapping: 0,210533 ms MarkObjects: 7,148152 ms  DeleteObjects: 0,308274 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 825,957161 seconds.
+  path: Assets/Project/Scripts/Ads System/AdsInitializ.cs
+  artifactKey: Guid(7f36aba8083fb1006a6a59a9d2027175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Ads System/AdsInitializ.cs using Guid(7f36aba8083fb1006a6a59a9d2027175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ee505a94e87adbfde92dd8da1d4dd6') in 0,009790 seconds
+  Import took 0,016813 seconds .
+
