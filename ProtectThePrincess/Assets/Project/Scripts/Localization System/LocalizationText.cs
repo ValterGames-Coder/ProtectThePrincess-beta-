@@ -1,24 +1,39 @@
 using UnityEngine;
 using TMPro;
 
+[RequireComponent(typeof(TMP_Text))]
 public class LocalizationText : MonoBehaviour
 {
-    public string[] texts;
-    private string _langunge;
-    [HideInInspector] public int index;
-    private LocalizationManager _lm;
+    private TMP_Text _text;
+    private string key;
 
-    void Start()
+    private void Start()
     {
-        _lm = FindObjectOfType<LocalizationManager>();
-        _langunge = PlayerPrefs.GetString("Langunge");
-        for (int i = 0; i < _lm.langunges.Length; i++)
-        {
-            if(_langunge == _lm.langunges[i])
-            {
-                GetComponent<TMP_Text>().text = texts[i];
-                index = i;
-            }
-        }
+        Localize();
+        LocalizationManager.OnLangungeChange += OnLangungeChange;
+    }
+
+    private void OnDestroy()
+    {
+        LocalizationManager.OnLangungeChange -= OnLangungeChange;
+    }
+
+    private void OnLangungeChange()
+    {
+        Localize();
+    }
+
+    private void Init()
+    {
+        _text = GetComponent<TMP_Text>();
+        key = _text.text;
+    }
+
+    public void Localize(string newKey = null)
+    {
+        if (_text == null) Init();
+        if (newKey != null) key = newKey;
+
+        _text.text = LocalizationManager.GetTranslate(key);
     }
 }

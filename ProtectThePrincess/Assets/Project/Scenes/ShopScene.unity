@@ -325,10 +325,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Yellow
-  - "\u0416\u0451\u043B\u0442\u044B\u0439"
-  index: 0
 --- !u!114 &37347715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,10 +472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Settings
-  - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
-  index: 0
 --- !u!114 &38134570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,7 +492,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: SettingsButton
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
   m_sharedMaterial: {fileID: 1182201411578659277, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
@@ -527,10 +519,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 43.95
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -702,10 +694,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Archer
-  - "\u041B\u0443\u0447\u043D\u0438\u043A"
-  index: 0
 --- !u!114 &126256465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -853,10 +841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Reset
-  - "\u0421\u0431\u0440\u043E\u0441\u0438\u0442\u044C"
-  index: 0
 --- !u!114 &130047594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -877,7 +861,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: ResetButton
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
   m_sharedMaterial: {fileID: 1182201411578659277, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
@@ -904,10 +888,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 53
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1440,10 +1424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Upgrade
-  - "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435"
-  index: 0
 --- !u!114 &444833116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1821,10 +1801,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Game
-  - "\u0418\u0433\u0440\u0430\u0442\u044C"
-  index: 0
 --- !u!114 &665813238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1845,7 +1821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: GameButton
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
   m_sharedMaterial: {fileID: 1182201411578659277, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
@@ -1872,10 +1848,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 51.9
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -2203,10 +2179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Ready
-  - "\u0413\u043E\u0442\u043E\u0432\u043E"
-  index: 0
 --- !u!1 &831595876
 GameObject:
   m_ObjectHideFlags: 0
@@ -2410,10 +2382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Orange
-  - "\u041E\u0440\u0430\u043D\u0436\u0435\u0432\u044B\u0439"
-  index: 0
 --- !u!114 &911966386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2561,10 +2529,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Free Money
-  - "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u044B\u0435 \u043C\u043E\u043D\u0435\u0442\u044B"
-  index: 0
 --- !u!114 &927203640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2585,7 +2549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: ShowAdButton
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
   m_sharedMaterial: {fileID: 1182201411578659277, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
@@ -2612,10 +2576,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 44.3
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -2712,10 +2676,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Upgrade
-  - "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435"
-  index: 0
 --- !u!114 &980364864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3225,10 +3185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Defenders
-  - "\u0417\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0438"
-  index: 0
 --- !u!114 &1196356091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4034,10 +3990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Upgrade
-  - "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435"
-  index: 0
 --- !u!114 &1374199843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4245,9 +4197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 107ff778ee5a3af1ebeb9366dcc2e333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  langunges:
-  - eng
-  - rus
+  _textFile: {fileID: 4900000, guid: 87e62f778482c3890a86d85eb5c911a6, type: 3}
 --- !u!1 &1433566936
 GameObject:
   m_ObjectHideFlags: 0
@@ -4431,10 +4381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Buildings
-  - "\u041F\u043E\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
-  index: 0
 --- !u!114 &1436707026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4825,10 +4771,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Police
-  - "\u041F\u043E\u043B\u0438\u0446\u0435\u0439\u0441\u043A\u0438\u0439"
-  index: 0
 --- !u!114 &1528610627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5415,10 +5357,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Knight
-  - "\u0420\u044B\u0446\u0430\u0440\u044C"
-  index: 0
 --- !u!114 &1978854774
 MonoBehaviour:
   m_ObjectHideFlags: 0

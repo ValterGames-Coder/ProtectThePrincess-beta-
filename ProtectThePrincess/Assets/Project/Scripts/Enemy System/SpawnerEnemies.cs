@@ -14,35 +14,41 @@ public class SpawnerEnemies : MonoBehaviour
     [SerializeField] private float _timeToSpawn, _startTimeToSpawn; // Время спавна, старт время спавна
     [Header("Text")]
     [SerializeField] private TMP_Text _waveText, _howManyEnemiesText; // Текст для волн, Текст для показа сколько осталось врагов
+    [SerializeField] private LocalizationText _waveLocalization, _howManyEnemiesLocalization;
     private ScoreManager _scoreManager; // Счётчик очков
     public bool win, lose, isWave, _firstWave = true; // Победа , проигрышь, волны ли, первая волна ли 
     [Header("Panels")]
     [SerializeField] private GameObject _panelWin, _panelLose; // Панель победы, паенль проигрыша 
-    private LocalizationText _waveLT;
 
     private void Start()
     {
         endWave = Random.Range(5, 15); // Выбираем сколько будет всего волн
         _timeToSpawn = _startTimeToSpawn; // Настраиваем время 
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключание очков 
-        _waveLT = _waveText.GetComponent<LocalizationText>();
     }
 
     private void Update()
     {
-        if(wave == 0) _waveText.text = $"{_waveLT.texts[_waveLT.index]} 1 / {endWave}"; // Текст с волноми
-        else _waveText.text = $"{_waveLT.texts[_waveLT.index]} {wave + 1} / {endWave}"; 
+        if (wave == 0) 
+        {
+            _waveLocalization.Localize("WaveLocalization");
+            _waveText.text += $" 1 / {endWave}"; // Текст с волноми
+        }
+        else _waveText.text += $" {wave + 1} / {endWave}"; 
+
         if (!win && !lose) // Если не выиграли и не проигрыли 
         {
             if (!isWave) // Если нет волны
             {
                 _timeToSpawn -= Time.deltaTime; // Запускается таймер
-                if (wave == 0) _howManyEnemiesText.text = $"До волны осталось: {_timeToSpawn.ToString("F1")} секунд"; // Если волна первая, то один текст
-                else _howManyEnemiesText.text = $"До новой волны осталось: {_timeToSpawn.ToString("F1")} секунд";  // Иначе другой текст
+                if (wave == 0) _howManyEnemiesLocalization.Localize("HowManyEnemiesLocalization1");
+                else _howManyEnemiesLocalization.Localize("HowManyEnemiesLocalization2");
+                _howManyEnemiesText.text += $" {_timeToSpawn.ToString("F1")}";  // Иначе другой текст
             }
             else
             {
-                _howManyEnemiesText.text = $"Осталось врагов: {_howManyEnemies - _scoreManager.killedEnemies}"; //Иначе пишем сколько осталось врагов
+                _howManyEnemiesLocalization.Localize("HowManyEnemiesLocalization3");
+                _howManyEnemiesText.text += $" {_howManyEnemies - _scoreManager.killedEnemies}"; //Иначе пишем сколько осталось врагов
             }
 
             if (_scoreManager.killedEnemies == _howManyEnemies) // Если убито столько же сколько и нужно

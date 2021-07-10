@@ -317,6 +317,8 @@ MonoBehaviour:
   _startTimeToSpawn: 5
   _waveText: {fileID: 2039179963}
   _howManyEnemiesText: {fileID: 1521662020}
+  _waveLocalization: {fileID: 2039179962}
+  _howManyEnemiesLocalization: {fileID: 1521662019}
   win: 0
   lose: 0
   isWave: 0
@@ -3670,10 +3672,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - 'Speed up: 2.0 sec'
-  - "\u0423\u0441\u043A\u043E\u0440\u0435\u043D\u0438\u0435: 2.0 \u0441\u0435\u043A"
-  index: 0
 --- !u!222 &1018482730
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4236,10 +4234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Pausa
-  - "\u041F\u0430\u0443\u0437\u0430"
-  index: 0
 --- !u!114 &1122881389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4260,7 +4254,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: PauseButton
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
   m_sharedMaterial: {fileID: 1182201411578659277, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
@@ -5537,10 +5531,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - Speed Up
-  - "\u0423\u0441\u043A\u043E\u0440\u0435\u043D\u0438\u0435"
-  index: 0
 --- !u!114 &1488217488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5561,7 +5551,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: SpeedUpButton
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
   m_sharedMaterial: {fileID: 1182201411578659277, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
@@ -5588,10 +5578,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 26.9
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -5783,9 +5773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 107ff778ee5a3af1ebeb9366dcc2e333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  langunges:
-  - eng
-  - rus
+  _textFile: {fileID: 4900000, guid: 87e62f778482c3890a86d85eb5c911a6, type: 3}
 --- !u!1 &1519429934
 GameObject:
   m_ObjectHideFlags: 0
@@ -5873,6 +5861,7 @@ GameObject:
   - component: {fileID: 1521662018}
   - component: {fileID: 1521662021}
   - component: {fileID: 1521662020}
+  - component: {fileID: 1521662019}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -5899,6 +5888,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -650.95}
   m_SizeDelta: {x: 1534.0913, y: 138.1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1521662019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521662017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1521662020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5919,7 +5920,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: HowManyEnemiesLocalization1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
   m_sharedMaterial: {fileID: 1182201411578659277, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
@@ -7696,10 +7697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts:
-  - 'Wave:'
-  - "\u0412\u043E\u043B\u043D\u0430:"
-  index: 0
 --- !u!114 &2039179963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7720,7 +7717,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: WaveLocalization
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
   m_sharedMaterial: {fileID: 1182201411578659277, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}

@@ -10,7 +10,6 @@ public class SpeedUpTime : MonoBehaviour
     public void Click()
     {
         speedUpTime = !speedUpTime;
-        _lt = _speedUpTimeText.GetComponent<LocalizationText>();
     }
 
     private void Update()
@@ -18,7 +17,7 @@ public class SpeedUpTime : MonoBehaviour
         if (speedUpTime)
         {
             Time.timeScale = 2f;
-            _speedUpTimeText.text = _lt.texts[_lt.index];
+            _speedUpTimeText.text = "Ускорение: 2.0 сек";
         }
         else if (!speedUpTime && !FindObjectOfType<TransitionsManager>().pause)
         {

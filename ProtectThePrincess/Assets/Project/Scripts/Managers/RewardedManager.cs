@@ -10,7 +10,6 @@ public class RewardedManager : MonoBehaviour
     private TMP_Text _timerText;
     private Button _rewardButton;
     private ulong lastOpen;
-    private int index;
     private LocalizationText _lt;
     private enum ControlType { Money, Chests }
 
@@ -21,7 +20,6 @@ public class RewardedManager : MonoBehaviour
         lastOpen = ulong.Parse(PlayerPrefs.GetString("LastOpen"));
         _timerText = GetComponentInChildren<TMP_Text>();
         _lt = GetComponentInChildren<LocalizationText>();
-        index = _lt.index;
 
         if (!IsReady())
         {
@@ -35,7 +33,7 @@ public class RewardedManager : MonoBehaviour
         {
             if (IsReady())
             {
-                _timerText.text = _lt.texts[index];
+                _timerText.text = "Ready";
                 _rewardButton.interactable = true;
                 return;
             }
@@ -72,7 +70,7 @@ public class RewardedManager : MonoBehaviour
 
         if(seconleft <= 0)
         {
-            _timerText.text = _lt.texts[index];
+            _timerText.text = "Ready";
             return true;
         }
         return false;
