@@ -9,17 +9,17 @@ public class RewardedManager : MonoBehaviour
     [SerializeField] private float msToWait = 5000f;
     private TMP_Text _timerText;
     private Button _rewardButton;
-    private ulong lastOpen;
-    private LocalizationText _lt;
+    public ulong lastOpen;
+    private LocalizationText _rewardedText;
     private enum ControlType { Money, Chests }
 
     void Start()
     {
-        if (!PlayerPrefs.HasKey("lastOpen")) PlayerPrefs.SetString("lastOpen", lastOpen.ToString());
+        if (!PlayerPrefs.HasKey("LastOpen")) PlayerPrefs.SetString("LastOpen", lastOpen.ToString());
         _rewardButton = GetComponent<Button>();
         lastOpen = ulong.Parse(PlayerPrefs.GetString("LastOpen"));
         _timerText = GetComponentInChildren<TMP_Text>();
-        _lt = GetComponentInChildren<LocalizationText>();
+        _rewardedText = GetComponentInChildren<LocalizationText>();
 
         if (!IsReady())
         {
@@ -33,7 +33,7 @@ public class RewardedManager : MonoBehaviour
         {
             if (IsReady())
             {
-                _timerText.text = "Ready";
+                _rewardedText.Localize("RewardedButton");
                 _rewardButton.interactable = true;
                 return;
             }
@@ -70,7 +70,8 @@ public class RewardedManager : MonoBehaviour
 
         if(seconleft <= 0)
         {
-            _timerText.text = "Ready";
+            _rewardedText.Localize("RewardedButton");
+            //_timerText.text = "Ready";
             return true;
         }
         return false;

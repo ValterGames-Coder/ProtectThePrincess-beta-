@@ -9,11 +9,6 @@ public class TransitionsManager : MonoBehaviour
         Time.timeScale = 1; // Время идёт
     }
 
-    public void LoadScene(int index) // Загрузка сцены 
-    {
-        SceneManager.LoadScene(index); 
-    }
-
     public void Pause() // Пауза
     {
         Time.timeScale = 0; // Время стоит

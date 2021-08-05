@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<Keys>
+  <Key Name="EngButtonLocalization">
+      <Translates>
+           <EN>English</EN>
+           <RU>Английский</RU>
+           <DE>Englisch</DE>
+      </Translates>
+  </Key>
+  <Key Name="RusButtonLocalization">
+      <Translates>
+           <EN>Russian</EN>
+           <RU>Русский</RU>
+           <DE>Russisch</DE>
+      </Translates>
+  </Key>
+  <Key Name="DeuButtonLocalization">
+      <Translates>
+           <EN>German</EN>
+           <RU>Немецкий</RU>
+           <DE>Deutsche</DE>
+      </Translates>
+  </Key>
+  <Key Name="PauseButton">
+      <Translates>
+           <EN>Pause</EN>
+           <RU>Пауза</RU>
+           <DE>Pause</DE>
+      </Translates>
+  </Key>
+  <Key Name="SpeedUpButton">
+      <Translates>
+           <EN>Speed Up</EN>
+           <RU>Ускорение</RU>
+           <DE>Beschleunigung</DE>
+      </Translates>
+  </Key>
+  <Key Name="HowManyEnemiesLocalization1">
+      <Translates>
+           <EN>Until the wave is left:</EN>
+           <RU>До волны осталось:</RU>
+           <DE>Bis die Welle weg ist:</DE>
+      </Translates>
+  </Key>
+  <Key Name="HowManyEnemiesLocalization2">
+      <Translates>
+           <EN>Until the new wave is left</EN>
+           <RU>До новой волны осталось:</RU>
+           <DE>Bis die neue Welle übrig ist:</DE>
+      </Translates>
+  </Key>
+  <Key Name="HowManyEnemiesLocalization3">
+      <Translates>
+           <EN>Enemies left:</EN>
+           <RU>Осталось врагов:</RU>
+           <DE>Feinde übrig:</DE>
+      </Translates>
+  </Key>
+  <Key Name="WaveLocalization">
+      <Translates>
+           <EN>Wave:</EN>
+           <RU>Волна:</RU>
+           <DE>Welle:</DE>
+      </Translates>
+  </Key>
+  <Key Name="SettingsButton">
+      <Translates>
+           <EN>Settings</EN>
+           <RU>Настройки</RU>
+           <DE>Anpassung</DE>
+      </Translates>
+  </Key>
+  <Key Name="GameButton">
+      <Translates>
+           <EN>Play</EN>
+           <RU>Играть</RU>
+           <DE>abspielen</DE>
+      </Translates>
+  </Key>
+  <Key Name="ResetButton">
+      <Translates>
+           <EN>Reset</EN>
+           <RU>Reset</RU>
+           <DE>Reset</DE>
+      </Translates>
+  </Key>
+  <Key Name="ShowAdButton">
+      <Translates>
+           <EN>Show ad</EN>
+           <RU>Просмотр рекламы</RU>
+           <DE>Anzeigen ansehen</DE>
+      </Translates>
+  </Key>
+  <Key Name="RewardedButton">
+      <Translates>
+           <EN>Ready!</EN>
+           <RU>Готово!</RU>
+           <DE>Getan!</DE>
+      </Translates>
+  </Key>
+  <Key Name="MeaningBuy">
+      <Translates>
+           <EN>Buy</EN>
+           <RU>Купить</RU>
+           <DE>Kaufen</DE>
+      </Translates>
+  </Key>
+  <Key Name="MeaningSelect">
+      <Translates>
+           <EN>Select</EN>
+           <RU>Выбрать</RU>
+           <DE>Wählen</DE>
+      </Translates>
+  </Key>
+  <Key Name="MeaningSelected">
+      <Translates>
+           <EN>Selected</EN>
+           <RU>Выбрано</RU>
+           <DE>Ausgewählt</DE>
+      </Translates>
+  </Key>
+  <Key Name="MeaningBought">
+      <Translates>
+           <EN>Bought</EN>
+           <RU>Куплено</RU>
+           <DE>Gekauft</DE>
+      </Translates>
+  </Key>
+</Keys>
+

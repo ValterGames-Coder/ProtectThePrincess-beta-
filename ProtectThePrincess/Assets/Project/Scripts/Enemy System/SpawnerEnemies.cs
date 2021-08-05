@@ -29,13 +29,8 @@ public class SpawnerEnemies : MonoBehaviour
 
     private void Update()
     {
-        if (wave == 0) 
-        {
-            _waveLocalization.Localize("WaveLocalization");
-            _waveText.text += $" 1 / {endWave}"; // Текст с волноми
-        }
-        else _waveText.text += $" {wave + 1} / {endWave}"; 
-
+        _waveLocalization.Localize("WaveLocalization");
+        _waveText.text += $" {wave + 1} / {endWave}"; // Текст с волноми
         if (!win && !lose) // Если не выиграли и не проигрыли 
         {
             if (!isWave) // Если нет волны
