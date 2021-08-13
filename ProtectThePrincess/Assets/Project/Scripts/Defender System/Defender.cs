@@ -23,9 +23,12 @@ public class Defender : MonoBehaviour
     [SerializeField] private float _offset;
     private float _timeAttack;
     [SerializeField] private float _startTimeAttack;
+    [SerializeField] private bool _isAttack;
+    private Animator _animator;
 
     void Start()
     {
+        _animator = GetComponentInChildren<Animator>();     
         _timeAttack = _startTimeAttack; // Время атаки равняется старту время атаки
         // Выбераем и сохраняем выбраного защитника
         _index = PlayerPrefs.GetInt("SelectedDefender");
@@ -51,6 +54,8 @@ public class Defender : MonoBehaviour
         BulletRotation(); // Прицеливание
         Attack(); // Атака врагов
         WhereToLook(); // Поворот защитника
+        GetClosetEnemy();
+        _animator.SetBool("IsAttack", _isAttack);
     }
 
     private void WhereToLook()
@@ -92,12 +97,17 @@ public class Defender : MonoBehaviour
         float currentDistance; // Дистанция до врага
         if (_enemies != null) // Если есть в зоне враги
         {
+        
             foreach (var enemy in _enemies.ToList()) // Проверяем каждого врага в списке врагов
             { 
-                if (enemy != null) currentDistance = Vector3.Distance(transform.position, enemy.transform.position); // Если есть враг, то получаем расстояние до него 
+                if (enemy != null) 
+                {
+                    currentDistance = Vector3.Distance(transform.position, enemy.transform.position); // Если есть враг, то получаем расстояние до 
+                    _isAttack = true;
+                }
                 else // Иначе удаляем врага и продолжаем
-                { 
-                    _enemies.Remove(enemy); 
+                {
+                    _enemies.Remove(enemy);
                     continue;
                 }
                 if (currentDistance < closetDistance) // Если расстояние до врага меньше чем бесконечность
@@ -107,6 +117,7 @@ public class Defender : MonoBehaviour
                 }
             }
         }
+        
         return closetEnemy; // Возращаем позицию
     }
     
@@ -139,11 +150,15 @@ public class Defender : MonoBehaviour
             var position = _attackPosition.position; // Позиция будет равна к позиции атаки 
             if (_timeAttack <= 0f) // Если время закончено
             {
+                _animator.SetTrigger("Attack");
                 Instantiate(_bullet, new Vector2(position.x, position.y), _attackPosition.rotation); // Создаём пулю
                 _timeAttack = _startTimeAttack; // Время возращаем
             }
-
             _timeAttack -= Time.deltaTime; // Уменьшаем время
+        }
+        else
+        {
+            _isAttack = false;
         }
     }
     
