@@ -55,7 +55,6 @@ public class Defender : MonoBehaviour
         Attack(); // Атака врагов
         WhereToLook(); // Поворот защитника
         GetClosetEnemy();
-        _animator.SetBool("IsAttack", _isAttack);
     }
 
     private void WhereToLook()
@@ -150,7 +149,6 @@ public class Defender : MonoBehaviour
             var position = _attackPosition.position; // Позиция будет равна к позиции атаки 
             if (_timeAttack <= 0f) // Если время закончено
             {
-                _animator.SetTrigger("Attack");
                 Instantiate(_bullet, new Vector2(position.x, position.y), _attackPosition.rotation); // Создаём пулю
                 _timeAttack = _startTimeAttack; // Время возращаем
             }

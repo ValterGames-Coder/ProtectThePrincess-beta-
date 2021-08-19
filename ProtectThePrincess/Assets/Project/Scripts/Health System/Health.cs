@@ -13,6 +13,7 @@ public class Health : MonoBehaviour
     [SerializeField] private GameObject _money; // Монета
     [Header("How many money spawn")]
     [SerializeField, Range(0, 15)] private float _howManyMoney; // Количество монет для спавна
+    private bool Die = false;
 
     private void Start()
     {
@@ -36,8 +37,7 @@ public class Health : MonoBehaviour
                     GameObject.Find("LeftDefender").GetComponent<BuildingFortification>().inPlace = false; // Теперь там пусто
                 }
             }
-            
-            StartCoroutine(Died()); // Старт корутины смерти
+            Died(); // Старт корутины смерти
         }
     }
 
@@ -46,34 +46,33 @@ public class Health : MonoBehaviour
         health -= damage; // Вычитаем дамаг из здоровья 
     }
 
-    private IEnumerator Died()
+    private void Died()
     {
-        if (gameObject.name != "Tower") // Если это не башня
+        if (gameObject.CompareTag("Enemy") && !Die) // Если это враг 
         {
-            if (gameObject.CompareTag("Enemy")) // Если это враг 
+            Die = true;
+            FindObjectOfType<BattleStatistics>().allKill++;
+            GetComponent<Collider2D>().enabled = false; // Отключаем коллайдеры
+            for (int i = 0; i < _howManyMoney; i++) // Запускаем цикл 
             {
-                for (int i = 0; i < _howManyMoney; i++) // Запускаем цикл 
-                {
-                    Instantiate(_money, transform.position, Quaternion.identity); // Спавним монеты
-                }
-                GetComponent<Collider2D>().enabled = false; // Отключаем коллайдеры
-                GetComponent<SpriteRenderer>().color = 
-                    Color.Lerp(GetComponent<SpriteRenderer>().color, _colorDied, 0.05f); // Анимация смерти
-                GetComponent<Enemy>()._speed = 0;
-                yield return new WaitForSeconds(0.2f); // Ждём
-                if (FindObjectOfType<SpawnerEnemies>()._howManyEnemies > _scoreManager.killedEnemies) // Если убитых меньше чем нужно
-                {
-                    _scoreManager.killedEnemies++; //Прибавляем
-                    FindObjectOfType<BattleStatistics>().allKill += 1;
-                }
+                Instantiate(_money, transform.position, Quaternion.identity); // Спавним монеты
             }
-
-            Destroy(gameObject); // Уничтожаем обьект
+            GetComponent<SpriteRenderer>().color = Color.Lerp(GetComponent<SpriteRenderer>().color, _colorDied, 0.05f); // Анимация смерти
+            GetComponent<Enemy>()._speed = 0;
+            Destroy(gameObject, 0.2f); // Уничтожаем обьект
         }
         if (gameObject.name == "Tower") // Если это башня
         {
-            yield return new WaitForSeconds(1f); // Ждём 
-            FindObjectOfType<SpawnerEnemies>().lose = true; // Проигрываем
+            StartCoroutine(AnimationTower());
         }
     }
+
+    private IEnumerator AnimationTower()
+    {
+        yield return new WaitForSeconds(1f); // Ждём 
+        FindObjectOfType<SpawnerEnemies>().lose = true; // Проигрываем
+    }
 }
+
+
+

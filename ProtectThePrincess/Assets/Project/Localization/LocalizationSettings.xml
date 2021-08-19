@@ -51,8 +51,8 @@
   </Key>
   <Key Name="HowManyEnemiesLocalization3">
       <Translates>
-           <EN>Enemies left:</EN>
-           <RU>Осталось врагов:</RU>
+           <EN>New wave</EN>
+           <RU>Новая волна</RU>
            <DE>Feinde übrig:</DE>
       </Translates>
   </Key>

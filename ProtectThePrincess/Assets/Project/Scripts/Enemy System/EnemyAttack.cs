@@ -7,6 +7,8 @@ public class EnemyAttack : MonoBehaviour
     [Header("Damage")]
     [SerializeField] private float _damage; // Дамаг 
 
+    [SerializeField] private Transform _endPos;
+
     void Update()
     {
         if (_timeAttack <= 0)
@@ -14,17 +16,15 @@ public class EnemyAttack : MonoBehaviour
             _timeAttack = 0;
         }
         _timeAttack -= Time.deltaTime;
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.GetComponent<Health>())
+        RaycastHit2D attack = Physics2D.Linecast(transform.position, _endPos.position, 1 << LayerMask.NameToLayer("Tower"));
+        if (attack.collider != null)
         {
             if (_timeAttack <= 0)
             {
-                other.gameObject.GetComponent<Health>().TakeDamage(_damage);
+                attack.collider.gameObject.GetComponent<Health>().TakeDamage(_damage);
                 _timeAttack = _startTimeAttack;
             }
         }
+        Debug.DrawLine(transform.position, _endPos.position, Color.red);
     }
 }

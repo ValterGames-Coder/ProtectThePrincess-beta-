@@ -10,6 +10,12 @@ public class Enemy : MonoBehaviour
     {
         _enemyNotification = FindObjectOfType<EnemyNotification>(); // Получаем компонет
         _tower = GameObject.Find("Tower").GetComponent<Transform>(); // Получаем компонет
+        if (transform.position.x > 0)
+        {
+            var transformLocalScale = transform.localScale;
+            transformLocalScale.x *= -1;
+            transform.localScale = transformLocalScale;
+        }
     }
     void FixedUpdate()
     {

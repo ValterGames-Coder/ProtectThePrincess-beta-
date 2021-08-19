@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEditor.Build.Content;
 
 public class SpawnerEnemies : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class SpawnerEnemies : MonoBehaviour
     [SerializeField] private float[] _probabilities; // Список вероятностей спавна
     [Header("Spawn positions")]
     [SerializeField] private Transform[] _spawnPositions; // Список позиций для спавна
-    public int wave, _howManyEnemies = 2, endWave; // Номер волны, сколько всего врагов, Последняя волна 
+    public int wave, _howManyEnemies = 2, endWave, leftEnemy; // Номер волны, сколько всего врагов, Последняя волна 
     [Header("Time")]
     [SerializeField] private float _timeToSpawn, _startTimeToSpawn; // Время спавна, старт время спавна
     [Header("Text")]
@@ -20,7 +21,7 @@ public class SpawnerEnemies : MonoBehaviour
     [Header("Panels")]
     [SerializeField] private GameObject _panelWin, _panelLose; // Панель победы, паенль проигрыша 
 
-    private void Start()
+        private void Start()
     {
         endWave = Random.Range(5, 15); // Выбираем сколько будет всего волн
         _timeToSpawn = _startTimeToSpawn; // Настраиваем время 
@@ -29,6 +30,7 @@ public class SpawnerEnemies : MonoBehaviour
 
     private void Update()
     {
+        leftEnemy = GameObject.FindGameObjectsWithTag("Enemy").Length;
         _waveLocalization.Localize("WaveLocalization");
         _waveText.text += $" {wave + 1} / {endWave}"; // Текст с волноми
         if (!win && !lose) // Если не выиграли и не проигрыли 
@@ -43,10 +45,8 @@ public class SpawnerEnemies : MonoBehaviour
             else
             {
                 _howManyEnemiesLocalization.Localize("HowManyEnemiesLocalization3");
-                _howManyEnemiesText.text += $" {_howManyEnemies - _scoreManager.killedEnemies}"; //Иначе пишем сколько осталось врагов
             }
-
-            if (_scoreManager.killedEnemies == _howManyEnemies) // Если убито столько же сколько и нужно
+            if (_howManyEnemies - leftEnemy == _howManyEnemies && isWave) // Если убито столько же сколько и нужно
             {
                 if (wave + 1 == endWave) // Если это была последняя волна
                 {

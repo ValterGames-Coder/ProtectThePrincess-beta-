@@ -5,11 +5,8 @@ public class Money : MonoBehaviour
 {
     [Header("Position")]
     [SerializeField] private Vector3 _uiPosition; // Позиция UI монеты
-    private Vector2 vel = Vector2.zero; // Сила
     private bool _fly; // Полёт ли 
     private Rigidbody2D _rigidbody; // Физика 
-    [Header("Physics")]
-    [SerializeField] private GameObject _effect; // Эффект для монеты
 
     void Start()
     {
@@ -29,7 +26,7 @@ public class Money : MonoBehaviour
         if (_uiPosition.x - transform.position.x <= 0.5f && _uiPosition.y - transform.position.y <= 0.5f) // Если позиция меньше или равняеться 0.5
         {
             Destroy(gameObject); // Уничтожаем монету
-            Instantiate(_effect, _uiPosition, Quaternion.identity); // Создаём эффект
+            GameObject.Find("MoneyImage").GetComponent<Animator>().SetTrigger("AddMoney");
             FindObjectOfType<ShopManager>().money++; // Прибавляем монету
             FindObjectOfType<BattleStatistics>().howMoney++;
         }

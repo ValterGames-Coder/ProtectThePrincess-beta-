@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Xml;
@@ -16,10 +17,25 @@ public class LocalizationManager : MonoBehaviour
 
     private void Awake()
     {
-        if (_localizations == null) LoadLocalization();
+        if (_localizations == null)
+        {
+            LoadLocalization();
+            if (Application.systemLanguage == SystemLanguage.English)
+            {
+                SetLangunge(0);
+            }
+            else if (Application.systemLanguage == SystemLanguage.Russian)
+            {
+                SetLangunge(1);
+            }
+            else if (Application.systemLanguage == SystemLanguage.German)
+            {
+                SetLangunge(2);
+            }
+        }
         selectedLangunge = PlayerPrefs.GetInt("Selected Langunge");
     }
-
+    
     public void SetLangunge(int id)
     {
         selectedLangunge = id;

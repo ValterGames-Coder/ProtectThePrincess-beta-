@@ -15,6 +15,7 @@ public class Bullet : MonoBehaviour
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime); // Летим по направлению
     }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         Destroy(gameObject); // Уничтажается обьект
