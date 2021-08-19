@@ -17,7 +17,14 @@ public class Health : MonoBehaviour
 
     private void Start()
     {
-        maxHealth = health; // Максимальное здоровье равняется 
+        if (gameObject.name == "Tower")
+        {
+            health = FindObjectOfType<Defender>().item.healthTower;
+        }
+        else
+        {
+            maxHealth = health; // Максимальное здоровье равняется 
+        }
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключаем компонент
         _howManyMoney = Random.Range(1, 10); //Выбираем количество монет
     }
@@ -52,6 +59,7 @@ public class Health : MonoBehaviour
         {
             Die = true;
             FindObjectOfType<BattleStatistics>().allKill++;
+            _scoreManager.killedEnemies++;
             GetComponent<Collider2D>().enabled = false; // Отключаем коллайдеры
             for (int i = 0; i < _howManyMoney; i++) // Запускаем цикл 
             {

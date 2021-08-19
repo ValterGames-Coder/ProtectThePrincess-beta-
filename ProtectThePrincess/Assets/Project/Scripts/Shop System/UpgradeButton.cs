@@ -18,9 +18,9 @@ public class UpgradeButton : MonoBehaviour
 
     private void Update()
     {
-        if (_upgrade + 1 == _upgradeList.Length || PlayerPrefs.GetInt("BuyDefender" + index) == 0 || GameObject.Find("Shop").GetComponent<ShopManager>().money < _priceList[_upgrade]) // Если максимальныйц апгрецд или не куплен защитник или не хватает денег
+        if (_upgrade == _upgradeList.Length || PlayerPrefs.GetInt("BuyDefender" + index) == 0) // Если максимальныйц апгрецд или не куплен защитник или не хватает дене
         {
-            GetComponent<Button>().interactable = false; // Кнопка выключена
+            if(GameObject.Find("Shop").GetComponent<ShopManager>().money < _priceList[_upgrade]) GetComponent<Button>().interactable = false; // Кнопка выключена
         }
         else // Иначе
         {
@@ -30,11 +30,11 @@ public class UpgradeButton : MonoBehaviour
 
     public void Click() // Метод нажатия
     {
-        if (_upgrade + 1 < _upgradeList.Length) // Если апгрейд не больше обшего количества апгрейдов
+        if (_upgrade <= _upgradeList.Length) // Если апгрейд не больше обшего количества апгрейдов
         {
             if (GameObject.Find("Shop").GetComponent<ShopManager>().money >= _priceList[_upgrade]) // Если хватает денег
-            {
-                _upgrade++; // Увеличиваем апгрейд
+            { 
+                // Увеличиваем апгрейд
                 GameObject.Find("Shop").GetComponent<ShopManager>().money -= _priceList[_upgrade]; // Вычитаем деньги
                 PlayerPrefs.SetInt("Money", GameObject.Find("Shop").GetComponent<ShopManager>().money); // Сохраняем деньги
                 PlayerPrefs.SetInt("Upgrade" + index, _upgrade); // Сохраняем апгрейд
@@ -42,6 +42,8 @@ public class UpgradeButton : MonoBehaviour
                 _defender.min += _upgradeList[_upgrade];
                 _defender.max -= _upgradeList[_upgrade];
                 _defender.startTimeAttack -= 0.2f;
+                _defender.healthTower += 2;
+                _upgrade++;
             }
         }
     }

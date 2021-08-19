@@ -15,4 +15,5 @@ public class DefenderItem : ScriptableObject
     public Vector2 attackPosition;
     public float offset;
     public float startTimeAttack;
+    public float healthTower;
 }

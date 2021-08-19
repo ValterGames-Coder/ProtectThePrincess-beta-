@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
-using UnityEditor.Build.Content;
 
 public class SpawnerEnemies : MonoBehaviour
 {
@@ -45,6 +44,7 @@ public class SpawnerEnemies : MonoBehaviour
             else
             {
                 _howManyEnemiesLocalization.Localize("HowManyEnemiesLocalization3");
+                _howManyEnemiesText.text += $" {_scoreManager.killedEnemies} / {_howManyEnemies}";
             }
             if (_howManyEnemies - leftEnemy == _howManyEnemies && isWave) // Если убито столько же сколько и нужно
             {

@@ -6,7 +6,7 @@ public class Defender : MonoBehaviour
 {
     //Какой тип защитника
     [Header("Defender")]
-    [SerializeField] private DefenderItem _item;
+    public DefenderItem item;
     [SerializeField] private List<DefenderItem> _items = new List<DefenderItem>();
     [SerializeField] private int _index;
     // Поиск врагов
@@ -32,16 +32,16 @@ public class Defender : MonoBehaviour
         _timeAttack = _startTimeAttack; // Время атаки равняется старту время атаки
         // Выбераем и сохраняем выбраного защитника
         _index = PlayerPrefs.GetInt("SelectedDefender");
-        _item = _items[_index];
-        _zonePosition = _item.zonePosition;
+        item = _items[_index];
+        _zonePosition = item.zonePosition;
         if (gameObject.name == "LeftDefender") _zonePosition.x = -_zonePosition.x;
-        _zoneRadius = _item.zoneRadius;
-        min = _item.min;
-        max = _item.max;
-        _bullet = _item.bullet;
-        _attackPosition.localPosition = _item.attackPosition;
-        _offset = _item.offset;
-        _startTimeAttack = _item.startTimeAttack;
+        _zoneRadius = item.zoneRadius;
+        min = item.min;
+        max = item.max;
+        _bullet = item.bullet;
+        _attackPosition.localPosition = item.attackPosition;
+        _offset = item.offset;
+        _startTimeAttack = item.startTimeAttack;
         
         ChangeEnemy(); // Ищем врагов
         GetClosetEnemy(); // Ищем ближайщего врага
@@ -65,12 +65,12 @@ public class Defender : MonoBehaviour
             if (state == 0) // Если камера на месте, то защитник смотрит в свою сторону
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
-                _zonePosition.x = _item.zonePosition.x;
+                _zonePosition.x = item.zonePosition.x;
             }
             else if (state == -1) // Если камера смотрит налево, то защитник смотрит влево
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
-                _zonePosition.x = -_item.zonePosition.x;
+                _zonePosition.x = -item.zonePosition.x;
             }
         }
         if (gameObject.name == "LeftDefender") // Если это левый защитник
@@ -78,12 +78,12 @@ public class Defender : MonoBehaviour
             if (state == 0) // Если камера на месте, то защитник смотрит в свою сторону
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
-                _zonePosition.x = -_item.zonePosition.x;
+                _zonePosition.x = -item.zonePosition.x;
             }
             else if (state == 1) // Если камера смотрит направо, то защитник смотрит вправо
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
-                _zonePosition.x = _item.zonePosition.x;
+                _zonePosition.x = item.zonePosition.x;
             }
         }
 

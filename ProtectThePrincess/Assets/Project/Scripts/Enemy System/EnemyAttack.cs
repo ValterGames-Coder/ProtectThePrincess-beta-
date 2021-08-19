@@ -16,7 +16,7 @@ public class EnemyAttack : MonoBehaviour
             _timeAttack = 0;
         }
         _timeAttack -= Time.deltaTime;
-        RaycastHit2D attack = Physics2D.Linecast(transform.position, _endPos.position, 1 << LayerMask.NameToLayer("Tower"));
+        RaycastHit2D attack = Physics2D.Linecast(transform.position, _endPos.position, 1 << LayerMask.NameToLayer("AttackForEnemy"));
         if (attack.collider != null)
         {
             if (_timeAttack <= 0)

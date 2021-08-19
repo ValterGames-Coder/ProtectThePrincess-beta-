@@ -18,25 +18,33 @@ public class BuyButton : MonoBehaviour
         if(PlayerPrefs.HasKey("AllBuilding")) PlayerPrefs.SetInt("AllBuilding", 1); // Если есть билдинги,то сохраняем 1
         textMeaning = textMeaning.GetComponent<TMP_Text>(); // Получаем компонент
         _meaningLocalization = textMeaning.GetComponent<LocalizationText>();
-        if (_productType == ControlType.Defender) // Если это защитник
+        if (PlayerPrefs.HasKey("BuyDefender"))
         {
-            if (index == 0) // Если это первый защитник 
+            if (_productType == ControlType.Defender) // Если это защитник
             {
-                PlayerPrefs.SetInt("BuyDefender" + index, 1); // Сохраняем защитника как купленного
-                PlayerPrefs.SetInt("SelectedDefender", index); // Сохраняем как выбранный
-                PlayerPrefs.Save();  // Сохраняем
+                if (index == 0) // Если это первый защитник 
+                {
+                    PlayerPrefs.SetInt("BuyDefender" + index, 1); // Сохраняем защитника как купленного
+                    PlayerPrefs.SetInt("SelectedDefender", index); // Сохраняем как выбранный
+                    PlayerPrefs.Save();  // Сохраняем
 
+                }
             }
         }
-        if (_productType == ControlType.Building) // Если это построка
+
+        if (PlayerPrefs.HasKey("BuyBuilding"))
         {
-            if (index == 0) // Если это первая построка 
+            if (_productType == ControlType.Building) // Если это построка
             {
-                PlayerPrefs.SetInt("BuyBuilding" + index, 1); // Сохраняем постройку как купленную
-                GetComponent<Button>().interactable = false; // Кнопка выключена
-                PlayerPrefs.Save(); // Сохраняем
+                if (index == 0) // Если это первая построка 
+                {
+                    PlayerPrefs.SetInt("BuyBuilding" + index, 1); // Сохраняем постройку как купленную
+                    GetComponent<Button>().interactable = false; // Кнопка выключена
+                    PlayerPrefs.Save(); // Сохраняем
+                }
             }
         }
+        
     }
 
     void Update()

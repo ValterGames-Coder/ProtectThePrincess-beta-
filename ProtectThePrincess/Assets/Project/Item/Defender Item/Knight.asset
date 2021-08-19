@@ -20,3 +20,4 @@ MonoBehaviour:
   attackPosition: {x: 0.2, y: -0.07}
   offset: 0
   startTimeAttack: 3
+  healthTower: 10
