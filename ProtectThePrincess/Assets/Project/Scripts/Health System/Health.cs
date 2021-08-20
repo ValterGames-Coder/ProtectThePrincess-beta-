@@ -21,10 +21,7 @@ public class Health : MonoBehaviour
         {
             health = FindObjectOfType<Defender>().item.healthTower;
         }
-        else
-        {
-            maxHealth = health; // Максимальное здоровье равняется 
-        }
+        maxHealth = health; // Максимальное здоровье равняется 
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключаем компонент
         _howManyMoney = Random.Range(1, 10); //Выбираем количество монет
     }
@@ -43,6 +40,7 @@ public class Health : MonoBehaviour
                 {
                     GameObject.Find("LeftDefender").GetComponent<BuildingFortification>().inPlace = false; // Теперь там пусто
                 }
+                Destroy(gameObject);
             }
             Died(); // Старт корутины смерти
         }

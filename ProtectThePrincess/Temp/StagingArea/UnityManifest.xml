@@ -13,7 +13,7 @@
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="True" />
     <meta-data android:name="notch.config" android:value="portrait|landscape" />
-    <meta-data android:name="unity.build-id" android:value="7e1142f2-7e9d-4ec0-ae5b-4dacf46760c4" />
+    <meta-data android:name="unity.build-id" android:value="bb084998-5a2f-4938-b92e-a1cb3f9d1993" />
   </application>
   <uses-feature android:glEsVersion="0x00020000" />
   <uses-feature android:name="android.hardware.vulkan.version" android:required="false" />

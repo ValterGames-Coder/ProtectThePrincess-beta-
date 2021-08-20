@@ -658,6 +658,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "BuildsButtonsManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Bullet",
             "moduleName": "",
             "usedInScenes": []
@@ -799,6 +806,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UpgradeButton",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "GoogleMobileAds.Common.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "GoogleMobileAds.Common.MobileAdsEventExecutor",
             "moduleName": "",
             "usedInScenes": []
         },

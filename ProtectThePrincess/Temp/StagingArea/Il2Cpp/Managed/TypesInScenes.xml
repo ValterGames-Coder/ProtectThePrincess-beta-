@@ -59,6 +59,7 @@
 		<type fullname="BattleStatistics" preserve="nothing"/>
 		<type fullname="BuildingFortification" preserve="nothing"/>
 		<type fullname="BuildingManager" preserve="nothing"/>
+		<type fullname="BuildsButtonsManager" preserve="nothing"/>
 		<type fullname="Bullet" preserve="nothing"/>
 		<type fullname="BuyButton" preserve="nothing"/>
 		<type fullname="ChangeManager" preserve="nothing"/>
@@ -80,6 +81,9 @@
 		<type fullname="SwipeCamera" preserve="nothing"/>
 		<type fullname="TransitionsManager" preserve="nothing"/>
 		<type fullname="UpgradeButton" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="GoogleMobileAds.Common">
+		<type fullname="GoogleMobileAds.Common.MobileAdsEventExecutor" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.2D.IK.Runtime">
 		<type fullname="UnityEditor.U2D.IK.IKEditorManagerHelper" preserve="nothing"/>

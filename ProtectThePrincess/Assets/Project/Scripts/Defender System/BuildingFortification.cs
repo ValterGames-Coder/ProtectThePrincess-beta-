@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BuildingFortification : MonoBehaviour
 {
@@ -16,6 +18,22 @@ public class BuildingFortification : MonoBehaviour
     private int _indexBuilding; // Номер постройки
     [Header("In Place?")]
     public bool inPlace; // Если ли постройка на месте
+    [SerializeField] private GameObject _buildingsButtons;
+
+    private void Update()
+    {
+        if (inPlace)
+        {
+            _buildingsButtons.GetComponent<Animator>().SetBool("InPlace", true);
+            _buildingsButtons.GetComponent<Button>().interactable = false;
+            _buildingsButtons.GetComponent<BuildsButtonsManager>()._isOn = false;
+        }
+        else
+        {
+            _buildingsButtons.GetComponent<Animator>().SetBool("InPlace", false);
+            _buildingsButtons.GetComponent<Button>().interactable = true;
+        }
+    }
 
     public void Build(int indexBuilding) // Метод постройки
     {

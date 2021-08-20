@@ -33,7 +33,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('/home/valter/Projects/git/ProtectThePrincess/valter.keystore')
+            storeFile file('/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/protecttheprincess.keystore')
             storePassword 'World5551'
             keyAlias 'valtergames'
             keyPassword 'World5551'

@@ -15,6 +15,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Audio();
 	RegisterModule_Audio();
 
+	void RegisterModule_ImageConversion();
+	RegisterModule_ImageConversion();
+
 	void RegisterModule_IMGUI();
 	RegisterModule_IMGUI();
 

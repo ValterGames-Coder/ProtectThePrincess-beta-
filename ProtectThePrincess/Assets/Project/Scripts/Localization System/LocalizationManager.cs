@@ -20,6 +20,10 @@ public class LocalizationManager : MonoBehaviour
         if (_localizations == null)
         {
             LoadLocalization();
+        }
+
+        if (!PlayerPrefs.HasKey("Selected Langunge"))
+        {
             if (Application.systemLanguage == SystemLanguage.English)
             {
                 SetLangunge(0);
@@ -33,7 +37,8 @@ public class LocalizationManager : MonoBehaviour
                 SetLangunge(2);
             }
         }
-        selectedLangunge = PlayerPrefs.GetInt("Selected Langunge");
+        selectedLangunge = PlayerPrefs.GetInt("Selected Langunge"); 
+        
     }
     
     public void SetLangunge(int id)
@@ -62,7 +67,6 @@ public class LocalizationManager : MonoBehaviour
 
             _localizations[keyStr] = values;
         }
-
     }
 
     public static string GetTranslate(string key, int languageId = -1)

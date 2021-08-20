@@ -175,6 +175,7 @@ UnityEngine.AnimationCurve::set_preWrapMode
 UnityEngine.AnimationCurve::GetKeys
 UnityEngine.Animator::get_hasBoundPlayables
 UnityEngine.Animator::ResetTriggerString
+UnityEngine.Animator::SetBoolString
 UnityEngine.Animator::SetTriggerString
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::OpenURL
@@ -374,6 +375,7 @@ UnityEngine.GUIUtility::get_systemCopyBuffer
 UnityEngine.GUIUtility::Internal_ExitGUI
 UnityEngine.GUIUtility::set_systemCopyBuffer
 UnityEngine.Hash128::Hash128ToStringImpl_Injected
+UnityEngine.ImageConversion::LoadImage
 UnityEngine.Input::GetButton
 UnityEngine.Input::GetButtonDown
 UnityEngine.Input::GetButtonUp

@@ -18,7 +18,7 @@ public class BuyButton : MonoBehaviour
         if(PlayerPrefs.HasKey("AllBuilding")) PlayerPrefs.SetInt("AllBuilding", 1); // Если есть билдинги,то сохраняем 1
         textMeaning = textMeaning.GetComponent<TMP_Text>(); // Получаем компонент
         _meaningLocalization = textMeaning.GetComponent<LocalizationText>();
-        if (PlayerPrefs.HasKey("BuyDefender"))
+        if (!PlayerPrefs.HasKey("BuyDefender"))
         {
             if (_productType == ControlType.Defender) // Если это защитник
             {
@@ -32,7 +32,7 @@ public class BuyButton : MonoBehaviour
             }
         }
 
-        if (PlayerPrefs.HasKey("BuyBuilding"))
+        if (!PlayerPrefs.HasKey("BuyBuilding"))
         {
             if (_productType == ControlType.Building) // Если это построка
             {

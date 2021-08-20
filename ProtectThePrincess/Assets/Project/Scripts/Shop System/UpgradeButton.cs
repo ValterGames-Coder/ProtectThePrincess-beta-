@@ -10,6 +10,7 @@ public class UpgradeButton : MonoBehaviour
     public int _upgrade; // На сколько апгрейд
     [SerializeField] private float[] _upgradeList; // Апгрейд лист
     [SerializeField] private int[] _priceList; // Лист со стоимостью
+    [SerializeField] private Image[] _upgradePoints;
 
     void Start()
     {
@@ -18,13 +19,18 @@ public class UpgradeButton : MonoBehaviour
 
     private void Update()
     {
-        if (_upgrade == _upgradeList.Length || PlayerPrefs.GetInt("BuyDefender" + index) == 0) // Если максимальныйц апгрецд или не куплен защитник или не хватает дене
+        if (_upgrade == _upgradeList.Length || PlayerPrefs.GetInt("BuyDefender" + index) == 0 || GameObject.Find("Shop").GetComponent<ShopManager>().money < _priceList[_upgrade]) // Если максимальныйц апгрецд или не куплен защитник или не хватает дене
         {
-            if(GameObject.Find("Shop").GetComponent<ShopManager>().money < _priceList[_upgrade]) GetComponent<Button>().interactable = false; // Кнопка выключена
+            GetComponent<Button>().interactable = false; // Кнопка выключена
         }
         else // Иначе
         {
             GetComponent<Button>().interactable = true; // Кнопка включена
+        }
+
+        for (int i = 0; i < _upgradePoints.Length; i++)
+        {
+            _upgradePoints[i].enabled = !DisplayUpgradePoint(_upgrade, i);
         }
     }
 
@@ -46,5 +52,10 @@ public class UpgradeButton : MonoBehaviour
                 _upgrade++;
             }
         }
+    }
+
+    bool DisplayUpgradePoint(float upgrade, int pointNumber)
+    {
+        return pointNumber >= upgrade;
     }
 }

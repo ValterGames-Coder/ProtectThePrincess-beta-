@@ -4078,7 +4078,13 @@ extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4062;
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4063;
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4064;
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4065;
-IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes* g_Il2CppTypeDefinitionSizesTable[4066] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4066;
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4067;
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4068;
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4069;
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4070;
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4071;
+IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes* g_Il2CppTypeDefinitionSizesTable[4072] = 
 {
 	(&g_typeDefinitionSize0),
 	(&g_typeDefinitionSize1),
@@ -8146,4 +8152,10 @@ IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes* g_Il2CppTypeDefinitionSizesTabl
 	(&g_typeDefinitionSize4063),
 	(&g_typeDefinitionSize4064),
 	(&g_typeDefinitionSize4065),
+	(&g_typeDefinitionSize4066),
+	(&g_typeDefinitionSize4067),
+	(&g_typeDefinitionSize4068),
+	(&g_typeDefinitionSize4069),
+	(&g_typeDefinitionSize4070),
+	(&g_typeDefinitionSize4071),
 };

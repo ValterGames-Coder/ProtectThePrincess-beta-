@@ -36,6 +36,7 @@ public class AdsRewarded : MonoBehaviour
     public void HandleUserEarnedReward(object sender, Reward args)
     {
         int money = PlayerPrefs.GetInt("Money");
+        FindObjectOfType<ShopManager>().money += 10;
         PlayerPrefs.SetInt("Money", money + 10);
     }
 }

@@ -172,7 +172,7 @@
 98-->[:unityLibrary] /home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:61:9-63:68
 99            android:name="unity.build-id"
 99-->[:unityLibrary] /home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:62:13-42
-100            android:value="7e1142f2-7e9d-4ec0-ae5b-4dacf46760c4" />
+100            android:value="bb084998-5a2f-4938-b92e-a1cb3f9d1993" />
 100-->[:unityLibrary] /home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:63:13-65
 101
 102        <uses-library

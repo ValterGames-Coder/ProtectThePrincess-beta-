@@ -59,7 +59,9 @@ public class RewardedManager : MonoBehaviour
         _rewardButton.interactable = false;
 
         int money = PlayerPrefs.GetInt("Money");
-        PlayerPrefs.SetInt("Money", money + Random.Range(50, 250));
+        int randomMoney = Random.Range(50, 250);
+        FindObjectOfType<ShopManager>().money += randomMoney;
+        PlayerPrefs.SetInt("Money", money + randomMoney);
     }
 
     private bool IsReady()
