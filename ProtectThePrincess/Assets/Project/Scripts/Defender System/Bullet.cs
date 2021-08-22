@@ -8,7 +8,6 @@ public class Bullet : MonoBehaviour
 
     private void Start()
     {
-       
         Destroy(gameObject, 5); // Уничтажает через пять секунд после создания
     }
     void FixedUpdate()

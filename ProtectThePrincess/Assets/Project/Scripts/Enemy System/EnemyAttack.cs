@@ -16,11 +16,12 @@ public class EnemyAttack : MonoBehaviour
             _timeAttack = 0;
         }
         _timeAttack -= Time.deltaTime;
-        RaycastHit2D attack = Physics2D.Linecast(transform.position, _endPos.position, 1 << LayerMask.NameToLayer("AttackForEnemy"));
+        RaycastHit2D attack = Physics2D.Linecast(transform.position, _endPos.position, 1 << 8);
         if (attack.collider != null)
         {
             if (_timeAttack <= 0)
             {
+                if(attack.collider.CompareTag("Tower")) ShakeCameraController.instance.StartShake(.5f, .3f);
                 attack.collider.gameObject.GetComponent<Health>().TakeDamage(_damage);
                 _timeAttack = _startTimeAttack;
             }

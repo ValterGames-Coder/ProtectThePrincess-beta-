@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
@@ -22,13 +23,29 @@ public class BuyButton : MonoBehaviour
         {
             if (_productType == ControlType.Defender) // Если это защитник
             {
-                if (index == 0) // Если это первый защитник 
+                if (PlayerPrefs.GetInt("SelectedDefender") != index) // если не выбранное
+                {
+                    _meaningLocalization.Localize("MeaningSelect");
+                    textMeaning.color = Color.yellow; // Текст становится жёлтым
+                }
+
+                else if (PlayerPrefs.GetInt("SelectedDefender") == index) // Если выбранное
+                {
+                    _meaningLocalization.Localize("MeaningSelected");
+                    textMeaning.color = Color.green; // Текст становится зелёным
+                }
+
+                if (PlayerPrefs.GetInt("BuyDefender" + index) == 0) // Если не купленное
+                {
+                    _meaningLocalization.Localize("MeaningBuy");
+                    textMeaning.color = Color.red; // Текст становится сероым
+                }
+                /*if (index == 0) // Если это первый защитник 
                 {
                     PlayerPrefs.SetInt("BuyDefender" + index, 1); // Сохраняем защитника как купленного
                     PlayerPrefs.SetInt("SelectedDefender", index); // Сохраняем как выбранный
                     PlayerPrefs.Save();  // Сохраняем
-
-                }
+                }*/
             }
         }
 
@@ -36,12 +53,28 @@ public class BuyButton : MonoBehaviour
         {
             if (_productType == ControlType.Building) // Если это построка
             {
-                if (index == 0) // Если это первая построка 
+                if (PlayerPrefs.GetInt("BuyBuilding" + index) == 0) // Если не купленное
+                {
+                    _meaningLocalization.Localize("MeaningBuy");
+                    textMeaning.color = Color.red; // Текст "купить"
+                }
+                if (PlayerPrefs.GetInt("SelectedBuildings" + index) == 0) // если не выбранное
+                {
+                    _meaningLocalization.Localize("MeaningSelect");
+                    textMeaning.color = Color.yellow; // Текст становится жёлтым
+                }
+                else if (PlayerPrefs.GetInt("SelectedBuildings" + index) == 1) // Если выбранное
+                {
+                    _meaningLocalization.Localize("MeaningSelected");
+                    textMeaning.color = Color.green; // Текст становится зелёным
+                }
+                /*if (index == 0) // Если это первая построка 
                 {
                     PlayerPrefs.SetInt("BuyBuilding" + index, 1); // Сохраняем постройку как купленную
-                    GetComponent<Button>().interactable = false; // Кнопка выключена
+                    _meaningLocalization.Localize("MeaningSelect");
+                    textMeaning.color = Color.yellow;
                     PlayerPrefs.Save(); // Сохраняем
-                }
+                }*/
             }
         }
         
@@ -51,24 +84,6 @@ public class BuyButton : MonoBehaviour
     {
         if (_productType == ControlType.Defender) // Если это защитник
         {
-            if (PlayerPrefs.GetInt("SelectedDefender") != index) // если не выбранное
-            {
-                _meaningLocalization.Localize("MeaningSelect");
-                textMeaning.color = Color.yellow; // Текст становится жёлтым
-            }
-
-            else if (PlayerPrefs.GetInt("SelectedDefender") == index) // Если выбранное
-            {
-                _meaningLocalization.Localize("MeaningSelected");
-                textMeaning.color = Color.green; // Текст становится зелёным
-            }
-
-            if (PlayerPrefs.GetInt("BuyDefender" + index) == 0) // Если не купленное
-            {
-                _meaningLocalization.Localize("MeaningBuy");
-                textMeaning.color = Color.red; // Текст становится сероым
-            }
-            
             if(PlayerPrefs.GetInt("BuyDefender" + index) == 1 || GameObject.Find("Shop").GetComponent<ShopManager>().money >= price) // Если купленно или хватает денег
             {
                 GetComponent<Button>().interactable = true; // Кнопка включена
@@ -80,22 +95,12 @@ public class BuyButton : MonoBehaviour
         }
         if (_productType == ControlType.Building) // Если это постройка
         {
-            if (PlayerPrefs.GetInt("BuyBuilding" + index) == 0) // Если не купленное
-            {
-                _meaningLocalization.Localize("MeaningBuy");
-                textMeaning.color = Color.red; // Текст "купить"
-            }
-            else if (PlayerPrefs.GetInt("BuyBuilding" + index) != 0) // Если купленное
-            {
-                _meaningLocalization.Localize("MeaningBought");
-                textMeaning.color = Color.green;
-                GetComponent<Button>().interactable = false; // Текст "куплено"
-            }
-            if(PlayerPrefs.GetInt("BuyBuilding" + index) == 0 || PlayerPrefs.GetInt("BuyBuilding" + index) == 0 && GameObject.Find("Shop").GetComponent<ShopManager>().money >= price) // Если купленно или хватает денег
+            
+            if(PlayerPrefs.GetInt("BuyBuilding" + index) == 1 || GameObject.Find("Shop").GetComponent<ShopManager>().money >= price) // Если купленно или хватает денег
             {
                 GetComponent<Button>().interactable = true; // Кнопка включена
             }
-            else if(PlayerPrefs.GetInt("BuyBuilding" + index) == 1 || GameObject.Find("Shop").GetComponent<ShopManager>().money < price) // Если не купленно или не хватает денег
+            else if(PlayerPrefs.GetInt("BuyBuilding" + index) == 0 || GameObject.Find("Shop").GetComponent<ShopManager>().money < price) // Если не купленно или не хватает денег
             {
                 GetComponent<Button>().interactable = false; // Кнопка выключена
             }
@@ -139,12 +144,34 @@ public class BuyButton : MonoBehaviour
                     PlayerPrefs.SetInt("Money",
                         GameObject.Find("Shop").GetComponent<ShopManager>().money); // Сохраняем монеты
                     PlayerPrefs.SetInt("BuyBuilding" + index, 1);
-                    PlayerPrefs.SetInt("AllBuilding",PlayerPrefs.GetInt("AllBuilding") + 1); // Сохраняем что купленно
-                    _meaningLocalization.Localize("MeaningBought");
-                    GetComponent<Button>().interactable = false; // Кнопка выключена
+                    print("Buy and Select");
                 }
                 PlayerPrefs.Save(); // Сохраняем
             }
+            else if (PlayerPrefs.GetInt("BuyBuilding" + index) == 1) // Если купленно
+            {
+                if (PlayerPrefs.GetInt("SelectedBuildings" + index) == 0)
+                {
+                    if (PlayerPrefs.GetInt("SelectedBuildingsLenght") < 3)
+                    {
+                        PlayerPrefs.SetInt("SelectedBuildings" + index, 1);
+                        PlayerPrefs.SetInt("SelectedBuildingsLenght", PlayerPrefs.GetInt("SelectedBuildingsLenght") + 1);
+                        PlayerPrefs.Save();
+                        _meaningLocalization.Localize("MeaningSelected");
+                        textMeaning.color = Color.green;
+                        print(PlayerPrefs.GetInt("SelectedBuildingsLenght"));
+                    }
+                }
+                else
+                {
+                    PlayerPrefs.SetInt("SelectedBuildings" + index, 0);
+                    PlayerPrefs.SetInt("SelectedBuildingsLenght", PlayerPrefs.GetInt("SelectedBuildingsLenght") - 1);
+                    PlayerPrefs.Save();
+                    _meaningLocalization.Localize("MeaningSelect");
+                    textMeaning.color = Color.yellow;
+                    print(PlayerPrefs.GetInt("SelectedBuildingsLenght"));
+                }
+            }  
         }
 
     }

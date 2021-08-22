@@ -30,7 +30,6 @@ public class Defender : MonoBehaviour
     {
         _animator = GetComponentInChildren<Animator>();     
         _timeAttack = _startTimeAttack; // Время атаки равняется старту время атаки
-        // Выбераем и сохраняем выбраного защитника
         _index = PlayerPrefs.GetInt("SelectedDefender");
         item = _items[_index];
         _zonePosition = item.zonePosition;

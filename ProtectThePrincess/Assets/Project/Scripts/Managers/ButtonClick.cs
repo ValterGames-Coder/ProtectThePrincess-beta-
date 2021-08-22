@@ -4,14 +4,19 @@ using UnityEngine.EventSystems;
 
 public class ButtonClick : MonoBehaviour, IPointerClickHandler
 {
-    [SerializeField] private float _clickScale, _enterScale, _time;
-    private Transform _scale;
+    [SerializeField] private float _time;
+    [SerializeField] private Vector2 _startScale, _endScale;
+
+    void Start()
+    {
+        _startScale = transform.localScale;
+    }
 
     private IEnumerator ClickAnimation()
     {
-        transform.localScale = Vector2.MoveTowards(transform.localScale, new Vector2(1 + _clickScale, 1 + _clickScale), Time.deltaTime * _time);
-        yield return new WaitForSeconds(0.1f);
-        transform.localScale = Vector2.MoveTowards(transform.localScale, new Vector2((1 + _clickScale) - _clickScale, (1 + _clickScale) - _clickScale), Time.deltaTime * _time);
+        transform.localScale = Vector2.MoveTowards(_startScale, _endScale, _time * Time.deltaTime);
+        yield return new WaitForSeconds(0.2f);
+        transform.localScale = Vector2.MoveTowards(_endScale, _startScale, _time * Time.deltaTime);
     }
 
     public void OnPointerClick(PointerEventData eventData)
