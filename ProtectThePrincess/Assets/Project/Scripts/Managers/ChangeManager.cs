@@ -12,8 +12,8 @@ public class ChangeManager : MonoBehaviour
 
     public void LoadLevel(int level)
     {
-        _levelToLoad = level;
-        Time.timeScale = 1f;
+        Time.timeScale = 1f;  
+        _levelToLoad = level;  
         _animator.SetTrigger("Fade");
     }
 

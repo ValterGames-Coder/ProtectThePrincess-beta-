@@ -19,7 +19,7 @@ public class SpeedUpTime : MonoBehaviour
             Time.timeScale = 2f;
             _speedUpTimeText.text = "Ускорение: 2.0 сек";
         }
-        else if (!speedUpTime && !FindObjectOfType<TransitionsManager>().pause)
+        else if (!speedUpTime && !FindObjectOfType<TransitionsManager>().pause && PlayerPrefs.GetString("FirstEntered") == "true")
         {
             Time.timeScale = 1f;
             _speedUpTimeText.text = "";

@@ -20,9 +20,4 @@ public class TransitionsManager : MonoBehaviour
         Time.timeScale = 1; // Время идёт
         pause = false;
     }
-
-    public void Quit() // Выход
-    {
-        
-    }
 }

@@ -13,14 +13,11 @@ public class Health : MonoBehaviour
     [SerializeField] private GameObject _money; // Монета
     [Header("How many money spawn")]
     [SerializeField, Range(0, 15)] private float _howManyMoney; // Количество монет для спавна
-    private bool Die = false;
+    private bool Die;
 
     private void Start()
     {
-        if (gameObject.name == "Tower")
-        {
-            health = FindObjectOfType<Defender>().item.healthTower;
-        }
+        if (gameObject.name == "Tower") health = FindObjectOfType<Defender>().item.healthTower; // Настройки башни
         maxHealth = health; // Максимальное здоровье равняется 
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключаем компонент
         _howManyMoney = Random.Range(1, 10); //Выбираем количество монет

@@ -23,23 +23,6 @@ public class BuyButton : MonoBehaviour
         {
             if (_productType == ControlType.Defender) // Если это защитник
             {
-                if (PlayerPrefs.GetInt("SelectedDefender") != index) // если не выбранное
-                {
-                    _meaningLocalization.Localize("MeaningSelect");
-                    textMeaning.color = Color.yellow; // Текст становится жёлтым
-                }
-
-                else if (PlayerPrefs.GetInt("SelectedDefender") == index) // Если выбранное
-                {
-                    _meaningLocalization.Localize("MeaningSelected");
-                    textMeaning.color = Color.green; // Текст становится зелёным
-                }
-
-                if (PlayerPrefs.GetInt("BuyDefender" + index) == 0) // Если не купленное
-                {
-                    _meaningLocalization.Localize("MeaningBuy");
-                    textMeaning.color = Color.red; // Текст становится сероым
-                }
                 /*if (index == 0) // Если это первый защитник 
                 {
                     PlayerPrefs.SetInt("BuyDefender" + index, 1); // Сохраняем защитника как купленного
@@ -53,21 +36,6 @@ public class BuyButton : MonoBehaviour
         {
             if (_productType == ControlType.Building) // Если это построка
             {
-                if (PlayerPrefs.GetInt("BuyBuilding" + index) == 0) // Если не купленное
-                {
-                    _meaningLocalization.Localize("MeaningBuy");
-                    textMeaning.color = Color.red; // Текст "купить"
-                }
-                if (PlayerPrefs.GetInt("SelectedBuildings" + index) == 0) // если не выбранное
-                {
-                    _meaningLocalization.Localize("MeaningSelect");
-                    textMeaning.color = Color.yellow; // Текст становится жёлтым
-                }
-                else if (PlayerPrefs.GetInt("SelectedBuildings" + index) == 1) // Если выбранное
-                {
-                    _meaningLocalization.Localize("MeaningSelected");
-                    textMeaning.color = Color.green; // Текст становится зелёным
-                }
                 /*if (index == 0) // Если это первая построка 
                 {
                     PlayerPrefs.SetInt("BuyBuilding" + index, 1); // Сохраняем постройку как купленную
@@ -92,6 +60,21 @@ public class BuyButton : MonoBehaviour
             {
                 GetComponent<Button>().interactable = false; // Кнопка выключена
             }
+            if (PlayerPrefs.GetInt("SelectedDefender") != index) // если не выбранное
+            {
+                _meaningLocalization.Localize("MeaningSelect");
+                textMeaning.color = Color.yellow; // Текст становится жёлтым
+            }
+            if (PlayerPrefs.GetInt("SelectedDefender") == index) // Если выбранное
+            {
+                _meaningLocalization.Localize("MeaningSelected");
+                textMeaning.color = Color.green; // Текст становится зелёным
+            }
+            if (PlayerPrefs.GetInt("BuyDefender" + index) == 0) // Если не купленное
+            {
+                _meaningLocalization.Localize("MeaningBuy");
+                textMeaning.color = Color.red; // Текст становится сероым
+            }
         }
         if (_productType == ControlType.Building) // Если это постройка
         {
@@ -103,6 +86,21 @@ public class BuyButton : MonoBehaviour
             else if(PlayerPrefs.GetInt("BuyBuilding" + index) == 0 || GameObject.Find("Shop").GetComponent<ShopManager>().money < price) // Если не купленно или не хватает денег
             {
                 GetComponent<Button>().interactable = false; // Кнопка выключена
+            }
+            if (PlayerPrefs.GetInt("SelectedBuildings" + index) != 1) // если не выбранное
+            {
+                _meaningLocalization.Localize("MeaningSelect");
+                textMeaning.color = Color.yellow; // Текст становится жёлтым
+            }
+            if (PlayerPrefs.GetInt("SelectedBuildings" + index) == 1) // Если выбранное
+            {
+                _meaningLocalization.Localize("MeaningSelected");
+                textMeaning.color = Color.green; // Текст становится зелёным
+            }
+            if (PlayerPrefs.GetInt("BuyBuilding" + index) == 0) // Если не купленное
+            {
+                _meaningLocalization.Localize("MeaningBuy");
+                textMeaning.color = Color.red; // Текст "купить"
             }
         }
     }

@@ -77,13 +77,11 @@ public class SpawnerEnemies : MonoBehaviour
         {
             FindObjectOfType<SpeedUpTime>().speedUpTime = false;
             _panelWin.SetActive(true); // Включаем панель выиграша
-            Time.timeScale = 0f; // Останавливаем время
         }
         else if (lose && !FindObjectOfType<TransitionsManager>().pause) // Если проиграли 
         {
             FindObjectOfType<SpeedUpTime>().speedUpTime = false;
             _panelLose.SetActive(true); // Включаем панель проигрыша
-            Time.timeScale = 0f; // Останавливаем время
         }
     }
 

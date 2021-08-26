@@ -23,7 +23,6 @@ public class Defender : MonoBehaviour
     [SerializeField] private float _offset;
     private float _timeAttack;
     [SerializeField] private float _startTimeAttack;
-    [SerializeField] private bool _isAttack;
     private Animator _animator;
 
     void Start()
@@ -32,8 +31,16 @@ public class Defender : MonoBehaviour
         _timeAttack = _startTimeAttack; // Время атаки равняется старту время атаки
         _index = PlayerPrefs.GetInt("SelectedDefender");
         item = _items[_index];
-        _zonePosition = item.zonePosition;
-        if (gameObject.name == "LeftDefender") _zonePosition.x = -_zonePosition.x;
+        if (gameObject.name == "RightDefender")
+        {
+            _zonePosition = item.zonePosition;
+            transform.position = item.defenderPosition;
+        }
+        else if (gameObject.name == "LeftDefender")
+        {
+            _zonePosition.x = -_zonePosition.x;
+            transform.position = new Vector2(-item.defenderPosition.x, item.defenderPosition.y);
+        }
         _zoneRadius = item.zoneRadius;
         min = item.min;
         max = item.max;
@@ -41,7 +48,8 @@ public class Defender : MonoBehaviour
         _attackPosition.localPosition = item.attackPosition;
         _offset = item.offset;
         _startTimeAttack = item.startTimeAttack;
-        
+        gameObject.GetComponent<SpriteRenderer>().sprite = item.defenderSprite;
+
         ChangeEnemy(); // Ищем врагов
         GetClosetEnemy(); // Ищем ближайщего врага
     }
@@ -101,7 +109,6 @@ public class Defender : MonoBehaviour
                 if (enemy != null) 
                 {
                     currentDistance = Vector3.Distance(transform.position, enemy.transform.position); // Если есть враг, то получаем расстояние до 
-                    _isAttack = true;
                 }
                 else // Иначе удаляем врага и продолжаем
                 {
@@ -152,10 +159,6 @@ public class Defender : MonoBehaviour
                 _timeAttack = _startTimeAttack; // Время возращаем
             }
             _timeAttack -= Time.deltaTime; // Уменьшаем время
-        }
-        else
-        {
-            _isAttack = false;
         }
     }
     
