@@ -21,6 +21,7 @@ MonoBehaviour:
   attackPosition: {x: 0.2, y: -0.07}
   offset: 0
   startTimeAttack: 2.6
+  force: 1
   towerSprite: {fileID: 5255334243134310995, guid: 35d85f13d5ef19dc9910fa5edb9fb301, type: 3}
   healthTower: 14
   defenderPosition: {x: 0.828, y: 2.878}
