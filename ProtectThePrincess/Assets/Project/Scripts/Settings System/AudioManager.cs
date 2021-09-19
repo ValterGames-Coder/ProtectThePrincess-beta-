@@ -1,9 +1,10 @@
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
-    [SerializeField] private TMP_Text _soundText;
+    [SerializeField] private Image icon;
+    public Sprite on, off;
     private bool _muted;
 
     void Start()
@@ -21,8 +22,8 @@ public class AudioManager : MonoBehaviour
 
     void Update()
     {
-        if (!_muted) _soundText.text = "On";
-        else _soundText.text = "Off";
+        if (!_muted) icon.sprite = on;
+        else icon.sprite = off;
         AudioListener.pause = _muted;
     }
     public void Click()

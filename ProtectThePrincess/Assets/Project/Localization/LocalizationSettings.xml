@@ -126,5 +126,32 @@
            <DE>Gekauft</DE>
       </Translates>
   </Key>
+  <Key Name="Settings">
+      <Translates>
+           <EN>Settings</EN>
+           <RU>Настройки</RU>
+           <DE>Einstellungen</DE>
+      </Translates>
+  </Key>
+  <Key Name="SettingsLanguage">
+      <Translates>
+           <EN>Language</EN>
+           <RU>Языки</RU>
+           <DE>Sprachen</DE>
+      </Translates>
+  </Key>
+  <Key Name="SettingsNetworks">
+      <Translates>
+           <EN>Networks</EN>
+           <RU>Социальные сети</RU>
+           <DE>Soziale Netzwerke</DE>
+      </Translates>
+  </Key>
+  <Key Name="SettingsMusic">
+      <Translates>
+           <EN>Music</EN>
+           <RU>Музыка</RU>
+           <DE>Musik</DE>
+      </Translates>
+  </Key>
 </Keys>
-

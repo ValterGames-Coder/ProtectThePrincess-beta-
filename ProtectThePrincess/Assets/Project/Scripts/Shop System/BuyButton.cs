@@ -80,11 +80,11 @@ public class BuyButton : MonoBehaviour
             
             if(PlayerPrefs.GetInt("BuyBuilding" + index) == 1 || FindObjectOfType<ShopManager>().money >= price) // Если купленно или хватает денег
             {
-                GetComponent<Button>().interactable = true; // Кнопка включена
+                transform.GetChild(0).GetComponent<Button>().interactable = true; // Кнопка включена
             }
             else if(PlayerPrefs.GetInt("BuyBuilding" + index) == 0 || FindObjectOfType<ShopManager>().GetComponent<ShopManager>().money < price) // Если не купленно или не хватает денег
             {
-                GetComponent<Button>().interactable = false; // Кнопка выключена
+                transform.GetChild(0).GetComponent<Button>().interactable = false; // Кнопка выключена
             }
             if (PlayerPrefs.GetInt("SelectedBuildings" + index) != 1) // если не выбранное
             {

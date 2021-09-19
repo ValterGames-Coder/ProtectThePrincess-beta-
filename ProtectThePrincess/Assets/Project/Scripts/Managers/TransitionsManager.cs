@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 public class TransitionsManager : MonoBehaviour
 {
     [HideInInspector] public bool pause;
+    private bool _openSettings;
+    public GameObject panel;
     private void Start()
     {
         Time.timeScale = 1; // Время идёт
@@ -20,4 +22,10 @@ public class TransitionsManager : MonoBehaviour
         Time.timeScale = 1; // Время идёт
         pause = false;
     }
+    
+    public void Settings(){
+    	_openSettings = !_openSettings;
+    	panel.SetActive(_openSettings);
+    }
+    
 }
