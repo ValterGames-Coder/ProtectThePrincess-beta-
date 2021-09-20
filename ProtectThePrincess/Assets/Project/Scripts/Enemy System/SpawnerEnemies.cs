@@ -20,9 +20,10 @@ public class SpawnerEnemies : MonoBehaviour
     [Header("Panels")]
     [SerializeField] private GameObject _panelWin, _panelLose; // Панель победы, паенль проигрыша 
 
-        private void Start()
+    private void Start()
     {
-        endWave = Random.Range(5, 15); // Выбираем сколько будет всего волн
+        if (PlayerPrefs.GetString("FirstEntered") != "true") endWave = 3;
+        else endWave = Random.Range(5, 15); // Выбираем сколько будет всего волн
         _timeToSpawn = _startTimeToSpawn; // Настраиваем время 
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключание очков 
     }

@@ -12,13 +12,11 @@ public class BuildingFortification : MonoBehaviour
     [Header("Build position")]
     [SerializeField] private Transform _transformBuilding; // Позиция для постройки постройки
     [Header("Rotate building")]
-    [SerializeField] private bool _rotate; // Поворот постройки
-    [Header("Color")]
-    [SerializeField] private Color alphaColor; // Цвет 
+    [SerializeField] private bool _rotate; // Поворот постройки// Цвет 
     private int _indexBuilding; // Номер постройки
     [Header("In Place?")]
     public bool inPlace; // Если ли постройка на месте
-    [SerializeField] private GameObject _buildingsButtons;
+    [SerializeField] private GameObject _buildingsButtons, _buildAnimation;
 
     private void Update()
     {
@@ -45,14 +43,11 @@ public class BuildingFortification : MonoBehaviour
         if (!inPlace) // Если на месте нет постройки
         {
             inPlace = true; // На месте есть постройка 
+            _buildAnimation.SetActive(true);
+            yield return new WaitForSeconds(_timeBuild[_indexBuilding]); // Ждём время постройки
             GameObject building = Instantiate(_buildings[_indexBuilding], _transformBuilding.position, Quaternion.identity); // Создаём постройку
             if (_rotate) building.GetComponent<SpriteRenderer>().flipX = true; // Если надо повернуть, поворачиваем
-            Color oldColor = building.GetComponent<SpriteRenderer>().color; // получаем старый цвет
-            building.GetComponent<SpriteRenderer>().color = alphaColor; // Изменяем цвет на время строительсва 
-            building.GetComponent<Collider2D>().enabled = false; // Отключаем коллайдер
-            yield return new WaitForSeconds(_timeBuild[_indexBuilding]); // Ждём время постройки
-            building.GetComponent<Collider2D>().enabled = true; // Включаем коллайдер
-            building.GetComponent<SpriteRenderer>().color = oldColor; // Возращаем норм цвет
+            _buildAnimation.SetActive(false);
         }
     }
 }

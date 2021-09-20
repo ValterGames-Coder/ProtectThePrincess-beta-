@@ -102,7 +102,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.026429832, y: -0.11893439}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -113,7 +113,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.1820725, y: 1.0969095}
   m_EdgeRadius: 0
 --- !u!114 &2754734925176391844
 MonoBehaviour:
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30149e78cdc26be6ca2f05ae0b212395, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
+  health: 1
   maxHealth: 0
   _colorDied: {r: 1, g: 0.1528954, b: 0.0039063096, a: 0}
   _money: {fileID: 7346265761462387455, guid: 688cda28c215bee26b7804ff7f8e2bd1, type: 3}
@@ -178,8 +178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 175e084f6c232e895b54b637ee967ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeAttack: 1
-  _startTimeAttack: 1
+  _timeAttack: 1.5
+  _startTimeAttack: 1.5
   _damage: 1
   _endPos: {fileID: 1856625889984335343}
 --- !u!1 &6449461400566118167
