@@ -1,0 +1,739 @@
+Using pre-set license
+Desktop is 2560 x 1440 @ 60 Hz
+
+ COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+46871
+Successfully changed project path to: /home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess
+/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 130,06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Assets
+GLX Extensions: GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_video_sync GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context GLX_ARB_multisample GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_ARB_get_proc_address 
+Renderer: GeForce GTX 1050 Ti/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 460.91.03
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_
+blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap_triangles GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_
+NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_N
+V_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 7028632
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = '/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = '/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56998
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,007007 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 118,72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,392 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0,010439 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 110,34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,150 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2,10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131,2 MB.
+System memory in use after: 131,2 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3644.
+Total: 14,714366 ms (FindLiveObjects: 0,902180 ms CreateObjectMapping: 0,471571 ms MarkObjects: 12,304507 ms  DeleteObjects: 1,031544 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Project/Scenes/MenuScene.unity
+  artifactKey: Guid(698237416ddc0c990af91e73513c7172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/MenuScene.unity using Guid(698237416ddc0c990af91e73513c7172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1b406c87e2b000273a2ae136a5150a') in 0,035384 seconds
+  Import took 0,051407 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008906 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,982 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123,0 MB.
+System memory in use after: 123,1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3648.
+Total: 9,787548 ms (FindLiveObjects: 0,579246 ms CreateObjectMapping: 0,258048 ms MarkObjects: 8,516840 ms  DeleteObjects: 0,428957 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,994 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123,1 MB.
+System memory in use after: 123,1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3652.
+Total: 6,982662 ms (FindLiveObjects: 0,642022 ms CreateObjectMapping: 0,222936 ms MarkObjects: 5,800958 ms  DeleteObjects: 0,312771 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 16490,071934 seconds.
+  path: Assets/Project/Sprites/Enemy
+  artifactKey: Guid(73428f52c57ada8f09af6f5184c9d9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy using Guid(73428f52c57ada8f09af6f5184c9d9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1978269065d0bc4f8cc5c766021571ba') in 1,444204 seconds
+  Import took 2,158512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18,596386 seconds.
+  path: Assets/Project/Sprites/Lava golem .png
+  artifactKey: Guid(18c481b2cb9e0f7c18b067405b6e2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Lava golem .png using Guid(18c481b2cb9e0f7c18b067405b6e2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d901dd868b8ffc1a56d1966918bcc8') in 1,362833 seconds
+  Import took 1,374543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000261 seconds.
+  path: Assets/Project/Sprites/Sceleton.png
+  artifactKey: Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Sceleton.png using Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbc540735943fddb7ae920a6e7c6382') in 0,030337 seconds
+  Import took 0,040328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000308 seconds.
+  path: Assets/Project/Sprites/Living filth .png
+  artifactKey: Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Living filth .png using Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0f921dbb33dd07616c5a68de808e08') in 0,016648 seconds
+  Import took 0,026078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000217 seconds.
+  path: Assets/Project/Sprites/Spider.png
+  artifactKey: Guid(6ea4af5db122f81b9b5c1808db77ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Spider.png using Guid(6ea4af5db122f81b9b5c1808db77ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5c7eccad1fd4d3e04934595a7db58e') in 0,037643 seconds
+  Import took 0,049289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75,745084 seconds.
+  path: Assets/Project/Scenes/GameScene.unity
+  artifactKey: Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/GameScene.unity using Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105bba58fab93b090ab802a2132b8182') in 0,003401 seconds
+  Import took 0,014801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 217,593983 seconds.
+  path: Assets/Project/Sprites/Enemy/Living filth .png
+  artifactKey: Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Living filth .png using Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477216b38a40a26ae23bf051d4b9ff7b') in 0,098919 seconds
+  Import took 0,111237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,030420 seconds.
+  path: Assets/Project/Sprites/Enemy/Living filth .png
+  artifactKey: Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Living filth .png using Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477216b38a40a26ae23bf051d4b9ff7b') in 0,019333 seconds
+  Import took 0,034583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,045809 seconds.
+  path: Assets/Project/Sprites/Enemy/Lava golem .png
+  artifactKey: Guid(18c481b2cb9e0f7c18b067405b6e2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Lava golem .png using Guid(18c481b2cb9e0f7c18b067405b6e2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2358741f95e473ce0d7f91ae8e06099c') in 0,020632 seconds
+  Import took 0,029750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000429 seconds.
+  path: Assets/Project/Sprites/Enemy/Sceleton.png
+  artifactKey: Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Sceleton.png using Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a826c11f2766ac8a12bba657b8572314') in 0,011642 seconds
+  Import took 0,020270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000235 seconds.
+  path: Assets/Project/Sprites/Enemy/Spider.png
+  artifactKey: Guid(6ea4af5db122f81b9b5c1808db77ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Spider.png using Guid(6ea4af5db122f81b9b5c1808db77ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0c8a19f6fec1aaf5f39fd42b221b39') in 0,009915 seconds
+  Import took 0,019680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,034722 seconds.
+  path: Assets/Project/Sprites/Enemy/Sceleton.png
+  artifactKey: Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Sceleton.png using Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a826c11f2766ac8a12bba657b8572314') in 0,011147 seconds
+  Import took 0,020785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19,027561 seconds.
+  path: Assets/Project/Sprites/Enemy/Lava golem .png
+  artifactKey: Guid(18c481b2cb9e0f7c18b067405b6e2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Lava golem .png using Guid(18c481b2cb9e0f7c18b067405b6e2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e19353d551ae39eb0a02e774bfeaf1') in 0,074122 seconds
+  Import took 0,084292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26,010759 seconds.
+  path: Assets/Project/Sprites/Enemy/Living filth .png
+  artifactKey: Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Living filth .png using Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81390b1534a90eb4a71d2536756433c3') in 0,065333 seconds
+  Import took 0,077577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80,008688 seconds.
+  path: Assets/Project/Sprites/Enemy/Sceleton.png
+  artifactKey: Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Sceleton.png using Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bf0027593b3a001fb74df8d2df45b8') in 0,061588 seconds
+  Import took 0,073354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25,578010 seconds.
+  path: Assets/Project/Sprites/Enemy/Spider.png
+  artifactKey: Guid(6ea4af5db122f81b9b5c1808db77ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Spider.png using Guid(6ea4af5db122f81b9b5c1808db77ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22659476b290a9f82261091de23bd22') in 0,074646 seconds
+  Import took 0,085239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18,943050 seconds.
+  path: Assets/Project/Sprites/Enemy/Living filth .png
+  artifactKey: Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Living filth .png using Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8911d43e81bb7642103ff1e661de6a23') in 0,098639 seconds
+  Import took 0,110810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,027802 seconds.
+  path: Assets/Project/Sprites/Enemy/Living filth .png
+  artifactKey: Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Living filth .png using Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8911d43e81bb7642103ff1e661de6a23') in 0,038343 seconds
+  Import took 0,049520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,032496 seconds.
+  path: Assets/Project/Sprites/Enemy/Lava golem .png
+  artifactKey: Guid(18c481b2cb9e0f7c18b067405b6e2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Lava golem .png using Guid(18c481b2cb9e0f7c18b067405b6e2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27ebbb808043327ba2cab51755d6ec3') in 0,041178 seconds
+  Import took 0,053613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000338 seconds.
+  path: Assets/Project/Sprites/Enemy/Sceleton.png
+  artifactKey: Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Sceleton.png using Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78de1f6a6a9e8558ab97f86e8b8738a') in 0,045076 seconds
+  Import took 0,054998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000279 seconds.
+  path: Assets/Project/Sprites/Enemy/Spider.png
+  artifactKey: Guid(6ea4af5db122f81b9b5c1808db77ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Spider.png using Guid(6ea4af5db122f81b9b5c1808db77ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6107d2e1793584679f189f7f0d71a8a') in 0,044971 seconds
+  Import took 0,055831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70,977131 seconds.
+  path: Assets/Project/Sprites/Enemy/Living filth .png
+  artifactKey: Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Living filth .png using Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78804d20f56d98fb889f2c5fd439647') in 0,101809 seconds
+  Import took 0,112842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,026016 seconds.
+  path: Assets/Project/Sprites/Enemy/Living filth .png
+  artifactKey: Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Living filth .png using Guid(a62d74987f77ab9c287442d7d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78804d20f56d98fb889f2c5fd439647') in 0,034621 seconds
+  Import took 0,044138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10,195159 seconds.
+  path: Assets/Project/Sprites/Enemy/Sceleton.png
+  artifactKey: Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Sceleton.png using Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7e1de69fb25b68b31a7023e35ee288') in 0,090934 seconds
+  Import took 0,102099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,010547 seconds.
+  path: Assets/Project/Sprites/Enemy/Sceleton.png
+  artifactKey: Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/Enemy/Sceleton.png using Guid(3b6a75d312b68472d96290878cc18155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7e1de69fb25b68b31a7023e35ee288') in 0,100785 seconds
+  Import took 0,110291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87,578380 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068b6f6fa523dcf2350b961916e9937f') in 0,242302 seconds
+  Import took 0,252802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,015253 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068b6f6fa523dcf2350b961916e9937f') in 0,024217 seconds
+  Import took 0,036450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101,291503 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c4ab50fd9e739e1450fa9a4b3713fc') in 0,019715 seconds
+  Import took 0,029315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,006396 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c4ab50fd9e739e1450fa9a4b3713fc') in 0,019387 seconds
+  Import took 0,028970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79,408611 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a4d0f06738ca6f1c967741d758437f') in 0,018901 seconds
+  Import took 0,028746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,003111 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a4d0f06738ca6f1c967741d758437f') in 0,019668 seconds
+  Import took 0,029171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56,634210 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d35c34ac49f99048c3c0a17f992d430') in 0,026047 seconds
+  Import took 0,034767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,004400 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d35c34ac49f99048c3c0a17f992d430') in 0,024619 seconds
+  Import took 0,034372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11,915493 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50db4af35ada3d431175e481f230d6b4') in 0,024757 seconds
+  Import took 0,036663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,512764 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fad98be1960dd3a1542986519340a04') in 0,029044 seconds
+  Import took 0,040303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,498451 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae7673d370279336ddf8bce01aa8d4b') in 0,035271 seconds
+  Import took 0,046414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,237093 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f84ffb9c86f527dfbaa4d998a4b6cb') in 0,030152 seconds
+  Import took 0,042659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11,945020 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa49894dd17aba0cd4ab2f119c8259b') in 0,035702 seconds
+  Import took 0,051062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,591915 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd972c857adc30f86e304f1ee1b4262b9') in 0,027011 seconds
+  Import took 0,036731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9,108918 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add5d8fec40f3a666ae8302847621b42') in 0,027146 seconds
+  Import took 0,038839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,770881 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f8330fc173c3d97839abd250c0ddbf') in 0,024843 seconds
+  Import took 0,034402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,592890 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32148b0fd0134df0d166c210cd896d7') in 0,022016 seconds
+  Import took 0,032538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,084100 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32148b0fd0134df0d166c210cd896d7') in 0,027467 seconds
+  Import took 0,037725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,986928 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2826e36ae46364ef3fa2f92ff6523e5') in 0,026148 seconds
+  Import took 0,040874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,414339 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279db7c720a5510a1586437bd5506853') in 0,020911 seconds
+  Import took 0,030044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,245263 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19229792e18a5ada6692de687da22ca') in 0,018987 seconds
+  Import took 0,027933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7,789510 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724b2d11ba1a9fe56ce5b6b259637595') in 0,021062 seconds
+  Import took 0,031038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,864267 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a546e0f1aa4bf377adbb6ab538f643') in 0,026296 seconds
+  Import took 0,038181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8,334084 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d991a3f2514e22db3848ecb72820ee4') in 0,025603 seconds
+  Import took 0,035686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16,000983 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7697a992547421ee547766be0a873b66') in 0,023250 seconds
+  Import took 0,032970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,539154 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd13b88bf94bcce995e1ed5b54f686d') in 0,026235 seconds
+  Import took 0,035123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,035716 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92690442a0fcfb1a68c928e5063b32a3') in 0,024973 seconds
+  Import took 0,033803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,463494 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d25cedb2367acdc2d7e1f820480715') in 0,023775 seconds
+  Import took 0,032791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,663457 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86e031dd1f9730e1692bcfc2ab7988d') in 0,024987 seconds
+  Import took 0,034175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,163850 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c7196d83581dd38c3b559a57a3ee90') in 0,029474 seconds
+  Import took 0,045209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10,488029 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee928f3b8900d3df70c2688742c935a9') in 0,024602 seconds
+  Import took 0,036682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,132966 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7e89bf33bd97e7e3baeb4d7970562d') in 0,023340 seconds
+  Import took 0,036289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,168315 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30cd4408b830787edd494fdd18dd41a') in 0,024841 seconds
+  Import took 0,038236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,003963 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30cd4408b830787edd494fdd18dd41a') in 0,025420 seconds
+  Import took 0,037698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7,555636 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babeed32542fc392e86370a24ccda273') in 0,023813 seconds
+  Import took 0,034335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,640373 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325723189c2f64ab3aec2f18c044dc6f') in 0,024142 seconds
+  Import took 0,033923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,661501 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde5e5f668e967d62ef5583e972b8011') in 0,025549 seconds
+  Import took 0,035758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,399805 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084832304e669a7d830df7b1263afa30') in 0,027013 seconds
+  Import took 0,037125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,062341 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084832304e669a7d830df7b1263afa30') in 0,022570 seconds
+  Import took 0,033307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13,482766 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33d9a1ea12a11147af12f68d9cbedc4') in 0,035861 seconds
+  Import took 0,048627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,067122 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19194125bc4281322d92e3b3897acfdc') in 0,018657 seconds
+  Import took 0,028358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,992486 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f53c2ee3381c5281ea875a87b85c921') in 0,026388 seconds
+  Import took 0,035399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,061530 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f53c2ee3381c5281ea875a87b85c921') in 0,019728 seconds
+  Import took 0,029350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5,205409 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e1908048c619f7f60770443057ea13') in 0,025188 seconds
+  Import took 0,034502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,414408 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a75702cb88363bb00ed3cd3e3b8910') in 0,024460 seconds
+  Import took 0,037596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,049258 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a75702cb88363bb00ed3cd3e3b8910') in 0,020285 seconds
+  Import took 0,030139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,918655 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c322bdead95bbbe3c0507e18cf48175') in 0,025982 seconds
+  Import took 0,035846 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,927 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2,24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124,6 MB.
+System memory in use after: 124,6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3706.
+Total: 10,844175 ms (FindLiveObjects: 1,592896 ms CreateObjectMapping: 0,436587 ms MarkObjects: 8,462236 ms  DeleteObjects: 0,348226 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
