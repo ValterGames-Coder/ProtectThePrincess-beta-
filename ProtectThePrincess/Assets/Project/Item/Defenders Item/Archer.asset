@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Archer
   m_EditorClassIdentifier: 
   defenderSprite: {fileID: 1747913851310489417, guid: 4970b1a5ace66275698f9af77fcf3798, type: 3}
-  zonePosition: {x: 0.33, y: -0.305, z: -10}
-  zoneRadius: 5.6
+  zonePosition: {x: 5, y: 0.5, z: -10}
+  zoneRadius: 4
   min: -3.3999999
   max: 3.3999999
   bullet: {fileID: 3259418757433683261, guid: 41543f9dc4ac14a00adbb4c5bdefa3da, type: 3}

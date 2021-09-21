@@ -23,7 +23,7 @@ public class SpawnerEnemies : MonoBehaviour
     private void Start()
     {
         if (PlayerPrefs.GetString("FirstEntered") != "true") endWave = 3;
-        else endWave = Random.Range(5, 15); // Выбираем сколько будет всего волн
+        else endWave = Random.Range(5, 8); // Выбираем сколько будет всего волн
         _timeToSpawn = _startTimeToSpawn; // Настраиваем время 
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключание очков 
     }

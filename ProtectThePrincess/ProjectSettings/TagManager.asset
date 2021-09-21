@@ -48,3 +48,15 @@ TagManager:
   - name: Archer
     uniqueID: 69835499
     locked: 0
+  - name: LavaGolem
+    uniqueID: 16449955
+    locked: 0
+  - name: Liivingfilth
+    uniqueID: 2227442533
+    locked: 0
+  - name: Sceleton
+    uniqueID: 2112827763
+    locked: 0
+  - name: Spider
+    uniqueID: 669305489
+    locked: 0

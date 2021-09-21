@@ -1715,3 +1715,1481 @@ Total: 8,288806 ms (FindLiveObjects: 0,558017 ms CreateObjectMapping: 0,201773 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1003,534677 seconds.
+  path: Assets/Project/Scenes/GameScene.unity
+  artifactKey: Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/GameScene.unity using Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4484869a027fab144d4c4f36817e0111') in 0,033591 seconds
+  Import took 0,045171 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010471 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,631 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124,9 MB.
+System memory in use after: 124,9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3856.
+Total: 8,928556 ms (FindLiveObjects: 1,066398 ms CreateObjectMapping: 0,349557 ms MarkObjects: 6,993465 ms  DeleteObjects: 0,514746 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,022692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,701 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124,9 MB.
+System memory in use after: 124,9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3860.
+Total: 11,262530 ms (FindLiveObjects: 1,212040 ms CreateObjectMapping: 0,344943 ms MarkObjects: 7,298740 ms  DeleteObjects: 2,402950 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,033062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,217 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124,9 MB.
+System memory in use after: 124,9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3864.
+Total: 12,510163 ms (FindLiveObjects: 0,895732 ms CreateObjectMapping: 0,281845 ms MarkObjects: 10,817430 ms  DeleteObjects: 0,510546 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,344 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124,9 MB.
+System memory in use after: 125,0 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3868.
+Total: 9,680230 ms (FindLiveObjects: 0,644557 ms CreateObjectMapping: 0,204824 ms MarkObjects: 6,550620 ms  DeleteObjects: 2,275608 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 32625,885359 seconds.
+  path: Assets/Project/Item/Defenders Item/Archer.asset
+  artifactKey: Guid(757ee583dfadfdc9a8878bd24b1b9a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Item/Defenders Item/Archer.asset using Guid(757ee583dfadfdc9a8878bd24b1b9a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1d39f9757fc8ffa8a5fd7995fc4054') in 0,223319 seconds
+  Import took 0,234323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30032,384258 seconds.
+  path: Assets/Project/Scenes/MenuScene.unity
+  artifactKey: Guid(698237416ddc0c990af91e73513c7172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/MenuScene.unity using Guid(698237416ddc0c990af91e73513c7172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1422c5a802aea33e2df4be188123a2') in 0,026396 seconds
+  Import took 0,089650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1467,605244 seconds.
+  path: Assets/Project/Sprites/UI/BigPanel.png
+  artifactKey: Guid(47028ce36d21450689184994698c39a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/UI/BigPanel.png using Guid(47028ce36d21450689184994698c39a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf065383f3a7fe54656c7bf2628a33af') in 1,366225 seconds
+  Import took 1,383153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10,719432 seconds.
+  path: Assets/Project/Sprites/UI/SmallPanel.png
+  artifactKey: Guid(7517d9f6077106dae8830eb4205de9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/UI/SmallPanel.png using Guid(7517d9f6077106dae8830eb4205de9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165409c0203b8bef7fe9d945265bbebb') in 0,600846 seconds
+  Import took 0,611230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,005901 seconds.
+  path: Assets/Project/Sprites/UI/SmallPanel.png
+  artifactKey: Guid(7517d9f6077106dae8830eb4205de9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/UI/SmallPanel.png using Guid(7517d9f6077106dae8830eb4205de9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165409c0203b8bef7fe9d945265bbebb') in 0,022517 seconds
+  Import took 0,034737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7,675164 seconds.
+  path: Assets/Project/Sprites/UI/UI Buttons .png
+  artifactKey: Guid(79e1ee5256c7f0b68af68b0926b449fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/UI/UI Buttons .png using Guid(79e1ee5256c7f0b68af68b0926b449fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1d972260c0ad917b34c3d405784296') in 0,062655 seconds
+  Import took 0,080488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,017273 seconds.
+  path: Assets/Project/Sprites/UI/UI Buttons .png
+  artifactKey: Guid(79e1ee5256c7f0b68af68b0926b449fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/UI/UI Buttons .png using Guid(79e1ee5256c7f0b68af68b0926b449fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1d972260c0ad917b34c3d405784296') in 0,036547 seconds
+  Import took 0,049603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27,951887 seconds.
+  path: Assets/Project/Sprites/UI/UI Buttons .png
+  artifactKey: Guid(79e1ee5256c7f0b68af68b0926b449fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/UI/UI Buttons .png using Guid(79e1ee5256c7f0b68af68b0926b449fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71abea65cb4fe9ff6bd00daba2235440') in 0,026821 seconds
+  Import took 0,045982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,116036 seconds.
+  path: Assets/Project/Sprites/UI/UI Buttons .png
+  artifactKey: Guid(79e1ee5256c7f0b68af68b0926b449fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/UI/UI Buttons .png using Guid(79e1ee5256c7f0b68af68b0926b449fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71abea65cb4fe9ff6bd00daba2235440') in 0,024707 seconds
+  Import took 0,037190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,835845 seconds.
+  path: Assets/Project/Sprites/UI/UI Buttons .png
+  artifactKey: Guid(79e1ee5256c7f0b68af68b0926b449fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Sprites/UI/UI Buttons .png using Guid(79e1ee5256c7f0b68af68b0926b449fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be733a33d98fd465e0ce8e01ddd55e2a') in 0,051913 seconds
+  Import took 0,064443 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5,535 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,0 MB.
+System memory in use after: 125,1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 15,076589 ms (FindLiveObjects: 2,321168 ms CreateObjectMapping: 0,404130 ms MarkObjects: 11,919485 ms  DeleteObjects: 0,426121 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 981,476737 seconds.
+  path: Assets/Project/Scenes/GameScene.unity
+  artifactKey: Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/GameScene.unity using Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eef7004bf6c8bcbe06a5c062ed177b8') in 0,034620 seconds
+  Import took 0,047010 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006957 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,551 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,0 MB.
+System memory in use after: 125,1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3886.
+Total: 10,446741 ms (FindLiveObjects: 0,864436 ms CreateObjectMapping: 0,394610 ms MarkObjects: 8,745345 ms  DeleteObjects: 0,435690 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 823,521889 seconds.
+  path: Assets/Project/Prefabs/HealthBar.prefab
+  artifactKey: Guid(7911289f4f9df2e2ea61ab51627090d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthBar.prefab using Guid(7911289f4f9df2e2ea61ab51627090d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575dc20ab1a96e4fd40973c8fb03063d') in 0,235509 seconds
+  Import took 0,249036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,003982 seconds.
+  path: Assets/Project/Prefabs/HealthBar.prefab
+  artifactKey: Guid(7911289f4f9df2e2ea61ab51627090d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthBar.prefab using Guid(7911289f4f9df2e2ea61ab51627090d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575dc20ab1a96e4fd40973c8fb03063d') in 0,019274 seconds
+  Import took 0,031611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,875318 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74fe446ef87e58a5fe11cfa126a35f6') in 0,029754 seconds
+  Import took 0,042001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,017984 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74fe446ef87e58a5fe11cfa126a35f6') in 0,006582 seconds
+  Import took 0,017709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90,299648 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d17eba9abd03833c2490d3190c7be1') in 0,035571 seconds
+  Import took 0,045698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000770 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59482f908a6d73aa1d9083436e7ae0a') in 0,036981 seconds
+  Import took 0,052025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000256 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1023c8eac14341aa2a6fd5ce8f8ce5') in 0,023320 seconds
+  Import took 0,034933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000267 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c55401395d09bf09b088d01b581d787') in 0,022350 seconds
+  Import took 0,034514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,006511 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1023c8eac14341aa2a6fd5ce8f8ce5') in 0,027928 seconds
+  Import took 0,043294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144,365597 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf1af2ebcd6dea97d63e3152cccac9f') in 0,006155 seconds
+  Import took 0,017011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,578857 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41506c61c6b0e6f6cf9d1496945598fe') in 0,007275 seconds
+  Import took 0,019417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,060909 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41506c61c6b0e6f6cf9d1496945598fe') in 0,005087 seconds
+  Import took 0,015727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,323731 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8906c36f23e732829863e243440a00') in 0,009194 seconds
+  Import took 0,021771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9,933371 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842d3bda87b3ae82a495b4ccf93b4e3f') in 0,007417 seconds
+  Import took 0,019782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,724258 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bbf4b668a636fc6c07a1b192422361') in 0,007787 seconds
+  Import took 0,017687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17,077368 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7651809c20fc2c298f70e5769312b8') in 0,008249 seconds
+  Import took 0,020973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,050593 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7651809c20fc2c298f70e5769312b8') in 0,006167 seconds
+  Import took 0,018175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,045696 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3525df1a36d7b6345cf43354e4a8a70f') in 0,007352 seconds
+  Import took 0,019144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,274614 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd797c177aac08ad146a13c81a05cbb3b') in 0,005370 seconds
+  Import took 0,014427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70,148856 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6287136b09f7ac6b39f6f2f36f9f01d2') in 0,021953 seconds
+  Import took 0,032253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000460 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809340a46652704ff9dc9fe10d78508d') in 0,031428 seconds
+  Import took 0,039802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000291 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af2a6daccc1ddffb408750dfc105472') in 0,021309 seconds
+  Import took 0,033003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000324 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4068fc4d085b9d5edf11dd47c4d48ac8') in 0,025063 seconds
+  Import took 0,035420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14,767957 seconds.
+  path: Assets/Project/Scenes/MenuScene.unity
+  artifactKey: Guid(698237416ddc0c990af91e73513c7172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/MenuScene.unity using Guid(698237416ddc0c990af91e73513c7172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3c403882bf151a1de4255aaa276831') in 0,001784 seconds
+  Import took 0,012010 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,163 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2,16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,1 MB.
+System memory in use after: 125,1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3891.
+Total: 11,027708 ms (FindLiveObjects: 0,614392 ms CreateObjectMapping: 0,373796 ms MarkObjects: 9,539920 ms  DeleteObjects: 0,495642 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 68,792935 seconds.
+  path: Assets/Project/Scenes/GameScene.unity
+  artifactKey: Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scenes/GameScene.unity using Guid(f9bb088fa3735de22a539f18f0799442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd851a326ed575add01e554c8eebd243') in 0,048232 seconds
+  Import took 0,065125 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,007930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,195 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,1 MB.
+System memory in use after: 125,1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3895.
+Total: 11,090609 ms (FindLiveObjects: 0,816582 ms CreateObjectMapping: 0,419158 ms MarkObjects: 9,482712 ms  DeleteObjects: 0,368129 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,274 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,1 MB.
+System memory in use after: 125,1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3899.
+Total: 9,430630 ms (FindLiveObjects: 1,041903 ms CreateObjectMapping: 0,236490 ms MarkObjects: 7,652107 ms  DeleteObjects: 0,496907 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,007362 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,220 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,1 MB.
+System memory in use after: 125,1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3903.
+Total: 7,756615 ms (FindLiveObjects: 0,603894 ms CreateObjectMapping: 0,216301 ms MarkObjects: 6,428079 ms  DeleteObjects: 0,504108 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008386 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,207 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,1 MB.
+System memory in use after: 125,2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3907.
+Total: 8,809500 ms (FindLiveObjects: 0,902453 ms CreateObjectMapping: 0,272941 ms MarkObjects: 7,253247 ms  DeleteObjects: 0,377156 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 163,063301 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea65d82f1f6c5f802a5d74f361bef0d0') in 0,075480 seconds
+  Import took 0,089016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,009176 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea65d82f1f6c5f802a5d74f361bef0d0') in 0,007549 seconds
+  Import took 0,020212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,660551 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754fb3a77e957972082b680d0cbe3cc7') in 0,006068 seconds
+  Import took 0,015036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,256657 seconds.
+  path: Assets/Project/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/HealthCanvas.prefab using Guid(b896c66104a4fc3d68c94b6562aa07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7e94a567e71955a9662dcd491910dd') in 0,005591 seconds
+  Import took 0,017448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14,564711 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c14d979eaa062116dc3beef811b43a') in 0,111716 seconds
+  Import took 0,122454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000319 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c852b952bf546b086eb035d4b0bb83') in 0,034887 seconds
+  Import took 0,044996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000303 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4851a0d35ebb1749ceec0dcffcb7cb99') in 0,030743 seconds
+  Import took 0,039530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000304 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c14d979eaa062116dc3beef811b43a') in 0,018954 seconds
+  Import took 0,027960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000354 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98810dd7258ed0afb54a9b823ebb27e8') in 0,026613 seconds
+  Import took 0,036166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000309 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4851a0d35ebb1749ceec0dcffcb7cb99') in 0,023034 seconds
+  Import took 0,036108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 402,114308 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fea80be9444c468e9a634671745133f') in 0,064386 seconds
+  Import took 0,075669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,936321 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c92bb377cae363c6b5fa7c6a04aa05') in 0,025429 seconds
+  Import took 0,036468 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,016724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,839 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,1 MB.
+System memory in use after: 125,2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3912.
+Total: 13,888625 ms (FindLiveObjects: 1,084792 ms CreateObjectMapping: 0,367344 ms MarkObjects: 12,000914 ms  DeleteObjects: 0,418645 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,410 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,1 MB.
+System memory in use after: 125,2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3916.
+Total: 6,756349 ms (FindLiveObjects: 0,600224 ms CreateObjectMapping: 0,187216 ms MarkObjects: 5,612533 ms  DeleteObjects: 0,352760 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2,02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,741 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,1 MB.
+System memory in use after: 125,2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3920.
+Total: 7,594191 ms (FindLiveObjects: 0,781186 ms CreateObjectMapping: 0,287259 ms MarkObjects: 6,110113 ms  DeleteObjects: 0,411845 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,397 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,1 MB.
+System memory in use after: 125,2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3924.
+Total: 10,508397 ms (FindLiveObjects: 0,993226 ms CreateObjectMapping: 0,284714 ms MarkObjects: 8,695463 ms  DeleteObjects: 0,529701 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,693 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,1 MB.
+System memory in use after: 125,2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3928.
+Total: 9,367436 ms (FindLiveObjects: 1,050775 ms CreateObjectMapping: 0,242491 ms MarkObjects: 6,863706 ms  DeleteObjects: 1,206471 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,320 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,2 MB.
+System memory in use after: 125,2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3932.
+Total: 6,738983 ms (FindLiveObjects: 0,678312 ms CreateObjectMapping: 0,213487 ms MarkObjects: 5,457238 ms  DeleteObjects: 0,386472 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,693 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,2 MB.
+System memory in use after: 125,2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3936.
+Total: 10,206946 ms (FindLiveObjects: 1,524885 ms CreateObjectMapping: 0,363361 ms MarkObjects: 7,901783 ms  DeleteObjects: 0,412392 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,865 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,2 MB.
+System memory in use after: 125,2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3940.
+Total: 11,417068 ms (FindLiveObjects: 1,210588 ms CreateObjectMapping: 0,441286 ms MarkObjects: 8,770758 ms  DeleteObjects: 0,988969 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008327 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,420 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,2 MB.
+System memory in use after: 125,2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3944.
+Total: 13,100200 ms (FindLiveObjects: 0,871242 ms CreateObjectMapping: 0,396497 ms MarkObjects: 11,252597 ms  DeleteObjects: 0,575676 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 990,883136 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Lava Golem) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+The Animator Controller (Lava Golem) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'bef81dffc2e7ac2a19a90c111816bb6c') in 0,217430 seconds
+  Import took 0,228775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000249 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea8a45b4755f914affa62dfb314dcbe') in 0,042345 seconds
+  Import took 0,057567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000286 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16546a9318b9ed6fbd61c804758cba4d') in 0,035521 seconds
+  Import took 0,046483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000271 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Lava Golem) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+The Animator Controller (Lava Golem) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'bef81dffc2e7ac2a19a90c111816bb6c') in 0,028319 seconds
+  Import took 0,037921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000250 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a217d2b1583633b4f9e589606e55f6c') in 0,037752 seconds
+  Import took 0,050841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7,303444 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190b0bb139d5d8d4b2b3d6fa416de647') in 0,024548 seconds
+  Import took 0,037849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,965737 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7922878262ba2851f0a5c09caaa9be52') in 0,019334 seconds
+  Import took 0,028944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10,966680 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Lava Golem) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+The Animator Controller (Lava Golem) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'aecf88e36e97670bcdca3c739c15745d') in 0,029314 seconds
+  Import took 0,041986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8,413116 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Lava Golem) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+The Animator Controller (Lava Golem) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '87615cbb4f2fe85d12714ad44a6c1178') in 0,024165 seconds
+  Import took 0,034034 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,326 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,4 MB.
+System memory in use after: 125,5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3949.
+Total: 8,826745 ms (FindLiveObjects: 0,711774 ms CreateObjectMapping: 0,182743 ms MarkObjects: 7,529745 ms  DeleteObjects: 0,398026 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,496 seconds
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460868) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125,4 MB.
+System memory in use after: 125,5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3953.
+Total: 6,125288 ms (FindLiveObjects: 0,635225 ms CreateObjectMapping: 0,192772 ms MarkObjects: 4,937010 ms  DeleteObjects: 0,356537 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 58,369634 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+  artifactKey: Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab using Guid(b864b800f789405a3bbb797a81d1f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Lava Golem) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+The Animator Controller (Lava Golem) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'c3fe5777bd925bcf447ea9d64b3682dd') in 0,147178 seconds
+  Import took 0,158912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000382 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bc98f85e2fed989952d5fd414b5518') in 0,017252 seconds
+  Import took 0,026953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 460,795415 seconds.
+  path: Assets/Project/Animation/LivingfilthWalk.anim
+  artifactKey: Guid(d624ea8b65302776fb522834c4066575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Animation/LivingfilthWalk.anim using Guid(d624ea8b65302776fb522834c4066575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c7337ea7f7f70735850760f78d1810') in 0,006216 seconds
+  Import took 0,021318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,012842 seconds.
+  path: Assets/Project/Animation/LivingfilthWalk.anim
+  artifactKey: Guid(d624ea8b65302776fb522834c4066575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Animation/LivingfilthWalk.anim using Guid(d624ea8b65302776fb522834c4066575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c7337ea7f7f70735850760f78d1810') in 0,002794 seconds
+  Import took 0,015377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,185395 seconds.
+  path: Assets/Project/Animation/LivingfilthAttack.anim
+  artifactKey: Guid(b58fb3879caf5bdada8f581a97472e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Animation/LivingfilthAttack.anim using Guid(b58fb3879caf5bdada8f581a97472e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f574927c2f28e421dd086800af2e427') in 0,004674 seconds
+  Import took 0,015004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5,464760 seconds.
+  path: Assets/Project/Animation/LavaGoblinAttack.anim
+  artifactKey: Guid(f1803e88041830484a854872201f3a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Animation/LavaGoblinAttack.anim using Guid(f1803e88041830484a854872201f3a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15732b32ef1f74025d6ea9ab4d9a790') in 0,003541 seconds
+  Import took 0,016490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96,971427 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+  artifactKey: Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab using Guid(60a26f1e5ac464603adf3e43c97a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Livingfilth) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+The Animator Controller (Livingfilth) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'ad719188cb1c24170b7c4c3568e20684') in 0,048722 seconds
+  Import took 0,062478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10,093845 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f38fc7bfefca22ba7247a4fd8294be') in 0,042782 seconds
+  Import took 0,055242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,531238 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07524cde79aed188cd4246279b53cdf6') in 0,020099 seconds
+  Import took 0,030508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 655,263236 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+  artifactKey: Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab using Guid(78e92c8e83d07cb5ab1186da7529b611) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Sceleton) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+The Animator Controller (Sceleton) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '2082c2039560073ce69d1ba00ed93589') in 0,021489 seconds
+  Import took 0,032554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128,974488 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e509fca784fe4266265ece90c4905b7c') in 0,035937 seconds
+  Import took 0,046925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,621599 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c308a9316f5c71e94cb211491c896bb2') in 0,019130 seconds
+  Import took 0,031230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 225,853846 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007742279a346d5bdcf622e6dc6d4fc9') in 0,026126 seconds
+  Import took 0,035378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,549473 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c9a3d4086cda9ba6c7f68a05d4b3cf') in 0,038286 seconds
+  Import took 0,054318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22,854115 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1903b2bc6b77e97ba5553aa4d4dd17') in 0,022329 seconds
+  Import took 0,034320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,201447 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664302478e440de44169bcfa6c6b4049') in 0,019547 seconds
+  Import took 0,029669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,020811 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510faf5755bbbc043b134b4b945a76fe') in 0,023786 seconds
+  Import took 0,034758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,870217 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae298f8f3b115adeb8e0f91ea44e23ee') in 0,028302 seconds
+  Import took 0,041969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,796656 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df62af053296a062043585ad8f1e64c7') in 0,031039 seconds
+  Import took 0,045305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,081453 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df62af053296a062043585ad8f1e64c7') in 0,026405 seconds
+  Import took 0,037425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,534992 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fef9b4abb4d547595a9c33fae881462') in 0,020357 seconds
+  Import took 0,030161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5,313667 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1284b9953d97f7fc1ca4aba9c453138') in 0,019972 seconds
+  Import took 0,030051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,947619 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88217b6009e27e8199c3226c422d49f') in 0,020173 seconds
+  Import took 0,030307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,384803 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e537fdf6cd7209a1b004f1a0d31919') in 0,024319 seconds
+  Import took 0,034615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,004323 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d916911e5ebb7fdb5e17b0543110e20') in 0,022757 seconds
+  Import took 0,032617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,051213 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d0da0bd33890dd235afed8bbd13a39') in 0,019204 seconds
+  Import took 0,028497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,681249 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537b43079da48c06ccee67ab66452570') in 0,020844 seconds
+  Import took 0,030720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,465154 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019b8c343717a40820a20942bc10e68e') in 0,024316 seconds
+  Import took 0,037297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,387906 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d52d9a13f1a958bee4941a87ddf741e') in 0,022998 seconds
+  Import took 0,033573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,832526 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109ad0f0a18e1ff754116f3efa787c4b') in 0,022094 seconds
+  Import took 0,034402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 611,099819 seconds.
+  path: Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+  artifactKey: Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab using Guid(09afc080161395e13a27f5eefea8901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Spider) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:635)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:601)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+The Animator Controller (Spider) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:590)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:604)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:97)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:91)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:623)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:868)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[/home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'cc6c84890aeb8279ccd3b06212075f27') in 0,022533 seconds
+  Import took 0,036578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8,080459 seconds.
+  path: Assets/Project/Animation/SceletonAttack.anim
+  artifactKey: Guid(d1b80b4ed9851880a85b8e350cd4658f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Animation/SceletonAttack.anim using Guid(d1b80b4ed9851880a85b8e350cd4658f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c618463decd498951ec76a31ebca88') in 0,003007 seconds
+  Import took 0,013521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11,846553 seconds.
+  path: Assets/Project/Animation/SpiderAttack.anim
+  artifactKey: Guid(2b044b1225bf0e9959f83726f0bb7a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Animation/SpiderAttack.anim using Guid(2b044b1225bf0e9959f83726f0bb7a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c387bf0d68eb4ca282edf2ffca35cf23') in 0,003585 seconds
+  Import took 0,015026 seconds .
+
