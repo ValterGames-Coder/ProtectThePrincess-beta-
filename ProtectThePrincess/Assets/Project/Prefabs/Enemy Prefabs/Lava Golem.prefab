@@ -173,12 +173,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3141721148922685112}
-  - component: {fileID: 3141721148922685114}
   - component: {fileID: 3141721148922685109}
   - component: {fileID: 3141721148922685113}
   - component: {fileID: 1327665347022670560}
   - component: {fileID: 4990178530731769722}
   - component: {fileID: 48606724064269845}
+  - component: {fileID: 7906727224550557202}
   m_Layer: 3
   m_Name: Lava Golem
   m_TagString: Enemy
@@ -203,32 +203,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &3141721148922685114
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3141721148922685108}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.05617833, y: -0.005617857}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6933334, y: 2.73}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.1572986, y: 2.6965861}
-  m_EdgeRadius: 0
 --- !u!114 &3141721148922685109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,7 +269,8 @@ MonoBehaviour:
   _timeAttack: 5
   _startTimeAttack: 5
   _damage: 3
-  _endPos: {fileID: 1470254871416497150}
+  _radius: 0.69
+  _attackPos: {fileID: 1470254871416497150}
 --- !u!95 &48606724064269845
 Animator:
   serializedVersion: 3
@@ -315,6 +290,42 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &7906727224550557202
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3141721148922685108}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.729542, y: 0.031088829}
+      - {x: 0.6306692, y: 1.1596148}
+      - {x: -0.21563947, y: 1.2751266}
+      - {x: -0.63433963, y: 0.82320666}
+      - {x: -0.41567522, y: 0.033890486}
+      - {x: -0.63503176, y: -0.1589989}
+      - {x: -0.30462724, y: -0.8013369}
+      - {x: -0.43163222, y: -1.3369623}
+      - {x: 0.6100929, y: -1.3369623}
+      - {x: 0.61175615, y: -0.76315325}
+      - {x: 0.42311102, y: -0.27841514}
 --- !u!1 &5333093878221640102
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6062545031746033926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.657, y: -1.126, z: 0}
+  m_LocalPosition: {x: 0.605, y: -0.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3141721148922685112}

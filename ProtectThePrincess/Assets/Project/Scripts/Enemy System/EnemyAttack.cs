@@ -1,4 +1,5 @@
 using System;
+using System.Linq.Expressions;
 using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
@@ -6,10 +7,10 @@ public class EnemyAttack : MonoBehaviour
     [Header("Time")]
     [SerializeField] private float _timeAttack, _startTimeAttack; // Время атака, начало время атаки 
     [Header("Damage")]
-    [SerializeField] private float _damage; // Дамаг 
+    [SerializeField] private float _damage, _radius; // Дамаг 
 
-    [SerializeField] private Transform _endPos;
-    private RaycastHit2D attack;
+    [SerializeField] private Transform _attackPos;
+    private Collider2D attack;
     private Animator _animator;
     private Enemy _enemy;
     private float _oldSpeed;
@@ -24,39 +25,47 @@ public class EnemyAttack : MonoBehaviour
 
     void Update()
     {
+        attack = Physics2D.OverlapCircle(_attackPos.position, _radius, 1 << 8);
+        if (_timeAttack <= 0)
+        {
+            if (attack != null)
+            {
+                _animator.SetTrigger("Attack");
+                _timeAttack = _startTimeAttack;
+                _enemy._speed = 0;
+            }
+        }
+        else
+        {
+            _timeAttack -= Time.deltaTime;
+        }
         if (_timeAttack <= 0)
         {
             _timeAttack = 0;
         }
-        attack = Physics2D.Linecast(transform.position, _endPos.position, 1 << 8);
-        
-        if (attack.collider != null)
-        {
-            if (_timeAttack <= 0 && _attack == false)
-            {
-                _animator.SetTrigger("Attack");
-                _timeAttack = _startTimeAttack;
-            }
-        }
+    }
 
-        if (!_attack)
-        {
-            _timeAttack -= Time.deltaTime;
-        }
-        Debug.DrawLine(transform.position, _endPos.position, Color.red);
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red; // Цвет зелёный
+        Gizmos.DrawWireSphere(_attackPos.position, _radius); // Рисуем круг
     }
 
     public void Attack()
     {
-        _enemy._speed = 0;
-        _attack = true;
-        if(attack.collider.CompareTag("Tower")) ShakeCameraController.instance.StartShake(.5f, .3f);
-        attack.collider.gameObject.GetComponent<Health>().TakeDamage(_damage);
+        try
+        {
+            attack.gameObject.GetComponent<Health>().TakeDamage(_damage);
+            if(attack.CompareTag("Tower")) ShakeCameraController.instance.StartShake(.5f, .3f);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
     }
     
     public void Walk()
     {
         _enemy._speed = _oldSpeed;
-        _attack = false;
     }
 }

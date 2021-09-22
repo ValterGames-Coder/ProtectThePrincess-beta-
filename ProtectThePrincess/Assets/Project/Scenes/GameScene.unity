@@ -409,9 +409,9 @@ MonoBehaviour:
   - {fileID: 3141721148922685108, guid: b864b800f789405a3bbb797a81d1f482, type: 3}
   _probabilities:
   - 95
-  - 80
-  - 50
-  - 15
+  - 75
+  - 20
+  - 10
   _spawnPositions:
   - {fileID: 379078786}
   - {fileID: 812763873}
@@ -13298,15 +13298,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1747913851310489417, guid: 4970b1a5ace66275698f9af77fcf3798, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.3925, y: 1.82}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &699735407
