@@ -247,8 +247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 175e084f6c232e895b54b637ee967ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeAttack: 1.5
-  _startTimeAttack: 1.5
+  _timeAttack: 0.5
+  _startTimeAttack: 0.5
   _damage: 1
   _endPos: {fileID: 1856625889984335343}
 --- !u!95 &3106120222566581580
@@ -540,7 +540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6449461400566118167}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.646, y: -0.205, z: 0}
+  m_LocalPosition: {x: 0.646, y: -0.478, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2754734925176391849}

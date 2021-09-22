@@ -14,9 +14,11 @@ public class Health : MonoBehaviour
     [Header("How many money spawn")]
     [SerializeField, Range(0, 15)] private float _howManyMoney; // Количество монет для спавна
     private bool Die;
+    private Rigidbody2D _rigibody;
 
     private void Start()
     {
+        _rigibody = GetComponent<Rigidbody2D>();
         if (gameObject.name == "Tower") health = FindObjectOfType<Defender>().item.healthTower; // Настройки башни
         maxHealth = health; // Максимальное здоровье равняется 
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключаем компонент
@@ -37,7 +39,7 @@ public class Health : MonoBehaviour
                 {
                     GameObject.Find("LeftDefender").GetComponent<BuildingFortification>().inPlace = false; // Теперь там пусто
                 }
-                Destroy(gameObject);
+                if(gameObject != null) Destroy(gameObject);
             }
             Died(); // Старт корутины смерти
         }
@@ -46,6 +48,7 @@ public class Health : MonoBehaviour
     public void TakeDamage(float damage) // Получение дамага
     {
         health -= damage; // Вычитаем дамаг из здоровья 
+        if (gameObject.CompareTag("Enemy")) _rigibody.AddForce(Vector2.up * 1.5f, ForceMode2D.Impulse);
     }
 
     private void Died()
@@ -60,7 +63,6 @@ public class Health : MonoBehaviour
             {
                 Instantiate(_money, transform.position, Quaternion.identity); // Спавним монеты
             }
-            GetComponent<SpriteRenderer>().color = Color.Lerp(GetComponent<SpriteRenderer>().color, _colorDied, 0.05f); // Анимация смерти
             GetComponent<Enemy>()._speed = 0;
             Destroy(gameObject, 0.2f); // Уничтожаем обьект
         }

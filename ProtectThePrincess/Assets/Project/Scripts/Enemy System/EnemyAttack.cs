@@ -12,11 +12,14 @@ public class EnemyAttack : MonoBehaviour
     private RaycastHit2D attack;
     private Animator _animator;
     private Enemy _enemy;
+    private float _oldSpeed;
+    private bool _attack;
 
     private void Start()
     {
         _animator = GetComponent<Animator>();
         _enemy = GetComponent<Enemy>();
+        _oldSpeed = _enemy._speed;
     }
 
     void Update()
@@ -25,25 +28,35 @@ public class EnemyAttack : MonoBehaviour
         {
             _timeAttack = 0;
         }
-        _timeAttack -= Time.deltaTime;
         attack = Physics2D.Linecast(transform.position, _endPos.position, 1 << 8);
+        
+        if (attack.collider != null)
+        {
+            if (_timeAttack <= 0 && _attack == false)
+            {
+                _animator.SetTrigger("Attack");
+                _timeAttack = _startTimeAttack;
+            }
+        }
+
+        if (!_attack)
+        {
+            _timeAttack -= Time.deltaTime;
+        }
         Debug.DrawLine(transform.position, _endPos.position, Color.red);
     }
 
     public void Attack()
     {
-        if (attack.collider != null)
-        {
-            _animator.SetTrigger("Attack");
-            float _oldSpeed = _enemy._speed;
-            _enemy._speed = 0;
-            if (_timeAttack <= 0)
-            {
-                if(attack.collider.CompareTag("Tower")) ShakeCameraController.instance.StartShake(.5f, .3f);
-                attack.collider.gameObject.GetComponent<Health>().TakeDamage(_damage);
-                _enemy._speed = _oldSpeed;
-                _timeAttack = _startTimeAttack;
-            }
-        }
+        _enemy._speed = 0;
+        _attack = true;
+        if(attack.collider.CompareTag("Tower")) ShakeCameraController.instance.StartShake(.5f, .3f);
+        attack.collider.gameObject.GetComponent<Health>().TakeDamage(_damage);
+    }
+    
+    public void Walk()
+    {
+        _enemy._speed = _oldSpeed;
+        _attack = false;
     }
 }

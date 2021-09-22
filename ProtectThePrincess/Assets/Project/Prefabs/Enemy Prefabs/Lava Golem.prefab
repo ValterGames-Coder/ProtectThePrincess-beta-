@@ -296,8 +296,6 @@ MonoBehaviour:
   _startTimeAttack: 5
   _damage: 3
   _endPos: {fileID: 1470254871416497150}
-  _animator: {fileID: 48606724064269845}
-  _enemy: {fileID: 3141721148922685109}
 --- !u!95 &48606724064269845
 Animator:
   serializedVersion: 3
@@ -460,7 +458,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6062545031746033926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.657, y: -0.612, z: 0}
+  m_LocalPosition: {x: 0.657, y: -1.126, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3141721148922685112}
@@ -536,7 +534,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 16449955
   m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -8527915343647070608, guid: 18c481b2cb9e0f7c18b067405b6e2d06, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
