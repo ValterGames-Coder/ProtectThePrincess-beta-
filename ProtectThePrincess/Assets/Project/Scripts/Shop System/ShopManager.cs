@@ -12,6 +12,19 @@ public class ShopManager : MonoBehaviour
     void Start()
     {
         money = PlayerPrefs.GetInt("Money"); //Получаем информацию о деньгах
+        if (PlayerPrefs.GetInt("BuyDefender" + 0) == 0) // Если это первый защитник 
+        {
+            PlayerPrefs.SetInt("BuyDefender" + 0, 1); // Сохраняем защитника как купленного
+            PlayerPrefs.SetInt("SelectedDefender", 0); // Сохраняем как выбранный
+            PlayerPrefs.Save();  // Сохраняем
+        }
+        if (PlayerPrefs.GetInt("BuyBuilding" + 0) == 0)
+        {
+            PlayerPrefs.SetInt("BuyBuilding" + 0, 1); // Сохраняем постройку как купленную
+            PlayerPrefs.SetInt("SelectedBuildings" + 0, 1);
+            PlayerPrefs.SetInt("SelectedBuildingsLenght", PlayerPrefs.GetInt("SelectedBuildingsLenght") + 1);
+            PlayerPrefs.Save(); // Сохраняем
+        }
     }
 
     void Update()

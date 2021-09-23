@@ -67,6 +67,7 @@ public class Defender : MonoBehaviour
     private void WhereToLook()
     {
         int state = Camera.main.GetComponent<SwipeCamera>().state; // Получаем инфу и месте камеры
+        _zonePosition.z = -10;
         if (gameObject.name == "RightDefender") // Если это правый защитник
         {
             if (state == 0) // Если камера на месте, то защитник смотрит в свою сторону
@@ -144,7 +145,7 @@ public class Defender : MonoBehaviour
             Vector3 difference = GetClosetEnemy().position - _attackPosition.position; // Вычитаем позицию ближайего врага из позиции атаки
             float rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg; // Узнаем поворот для пули 
             _attackPosition.rotation = Quaternion.Euler(0f, 0f,
-                rotateZ - 4f + _offset + Random.Range(min, max)); // Разворачиваем позицию для атаки
+                rotateZ + _offset - Random.Range(min, max)); // Разворачиваем позицию для атаки
         }
     }
 

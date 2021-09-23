@@ -16,35 +16,31 @@ public class BuyButton : MonoBehaviour
     void Start()
     {
         if(PlayerPrefs.HasKey("AllBuilding")) PlayerPrefs.SetInt("AllBuilding", 1); // Если есть билдинги,то сохраняем 1
+        print(PlayerPrefs.GetInt("SelectedDefender"));
         textMeaning = textMeaning.GetComponent<TMP_Text>(); // Получаем компонент
         _meaningLocalization = textMeaning.GetComponent<LocalizationText>();
-        if (!PlayerPrefs.HasKey("BuyDefender"))
+        /*if (_productType == ControlType.Defender) // Если это защитник
         {
-            if (_productType == ControlType.Defender) // Если это защитник
+            if (index == 0 && PlayerPrefs.GetInt("BuyDefender" + index) == 0) // Если это первый защитник 
             {
-                /*if (index == 0) // Если это первый защитник 
-                {
                     PlayerPrefs.SetInt("BuyDefender" + index, 1); // Сохраняем защитника как купленного
                     PlayerPrefs.SetInt("SelectedDefender", index); // Сохраняем как выбранный
                     PlayerPrefs.Save();  // Сохраняем
-                }*/
             }
         }
-
         if (!PlayerPrefs.HasKey("BuyBuilding"))
         {
             if (_productType == ControlType.Building) // Если это построка
             {
-                /*if (index == 0) // Если это первая построка 
+                if (index == 0) // Если это первая построка 
                 {
                     PlayerPrefs.SetInt("BuyBuilding" + index, 1); // Сохраняем постройку как купленную
                     _meaningLocalization.Localize("MeaningSelect");
                     textMeaning.color = Color.yellow;
                     PlayerPrefs.Save(); // Сохраняем
-                }*/
+                }
             }
-        }
-
+        }*/
     }
 
     void Update()
@@ -170,6 +166,5 @@ public class BuyButton : MonoBehaviour
                 }
             }  
         }
-
     }
 }

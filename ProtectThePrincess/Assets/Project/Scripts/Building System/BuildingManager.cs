@@ -40,7 +40,6 @@ public class BuildingManager : MonoBehaviour
                     _rightButtons[i].transform.GetChild(0).GetComponent<Image>().sprite = _nonBuilding;
                     _leftButtons[i].transform.GetChild(0).GetComponent<Image>().sprite = _nonBuilding;
                 }
-                print($"{i};{j}");
             }
         }
     }

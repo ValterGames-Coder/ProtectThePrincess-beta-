@@ -21,25 +21,35 @@ public class EnemyAttack : MonoBehaviour
         _animator = GetComponent<Animator>();
         _enemy = GetComponent<Enemy>();
         _oldSpeed = _enemy._speed;
+        _timeAttack = _startTimeAttack;
     }
 
     void Update()
     {
         attack = Physics2D.OverlapCircle(_attackPos.position, _radius, 1 << 8);
+
+        if (attack != null)
+        {
+            _animator.SetBool("IsWalk", false);
+            _enemy._speed = 0;
+        }
+        else
+        {
+            _animator.SetBool("IsWalk", true);
+            _enemy._speed = _oldSpeed;
+        }
+        
         if (_timeAttack <= 0)
         {
             if (attack != null)
             {
                 _animator.SetTrigger("Attack");
                 _timeAttack = _startTimeAttack;
-                _enemy._speed = 0;
             }
         }
-        else
-        {
-            _timeAttack -= Time.deltaTime;
-        }
-        if (_timeAttack <= 0)
+        _timeAttack -= Time.deltaTime;
+        
+        if (_timeAttack < 0)
         {
             _timeAttack = 0;
         }
@@ -56,16 +66,8 @@ public class EnemyAttack : MonoBehaviour
         try
         {
             attack.gameObject.GetComponent<Health>().TakeDamage(_damage);
-            if(attack.CompareTag("Tower")) ShakeCameraController.instance.StartShake(.5f, .3f);
+            if (attack.CompareTag("Tower")) ShakeCameraController.instance.StartShake(.5f, .3f);
         }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-        }
-    }
-    
-    public void Walk()
-    {
-        _enemy._speed = _oldSpeed;
+        catch (Exception e) { Console.WriteLine(e); }
     }
 }
