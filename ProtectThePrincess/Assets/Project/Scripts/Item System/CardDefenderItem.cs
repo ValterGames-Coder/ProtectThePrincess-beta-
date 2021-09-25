@@ -10,7 +10,6 @@ public class CardDefenderItem : MonoBehaviour
     [SerializeField] private Image _cardImage;
     void Start()
     {
-        _textCard.text = _cardName;
         _textHealth.text = _item.healthTower.ToString();
         _textColdown.text = _item.startTimeAttack.ToString("F1");
         _textRadius.text = _item.zoneRadius.ToString("F1");

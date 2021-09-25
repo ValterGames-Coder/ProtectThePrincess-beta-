@@ -18,13 +18,14 @@ MonoBehaviour:
   min: -3
   max: 3
   bullet: {fileID: 6038909856491985293, guid: 9b5ff27750a05706bafe3be6f4d6712d, type: 3}
-  attackPosition: {x: 0.2, y: -0.07}
+  attackPosition: {x: 0.419, y: -0.514}
   offset: 0
   startTimeAttack: 2.5
   force: 1.5
+  attackAudio: {fileID: 8300000, guid: 05067333f386a1225bbffb46f0008ae7, type: 3}
   towerSprite: {fileID: -6472155570519759619, guid: 50bbbebddf58454dea6d62596967204d, type: 3}
   healthTower: 15
-  defenderPosition: {x: 0.97, y: 3.4}
+  defenderPosition: {x: 0.97, y: -3.85}
   isHaveDoor: 1
   doorSprite: {fileID: 4197595941474205915, guid: 50bbbebddf58454dea6d62596967204d, type: 3}
-  doorPosition: {x: 0.976, y: 0.855}
+  doorPosition: {x: 0.95, y: 0.9}

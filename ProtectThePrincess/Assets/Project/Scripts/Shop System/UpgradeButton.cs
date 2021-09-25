@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UpgradeButton : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class UpgradeButton : MonoBehaviour
     [SerializeField] private Image[] _upgradePoints;
     [SerializeField] private Image _iconImage;
     [SerializeField] private Sprite _spriteImage;
+    [SerializeField] private TMP_Text _priceText;
 
     void Start()
     {
@@ -22,6 +24,7 @@ public class UpgradeButton : MonoBehaviour
 
     private void Update()
     {
+    	_priceText.text = _priceList[_upgrade].ToString();
         if (_upgrade == _upgradeList.Length || PlayerPrefs.GetInt("BuyDefender" + index) == 0 || FindObjectOfType<ShopManager>().money < _priceList[_upgrade]) // Если максимальныйц апгрецд или не куплен защитник или не хватает дене
         {
             transform.GetChild(0).GetComponent<Button>().interactable = false; // Кнопка выключена

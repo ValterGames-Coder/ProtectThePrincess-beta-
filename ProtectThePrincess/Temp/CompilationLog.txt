@@ -1,2 +1,42 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-dbdaca98a52609e28bbe20184e11cd5c
+# Starting compiling UnityEngine.UI.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7ad81f92178bed489bad1121e2ab7673
+# Starting compiling Unity.InternalAPIEngineBridge.001.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-168f04319a4e2556c8a5419431eff9c8
+# Starting compiling Unity.2D.PixelPerfect.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-11c980895145d8a62b1a4a183f8b8b2f
+# Starting compiling Unity.RenderPipelines.Universal.Shaders.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1aa5c8e299e81ae2e831caa884d54edb
+# Starting compiling Unity.Recorder.Base.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-70141f1f6ecc603dba78ed935439f46a
+# Starting compiling Unity.Timeline.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2f70dcdd15189483caeb365fefecc6f2
+# Starting compiling Unity.TextMeshPro.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-67eab2a9b67fc1eea92a26606d7803f4
+# Starting compiling Unity.RenderPipelines.Core.Runtime.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-858cfa88981d1018187c6629cace3a95
+# Starting compiling Unity.RenderPipelines.Core.ShaderLibrary.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8c208bfaf230ab026b690448e5cc0c2c
+# Starting compiling Unity.Mathematics.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c88310da875f25d528f252dd4caa3491
+# Starting compiling Unity.2D.IK.Runtime.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-834322db1dfe1177e8388b3873c09a78
+# Starting compiling Unity.2D.Animation.Triangle.Runtime.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e0b668b28c66113d79f26f49a4141fb5
+# Starting compiling Unity.RenderPipeline.Universal.ShaderLibrary.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-12f873349a6884b108e91ee37837bcfe
+# Starting compiling Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8d7aa7010b6185f45809b7d76a38899c
+# Starting compiling Unity.2D.Common.Runtime.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a29b91c0f83cb738d9697222cc4afaf2
+# Starting compiling Unity.Recorder.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-af89ebee9195483ba82a90da32af2dff
+# Starting compiling Unity.RenderPipelines.Universal.Runtime.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b64d1b5e5551c6470a4f19493f70afcf
+# Starting compiling Unity.2D.Animation.Runtime.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b868387939fe1538daf3e789ec67794b
+# Starting compiling Unity.2D.SpriteShape.Runtime.dll
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9090baf38145a833396806a571aae455
 # Starting compiling Assembly-CSharp.dll
-/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-63d9b8353b0295cbdb30d581a4322b43
+/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6f20ac2332ab1835e9afb8d0a67f5bd2

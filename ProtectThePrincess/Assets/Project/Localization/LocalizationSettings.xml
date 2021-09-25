@@ -28,13 +28,6 @@
            <DE>Pause</DE>
       </Translates>
   </Key>
-  <Key Name="SpeedUpButton">
-      <Translates>
-           <EN>Speed Up</EN>
-           <RU>Ускорение</RU>
-           <DE>Beschleunigung</DE>
-      </Translates>
-  </Key>
   <Key Name="HowManyEnemiesLocalization1">
       <Translates>
            <EN>Until the wave is left:</EN>
@@ -70,10 +63,10 @@
            <DE>Anpassung</DE>
       </Translates>
   </Key>
-  <Key Name="GameButton">
+  <Key Name="Back">
       <Translates>
-           <EN>Play</EN>
-           <RU>Играть</RU>
+           <EN>Back</EN>
+           <RU>Назад</RU>
            <DE>abspielen</DE>
       </Translates>
   </Key>
@@ -84,7 +77,7 @@
            <DE>Reset</DE>
       </Translates>
   </Key>
-  <Key Name="ShowAdButton">
+  <Key Name="ShowAd">
       <Translates>
            <EN>Show ad</EN>
            <RU>Просмотр рекламы</RU>
@@ -142,7 +135,7 @@
   </Key>
   <Key Name="SettingsNetworks">
       <Translates>
-           <EN>Networks</EN>
+           <EN>Social</EN>
            <RU>Социальные сети</RU>
            <DE>Soziale Netzwerke</DE>
       </Translates>
@@ -152,6 +145,132 @@
            <EN>Music</EN>
            <RU>Музыка</RU>
            <DE>Musik</DE>
+      </Translates>
+  </Key>
+  <Key Name="Defenders">
+      <Translates>
+           <EN>Defenders</EN>
+           <RU>Защитники</RU>
+           <DE>Verteidiger</DE>
+      </Translates>
+  </Key>
+  <Key Name="Fencings">
+      <Translates>
+           <EN>Fencing</EN>
+           <RU>Ограды</RU>
+           <DE>Zaun</DE>
+      </Translates>
+  </Key>
+  <Key Name="SettingsMusic">
+      <Translates>
+           <EN>Music</EN>
+           <RU>Музыка</RU>
+           <DE>Musik</DE>
+      </Translates>
+  </Key>
+  <Key Name="Upgrade">
+      <Translates>
+           <EN>Upgrade</EN>
+           <RU>Улучшение</RU>
+           <DE>Verbesserung</DE>
+      </Translates>
+  </Key>
+  <Key Name="Needles">
+      <Translates>
+           <EN>Needles</EN>
+           <RU>Иглы</RU>
+           <DE>Nadeln</DE>
+      </Translates>
+  </Key>
+  <Key Name="WoodenStakes">
+      <Translates>
+           <EN>Wooden stakes</EN>
+           <RU>Деревянные колья</RU>
+           <DE>Holzpfähle</DE>
+      </Translates>
+  </Key>
+  <Key Name="IronFence">
+      <Translates>
+           <EN>Iron fence</EN>
+           <RU>Железный забор</RU>
+           <DE>Eisenzaun</DE>
+      </Translates>
+  </Key>
+  <Key Name="Stones">
+      <Translates>
+           <EN>Stones</EN>
+           <RU>Камни</RU>
+           <DE>Steine</DE>
+      </Translates>
+  </Key>
+  <Key Name="Archer">
+      <Translates>
+           <EN>Archer</EN>
+           <RU>Лучник</RU>
+           <DE>Bogenschützen</DE>
+      </Translates>
+  </Key>
+  <Key Name="Knight">
+      <Translates>
+           <EN>Knight</EN>
+           <RU>Рыцарь</RU>
+           <DE>Ritter</DE>
+      </Translates>
+  </Key>
+  <Key Name="Police">
+      <Translates>
+           <EN>Police</EN>
+           <RU>Полицейский</RU>
+           <DE>Polizeistation</DE>
+      </Translates>
+  </Key>
+  <Key Name="Wizard">
+      <Translates>
+           <EN>Wizard</EN>
+           <RU>Маг</RU>
+           <DE>Zauberer</DE>
+      </Translates>
+  </Key>
+  <Key Name="1">
+      <Translates>
+           <EN>To build a fence, click on the + and select one of the possible fences</EN>
+           <RU>Чтобы построить ограду, нажмите на + и выберите из возможных оград одну</RU>
+           <DE>Um einen Zaun zu bauen, klicken Sie auf das + und wählen Sie einen der möglichen Zäune aus</DE>
+      </Translates>
+  </Key>
+  <Key Name="2">
+      <Translates>
+           <EN>To look at the right, click on the right side of the screen</EN>
+           <RU>Чтобы посмотреть на право, нажмите в правую часть экрана</RU>
+           <DE>Um nach rechts zu schauen, klicken Sie auf die rechte Seite des Bildschirms</DE>
+      </Translates>
+  </Key>
+  <Key Name="3">
+      <Translates>
+           <EN>To look to the left, click on the left side of the screen</EN>
+           <RU>Чтобы посмотреть на лево, нажмите в левую часть экрана</RU>
+           <DE>Um nach links zu schauen, klicken Sie auf die linke Seite des Bildschirms</DE>
+      </Translates>
+  </Key>
+  <Key Name="4">
+      <Translates>
+           <EN>This is a coin counter</EN>
+           <RU>Это счётчик монет</RU>
+           <DE>Das ist ein Münzzähler</DE>
+      </Translates>
+  </Key>
+  <Key Name="5">
+      <Translates>
+           <EN>This is the health of the tower</EN>
+           <RU>Это здоровье башни</RU>
+           <DE>Das ist die Gesundheit des Turms</DE>
+      </Translates>
+  </Key>
+  <Key Name="6">
+      <Translates>
+           <EN>Tap the screen to start playing</EN>
+           <RU>Нажмите на экран, чтобы начать играть</RU>
+           <DE>Tippen Sie auf den Bildschirm, um mit dem Spielen zu beginnen</DE>
       </Translates>
   </Key>
 </Keys>

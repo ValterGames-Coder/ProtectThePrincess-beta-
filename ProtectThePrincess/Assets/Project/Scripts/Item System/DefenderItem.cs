@@ -17,6 +17,7 @@ public class DefenderItem : ScriptableObject
     public float offset;
     public float startTimeAttack;
     public float force;
+    public AudioClip attackAudio;
     [Header("Tower")] 
     public Sprite towerSprite;
     public float healthTower;

@@ -1,9 +1,7 @@
 using UnityEngine;
-using TMPro;
 
 public class SpeedUpTime : MonoBehaviour
 {
-    [SerializeField] private TMP_Text _speedUpTimeText;
     private LocalizationText _lt;
     public bool speedUpTime;
 
@@ -17,12 +15,10 @@ public class SpeedUpTime : MonoBehaviour
         if (speedUpTime)
         {
             Time.timeScale = 2f;
-            _speedUpTimeText.text = "Ускорение: 2.0 сек";
         }
         else if (!speedUpTime && !FindObjectOfType<TransitionsManager>().pause && PlayerPrefs.GetString("FirstEntered") == "true")
         {
             Time.timeScale = 1f;
-            _speedUpTimeText.text = "";
         }
     }
 }

@@ -18,10 +18,11 @@ MonoBehaviour:
   min: -6.4
   max: 6.4
   bullet: {fileID: 9111622241039124888, guid: 0be0a827d5f834aaeafc1e0fd67f6471, type: 3}
-  attackPosition: {x: 0.2, y: -0.07}
+  attackPosition: {x: 0.419, y: -0.385}
   offset: 0
   startTimeAttack: 3
   force: 2
+  attackAudio: {fileID: 8300000, guid: 05067333f386a1225bbffb46f0008ae7, type: 3}
   towerSprite: {fileID: 5255334243134310995, guid: 35d85f13d5ef19dc9910fa5edb9fb301, type: 3}
   healthTower: 14
   defenderPosition: {x: 0.828, y: 2.878}

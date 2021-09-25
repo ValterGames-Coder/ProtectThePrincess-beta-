@@ -1,5 +1,4 @@
 using System;
-using System.Linq.Expressions;
 using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
@@ -15,11 +14,13 @@ public class EnemyAttack : MonoBehaviour
     private Enemy _enemy;
     private float _oldSpeed;
     private bool _attack;
+    private AudioSource _audioAttack;
 
     private void Start()
     {
         _animator = GetComponent<Animator>();
         _enemy = GetComponent<Enemy>();
+        _audioAttack = GetComponent<AudioSource>();
         _oldSpeed = _enemy._speed;
         _timeAttack = _startTimeAttack;
     }
@@ -66,7 +67,11 @@ public class EnemyAttack : MonoBehaviour
         try
         {
             attack.gameObject.GetComponent<Health>().TakeDamage(_damage);
-            if (attack.CompareTag("Tower")) ShakeCameraController.instance.StartShake(.5f, .3f);
+            if (attack.CompareTag("Tower"))
+            {
+                ShakeCameraController.instance.StartShake(.5f, .3f);
+                _audioAttack.Play();
+            }
         }
         catch (Exception e) { Console.WriteLine(e); }
     }

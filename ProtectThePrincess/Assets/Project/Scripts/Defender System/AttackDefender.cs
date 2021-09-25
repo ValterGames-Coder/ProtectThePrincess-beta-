@@ -1,15 +1,25 @@
+using System;
 using UnityEngine;
 
 public class AttackDefender : MonoBehaviour
-{ // Start is called before the first frame update
+{
+    private Defender _defender;
+
     void Start()
     {
-        
+        _defender = GetComponentInParent<Defender>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Attack()
     {
-        
+        try
+        {
+            var position = _defender._attackPosition.position; // Позиция будет равна к позиции атаки 
+            Instantiate(_defender._bullet, new Vector2(position.x, position.y), _defender._attackPosition.rotation); // Создаём пулю
+        }
+        catch (Exception e)
+        {
+            print(e);
+        }
     }
 }

@@ -9,7 +9,7 @@ public class FirstEnteredManager : MonoBehaviour
         {
             _text1.SetActive(false);
             _text2.SetActive(false);
-            Invoke("OpenPanel", 0.5f);
+            Invoke("OpenPanel", 3.5f);
         }
     }
 

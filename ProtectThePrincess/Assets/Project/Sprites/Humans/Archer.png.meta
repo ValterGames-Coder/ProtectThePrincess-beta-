@@ -241,33 +241,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Archer_4
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 1160
-        width: 31
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e024e076fcf4c5b00800000000000000
-      internalID: 818616984480399886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Archer_5
       rect:
         serializedVersion: 2
-        x: 114
+        x: 56
         y: 1160
-        width: 31
+        width: 89
         height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

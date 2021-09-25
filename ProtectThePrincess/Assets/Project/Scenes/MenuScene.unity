@@ -739,7 +739,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -884.9, y: 0}
+  m_AnchoredPosition: {x: -884.8999, y: 0}
   m_SizeDelta: {x: -1769.76, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &471415326
@@ -1971,6 +1971,7 @@ GameObject:
   - component: {fileID: 1126551365}
   - component: {fileID: 1126551364}
   - component: {fileID: 1126551366}
+  - component: {fileID: 1126551367}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2097,6 +2098,25 @@ MonoBehaviour:
   icon: {fileID: 659588309}
   on: {fileID: 1251468213313220061, guid: 973d67145b69799578f349dcc099e314, type: 3}
   off: {fileID: 4705189297025124604, guid: 973d67145b69799578f349dcc099e314, type: 3}
+--- !u!95 &1126551367
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126551359}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1143286489
 GameObject:
   m_ObjectHideFlags: 0

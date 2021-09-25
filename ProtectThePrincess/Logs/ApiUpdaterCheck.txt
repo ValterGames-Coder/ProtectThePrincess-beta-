@@ -2208,3 +2208,253 @@ C# parse time         : 645ms
 candidates check time : 89ms
 console write time    : 1ms
 
+[api-updater (non-obsolete-error-filter)] 9/24/2021 4:36:32 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 317.87ms
+moved types parse time: 157ms
+candidates parse time : 2ms
+C# parse time         : 621ms
+candidates check time : 108ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 4:36:39 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 361.516ms
+moved types parse time: 144ms
+candidates parse time : 2ms
+C# parse time         : 714ms
+candidates check time : 175ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 4:37:28 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 223.467ms
+moved types parse time: 119ms
+candidates parse time : 2ms
+C# parse time         : 638ms
+candidates check time : 122ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 4:37:35 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 268.411ms
+moved types parse time: 171ms
+candidates parse time : 2ms
+C# parse time         : 650ms
+candidates check time : 177ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 4:38:06 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 151.075ms
+moved types parse time: 131ms
+candidates parse time : 2ms
+C# parse time         : 570ms
+candidates check time : 126ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 4:39:20 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 300.254ms
+moved types parse time: 306ms
+candidates parse time : 2ms
+C# parse time         : 637ms
+candidates check time : 295ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 4:39:26 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 311.768ms
+moved types parse time: 184ms
+candidates parse time : 2ms
+C# parse time         : 939ms
+candidates check time : 223ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:28:23 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 341.053ms
+moved types parse time: 110ms
+candidates parse time : 1ms
+C# parse time         : 713ms
+candidates check time : 132ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:31:36 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 342.157ms
+moved types parse time: 211ms
+candidates parse time : 4ms
+C# parse time         : 726ms
+candidates check time : 96ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:31:46 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 131.64ms
+moved types parse time: 120ms
+candidates parse time : 2ms
+C# parse time         : 413ms
+candidates check time : 68ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:31:56 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 144.302ms
+moved types parse time: 104ms
+candidates parse time : 2ms
+C# parse time         : 453ms
+candidates check time : 155ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:32:02 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 424.88ms
+moved types parse time: 146ms
+candidates parse time : 2ms
+C# parse time         : 605ms
+candidates check time : 123ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:36:05 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 114.382ms
+moved types parse time: 78ms
+candidates parse time : 1ms
+C# parse time         : 451ms
+candidates check time : 61ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:36:10 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 234.613ms
+moved types parse time: 127ms
+candidates parse time : 2ms
+C# parse time         : 471ms
+candidates check time : 61ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:36:23 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 120.693ms
+moved types parse time: 148ms
+candidates parse time : 16ms
+C# parse time         : 468ms
+candidates check time : 71ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:36:27 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 309.639ms
+moved types parse time: 123ms
+candidates parse time : 2ms
+C# parse time         : 565ms
+candidates check time : 88ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:36:43 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 164.264ms
+moved types parse time: 108ms
+candidates parse time : 2ms
+C# parse time         : 741ms
+candidates check time : 88ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:36:50 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 156.084ms
+moved types parse time: 95ms
+candidates parse time : 2ms
+C# parse time         : 446ms
+candidates check time : 85ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 6:37:10 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 157.24ms
+moved types parse time: 75ms
+candidates parse time : 2ms
+C# parse time         : 338ms
+candidates check time : 66ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 11:42:03 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 228.985ms
+moved types parse time: 129ms
+candidates parse time : 2ms
+C# parse time         : 639ms
+candidates check time : 211ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 11:42:09 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 200.795ms
+moved types parse time: 120ms
+candidates parse time : 31ms
+C# parse time         : 559ms
+candidates check time : 187ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 11:42:16 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 141.702ms
+moved types parse time: 154ms
+candidates parse time : 10ms
+C# parse time         : 830ms
+candidates check time : 214ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/24/2021 11:42:23 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 137.384ms
+moved types parse time: 112ms
+candidates parse time : 2ms
+C# parse time         : 530ms
+candidates check time : 96ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 9/25/2021 10:10:04 AM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 168.129ms
+moved types parse time: 81ms
+candidates parse time : 1ms
+C# parse time         : 492ms
+candidates check time : 66ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 9/25/2021 12:23:57 PM : Starting /home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 440.027ms
+moved types parse time: 146ms
+candidates parse time : 1ms
+C# parse time         : 612ms
+candidates check time : 90ms
+console write time    : 1ms
+

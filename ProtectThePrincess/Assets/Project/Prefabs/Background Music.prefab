@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1951584602869582052}
   - component: {fileID: 1951584602869582051}
   - component: {fileID: 1951584602869582050}
+  - component: {fileID: 4390794067283944292}
   m_Layer: 0
   m_Name: Background Music
   m_TagString: Untagged
@@ -42,7 +43,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f0000e41ed02a5ac58be76757d2edca6, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -140,3 +141,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c23f5a12adddf631bcbd1e896a3826a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4390794067283944292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951584602869582049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28abd172cc1a6226bf75e48452ea91a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clips:
+  - {fileID: 8300000, guid: bda91a8b9a4285be7bc2fa535b38b2f6, type: 3}
+  - {fileID: 8300000, guid: d7549a38151634332b09416bd7fce59c, type: 3}
+  - {fileID: 8300000, guid: f0000e41ed02a5ac58be76757d2edca6, type: 3}
+  - {fileID: 8300000, guid: aa936527d68946ad0ba94fc5c2115dc5, type: 3}
