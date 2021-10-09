@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defenderSprite: {fileID: 1747913851310489417, guid: 4970b1a5ace66275698f9af77fcf3798, type: 3}
   zonePosition: {x: 5, y: 0.5, z: -10}
-  zoneRadius: 4.9
-  min: -2.5
-  max: 2.5
+  zoneRadius: 5.6
+  min: -1.8000002
+  max: 1.8000002
   bullet: {fileID: 3259418757433683261, guid: 41543f9dc4ac14a00adbb4c5bdefa3da, type: 3}
   attackPosition: {x: 0.2, y: -0.07}
   offset: 0
@@ -24,7 +24,7 @@ MonoBehaviour:
   force: 1
   attackAudio: {fileID: 8300000, guid: abd7387c78b6d39eea48e0e1b0d4dc58, type: 3}
   towerSprite: {fileID: 5255334243134310995, guid: 35d85f13d5ef19dc9910fa5edb9fb301, type: 3}
-  healthTower: 26
+  healthTower: 34
   defenderPosition: {x: 0.828, y: 2.878}
   isHaveDoor: 1
   doorSprite: {fileID: -4919615258828489423, guid: 35d85f13d5ef19dc9910fa5edb9fb301, type: 3}

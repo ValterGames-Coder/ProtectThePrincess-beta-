@@ -15,16 +15,18 @@ public class UpgradeButton : MonoBehaviour
     [SerializeField] private Image _iconImage;
     [SerializeField] private Sprite _spriteImage;
     [SerializeField] private TMP_Text _priceText;
+    private int _priceIndex;
 
     void Start()
     {
         _upgrade = PlayerPrefs.GetInt("Upgrade" + index); // Получаем инфу об апгрейде
+        _priceIndex = PlayerPrefs.GetInt("PriceIndex" + index);
         _iconImage.sprite = _spriteImage;
     }
 
     private void Update()
     {
-    	_priceText.text = _priceList[_upgrade].ToString();
+        _priceText.text = _priceList[_priceIndex].ToString();
         if (_upgrade == _upgradeList.Length || PlayerPrefs.GetInt("BuyDefender" + index) == 0 || FindObjectOfType<ShopManager>().money < _priceList[_upgrade]) // Если максимальныйц апгрецд или не куплен защитник или не хватает дене
         {
             transform.GetChild(0).GetComponent<Button>().interactable = false; // Кнопка выключена
@@ -55,6 +57,8 @@ public class UpgradeButton : MonoBehaviour
                 _defender.startTimeAttack -= 0.2f;
                 _defender.healthTower += 2;
                 _upgrade++;
+                _priceIndex++;
+                PlayerPrefs.SetInt("PriceIndex" + index, _priceIndex);
                 PlayerPrefs.SetInt("Upgrade" + index, _upgrade); // Сохраняем апгрейд
             }
         }

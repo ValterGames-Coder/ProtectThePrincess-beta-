@@ -238,6 +238,9 @@ MonoBehaviour:
   - {fileID: 4254624127586984533}
   - {fileID: 1623869576383765212}
   - {fileID: 4883115656928817106}
+  _iconImage: {fileID: 0}
+  _spriteImage: {fileID: 0}
+  _priceText: {fileID: 0}
 --- !u!1 &970701791029800919
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +566,6 @@ MonoBehaviour:
   _textHealth: {fileID: 582153303616981910}
   _textColdown: {fileID: 7111482985188043091}
   _textCard: {fileID: 4192183025484330180}
-  _cardName: 
   _cooldown: 0
   _cardSprite: {fileID: 0}
   _cardImage: {fileID: 7465910105309125457}

@@ -41,11 +41,8 @@ ScriptsOnlyBuild:
     - Tower
     - TransitionsManager
     - UpgradeButton
-    GoogleMobileAds.Common.dll:
-    - GoogleMobileAds.Common.MobileAdsEventExecutor
     GoogleMobileAds.Editor.dll:
     - GoogleMobileAds.Editor.GoogleMobileAdsSettings
-    - GoogleMobileAds.Editor.GoogleMobileAdsSettingsEditor
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -100,10 +97,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
-    - TimelineProjectSettings
-    - UnityEditor.Timeline.SequenceHierarchy
     Unity.Timeline.dll:
     - UnityEngine.Timeline.ActivationPlayableAsset
     - UnityEngine.Timeline.ActivationTrack
@@ -430,11 +423,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7138}
     - Class: 114
-      Script: {instanceID: 7436}
+      Script: {instanceID: 7386}
     - Class: 114
-      Script: {instanceID: 7674}
+      Script: {instanceID: 7438}
     - Class: 114
-      Script: {instanceID: 127256}
+      Script: {instanceID: 7676}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -537,7 +530,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7358}
     - Class: 114
-      Script: {instanceID: 7942}
+      Script: {instanceID: 7944}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1529,7 +1522,7 @@ ScriptsOnlyBuild:
     className: LiftGammaGain
   - hash:
       serializedVersion: 2
-      Hash: cd860359e6c77ef863d68ab86a2e798a
+      Hash: 493231991c5b81953637081cbd4ba7e6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CardBuildingItem
@@ -1649,7 +1642,7 @@ ScriptsOnlyBuild:
     className: TMP_FrameRateCounter
   - hash:
       serializedVersion: 2
-      Hash: e343e1e4550fd966dfeb8d938478de5e
+      Hash: 11ef5008072df8ff166316861a0489c5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnerEnemies
@@ -1859,6 +1852,12 @@ ScriptsOnlyBuild:
     className: SpriteLibraryAsset
   - hash:
       serializedVersion: 2
+      Hash: 25964ce1323dd6a4931a554832cd3f7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MusicController
+  - hash:
+      serializedVersion: 2
       Hash: 63bdc2cf3273aa9bf650350f19d2af61
     assemblyName: Unity.2D.PixelPerfect.dll
     namespaceName: UnityEngine.U2D
@@ -1959,16 +1958,10 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AdsInitializ
-  - hash:
-      serializedVersion: 2
-      Hash: 25964ce1323dd6a4931a554832cd3f7d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MusicController
   platform: 13
   scenePathNames:
   - Assets/Project/Scenes/MenuScene.unity
   - Assets/Project/Scenes/ShopScene.unity
   - Assets/Project/Scenes/GameScene.unity
   playerPath: /home/valter/Projects/git/ProtectThePrincess/Builds/Protect The Princess
-    0.7.apk
+    0.11.apk

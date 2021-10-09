@@ -34,7 +34,7 @@ public class Money : MonoBehaviour
 
     IEnumerator Fly() // Корутина полёта
     {
-        yield return new WaitForSeconds(Random.Range(2.5f, 3.5f)); // Ждём
+        yield return new WaitForSeconds(Random.Range(0.5f, 1f)); // Ждём
         _rigidbody.bodyType = RigidbodyType2D.Kinematic; //Отключаем физику
         _fly = true; // Можем лететь
     }

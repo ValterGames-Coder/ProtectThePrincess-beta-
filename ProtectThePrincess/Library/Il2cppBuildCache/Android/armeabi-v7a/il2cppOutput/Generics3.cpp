@@ -9007,20 +9007,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * CreateValueCallback_EndInvoke
 // T UnityEngine.Rendering.CoreUnsafeUtils/DefaultKeyGetter`1<System.Object>::Get(T&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * DefaultKeyGetter_1_Get_mBF935A7B5C798D7314FB66ED9E658CF3CAA751DD_gshared (DefaultKeyGetter_1_t7DB2019D250B9BB87F2F52B97A833EF72B1A8BC7 * __this, RuntimeObject ** ___v0, const RuntimeMethod* method)
 {
-	RuntimeObject * V_0 = NULL;
 	{
 		// { public T Get(ref T v) { return v; } }
 		RuntimeObject ** L_0 = ___v0;
 		RuntimeObject * L_1 = (*(RuntimeObject **)L_0);
-		V_0 = (RuntimeObject *)L_1;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// { public T Get(ref T v) { return v; } }
-		RuntimeObject * L_2 = V_0;
-		return (RuntimeObject *)L_2;
+		return (RuntimeObject *)L_1;
 	}
 }
 IL2CPP_EXTERN_C  RuntimeObject * DefaultKeyGetter_1_Get_mBF935A7B5C798D7314FB66ED9E658CF3CAA751DD_AdjustorThunk (RuntimeObject * __this, RuntimeObject ** ___v0, const RuntimeMethod* method)

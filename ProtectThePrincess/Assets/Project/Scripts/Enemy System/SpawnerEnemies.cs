@@ -16,7 +16,7 @@ public class SpawnerEnemies : MonoBehaviour
     [SerializeField] private TMP_Text _waveText, _howManyEnemiesText; // Текст для волн, Текст для показа сколько осталось врагов
     [SerializeField] private LocalizationText _waveLocalization, _howManyEnemiesLocalization;
     private ScoreManager _scoreManager; // Счётчик очков
-    public bool win, lose, isWave, _firstWave = true; // Победа , проигрышь, волны ли, первая волна ли 
+    public bool win, lose, timeIsOver, isWave, _firstWave = true; // Победа , проигрышь, волны ли, первая волна ли 
     [Header("Panels")]
     [SerializeField] private GameObject _panelWin, _panelLose; // Панель победы, паенль проигрыша 
 
@@ -83,12 +83,23 @@ public class SpawnerEnemies : MonoBehaviour
         else if (win && !FindObjectOfType<TransitionsManager>().pause) // Если выиграли 
         {
             FindObjectOfType<SpeedUpTime>().speedUpTime = false;
-            _panelWin.SetActive(true); // Включаем панель выиграша
+            _panelWin.SetActive(true); // Включаем панель выиграша 
+            TimeScale();
         }
         else if (lose && !FindObjectOfType<TransitionsManager>().pause) // Если проиграли 
         {
             FindObjectOfType<SpeedUpTime>().speedUpTime = false;
             _panelLose.SetActive(true); // Включаем панель проигрыша
+            TimeScale();
+        }
+    }
+
+    void TimeScale()
+    {
+        if (!timeIsOver)
+        {
+            Time.timeScale = 0;
+            timeIsOver = !timeIsOver;
         }
     }
 

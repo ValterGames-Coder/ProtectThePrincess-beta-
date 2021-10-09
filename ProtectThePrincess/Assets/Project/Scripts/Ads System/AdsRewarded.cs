@@ -6,7 +6,7 @@ public class AdsRewarded : MonoBehaviour
     private RewardedAd _rewardedAd;
 
 #if UNITY_ANDROID
-    private const string _rewardedAdUnitId = "ca-app-pub-3940256099942544/5224354917";
+    private const string _rewardedAdUnitId = "ca-app-pub-4721480223801357/4410482404";
 #endif
 
     private void Start()

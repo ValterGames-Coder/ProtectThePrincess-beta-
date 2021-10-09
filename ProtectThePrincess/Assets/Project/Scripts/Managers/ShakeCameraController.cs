@@ -3,10 +3,12 @@ public class ShakeCameraController : MonoBehaviour
 {
     public static ShakeCameraController instance;
     private float _shakeTimeRemaining, _shakePower, _shakeFadeTime;
+    private SpawnerEnemies _spawner;
 
     private void Start()
     {
         instance = this;
+        _spawner = FindObjectOfType<SpawnerEnemies>();
     }
     private void LateUpdate()
     {
@@ -18,7 +20,7 @@ public class ShakeCameraController : MonoBehaviour
             float yAmount = Random.Range(-1f, 1f) * _shakePower;
             transform.position += new Vector3(xAmount, yAmount, 0f);
 
-            _shakePower = Mathf.MoveTowards(_shakePower, 0f, _shakeFadeTime * Time.deltaTime);
+            if(!_spawner.win || !_spawner.lose) _shakePower = Mathf.MoveTowards(_shakePower, 0f, _shakeFadeTime * Time.deltaTime);
         }
          
     }

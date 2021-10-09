@@ -25,7 +25,7 @@ MonoBehaviour:
   attackAudio: {fileID: 8300000, guid: 05067333f386a1225bbffb46f0008ae7, type: 3}
   towerSprite: {fileID: -6472155570519759619, guid: 50bbbebddf58454dea6d62596967204d, type: 3}
   healthTower: 15
-  defenderPosition: {x: 0.97, y: -3.85}
+  defenderPosition: {x: 0.97, y: 3.43}
   isHaveDoor: 1
   doorSprite: {fileID: 4197595941474205915, guid: 50bbbebddf58454dea6d62596967204d, type: 3}
   doorPosition: {x: 0.95, y: 0.9}
