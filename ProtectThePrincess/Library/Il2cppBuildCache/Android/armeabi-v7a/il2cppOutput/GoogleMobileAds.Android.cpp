@@ -258,6 +258,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral263A474B6C90154AA8BC0ADE0F0D8DAF1F8C3C26
 IL2CPP_EXTERN_C String_t* _stringLiteral2AE7C56371AB4AD5954B5AECE8FF733ECE07B630;
 IL2CPP_EXTERN_C String_t* _stringLiteral2D5311BA03D48DA719F45FD2FF712B8D1C65F825;
 IL2CPP_EXTERN_C String_t* _stringLiteral2FCE983D70DEDD25C3565391BB2267C1FEACB998;
+IL2CPP_EXTERN_C String_t* _stringLiteral305D5A837D66781F501B872D1B265C29C6966AC4;
 IL2CPP_EXTERN_C String_t* _stringLiteral31D307275CC464AFDCC4A193A3D0DADE7D308F81;
 IL2CPP_EXTERN_C String_t* _stringLiteral328EB6F88C6E1316488D840B805F115AB35D2D49;
 IL2CPP_EXTERN_C String_t* _stringLiteral33C0822B0FE48DAAC5554F44B4DAE84813722933;
@@ -324,7 +325,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralBF68B5E8806879817720F1AA46DC7730FCB8187E
 IL2CPP_EXTERN_C String_t* _stringLiteralC522B58E3ECA14FA374E2886C2FF83B8E8B79434;
 IL2CPP_EXTERN_C String_t* _stringLiteralC54D48FA8D6618AB955CFFADC71E36D8CFB9E5A0;
 IL2CPP_EXTERN_C String_t* _stringLiteralC5D27B1A91AE4B98A88BB287C659363E271BDDCC;
-IL2CPP_EXTERN_C String_t* _stringLiteralCAE569583EA59D443496BC1B45D8ED419CAD0B43;
 IL2CPP_EXTERN_C String_t* _stringLiteralCE13C3604EDFD154E9FF5DA6E5747DE274BC42F1;
 IL2CPP_EXTERN_C String_t* _stringLiteralCE61FBE3F397454A333702786D0FA8442C1D66B0;
 IL2CPP_EXTERN_C String_t* _stringLiteralCEF619769C6A0FED35E5791C884922F621833615;
@@ -10872,7 +10872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Utils_GetScreenWidth_m0D2CFD585E5780B
 		NullCheck(L_3);
 		float L_4;
 		L_4 = DisplayMetrics_get_Density_m8126F8DD62A937A4BFE7B0790F437929B0DB51B8_inline(L_3, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)((float)((float)((float)((float)L_2))/(float)L_4))));
+		return il2cpp_codegen_cast_double_to_int<int32_t>(((float)((float)((float)((float)L_2))/(float)L_4)));
 	}
 }
 // UnityEngine.AndroidJavaObject GoogleMobileAds.Android.Utils::GetAdRequestJavaObject(GoogleMobileAds.Api.AdRequest)
@@ -10900,6 +10900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t10188D5695DCD09C9F621B44B0
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mE1DA59F28C52D6C935BA467A5E6482D0CD983F99_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral04C1DEF20FAF70D5E70DE8BC6B26DE61DBE259C0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral305D5A837D66781F501B872D1B265C29C6966AC4);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral41AC34D8DBAF5CBA43F03167FBED01262D39AFDA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A885A89832F4E62C8E259AA47DF0907BB0C1ED3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C696A17DFF310B41BD95BFD667A46D2849E6F73);
@@ -10913,7 +10914,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t10188D5695DCD09C9F621B44B0
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB6D160E2E6DA06ED20C87351145F7BF366F3D189);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB7C45DD316C68ABF3429C20058C2981C652192F2);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC5D27B1A91AE4B98A88BB287C659363E271BDDCC);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCAE569583EA59D443496BC1B45D8ED419CAD0B43);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCE13C3604EDFD154E9FF5DA6E5747DE274BC42F1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD99845F0FBC83D7A4C0E05118FC3BB06DE3FE3D3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE7072161266D4F867CE0A311142D9F3D4A0956CA);
@@ -11019,8 +11019,8 @@ IL_005f:
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_13 = (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)SZArrayNew(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_14 = L_13;
 		NullCheck(L_14);
-		ArrayElementTypeCheck (L_14, _stringLiteralCAE569583EA59D443496BC1B45D8ED419CAD0B43);
-		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)_stringLiteralCAE569583EA59D443496BC1B45D8ED419CAD0B43);
+		ArrayElementTypeCheck (L_14, _stringLiteral305D5A837D66781F501B872D1B265C29C6966AC4);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)_stringLiteral305D5A837D66781F501B872D1B265C29C6966AC4);
 		NullCheck(L_12);
 		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_15;
 		L_15 = AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412(L_12, _stringLiteralAF79C663BE762F38E5CB891553463348B9037052, L_14, /*hidden argument*/AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);

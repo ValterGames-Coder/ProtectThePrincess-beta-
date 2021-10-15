@@ -7,9 +7,10 @@
       "Outputs": [],
       "TargetDirectories": [],
       "PassIndex": 0,
-      "Deps": [
+      "ToBuildDependencies": [
         1
       ],
+      "ToUseDependencies": [],
       "OverwriteOutputs": true,
       "FrontendResponseFiles": [],
       "AllowUnexpectedOutput": true,
@@ -17,57 +18,61 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp /home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so",
-      "Action": "\"/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARMv7\" --configuration=\"Release\" --outputpath=\"/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so\" --cachedirectory=\"/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Assets/../Library/il2cpp_android_armeabi-v7a/il2cpp_cache\" --additional-include-directories=\"/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include\" --additional-include-directories=\"/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include\" --baselib-directory=\"/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a\" --avoid-dynamic-library-copy --tool-chain-path=\"/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"/home/valter/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Tools/MapFileParser/MapFileParser\" --directory=\"/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed\" --generatedcppdir=\"/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput\"",
+      "Annotation": "Il2Cpp /home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so",
+      "Action": "\"/home/valter/UnityHub/2020.3.20f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARMv7\" --configuration=\"Release\" --outputpath=\"/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so\" --cachedirectory=\"/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Assets/../Library/il2cpp_android_armeabi-v7a/il2cpp_cache\" --additional-include-directories=\"/home/valter/UnityHub/2020.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include\" --additional-include-directories=\"/home/valter/UnityHub/2020.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include\" --baselib-directory=\"/home/valter/UnityHub/2020.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a\" --avoid-dynamic-library-copy --tool-chain-path=\"/home/valter/UnityHub/2020.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/MapFileParser/MapFileParser\" --directory=\"/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed\" --generatedcppdir=\"/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput\"",
       "Inputs": [
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Android.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Common.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Core.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/System.Xml.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/System.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Unity.2D.IK.Runtime.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Unity.TextMeshPro.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Unity.Timeline.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.DirectorModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.ParticleSystemModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SubsystemsModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextCoreModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.VRModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.XRModule.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll",
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll"
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Android.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Common.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.Core.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/GoogleMobileAds.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/System.Xml.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/System.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Unity.2D.IK.Runtime.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Unity.TextMeshPro.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/Unity.Timeline.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.DirectorModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.ImageConversionModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.VRModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.XRModule.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll",
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
+        "/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/MapFileParser/MapFileParser",
+        "/home/valter/UnityHub/2020.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a/baselib.a",
+        "/home/valter/UnityHub/2020.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a/libunityruntime.a",
+        "\"/home/valter/UnityHub/2020.3.20f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
       ],
       "Outputs": [
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so"
+        "/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so"
       ],
-      "TargetDirectories": [
-        "/home/valter/Projects/git/ProtectThePrincess/ProtectThePrincess/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput"
-      ],
+      "TargetDirectories": [],
       "PassIndex": 0,
-      "Deps": [],
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
       "OverwriteOutputs": false,
       "FrontendResponseFiles": [],
       "AllowUnexpectedOutput": true,
@@ -78,6 +83,15 @@
   "FileSignatures": [
     {
       "File": "../../../../../../../../Library"
+    },
+    {
+      "File": "../../../../../../../../UnityHub/2020.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
+    },
+    {
+      "File": "../../../../../../../../UnityHub/2020.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
+    },
+    {
+      "File": "../../../../../../../../UnityHub/2020.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a"
     },
     {
       "File": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
@@ -95,6 +109,10 @@
   "GlobSignatures": [
     {
       "Path": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
+    },
+    {
+      "Path": "../../../../../../../../UnityHub/2020.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a",
+      "Recurse": 1
     }
   ],
   "ContentDigestExtensions": [
@@ -115,6 +133,7 @@
   "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
   "DigestCacheFileName": "artifacts/tundra.digestcache",
   "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [],
         "NamedNodes": {
           "all_tundra_nodes": 0
         }

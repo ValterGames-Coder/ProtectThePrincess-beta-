@@ -621,8 +621,6 @@ struct UnmanagedMemoryStream_tCF65E90F0047A6F54D79A6A5E681BC98AE6C2F62;
 struct UnobservedTaskExceptionEventArgs_t413C54706A9A73531F54F8216DF12027AFC63A41;
 // System.Runtime.CompilerServices.UnsafeValueTypeAttribute
 struct UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC;
-// System.Security.UnverifiableCodeAttribute
-struct UnverifiableCodeAttribute_t709DF099A2A5F1145E77A92F073B30E118DEEEAC;
 // System.Runtime.Serialization.Formatters.Binary.ValueFixup
 struct ValueFixup_tC77C04E866B11B933EA679427EAA4087F6CB069E;
 // System.ValueType
@@ -6457,15 +6455,6 @@ public:
 
 // System.Runtime.CompilerServices.UnsafeValueTypeAttribute
 struct UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
-{
-public:
-
-public:
-};
-
-
-// System.Security.UnverifiableCodeAttribute
-struct UnverifiableCodeAttribute_t709DF099A2A5F1145E77A92F073B30E118DEEEAC  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
 {
 public:
 
@@ -21026,22 +21015,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeValueTypeAttribute__ctor_mA5A3D444
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void System.Security.UnverifiableCodeAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnverifiableCodeAttribute__ctor_mF74E1B2B66C83F9382A0F1FAA2D1320E26AE17B2 (UnverifiableCodeAttribute_t709DF099A2A5F1145E77A92F073B30E118DEEEAC * __this, const RuntimeMethod* method)
-{
-	{
-		Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Security.Cryptography.RNGCryptoServiceProvider System.Security.Cryptography.Utils::get_StaticRandomNumberGenerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RNGCryptoServiceProvider_t696D1B0DFED446BE4718F7E18ABFFBB6E5A8A5A1 * Utils_get_StaticRandomNumberGenerator_m727EF60A60E7F126532A7847FBA23A2AD90BF9B5 (const RuntimeMethod* method)
 {
@@ -24827,7 +24800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WaitHandle_WaitAny_mAF242806D6DDA2794
 	{
 		double L_0;
 		L_0 = TimeSpan_get_TotalMilliseconds_m97368AE0609D865EB2A6BAE96AAA97AF8BDBF1C5((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&___timeout1), /*hidden argument*/NULL);
-		V_0 = ((int64_t)((int64_t)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int64_t>(L_0);
 		int64_t L_1 = V_0;
 		if ((((int64_t)((int64_t)((int64_t)(-1)))) > ((int64_t)L_1)))
 		{

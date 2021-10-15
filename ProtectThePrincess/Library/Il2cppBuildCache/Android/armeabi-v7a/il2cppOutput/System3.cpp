@@ -22609,7 +22609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Match_t8CC0A47F766954F17AD4D1C1597754C8F57646
 	{
 		double L_5;
 		L_5 = TimeSpan_get_TotalMilliseconds_m97368AE0609D865EB2A6BAE96AAA97AF8BDBF1C5((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&___timeout7), /*hidden argument*/NULL);
-		G_B3_0 = ((int32_t)((int32_t)((double)il2cpp_codegen_add((double)L_5, (double)(0.5)))));
+		G_B3_0 = il2cpp_codegen_cast_double_to_int<int32_t>(((double)il2cpp_codegen_add((double)L_5, (double)(0.5))));
 		G_B3_1 = G_B1_0;
 		goto IL_0046;
 	}
@@ -22621,7 +22621,7 @@ IL_0038:
 		V_3 = L_6;
 		double L_7;
 		L_7 = TimeSpan_get_TotalMilliseconds_m97368AE0609D865EB2A6BAE96AAA97AF8BDBF1C5((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_3), /*hidden argument*/NULL);
-		G_B3_0 = ((int32_t)((int32_t)L_7));
+		G_B3_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_7);
 		G_B3_1 = G_B2_0;
 	}
 

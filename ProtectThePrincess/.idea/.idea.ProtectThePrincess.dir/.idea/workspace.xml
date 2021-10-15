@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="220f1ce1-91e9-471b-808e-0a3a5a1edc4e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Ads System/AdsInitializ.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1zJIhDxe3MgsrC8guDq1SSOuyE0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="220f1ce1-91e9-471b-808e-0a3a5a1edc4e" name="Default Changelist" comment="" />
+      <created>1633859881946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633859881946</updated>
+      <workItem from="1633859888936" duration="198000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="482" y="241" width="1205" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633860075846">
+      <screen x="0" y="27" width="2048" height="1125" />
+    </state>
+    <state x="482" y="241" width="1205" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.2048.1125@0.27.2048.1125" timestamp="1633860075846" />
+    <state x="923" y="125" width="1125" height="945" key="SettingsEditor" timestamp="1633860048692">
+      <screen x="0" y="27" width="2048" height="1125" />
+    </state>
+    <state x="923" y="125" width="1125" height="945" key="SettingsEditor/0.27.2048.1125@0.27.2048.1125" timestamp="1633860048692" />
+  </component>
+</project>

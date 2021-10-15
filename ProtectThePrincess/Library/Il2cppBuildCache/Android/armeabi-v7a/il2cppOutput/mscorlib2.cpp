@@ -515,8 +515,6 @@ struct ContinuationTaskFromTask_t23C1DF464E2CDA196AA0003E869016CEAE11049E;
 struct Contraction_tF86B7E5A40F48611CB1245D2A9E7DD926F1E01FA;
 // Mono.Globalization.Unicode.ContractionComparer
 struct ContractionComparer_t2065A7932E4721614DDC9CDC01C19267120F04D5;
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-struct CriticalFinalizerObject_tA3367C832FFE7434EB3C15C7136AF25524150997;
 // System.Runtime.Remoting.Contexts.CrossContextDelegate
 struct CrossContextDelegate_t12C7A08ED124090185A3E209E6CA9E28148A7682;
 // System.Globalization.CultureData
@@ -3772,15 +3770,6 @@ public:
 		___typeofMarshalByRefObject_46 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___typeofMarshalByRefObject_46), (void*)value);
 	}
-};
-
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-struct CriticalFinalizerObject_tA3367C832FFE7434EB3C15C7136AF25524150997  : public RuntimeObject
-{
-public:
-
-public:
 };
 
 
@@ -8048,15 +8037,6 @@ public:
 };
 
 
-// System.Security.Permissions.SecurityAttribute
-struct SecurityAttribute_tB471CCD1C8F5D885AC2FD10483CB9C1BA3C9C922  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
-{
-public:
-
-public:
-};
-
-
 // System.Runtime.Remoting.ServerIdentity
 struct ServerIdentity_t5689BF0CA0122A8E597C9900D39F11F07D79D3A8  : public Identity_t640A44175E23F75AB432A7C00569D863BF48AAD5
 {
@@ -11284,15 +11264,6 @@ public:
 		____targetThis_12 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&____targetThis_12), (void*)value);
 	}
-};
-
-
-// System.Security.Permissions.CodeAccessSecurityAttribute
-struct CodeAccessSecurityAttribute_tDFD5754F85D0138CA98EAA383EA7D50B5503C319  : public SecurityAttribute_tB471CCD1C8F5D885AC2FD10483CB9C1BA3C9C922
-{
-public:
-
-public:
 };
 
 
@@ -23794,14 +23765,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ClientIdentity_get_TargetUri_m39AC3
 		return L_1;
 	}
 }
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -39043,7 +39006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Convert_ToInt32_m02AB1E28E0CF98A2F89E
 	}
 	{
 		double L_2 = ___value0;
-		V_0 = ((int32_t)((int32_t)L_2));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_2);
 		double L_3 = ___value0;
 		int32_t L_4 = V_0;
 		V_1 = ((double)il2cpp_codegen_subtract((double)L_3, (double)((double)((double)L_4))));
@@ -39090,7 +39053,7 @@ IL_0043:
 	}
 	{
 		double L_11 = ___value0;
-		V_2 = ((int32_t)((int32_t)L_11));
+		V_2 = il2cpp_codegen_cast_double_to_int<int32_t>(L_11);
 		double L_12 = ___value0;
 		int32_t L_13 = V_2;
 		V_3 = ((double)il2cpp_codegen_subtract((double)L_12, (double)((double)((double)L_13))));
@@ -39702,7 +39665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Convert_ToInt64_m72C3430B5EAFCA595203
 		double L_1;
 		L_1 = bankers_round(L_0);
 		if (L_1 > (double)((std::numeric_limits<int64_t>::max)())) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), Convert_ToInt64_m72C3430B5EAFCA5952038A56340DAF4E5D8A2908_RuntimeMethod_var);
-		return ((int64_t)((int64_t)L_1));
+		return il2cpp_codegen_cast_double_to_int<int64_t>(L_1);
 	}
 }
 // System.Int64 System.Convert::ToInt64(System.Decimal)
@@ -44182,63 +44145,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Converter__cctor_mE8E4BE3115E04D07519CEF
 		Type_t * L_81;
 		L_81 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_80, /*hidden argument*/NULL);
 		((Converter_t731F4A747D9F210BB63F96DB43AA8CAB20342E03_StaticFields*)il2cpp_codegen_static_fields_for(Converter_t731F4A747D9F210BB63F96DB43AA8CAB20342E03_il2cpp_TypeInfo_var))->set_typeofMarshalByRefObject_46(L_81);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Runtime.ConstrainedExecution.CriticalFinalizerObject::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriticalFinalizerObject__ctor_mB2B61C36ED7031FDCD35E835B7FB94CE326F67D9 (CriticalFinalizerObject_tA3367C832FFE7434EB3C15C7136AF25524150997 * __this, const RuntimeMethod* method)
-{
-	{
-		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void System.Runtime.ConstrainedExecution.CriticalFinalizerObject::Finalize()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriticalFinalizerObject_Finalize_m74EDAAC1806CF742F4016552520D67EB88606F72 (CriticalFinalizerObject_tA3367C832FFE7434EB3C15C7136AF25524150997 * __this, const RuntimeMethod* method)
-{
-	Exception_t * __last_unhandled_exception = 0;
-	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		IL2CPP_LEAVE(0x9, FINALLY_0002);
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_0002;
-	}
-
-FINALLY_0002:
-	{ // begin finally (depth: 1)
-		Object_Finalize_mC59C83CF4F7707E425FFA6362931C25D4C36676A(__this, /*hidden argument*/NULL);
-		IL2CPP_END_FINALLY(2)
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(2)
-	{
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x9, IL_0009)
-	}
-
-IL_0009:
-	{
 		return;
 	}
 }

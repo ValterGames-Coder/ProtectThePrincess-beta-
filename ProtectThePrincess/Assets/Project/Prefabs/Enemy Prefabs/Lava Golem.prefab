@@ -254,7 +254,7 @@ MonoBehaviour:
   maxHealth: 0
   _colorDied: {r: 1, g: 0.1528954, b: 0.0039063096, a: 0}
   _money: {fileID: 7346265761462387455, guid: 688cda28c215bee26b7804ff7f8e2bd1, type: 3}
-  _howManyMoney: 0
+  _howManyMoneyMax: 15
 --- !u!114 &4990178530731769722
 MonoBehaviour:
   m_ObjectHideFlags: 0

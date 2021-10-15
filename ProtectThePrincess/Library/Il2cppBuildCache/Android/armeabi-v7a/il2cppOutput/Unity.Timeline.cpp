@@ -24758,7 +24758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DiscreteTime_DoubleToDiscreteTime_mB3
 	{
 		// return (Int64)number;
 		double L_3 = V_0;
-		return ((int64_t)((int64_t)L_3));
+		return il2cpp_codegen_cast_double_to_int<int64_t>(L_3);
 	}
 
 IL_0031:
@@ -24794,7 +24794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DiscreteTime_FloatToDiscreteTime_mFE9
 	{
 		// return (Int64)number;
 		float L_3 = V_0;
-		return ((int64_t)((int64_t)L_3));
+		return il2cpp_codegen_cast_double_to_int<int64_t>(L_3);
 	}
 
 IL_0021:
@@ -31201,7 +31201,7 @@ IL_000a:
 		Playable_tC24692CDD1DD8F1D5C646035A76D2830A70214E2  L_17 = ___playable0;
 		double L_18;
 		L_18 = PlayableExtensions_GetDuration_TisPlayable_tC24692CDD1DD8F1D5C646035A76D2830A70214E2_m891A55D4BEA5B341FA24B90FDB4280FE8F2A052E(L_17, /*hidden argument*/PlayableExtensions_GetDuration_TisPlayable_tC24692CDD1DD8F1D5C646035A76D2830A70214E2_m891A55D4BEA5B341FA24B90FDB4280FE8F2A052E_RuntimeMethod_var);
-		V_3 = ((int32_t)((int32_t)((double)((double)((double)il2cpp_codegen_subtract((double)((double)((double)((float)il2cpp_codegen_multiply((float)L_14, (float)L_15)))), (double)L_16))/(double)L_18))));
+		V_3 = il2cpp_codegen_cast_double_to_int<int32_t>(((double)((double)((double)il2cpp_codegen_subtract((double)((double)((double)((float)il2cpp_codegen_multiply((float)L_14, (float)L_15)))), (double)L_16))/(double)L_18)));
 		// for (var i = 0; i < nFullTimelines; i++)
 		V_4 = 0;
 		goto IL_0085;
@@ -31819,7 +31819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TimeUtility_ToFrames_mDD792271F3C85EC
 		IL2CPP_RUNTIME_CLASS_INIT(Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var);
 		double L_13;
 		L_13 = ceil(((double)il2cpp_codegen_subtract((double)((double)il2cpp_codegen_multiply((double)L_10, (double)L_11)), (double)L_12)));
-		return ((int32_t)((int32_t)L_13));
+		return il2cpp_codegen_cast_double_to_int<int32_t>(L_13);
 	}
 
 IL_0048:
@@ -31831,7 +31831,7 @@ IL_0048:
 		IL2CPP_RUNTIME_CLASS_INIT(Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var);
 		double L_17;
 		L_17 = floor(((double)il2cpp_codegen_add((double)((double)il2cpp_codegen_multiply((double)L_14, (double)L_15)), (double)L_16)));
-		return ((int32_t)((int32_t)L_17));
+		return il2cpp_codegen_cast_double_to_int<int32_t>(L_17);
 	}
 }
 // System.Double UnityEngine.Timeline.TimeUtility::ToExactFrames(System.Double,System.Double)
@@ -32000,14 +32000,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double TimeUtility_RoundToFrame_m31AF775FDDDE
 		double L_3;
 		L_3 = floor(((double)il2cpp_codegen_multiply((double)L_1, (double)L_2)));
 		double L_4 = ___frameRate1;
-		V_0 = ((double)((double)((double)((double)((int32_t)((int32_t)L_3))))/(double)L_4));
+		V_0 = ((double)((double)((double)((double)il2cpp_codegen_cast_double_to_int<int32_t>(L_3)))/(double)L_4));
 		// var frameAfter = (int)Math.Ceiling(time * frameRate) / frameRate;
 		double L_5 = ___time0;
 		double L_6 = ___frameRate1;
 		double L_7;
 		L_7 = ceil(((double)il2cpp_codegen_multiply((double)L_5, (double)L_6)));
 		double L_8 = ___frameRate1;
-		V_1 = ((double)((double)((double)((double)((int32_t)((int32_t)L_7))))/(double)L_8));
+		V_1 = ((double)((double)((double)((double)il2cpp_codegen_cast_double_to_int<int32_t>(L_7)))/(double)L_8));
 		// return Math.Abs(time - frameBefore) < Math.Abs(time - frameAfter) ? frameBefore : frameAfter;
 		double L_9 = ___time0;
 		double L_10 = V_0;
@@ -32124,7 +32124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TimeUtility_TimeAsTimeCode_mCD493D8
 		IL2CPP_RUNTIME_CLASS_INIT(Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var);
 		double L_2;
 		L_2 = fabs(L_1);
-		V_0 = ((int32_t)((int32_t)L_2));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_2);
 		// int hours = intTime / 3600;
 		int32_t L_3 = V_0;
 		V_1 = ((int32_t)((int32_t)L_3/(int32_t)((int32_t)3600)));
@@ -32235,7 +32235,7 @@ IL_00b9:
 		L_25 = log10(L_24);
 		double L_26;
 		L_26 = floor(((double)il2cpp_codegen_add((double)L_25, (double)(1.0))));
-		V_6 = ((int32_t)((int32_t)L_26));
+		V_6 = il2cpp_codegen_cast_double_to_int<int32_t>(L_26);
 		// string frames = (ToFrames(timeValue, frameRate) - ToFrames(intTime, frameRate)).ToString().PadLeft(frameDigits, '0');
 		double L_27 = ___timeValue0;
 		double L_28 = ___frameRate1;

@@ -12,7 +12,8 @@ public class Health : MonoBehaviour
     [Header("Money prefab")]
     [SerializeField] private GameObject _money; // Монета
     [Header("How many money spawn")]
-    [SerializeField, Range(0, 15)] private float _howManyMoney; // Количество монет для спавна
+    [SerializeField, Range(0, 15)] private float _howManyMoneyMax;
+    private float _howManyMoney; // Количество монет для спавна
     private bool Die;
     private Rigidbody2D _rigibody;
 
@@ -22,7 +23,7 @@ public class Health : MonoBehaviour
         if (gameObject.name == "Tower") health = FindObjectOfType<Defender>().item.healthTower; // Настройки башни
         maxHealth = health; // Максимальное здоровье равняется 
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключаем компонент
-        _howManyMoney = Random.Range(1, 10); //Выбираем количество монет
+        _howManyMoney = Random.Range(1, _howManyMoneyMax); //Выбираем количество монет
     }
 
     private void Update()

@@ -15,6 +15,7 @@ public class ChangeManager : MonoBehaviour
         Time.timeScale = 1f;  
         _levelToLoad = level;  
         _animator.SetTrigger("Fade");
+        PlayerPrefs.Save();
     }
 
     public void Complete()

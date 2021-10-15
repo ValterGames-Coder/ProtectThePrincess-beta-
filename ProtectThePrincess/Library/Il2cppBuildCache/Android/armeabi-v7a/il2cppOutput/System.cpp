@@ -31859,7 +31859,7 @@ IL_0173:
 				int32_t L_58;
 				L_58 = Math_Min_m4C6E1589800A3AA57C1F430C3903847E8D7B4574(L_56, L_57, /*hidden argument*/NULL);
 				int32_t L_59;
-				L_59 = Math_Min_m4C6E1589800A3AA57C1F430C3903847E8D7B4574(((int32_t)((int32_t)((float)il2cpp_codegen_multiply((float)((float)((float)L_54)), (float)L_55)))), ((int32_t)il2cpp_codegen_subtract((int32_t)L_58, (int32_t)1)), /*hidden argument*/NULL);
+				L_59 = Math_Min_m4C6E1589800A3AA57C1F430C3903847E8D7B4574(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply((float)((float)((float)L_54)), (float)L_55))), ((int32_t)il2cpp_codegen_subtract((int32_t)L_58, (int32_t)1)), /*hidden argument*/NULL);
 				V_12 = L_59;
 				int32_t L_60 = V_5;
 				int32_t L_61 = V_12;
