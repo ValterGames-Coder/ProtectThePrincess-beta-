@@ -81,6 +81,9 @@ TagManager:
   - name: Spider
     uniqueID: 669305489
     locked: 0
+  - name: Goblin
+    uniqueID: 2992991091
+    locked: 0
   - name: World UI
     uniqueID: 680286125
     locked: 0

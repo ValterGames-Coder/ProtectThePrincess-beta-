@@ -1,6 +1,9 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using GooglePlayGames;
+using GooglePlayGames.BasicApi;
+using UnityEngine.SocialPlatforms;
 
 public class SpawnerEnemies : MonoBehaviour
 {
@@ -21,6 +24,9 @@ public class SpawnerEnemies : MonoBehaviour
     [SerializeField] private GameObject _panelWin, _panelLose; // Панель победы, паенль проигрыша 
 
     private float[] _firstProbabitilies = {95, 40, 5, 0};
+    
+    private const string _leaderBoard = "CgkIm8OJz4YMEAIQAQ";
+    private int _wins;
 
     private void Start()
     {
@@ -32,6 +38,22 @@ public class SpawnerEnemies : MonoBehaviour
         else endWave = Random.Range(5, 8); // Выбираем сколько будет всего волн
         _timeToSpawn = _startTimeToSpawn; // Настраиваем время 
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключание очков 
+        
+        _wins = PlayerPrefs.GetInt("Wins");
+
+        PlayGamesPlatform.DebugLogEnabled = true;
+        PlayGamesPlatform.Activate();
+        Social.localUser.Authenticate(succes =>
+        {
+            if (succes)
+            {
+
+            }
+            else
+            {
+
+            }
+        });
     }
 
     private void Update()
@@ -84,6 +106,8 @@ public class SpawnerEnemies : MonoBehaviour
         {
             FindObjectOfType<SpeedUpTime>().speedUpTime = false;
             _panelWin.SetActive(true); // Включаем панель выиграша 
+            PlayerPrefs.SetInt("Wins", PlayerPrefs.GetInt("Wins") + 1);
+            Social.ReportScore(_wins, _leaderBoard, (bool succes) => { });
             TimeScale();
         }
         else if (lose && !FindObjectOfType<TransitionsManager>().pause) // Если проиграли 
@@ -109,7 +133,7 @@ public class SpawnerEnemies : MonoBehaviour
         {
             int randomEnemy = Random.Range(0, _prefabEnemies.Length); // Выбираем рандомного врага
             float probability = Random.Range(0, 100); // Рандомная вероятность
-            if (probability <= _probabilities[randomEnemy]) // Если она меньше или равна вероятности выпадения
+            if (probability <= _probabilities[randomEnemy] && _prefabEnemies[randomEnemy].GetComponent<Enemy>().startWave <= wave) // Если она меньше или равна вероятности выпадения
             {
                 int radnomPosition = Random.Range(0, _spawnPositions.Length); // Выбираем рандомную позицию
                 Instantiate(_prefabEnemies[randomEnemy], _spawnPositions[radnomPosition].position,

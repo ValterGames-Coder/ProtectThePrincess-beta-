@@ -694,6 +694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 1.5
+  startWave: 1
 --- !u!50 &8705257532631421306
 Rigidbody2D:
   serializedVersion: 4
