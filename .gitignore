@@ -58,3 +58,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+*.so
+*.so
+ProtectThePrincess/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.dbg.so
+ProtectThePrincess/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.sym.so
