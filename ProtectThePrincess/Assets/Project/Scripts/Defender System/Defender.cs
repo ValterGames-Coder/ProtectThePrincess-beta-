@@ -61,13 +61,12 @@ public class Defender : MonoBehaviour
         BulletRotation(); // Прицеливание
         AttackAnimation();
         WhereToLook(); // Поворот защитника
-        _zonePosition.z = 0;
     }
 
     private void WhereToLook()
     {
         int state = Camera.main.GetComponent<SwipeCamera>().state; // Получаем инфу и месте камеры
-        _zonePosition.z = -10;
+        _zonePosition.z = 0;
         if (gameObject.name == "RightDefender") // Если это правый защитник
         {
             if (state == 0) // Если камера на месте, то защитник смотрит в свою сторону
@@ -158,10 +157,8 @@ public class Defender : MonoBehaviour
     {
         if (GetClosetEnemy() != null) // Если есть ближайщий враг
         {
-            Debug.Log("Not null");    
             if (_timeAttack <= 0f) // Если время закончено
             {
-                Debug.Log("Attack");
                 _audio.Play();
                 _animators[_index].GetComponent<Animator>().SetTrigger("Attack");
                 _timeAttack = _startTimeAttack; // Время возращаем
