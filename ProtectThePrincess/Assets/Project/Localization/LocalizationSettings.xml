@@ -231,6 +231,13 @@
            <DE>Zauberer</DE>
       </Translates>
   </Key>
+  <Key Name="Miner">
+      <Translates>
+           <EN>Miner</EN>
+           <RU>Шахтёр</RU>
+           <DE>Miner</DE>
+      </Translates>
+  </Key>
   <Key Name="1">
       <Translates>
            <EN>To build a fence, click on the + and select one of the possible fences</EN>
