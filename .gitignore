@@ -60,4 +60,4 @@ sysinfo.txt
 crashlytics-build.properties
 *.so
 *.so
-*libil2cpp.sym.so
+*.sym.so
