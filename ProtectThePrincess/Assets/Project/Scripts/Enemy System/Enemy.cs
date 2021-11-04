@@ -41,5 +41,9 @@ public class Enemy : MonoBehaviour
             _enemyNotification.SetActive(false, "leftNotification"); // Иначе выключаем 
             _enemyNotification.SetActive(false, "rightNotification"); // Иначе выключаем 
         }
+        if(FindObjectOfType<SpawnerEnemies>().lose)
+    	{
+    	    Destroy(gameObject);
+    	}
     }
 }

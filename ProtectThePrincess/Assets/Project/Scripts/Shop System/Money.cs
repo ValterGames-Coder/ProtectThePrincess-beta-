@@ -23,7 +23,7 @@ public class Money : MonoBehaviour
                 Vector2.MoveTowards(transform.position, _uiPosition, Random.Range(25f, 40f) * Time.deltaTime); // Если можем лететь, летим
             GetComponent<Collider2D>().enabled = false;
         }
-        if (_uiPosition.x - transform.position.x <= 0.5f && _uiPosition.y - transform.position.y <= 0.5f) // Если позиция меньше или равняеться 0.5
+        if (_uiPosition.x - transform.position.x <= 0.5f && _uiPosition.y - transform.position.y <= 0.5f || FindObjectOfType<SpawnerEnemies>().win || FindObjectOfType<SpawnerEnemies>().lose) // Если позиция меньше или равняеться 0.5
         {
             Destroy(gameObject); // Уничтожаем монету
             GameObject.Find("MoneyImage").GetComponent<Animator>().SetTrigger("AddMoney");

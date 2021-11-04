@@ -14,8 +14,11 @@ public class AttackDefender : MonoBehaviour
     {
         try
         {
-            var position = _defender._attackPosition.position; // Позиция будет равна к позиции атаки 
-            Instantiate(_defender._bullet, new Vector2(position.x, position.y), _defender._attackPosition.rotation); // Создаём пулю
+            if(!FindObjectOfType<SpawnerEnemies>().win || !FindObjectOfType<SpawnerEnemies>().lose)
+            {
+                var position = _defender._attackPosition.position; // Позиция будет равна к позиции атаки 
+                Instantiate(_defender._bullet, new Vector2(position.x, position.y), _defender._attackPosition.rotation); // Создаём пулю
+            }
         }
         catch (Exception e)
         {

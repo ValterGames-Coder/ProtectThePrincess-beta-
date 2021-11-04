@@ -66,11 +66,14 @@ public class EnemyAttack : MonoBehaviour
     {
         try
         {
-            attack.gameObject.GetComponent<Health>().TakeDamage(_damage);
-            if (attack.CompareTag("Tower"))
+            if(!FindObjectOfType<SpawnerEnemies>().win || !FindObjectOfType<SpawnerEnemies>().lose)
             {
-                ShakeCameraController.instance.StartShake(.5f, .3f);
-                _audioAttack.Play();
+            	attack.gameObject.GetComponent<Health>().TakeDamage(_damage);
+            	if (attack.CompareTag("Tower"))
+           	{
+                    ShakeCameraController.instance.StartShake(.5f, .3f);
+                    _audioAttack.Play();
+            	}
             }
         }
         catch (Exception e) { Console.WriteLine(e); }

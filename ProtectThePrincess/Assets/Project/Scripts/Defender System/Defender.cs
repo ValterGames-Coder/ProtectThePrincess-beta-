@@ -131,9 +131,16 @@ public class Defender : MonoBehaviour
         zone = Physics2D.OverlapCircleAll(_zonePosition, _zoneRadius, _zoneMask); // Ищем всех в радиусе по слою врага
         for (int i = 0; i < zone.Length; i++) // Проходимся по врагам
         {
-            if (_enemies != null) if (!_enemies.Contains(zone[i].gameObject)) _enemies.Add(zone[i].gameObject); // Если в списке врагов его нет, то добавляем
+            if (_enemies != null)
+            {
+                if (!_enemies.Contains(zone[i].gameObject))
+                    _enemies.Add(zone[i].gameObject); // Если в списке врагов его нет, то добавляем
+                else if (!zone.Contains(_enemies[i].GetComponent<Collider2D>()))
+                {
+                    _enemies.Remove(_enemies[i].gameObject);
+                }
+            }
         }
-        if (_enemies != null && zone != null) if(_enemies.Count > zone.Length) _enemies.Remove(_enemies[zone.Length]); //Если в списке врагов больше чем в зоне, то удаляем последнего из списка
     }
 
     void BulletRotation()

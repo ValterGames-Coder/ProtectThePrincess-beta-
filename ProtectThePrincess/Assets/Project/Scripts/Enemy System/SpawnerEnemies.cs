@@ -108,13 +108,13 @@ public class SpawnerEnemies : MonoBehaviour
             _panelWin.SetActive(true); // Включаем панель выиграша 
             PlayerPrefs.SetInt("Wins", PlayerPrefs.GetInt("Wins") + 1);
             Social.ReportScore(_wins, _leaderBoard, (bool succes) => { });
-            TimeScale();
+            //TimeScale();
         }
         else if (lose && !FindObjectOfType<TransitionsManager>().pause) // Если проиграли 
         {
             FindObjectOfType<SpeedUpTime>().speedUpTime = false;
             _panelLose.SetActive(true); // Включаем панель проигрыша
-            TimeScale();
+            //TimeScale();
         }
     }
 
