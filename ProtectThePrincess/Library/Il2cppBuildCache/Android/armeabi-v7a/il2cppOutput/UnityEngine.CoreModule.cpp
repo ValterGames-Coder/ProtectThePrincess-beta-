@@ -8271,6 +8271,24 @@ public:
 };
 
 
+// UnityEngine.NetworkReachability
+struct NetworkReachability_t8F15310A11943C1C3752844598A796FB8EE2BFBC 
+{
+public:
+	// System.Int32 UnityEngine.NetworkReachability::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(NetworkReachability_t8F15310A11943C1C3752844598A796FB8EE2BFBC, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // System.Globalization.NumberStyles
 struct NumberStyles_t379EFBF2535E1C950DEC8042704BB663BF636594 
 {
@@ -16338,6 +16356,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_systemLanguage_m97271
 	int32_t icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
+// UnityEngine.NetworkReachability UnityEngine.Application::get_internetReachability()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_internetReachability_m039C30126BD989614BF2A4A3F33129177A95C61C (const RuntimeMethod* method)
+{
+	typedef int32_t (*Application_get_internetReachability_m039C30126BD989614BF2A4A3F33129177A95C61C_ftn) ();
+	static Application_get_internetReachability_m039C30126BD989614BF2A4A3F33129177A95C61C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_get_internetReachability_m039C30126BD989614BF2A4A3F33129177A95C61C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_internetReachability()");
+	int32_t icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
 // System.Void UnityEngine.Application::CallLowMemory()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_CallLowMemory_m508B1899F8865EC715FE37ACB500C98B370F7329 (const RuntimeMethod* method)
 {
@@ -20937,6 +20965,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC6
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Color__ctor_m679019E6084BF7A6F82590F66F5F695F6A50ECC5((&L_0), (1.0f), (0.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_1 = V_0;
+		return L_1;
+	}
+}
+// UnityEngine.Color UnityEngine.Color::get_gray()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  Color_get_gray_m34BEEC2EEF30819B433125EF748CE22BE17C9B6E (const RuntimeMethod* method)
+{
+	Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m679019E6084BF7A6F82590F66F5F695F6A50ECC5((&L_0), (0.5f), (0.5f), (0.5f), (1.0f), /*hidden argument*/NULL);
 		V_0 = L_0;
 		goto IL_001d;
 	}
@@ -28038,6 +28085,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072
 	_il2cpp_icall_func = (GameObject_Find_m20157C941F1A9DA0E33E0ACA1324FAA41C2B199B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::Find(System.String)");
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * icallRetVal = _il2cpp_icall_func(___name0);
 	return icallRetVal;
+}
+// UnityEngine.GameObject UnityEngine.GameObject::get_gameObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * GameObject_get_gameObject_mD5FFECF7C3AC5039E847DF7A8842478539B701D6 (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, const RuntimeMethod* method)
+{
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * V_0 = NULL;
+	{
+		V_0 = __this;
+		goto IL_0005;
+	}
+
+IL_0005:
+	{
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = V_0;
+		return L_0;
+	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -39285,6 +39347,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeLeakDetection_Initialize_m1A20F4DD
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
