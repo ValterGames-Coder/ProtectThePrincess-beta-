@@ -1,0 +1,42 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b3762f366c13ed2f3aa3d5f26ed3eae3
+# Starting compiling UnityEngine.UI.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7be459ec2a606cdcb95b88b0108f6844
+# Starting compiling Unity.InternalAPIEngineBridge.001.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-21fb057dbb5bada6e9ab4bbc74cf514b
+# Starting compiling Unity.2D.PixelPerfect.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8fd6fe6e3fb6729538e4d2735eb71cc2
+# Starting compiling Unity.RenderPipelines.Universal.Shaders.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8235cd1b31ec6c3debbd2ce80d78bf9a
+# Starting compiling Unity.Recorder.Base.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4d4cdeafccb3ebf1eac09378e9ed982f
+# Starting compiling Unity.Timeline.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f7f66d6623858588ba96b47c2b22a8b7
+# Starting compiling Unity.TextMeshPro.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b2712feaf035124e19a79b876485c025
+# Starting compiling Unity.RenderPipelines.Core.Runtime.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-366597c68c9ce228ea046f13e30e8010
+# Starting compiling Unity.RenderPipelines.Core.ShaderLibrary.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2346467af9990f35fb45480d1c75bc69
+# Starting compiling Unity.Mathematics.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ed4fa02116ba1e5ce8c303736f0198bf
+# Starting compiling Unity.2D.IK.Runtime.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d57a06eb359a216739f3070cb098dc37
+# Starting compiling Unity.2D.Animation.Triangle.Runtime.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-0629c28c702e79b218acc5a601396c57
+# Starting compiling Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a50b5d9ddb6f6cd46853241cd606d508
+# Starting compiling Unity.RenderPipeline.Universal.ShaderLibrary.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c574e74f074377e8db8cf4e51559a753
+# Starting compiling Unity.2D.Common.Runtime.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-500783336a61bd400ae33f42237f2c5c
+# Starting compiling Unity.Recorder.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7df0a8536e14839ef9661845ad078268
+# Starting compiling Unity.RenderPipelines.Universal.Runtime.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f7329b3ef9975a8ca8f4b47999350225
+# Starting compiling Unity.2D.Animation.Runtime.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-97028a87277c22b9388fcd65ad5d0360
+# Starting compiling Unity.2D.SpriteShape.Runtime.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d8692af3c5fd632b9b53b93055ea5838
+# Starting compiling Assembly-CSharp.dll
+/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-65658b8a220b07ca8ac6e96782397c8d

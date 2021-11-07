@@ -280,4 +280,18 @@
            <DE>Tippen Sie auf den Bildschirm, um mit dem Spielen zu beginnen</DE>
       </Translates>
   </Key>
+  <Key Name="WinButton">
+      <Translates>
+           <EN>Win</EN>
+           <RU>Победа</RU>
+           <DE>Sieg</DE>
+      </Translates>
+  </Key>
+  <Key Name="LoseButton">
+      <Translates>
+           <EN>Lose</EN>
+           <RU>Проигрышь</RU>
+           <DE>Verlieren</DE>
+      </Translates>
+  </Key>
 </Keys>

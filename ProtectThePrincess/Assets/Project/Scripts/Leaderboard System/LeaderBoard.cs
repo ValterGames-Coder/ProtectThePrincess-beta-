@@ -4,11 +4,14 @@ using UnityEngine;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
 using UnityEngine.SocialPlatforms;
+using UnityEngine.UI;
 
 public class LeaderBoard : MonoBehaviour
 {
+    [SerializeField] private Button _leaderBoardButton;
     void Start()
     {
+
         PlayGamesPlatform.DebugLogEnabled = true;
         PlayGamesPlatform.Activate();
         Social.localUser.Authenticate(succes =>
@@ -19,9 +22,10 @@ public class LeaderBoard : MonoBehaviour
             }
             else
             {
-
+                _leaderBoardButton.interactable = false; 
             }
         });
+     
     }
 
     public void ShowLeaderBoard()

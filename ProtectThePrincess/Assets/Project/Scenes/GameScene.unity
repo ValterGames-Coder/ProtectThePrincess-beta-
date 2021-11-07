@@ -1004,7 +1004,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44255472}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.34, y: -4.93, z: 0}
+  m_LocalPosition: {x: 7.91, y: -4.93, z: 0}
   m_LocalScale: {x: 0.9190923, y: 0.9190923, z: 0.9190923}
   m_Children: []
   m_Father: {fileID: 632487943}
@@ -16290,7 +16290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8886058595599696874, guid: b896c66104a4fc3d68c94b6562aa07c1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -103.72388
+      value: -103.72412
       objectReference: {fileID: 0}
     - target: {fileID: 9195753175235293396, guid: b896c66104a4fc3d68c94b6562aa07c1, type: 3}
       propertyPath: m_Color.b
@@ -16433,7 +16433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -135.59033, y: -131}
+  m_AnchoredPosition: {x: -135.59082, y: -131}
   m_SizeDelta: {x: 190.8677, y: 190.8677}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &408174529
@@ -18182,6 +18182,7 @@ GameObject:
   - component: {fileID: 567227990}
   - component: {fileID: 567227992}
   - component: {fileID: 567227991}
+  - component: {fileID: 567227993}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -18228,7 +18229,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lose
+  m_text: LoseButton
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
   m_sharedMaterial: {fileID: 1182201411578659277, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
@@ -18305,6 +18306,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567227989}
   m_CullTransparentMesh: 1
+--- !u!114 &567227993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567227989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &567472905
 GameObject:
   m_ObjectHideFlags: 0
@@ -21527,6 +21540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 803352863}
   - component: {fileID: 803352864}
+  - component: {fileID: 803352865}
   m_Layer: 0
   m_Name: WizardBackground_6
   m_TagString: Untagged
@@ -21599,6 +21613,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &803352865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803352862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7a66bf57933e1ad97beb457a38e5c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _followingTarget: {fileID: 519420032}
+  _parallaxStrenght: 0.5
+  _dasableVerticalParallax: 1
 --- !u!1 &812763872
 GameObject:
   m_ObjectHideFlags: 0
@@ -24979,6 +25008,7 @@ GameObject:
   - component: {fileID: 1143537022}
   - component: {fileID: 1143537024}
   - component: {fileID: 1143537023}
+  - component: {fileID: 1143537025}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -25025,7 +25055,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pause
+  m_text: PauseButton
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
   m_sharedMaterial: {fileID: 1182201411578659277, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
@@ -25102,6 +25132,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143537021}
   m_CullTransparentMesh: 1
+--- !u!114 &1143537025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143537021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1147537958
 GameObject:
   m_ObjectHideFlags: 0
@@ -28496,6 +28538,7 @@ GameObject:
   - component: {fileID: 1453857337}
   - component: {fileID: 1453857339}
   - component: {fileID: 1453857338}
+  - component: {fileID: 1453857340}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -28542,7 +28585,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Win
+  m_text: WinButton
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
   m_sharedMaterial: {fileID: 1182201411578659277, guid: 35d94f2ac45d328e7aaacd715c7f579a, type: 2}
@@ -28619,6 +28662,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1453857336}
   m_CullTransparentMesh: 1
+--- !u!114 &1453857340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453857336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480572ef11fe5e45cb21a818ec9c9643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1454815541
 GameObject:
   m_ObjectHideFlags: 0
@@ -29445,6 +29500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1496492538}
   - component: {fileID: 1496492539}
+  - component: {fileID: 1496492540}
   m_Layer: 0
   m_Name: MinerBackground_3
   m_TagString: Untagged
@@ -29517,6 +29573,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1496492540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496492537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7a66bf57933e1ad97beb457a38e5c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _followingTarget: {fileID: 519420032}
+  _parallaxStrenght: 0.5
+  _dasableVerticalParallax: 1
 --- !u!1 &1497414103
 GameObject:
   m_ObjectHideFlags: 0
@@ -34293,6 +34364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1805266613}
   - component: {fileID: 1805266614}
+  - component: {fileID: 1805266615}
   m_Layer: 0
   m_Name: MinerBackground_4
   m_TagString: Untagged
@@ -34353,7 +34425,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: -157859353528921484, guid: ad71bccb767ca936e9b58763a7b43bb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -34365,6 +34437,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1805266615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805266612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7a66bf57933e1ad97beb457a38e5c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _followingTarget: {fileID: 519420032}
+  _parallaxStrenght: 0.3
+  _dasableVerticalParallax: 1
 --- !u!1 &1812057033
 GameObject:
   m_ObjectHideFlags: 0
@@ -35569,7 +35656,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 445.11, y: -120.12}
+  m_AnchoredPosition: {x: 445.11, y: -120.12012}
   m_SizeDelta: {x: 420.21838, y: 103.34497}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1917895512
@@ -37340,7 +37427,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051588813}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.51, y: -4.93, z: 0}
+  m_LocalPosition: {x: 32.33, y: -4.93, z: 0}
   m_LocalScale: {x: 0.9190923, y: 0.9190923, z: 0.9190923}
   m_Children: []
   m_Father: {fileID: 632487943}
@@ -37668,6 +37755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2099457174}
   - component: {fileID: 2099457175}
+  - component: {fileID: 2099457176}
   m_Layer: 0
   m_Name: MinerBackground_10
   m_TagString: Untagged
@@ -37728,7 +37816,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: -5919508502853073462, guid: ad71bccb767ca936e9b58763a7b43bb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -37740,6 +37828,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2099457176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099457173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7a66bf57933e1ad97beb457a38e5c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _followingTarget: {fileID: 519420032}
+  _parallaxStrenght: 0.3
+  _dasableVerticalParallax: 1
 --- !u!1 &2129144870
 GameObject:
   m_ObjectHideFlags: 0

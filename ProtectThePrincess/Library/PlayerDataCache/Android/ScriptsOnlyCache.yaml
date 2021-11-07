@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - BuildsButtonsManager
     - Bullet
     - BuyButton
+    - CameraConstantWidth
     - CardBuildingItem
     - CardDefenderItem
     - ChangeManager
@@ -42,6 +43,8 @@ ScriptsOnlyBuild:
     - Tower
     - TransitionsManager
     - UpgradeButton
+    GoogleMobileAds.Common.dll:
+    - GoogleMobileAds.Common.MobileAdsEventExecutor
     GoogleMobileAds.Editor.dll:
     - GoogleMobileAds.Editor.GoogleMobileAdsSettings
     Unity.2D.Animation.Editor.dll:
@@ -106,12 +109,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Timeline.GroupTrack
     - UnityEngine.Timeline.MarkerTrack
     - UnityEngine.Timeline.TimelineAsset
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -255,15 +252,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7238}
     - Class: 114
-      Script: {instanceID: 7440}
+      Script: {instanceID: 7442}
     - Class: 114
-      Script: {instanceID: 7738}
+      Script: {instanceID: 7740}
     - Class: 114
-      Script: {instanceID: 7746}
+      Script: {instanceID: 7748}
     - Class: 114
-      Script: {instanceID: 7752}
+      Script: {instanceID: 7754}
     - Class: 114
-      Script: {instanceID: 8056}
+      Script: {instanceID: 8058}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -422,17 +419,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7440}
+      Script: {instanceID: 7442}
     - Class: 114
-      Script: {instanceID: 7734}
+      Script: {instanceID: 7736}
     - Class: 114
-      Script: {instanceID: 7798}
+      Script: {instanceID: 7800}
     - Class: 114
-      Script: {instanceID: 8090}
+      Script: {instanceID: 8092}
     - Class: 114
-      Script: {instanceID: 8146}
+      Script: {instanceID: 8148}
     - Class: 114
-      Script: {instanceID: 8404}
+      Script: {instanceID: 8406}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -527,13 +524,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7340}
     - Class: 114
-      Script: {instanceID: 7440}
+      Script: {instanceID: 7400}
     - Class: 114
-      Script: {instanceID: 7798}
+      Script: {instanceID: 7442}
     - Class: 114
-      Script: {instanceID: 8056}
+      Script: {instanceID: 7800}
     - Class: 114
-      Script: {instanceID: 8692}
+      Script: {instanceID: 8058}
+    - Class: 114
+      Script: {instanceID: 8694}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1723,6 +1722,12 @@ ScriptsOnlyBuild:
     className: TMP_TextEventHandler
   - hash:
       serializedVersion: 2
+      Hash: a61e78a78f07f79732ae8c13799c9bc4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraConstantWidth
+  - hash:
+      serializedVersion: 2
       Hash: 5b1b8dfaf27cd95f5114ff8f83ada282
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1795,7 +1800,7 @@ ScriptsOnlyBuild:
     className: UniversalAdditionalLightData
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 651e55afa863efc34980570f6386fed8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LeaderBoard
@@ -1973,4 +1978,4 @@ ScriptsOnlyBuild:
   - Assets/Project/Scenes/ShopScene.unity
   - Assets/Project/Scenes/GameScene.unity
   playerPath: /home/valter/Projects/AndroidBuilds/Protect the Princess/Protect the
-    Princess 0.2.aab
+    Princess 0.2.1.aab

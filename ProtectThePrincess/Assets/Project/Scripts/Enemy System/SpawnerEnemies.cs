@@ -22,6 +22,7 @@ public class SpawnerEnemies : MonoBehaviour
     public bool win, lose, timeIsOver, isWave, _firstWave = true; // Победа , проигрышь, волны ли, первая волна ли 
     [Header("Panels")]
     [SerializeField] private GameObject _panelWin, _panelLose; // Панель победы, паенль проигрыша 
+    private bool _addWin;
 
     private float[] _firstProbabitilies = {95, 40, 5, 0};
     
@@ -40,20 +41,8 @@ public class SpawnerEnemies : MonoBehaviour
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключание очков 
         
         _wins = PlayerPrefs.GetInt("Wins");
-
         PlayGamesPlatform.DebugLogEnabled = true;
         PlayGamesPlatform.Activate();
-        Social.localUser.Authenticate(succes =>
-        {
-            if (succes)
-            {
-
-            }
-            else
-            {
-
-            }
-        });
     }
 
     private void Update()
@@ -80,6 +69,10 @@ public class SpawnerEnemies : MonoBehaviour
                 if (wave + 1 == endWave) // Если это была последняя волна
                 {
                     win = true; // Победа!
+                    _wins++;
+                    PlayerPrefs.SetInt("Wins", _wins);
+                    if(_addWin == false) Social.ReportScore(_wins, _leaderBoard, (bool succes) => { });
+       	    _addWin = true;
                 }
                 isWave = false; // Волны нет
                 _timeToSpawn = Random.Range(_startTimeToSpawn, 10); //Рандомное время таймера
@@ -106,9 +99,6 @@ public class SpawnerEnemies : MonoBehaviour
         {
             FindObjectOfType<SpeedUpTime>().speedUpTime = false;
             _panelWin.SetActive(true); // Включаем панель выиграша 
-            PlayerPrefs.SetInt("Wins", PlayerPrefs.GetInt("Wins") + 1);
-            Social.ReportScore(_wins, _leaderBoard, (bool succes) => { });
-            //TimeScale();
         }
         else if (lose && !FindObjectOfType<TransitionsManager>().pause) // Если проиграли 
         {
