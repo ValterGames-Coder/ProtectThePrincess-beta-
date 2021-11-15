@@ -17,16 +17,24 @@ public class Health : MonoBehaviour
     private bool Die;
     private Rigidbody2D _rigibody;
 
-    private void Start()
+    void Start()
     {
         _rigibody = GetComponent<Rigidbody2D>();
-        if (gameObject.name == "Tower") health = FindObjectOfType<Defender>().item.healthTower; // Настройки башни
+        if (gameObject.name == "Tower")
+        {   
+            if (PlayerPrefs.HasKey("HealthTower" + 0) == false)
+            {
+                PlayerPrefs.SetInt("HealthTower" + 0, 100);        
+                print(PlayerPrefs.GetInt("HealthTower" + 0));
+            }
+            health = PlayerPrefs.GetInt("HealthTower" + 0); // Настройки башни
+        }
         maxHealth = health; // Максимальное здоровье равняется 
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключаем компонент
         _howManyMoney = Random.Range(1, _howManyMoneyMax); //Выбираем количество монет
     }
 
-    private void Update()
+    void Update()
     {
         if (health <= 0) // Если здововье меньше или равняется нулю
         {

@@ -24,7 +24,7 @@ public class SpawnerEnemies : MonoBehaviour
     [SerializeField] private GameObject _panelWin, _panelLose; // Панель победы, паенль проигрыша 
     private bool _addWin;
 
-    private float[] _firstProbabitilies = {95, 40, 5, 0};
+    public float[] _firstProbabitilies = {95, 40, 0, 0, 0};
     
     private const string _leaderBoard = "CgkIm8OJz4YMEAIQAQ";
     private int _wins;
@@ -69,10 +69,13 @@ public class SpawnerEnemies : MonoBehaviour
                 if (wave + 1 == endWave) // Если это была последняя волна
                 {
                     win = true; // Победа!
-                    _wins++;
-                    PlayerPrefs.SetInt("Wins", _wins);
-                    if(_addWin == false) Social.ReportScore(_wins, _leaderBoard, (bool succes) => { });
-       	    _addWin = true;
+                    if(_addWin == false) 
+                    {
+                    	_wins++;
+                    	PlayerPrefs.SetInt("Wins", _wins);
+                    	Social.ReportScore(PlayerPrefs.GetInt("Wins"), _leaderBoard, (bool succes) => { });
+                    	_addWin = true;
+                    }
                 }
                 isWave = false; // Волны нет
                 _timeToSpawn = Random.Range(_startTimeToSpawn, 10); //Рандомное время таймера
@@ -105,15 +108,6 @@ public class SpawnerEnemies : MonoBehaviour
             FindObjectOfType<SpeedUpTime>().speedUpTime = false;
             _panelLose.SetActive(true); // Включаем панель проигрыша
             //TimeScale();
-        }
-    }
-
-    void TimeScale()
-    {
-        if (!timeIsOver)
-        {
-            Time.timeScale = 0;
-            timeIsOver = !timeIsOver;
         }
     }
 

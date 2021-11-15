@@ -4,10 +4,11 @@ public class Bullet : MonoBehaviour
     [Header("Speed")]
     public float speed;
     [Header("Damage")]
-    [SerializeField] private float damage;
+    public float damage;
 
-    private void Start()
+    void Start()
     {
+        if(PlayerPrefs.HasKey("AttackForce") == true) damage = PlayerPrefs.GetFloat("AttackForce");
         Destroy(gameObject, 5); // Уничтажает через пять секунд после создания
     }
     void FixedUpdate()

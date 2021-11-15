@@ -9,7 +9,7 @@ public class DefenderItem : ScriptableObject
     public Sprite defenderSprite;
     [Header("Zone")]
     public Vector3 zonePosition;
-    [Range(-100, 100)] public float zoneRadius, min, max;
+    [Range(-100, 100)] public float zoneRadius, accuracy;
     //Атака 
     [Header("Attack")]
     public GameObject bullet;
@@ -20,7 +20,6 @@ public class DefenderItem : ScriptableObject
     public AudioClip attackAudio;
     [Header("Tower")] 
     public Sprite towerSprite;
-    public float healthTower;
     public Vector2 defenderPosition;
     public bool isHaveDoor;
     public Sprite doorSprite;

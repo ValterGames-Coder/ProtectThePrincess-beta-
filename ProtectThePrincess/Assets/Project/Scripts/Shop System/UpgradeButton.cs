@@ -15,18 +15,32 @@ public class UpgradeButton : MonoBehaviour
     [SerializeField] private Image _iconImage;
     [SerializeField] private Sprite _spriteImage;
     [SerializeField] private TMP_Text _priceText;
-    private int _priceIndex;
+    [SerializeField] private float _attackForce;
+    [SerializeField] private int _towerHealth;
+    [SerializeField] private GameObject _notFullUpgrade, _fullUpgrade, _button, _arrow;
 
     void Start()
     {
         _upgrade = PlayerPrefs.GetInt("Upgrade" + index); // Получаем инфу об апгрейде
-        _priceIndex = PlayerPrefs.GetInt("PriceIndex" + index);
+        _attackForce = PlayerPrefs.GetFloat("AttackForce" + index);
+        _towerHealth = PlayerPrefs.GetInt("HealthTower" + index);
         _iconImage.sprite = _spriteImage;
+        if (_upgrade == 5)
+        {
+            _notFullUpgrade.SetActive(false);
+            _fullUpgrade.SetActive(true);
+            _button.SetActive(false);
+        }
+        else
+        {
+            _notFullUpgrade.SetActive(true);
+            _fullUpgrade.SetActive(false);
+            _priceText.text = _priceList[_upgrade].ToString();
+        }
     }
 
     private void Update()
     {
-        _priceText.text = _priceList[_priceIndex].ToString();
         if (_upgrade == _upgradeList.Length || PlayerPrefs.GetInt("BuyDefender" + index) == 0 || FindObjectOfType<ShopManager>().money < _priceList[_upgrade]) // Если максимальныйц апгрецд или не куплен защитник или не хватает дене
         {
             transform.GetChild(0).GetComponent<Button>().interactable = false; // Кнопка выключена
@@ -51,16 +65,23 @@ public class UpgradeButton : MonoBehaviour
                 // Увеличиваем апгрейд
                 FindObjectOfType<ShopManager>().money -= _priceList[_upgrade]; // Вычитаем деньги
                 PlayerPrefs.SetInt("Money", FindObjectOfType<ShopManager>().money); // Сохраняем деньги
-                _defender.zoneRadius += _upgradeList[_upgrade]; // Улучшаем защитника
-                _defender.min += _upgradeList[_upgrade];
-                _defender.max -= _upgradeList[_upgrade];
-                _defender.startTimeAttack -= 0.2f;
-                _defender.healthTower += 2;
+                _attackForce = _upgradeList[_upgrade];
+                _arrow.GetComponent<Bullet>().damage = _attackForce;
+                PlayerPrefs.SetFloat("AttackForce" + index, _attackForce);
+                _towerHealth += Random.Range(5, 15);
+                PlayerPrefs.SetInt("HealthTower" + index, _towerHealth);
                 _upgrade++;
-                _priceIndex++;
-                PlayerPrefs.SetInt("PriceIndex" + index, _priceIndex);
                 PlayerPrefs.SetInt("Upgrade" + index, _upgrade); // Сохраняем апгрейд
+                _notFullUpgrade.SetActive(true);
+                _fullUpgrade.SetActive(false);
+                _priceText.text = _priceList[_upgrade].ToString();
+                PlayerPrefs.Save();
             }
+        }
+        else
+        {
+            _notFullUpgrade.SetActive(false);
+            _fullUpgrade.SetActive(true);
         }
     }
 

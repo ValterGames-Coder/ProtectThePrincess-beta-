@@ -38685,7 +38685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m645C0CF57E171C572F295A5DC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CUpdateU3Eb__26_0_mCE825058FAACB0248249C4A5470A657FC900AE23 (U3CU3Ec_tE2013EEB4062426CD468FA21BA2D98F3F99DD060 * __this, bool ___succes0, const RuntimeMethod* method)
 {
 	{
-		// if(_addWin == false) Social.ReportScore(_wins, _leaderBoard, (bool succes) => { });
+		// Social.ReportScore(PlayerPrefs.GetInt("Wins"), _leaderBoard, (bool succes) => { });
 		return;
 	}
 }

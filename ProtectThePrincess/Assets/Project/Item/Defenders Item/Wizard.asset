@@ -15,8 +15,7 @@ MonoBehaviour:
   defenderSprite: {fileID: 5334313739595688503, guid: f8ee8fb4a69ed60dc941a53fb651e18e, type: 3}
   zonePosition: {x: 5, y: -0.5, z: -10}
   zoneRadius: 6.1
-  min: -4.9
-  max: 4.9
+  accuracy: 12
   bullet: {fileID: 7105199156039522281, guid: 2c28ef2650e77aefe85ae69a3f5e2444, type: 3}
   attackPosition: {x: 0.62, y: -0.095}
   offset: 0
@@ -24,7 +23,6 @@ MonoBehaviour:
   force: 4
   attackAudio: {fileID: 8300000, guid: ceff371342771579a802fb94faf997df, type: 3}
   towerSprite: {fileID: 6559157972717091639, guid: 08cc7b25640dcb22995e88188f589f64, type: 3}
-  healthTower: 33
   defenderPosition: {x: 1.8, y: 1.95}
   isHaveDoor: 0
   doorSprite: {fileID: 0}

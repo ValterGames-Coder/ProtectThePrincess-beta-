@@ -15,7 +15,7 @@ public class Defender : MonoBehaviour
     public List<GameObject> _enemies;
     public Collider2D[] zone;
     [SerializeField] private Vector3 _zonePosition;
-    [Range(0, 100), SerializeField] private float _zoneRadius, min, max;
+    [Range(0, 100), SerializeField] private float _zoneRadius, accuracy;
     [SerializeField] private LayerMask _zoneMask;
     //Атака 
     [Header("Attack")]
@@ -46,8 +46,7 @@ public class Defender : MonoBehaviour
             transform.position = new Vector2(-item.defenderPosition.x, item.defenderPosition.y);
         }
         _zoneRadius = item.zoneRadius;
-        min = item.min;
-        max = item.max;
+        accuracy = item.accuracy;
         _bullet = item.bullet;
         _attackPosition.localPosition = item.attackPosition;
         _offset = item.offset;
@@ -147,10 +146,33 @@ public class Defender : MonoBehaviour
     {
         if (GetClosetEnemy() != null) // Если есть ближайщий враг
         {
+            int state = Camera.main.GetComponent<SwipeCamera>().state; // Получаем инфу и месте камеры
             Vector3 difference = GetClosetEnemy().position - _attackPosition.position; // Вычитаем позицию ближайего врага из позиции атаки
-            float rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg; // Узнаем поворот для пули 
+            float rotateZ = 0;
+            if (gameObject.name == "RightDefender") // Если это правый защитник
+            {
+                if (state == 0 || state == 1) // Если камера на месте, то защитник смотрит в свою сторону
+                {
+                    rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg + _offset - Random.Range(0, accuracy);
+                }
+                else if (state == -1) // Если камера смотрит налево, то защитник смотрит влево
+                {
+                    rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg + _offset + Random.Range(0, accuracy);
+                }
+            }
+            if (gameObject.name == "LeftDefender") // Если это левый защитник
+            {
+                if (state == 0 || state == -1) // Если камера на месте, то защитник смотрит в свою сторону
+                {
+                    rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg + _offset + Random.Range(0, accuracy);
+                }
+                else if (state == 1) // Если камера смотрит направо, то защитник смотрит вправо
+                {
+                    rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg + _offset - Random.Range(0, accuracy);
+                }
+            }
             _attackPosition.rotation = Quaternion.Euler(0f, 0f,
-                rotateZ + _offset - Random.Range(min, max)); // Разворачиваем позицию для атаки
+                rotateZ); // Разворачиваем позицию для атаки
         }
     }
 

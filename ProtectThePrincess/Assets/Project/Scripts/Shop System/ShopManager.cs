@@ -32,11 +32,6 @@ public class ShopManager : MonoBehaviour
         if(SceneManager.sceneCount != 1) money = PlayerPrefs.GetInt("Money");
         if (money < 0) money = 0; // Если монет меньше 0 то они будут равняться 0
         moneyText.text = money.ToString();
-        if (Input.GetKey(KeyCode.Space)) //Если клавиша Space нажата
-        {
-            money += 1; // +1 к монетам
-            PlayerPrefs.SetInt("Money", money); //Сохраняем значание 
-        }
         if (SceneManager.GetActiveScene().buildIndex == 2) // Если победа
         {
             if(FindObjectOfType<SpawnerEnemies>().win || FindObjectOfType<SpawnerEnemies>().lose) PlayerPrefs.SetInt("Money", money); // Сохраняем

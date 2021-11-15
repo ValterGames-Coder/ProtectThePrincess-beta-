@@ -836,7 +836,7 @@ PrefabInstance:
       objectReference: {fileID: -2741297246837535757, guid: 74a9d8e3685ded4c2a1d23d2d50b7cda, type: 3}
     - target: {fileID: 3792392196581253061, guid: ea3219cc166c4f60b99f4f5bdde292e0, type: 3}
       propertyPath: m_Name
-      value: Defender Button  (2)
+      value: Police
       objectReference: {fileID: 0}
     - target: {fileID: 6503641021180761579, guid: ea3219cc166c4f60b99f4f5bdde292e0, type: 3}
       propertyPath: m_Pivot.x
@@ -1704,13 +1704,14 @@ GameObject:
   - component: {fileID: 698003796}
   - component: {fileID: 698003798}
   - component: {fileID: 698003797}
+  - component: {fileID: 698003799}
   m_Layer: 5
   m_Name: FencingsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &698003796
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1730,7 +1731,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000039101, y: 149.96}
+  m_AnchoredPosition: {x: -0.000039101, y: 1427}
   m_SizeDelta: {x: 1840.6, y: 1339.9165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &698003797
@@ -1771,6 +1772,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698003795}
   m_CullTransparentMesh: 1
+--- !u!95 &698003799
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698003795}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2d562df929896e0a9b8f8aa2d06f52a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &703536446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1782,13 +1802,14 @@ GameObject:
   - component: {fileID: 703536447}
   - component: {fileID: 703536449}
   - component: {fileID: 703536448}
+  - component: {fileID: 703536450}
   m_Layer: 5
   m_Name: DefendersPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &703536447
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1808,7 +1829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 149.96}
+  m_AnchoredPosition: {x: 0, y: 1453}
   m_SizeDelta: {x: 1823.9353, y: 1339.9199}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &703536448
@@ -1849,6 +1870,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703536446}
   m_CullTransparentMesh: 1
+--- !u!95 &703536450
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703536446}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2d562df929896e0a9b8f8aa2d06f52a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &709293189
 GameObject:
   m_ObjectHideFlags: 0
@@ -2007,13 +2047,14 @@ GameObject:
   - component: {fileID: 719741292}
   - component: {fileID: 719741294}
   - component: {fileID: 719741293}
+  - component: {fileID: 719741295}
   m_Layer: 5
   m_Name: UpgradesPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &719741292
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2033,7 +2074,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 149.96}
+  m_AnchoredPosition: {x: 0, y: 1427}
   m_SizeDelta: {x: 1812.0386, y: 1339.9199}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &719741293
@@ -2074,6 +2115,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719741291}
   m_CullTransparentMesh: 1
+--- !u!95 &719741295
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719741291}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2d562df929896e0a9b8f8aa2d06f52a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &742386970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2324,7 +2384,7 @@ PrefabInstance:
       objectReference: {fileID: 5334313739595688503, guid: f8ee8fb4a69ed60dc941a53fb651e18e, type: 3}
     - target: {fileID: 3792392196581253061, guid: ea3219cc166c4f60b99f4f5bdde292e0, type: 3}
       propertyPath: m_Name
-      value: Defender Button  (3)
+      value: Wizard
       objectReference: {fileID: 0}
     - target: {fileID: 6503641021180761579, guid: ea3219cc166c4f60b99f4f5bdde292e0, type: 3}
       propertyPath: m_Pivot.x
@@ -2517,7 +2577,7 @@ PrefabInstance:
       objectReference: {fileID: -5941402026957439485, guid: 202c20271f966e9c6a92c4888c15bfa5, type: 3}
     - target: {fileID: 3792392196581253061, guid: ea3219cc166c4f60b99f4f5bdde292e0, type: 3}
       propertyPath: m_Name
-      value: Defender Button  (4)
+      value: Miner
       objectReference: {fileID: 0}
     - target: {fileID: 6503641021180761579, guid: ea3219cc166c4f60b99f4f5bdde292e0, type: 3}
       propertyPath: m_Pivot.x
@@ -2734,16 +2794,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 719741291}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 719741295}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: PanelDown
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &929735542
@@ -3449,7 +3509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: -0.000061035}
+  m_AnchoredPosition: {x: 0.000061035156, y: -0.000061035156}
   m_SizeDelta: {x: 0, y: -0.00012207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1100666264
@@ -3692,35 +3752,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6696999861636328128, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: m_Name
-      value: Upgrade Button  (2)
+      value: Police
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: index
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _arrow
+      value: 
+      objectReference: {fileID: 6038909856491985293, guid: 9b5ff27750a05706bafe3be6f4d6712d, type: 3}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _defender
       value: 
       objectReference: {fileID: 11400000, guid: a09e749e264c71839be6ef3edd990d4e, type: 2}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _attackForce
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _spriteImage
       value: 
       objectReference: {fileID: -2741297246837535757, guid: 74a9d8e3685ded4c2a1d23d2d50b7cda, type: 3}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _towerHealth
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _upgradeList.Array.data[0]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[1]
-      value: 0.2
+      value: 14.5
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[2]
-      value: 0.2
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[3]
-      value: 0.4
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[4]
-      value: 0.4
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8180956010509002368, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3950,16 +4026,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 698003795}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 698003799}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: PanelUp
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1168862799
@@ -4919,16 +4995,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 703536446}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 703536450}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: PanelDown
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!1001 &1327078818
@@ -4976,7 +5052,7 @@ PrefabInstance:
       objectReference: {fileID: 1747913851310489417, guid: 4970b1a5ace66275698f9af77fcf3798, type: 3}
     - target: {fileID: 3792392196581253061, guid: ea3219cc166c4f60b99f4f5bdde292e0, type: 3}
       propertyPath: m_Name
-      value: 'Defender Button '
+      value: Archer
       objectReference: {fileID: 0}
     - target: {fileID: 6503641021180761579, guid: ea3219cc166c4f60b99f4f5bdde292e0, type: 3}
       propertyPath: m_Pivot.x
@@ -5155,16 +5231,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 703536446}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 703536450}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: PanelUp
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1415816567
@@ -6045,35 +6121,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6696999861636328128, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: m_Name
-      value: Upgrade Button  (3)
+      value: Wizard
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: index
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _arrow
+      value: 
+      objectReference: {fileID: 7105199156039522281, guid: 2c28ef2650e77aefe85ae69a3f5e2444, type: 3}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _defender
       value: 
       objectReference: {fileID: 11400000, guid: f707187feb7a03df7bc6330a9807153a, type: 2}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _attackForce
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _spriteImage
       value: 
       objectReference: {fileID: 5334313739595688503, guid: f8ee8fb4a69ed60dc941a53fb651e18e, type: 3}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _towerHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _upgradeList.Array.data[0]
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[1]
-      value: 0.2
+      value: 21.5
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[2]
-      value: 0.3
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[3]
-      value: 0.5
+      value: 22.5
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[4]
-      value: 0.7
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8180956010509002368, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6311,16 +6403,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 698003795}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 698003799}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: PanelDown
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1525639484
@@ -6633,35 +6725,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6696999861636328128, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: m_Name
-      value: Upgrade Button  (4)
+      value: Miner
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: index
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _arrow
+      value: 
+      objectReference: {fileID: 3614967298722631635, guid: eb8dbd55f93330fdd924f3a32573275f, type: 3}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _defender
       value: 
       objectReference: {fileID: 11400000, guid: 3569508ee21071cf6b6588b17130a78b, type: 2}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _attackForce
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _spriteImage
       value: 
       objectReference: {fileID: -5941402026957439485, guid: 202c20271f966e9c6a92c4888c15bfa5, type: 3}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _towerHealth
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _upgradeList.Array.data[0]
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[1]
-      value: 0.2
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[2]
-      value: 0.3
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[3]
-      value: 0.5
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[4]
-      value: 0.7
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8180956010509002368, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -7000,22 +7108,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6696999861636328128, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: m_Name
-      value: Upgrade Button  (1)
+      value: Archer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _arrow
+      value: 
+      objectReference: {fileID: 3259418757433683261, guid: 41543f9dc4ac14a00adbb4c5bdefa3da, type: 3}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _accuracy
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _defender
       value: 
       objectReference: {fileID: 11400000, guid: 757ee583dfadfdc9a8878bd24b1b9a5e, type: 2}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _attackForce
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _spriteImage
       value: 
       objectReference: {fileID: 1747913851310489417, guid: 4970b1a5ace66275698f9af77fcf3798, type: 3}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _towerHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _upgradeList.Array.data[0]
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _upgradeList.Array.data[1]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _upgradeList.Array.data[2]
+      value: 12.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _upgradeList.Array.data[3]
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _upgradeList.Array.data[4]
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 8180956010509002368, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8388531777668605531, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8391595225755567824, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441807475045744212, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7487,31 +7639,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6696999861636328128, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: m_Name
-      value: 'Upgrade Button '
+      value: Knight
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: index
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _arrow
+      value: 
+      objectReference: {fileID: 9111622241039124888, guid: 0be0a827d5f834aaeafc1e0fd67f6471, type: 3}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _defender
       value: 
       objectReference: {fileID: 11400000, guid: d04e14ec838e5784facee1b35226fec7, type: 2}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _attackForce
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _spriteImage
       value: 
       objectReference: {fileID: 2970891327743047638, guid: d0492d62942bdc6d99a793a8be452c0c, type: 3}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _towerHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _upgradeList.Array.data[0]
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
+      propertyPath: _upgradeList.Array.data[1]
+      value: 16.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[2]
-      value: 0.3
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[3]
-      value: 0.4
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[4]
-      value: 0.6
+      value: 19.5
       objectReference: {fileID: 0}
     - target: {fileID: 8180956010509002368, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -7581,7 +7753,7 @@ PrefabInstance:
       objectReference: {fileID: 2970891327743047638, guid: d0492d62942bdc6d99a793a8be452c0c, type: 3}
     - target: {fileID: 3792392196581253061, guid: ea3219cc166c4f60b99f4f5bdde292e0, type: 3}
       propertyPath: m_Name
-      value: Defender Button  (1)
+      value: Knight
       objectReference: {fileID: 0}
     - target: {fileID: 6503641021180761579, guid: ea3219cc166c4f60b99f4f5bdde292e0, type: 3}
       propertyPath: m_Pivot.x
@@ -7760,16 +7932,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 719741291}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 719741295}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: PanelUp
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1871988973

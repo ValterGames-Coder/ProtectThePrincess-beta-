@@ -38008,14 +38008,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpawnerEnemies_Update_mA7522654F3CB09385
 		bool L_13 = __this->get_win_18();
 		if (L_13)
 		{
-			goto IL_02cc;
+			goto IL_02d0;
 		}
 	}
 	{
 		bool L_14 = __this->get_lose_19();
 		if (L_14)
 		{
-			goto IL_02cc;
+			goto IL_02d0;
 		}
 	}
 	{
@@ -38110,14 +38110,14 @@ IL_012c:
 		int32_t L_42 = __this->get__howManyEnemies_8();
 		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_40, (int32_t)L_41))) == ((uint32_t)L_42))))
 		{
-			goto IL_0212;
+			goto IL_0216;
 		}
 	}
 	{
 		bool L_43 = __this->get_isWave_21();
 		if (!L_43)
 		{
-			goto IL_0212;
+			goto IL_0216;
 		}
 	}
 	{
@@ -38126,28 +38126,29 @@ IL_012c:
 		int32_t L_45 = __this->get_endWave_9();
 		if ((!(((uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_44, (int32_t)1))) == ((uint32_t)L_45))))
 		{
-			goto IL_01c3;
+			goto IL_01c7;
 		}
 	}
 	{
 		// win = true; // Победа!
 		__this->set_win_18((bool)1);
-		// _wins++;
-		int32_t L_46 = __this->get__wins_28();
-		__this->set__wins_28(((int32_t)il2cpp_codegen_add((int32_t)L_46, (int32_t)1)));
-		// PlayerPrefs.SetInt("Wins", _wins);
-		int32_t L_47 = __this->get__wins_28();
-		PlayerPrefs_SetInt_m0C5C977E960B9CA8F9AB73AF4129C3DCABD067B6(_stringLiteral48541082EFACA82B7C79F646F686BC99E625228A, L_47, /*hidden argument*/NULL);
-		// if(_addWin == false) Social.ReportScore(_wins, _leaderBoard, (bool succes) => { });
-		bool L_48 = __this->get__addWin_25();
-		if (L_48)
+		// if(_addWin == false)
+		bool L_46 = __this->get__addWin_25();
+		if (L_46)
 		{
-			goto IL_01bc;
+			goto IL_01c7;
 		}
 	}
 	{
-		// if(_addWin == false) Social.ReportScore(_wins, _leaderBoard, (bool succes) => { });
-		int32_t L_49 = __this->get__wins_28();
+		// _wins++;
+		int32_t L_47 = __this->get__wins_28();
+		__this->set__wins_28(((int32_t)il2cpp_codegen_add((int32_t)L_47, (int32_t)1)));
+		// PlayerPrefs.SetInt("Wins", _wins);
+		int32_t L_48 = __this->get__wins_28();
+		PlayerPrefs_SetInt_m0C5C977E960B9CA8F9AB73AF4129C3DCABD067B6(_stringLiteral48541082EFACA82B7C79F646F686BC99E625228A, L_48, /*hidden argument*/NULL);
+		// Social.ReportScore(PlayerPrefs.GetInt("Wins"), _leaderBoard, (bool succes) => { });
+		int32_t L_49;
+		L_49 = PlayerPrefs_GetInt_m6BCF9F844298D1810A68BAF23ECBA68C6960A986(_stringLiteral48541082EFACA82B7C79F646F686BC99E625228A, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tE2013EEB4062426CD468FA21BA2D98F3F99DD060_il2cpp_TypeInfo_var);
 		Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * L_50 = ((U3CU3Ec_tE2013EEB4062426CD468FA21BA2D98F3F99DD060_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE2013EEB4062426CD468FA21BA2D98F3F99DD060_il2cpp_TypeInfo_var))->get_U3CU3E9__26_0_1();
 		Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * L_51 = L_50;
@@ -38159,7 +38160,7 @@ IL_012c:
 			G_B14_0 = L_51;
 			G_B14_1 = _stringLiteral2BD8DEC8BD505682E764622B66B96EA4AC370F0D;
 			G_B14_2 = ((int64_t)((int64_t)L_49));
-			goto IL_01b7;
+			goto IL_01bb;
 		}
 	}
 	{
@@ -38174,18 +38175,14 @@ IL_012c:
 		G_B14_2 = G_B13_2;
 	}
 
-IL_01b7:
+IL_01bb:
 	{
 		Social_ReportScore_m9D47693DE21BDF21D8933E2B039A96D7E579EE13(G_B14_2, G_B14_1, G_B14_0, /*hidden argument*/NULL);
-	}
-
-IL_01bc:
-	{
 		// _addWin = true;
 		__this->set__addWin_25((bool)1);
 	}
 
-IL_01c3:
+IL_01c7:
 	{
 		// isWave = false; // Волны нет
 		__this->set_isWave_21((bool)0);
@@ -38209,27 +38206,27 @@ IL_01c3:
 		L_62->set_killedEnemies_4(0);
 	}
 
-IL_0212:
+IL_0216:
 	{
 		// if (_timeToSpawn <= 0 && !isWave && !_firstWave) // Если таймер равен или меньше 0 и при этом нет волны и это не первая волна
 		float L_63 = __this->get__timeToSpawn_11();
 		if ((!(((float)L_63) <= ((float)(0.0f)))))
 		{
-			goto IL_026e;
+			goto IL_0272;
 		}
 	}
 	{
 		bool L_64 = __this->get_isWave_21();
 		if (L_64)
 		{
-			goto IL_026e;
+			goto IL_0272;
 		}
 	}
 	{
 		bool L_65 = __this->get__firstWave_22();
 		if (L_65)
 		{
-			goto IL_026e;
+			goto IL_0272;
 		}
 	}
 	{
@@ -38253,27 +38250,27 @@ IL_0212:
 		return;
 	}
 
-IL_026e:
+IL_0272:
 	{
 		// else if (_timeToSpawn <= 0 && !isWave && _firstWave) // Если таймер равен или меньше 0 и при этом нет волны и это первая волна
 		float L_72 = __this->get__timeToSpawn_11();
 		if ((!(((float)L_72) <= ((float)(0.0f)))))
 		{
-			goto IL_0323;
+			goto IL_0327;
 		}
 	}
 	{
 		bool L_73 = __this->get_isWave_21();
 		if (L_73)
 		{
-			goto IL_0323;
+			goto IL_0327;
 		}
 	}
 	{
 		bool L_74 = __this->get__firstWave_22();
 		if (!L_74)
 		{
-			goto IL_0323;
+			goto IL_0327;
 		}
 	}
 	{
@@ -38296,13 +38293,13 @@ IL_026e:
 		return;
 	}
 
-IL_02cc:
+IL_02d0:
 	{
 		// else if (win && !FindObjectOfType<TransitionsManager>().pause) // Если выиграли
 		bool L_80 = __this->get_win_18();
 		if (!L_80)
 		{
-			goto IL_02f8;
+			goto IL_02fc;
 		}
 	}
 	{
@@ -38313,7 +38310,7 @@ IL_02cc:
 		bool L_82 = L_81->get_pause_4();
 		if (L_82)
 		{
-			goto IL_02f8;
+			goto IL_02fc;
 		}
 	}
 	{
@@ -38331,13 +38328,13 @@ IL_02cc:
 		return;
 	}
 
-IL_02f8:
+IL_02fc:
 	{
 		// else if (lose && !FindObjectOfType<TransitionsManager>().pause) // Если проиграли
 		bool L_85 = __this->get_lose_19();
 		if (!L_85)
 		{
-			goto IL_0323;
+			goto IL_0327;
 		}
 	}
 	{
@@ -38348,7 +38345,7 @@ IL_02f8:
 		bool L_87 = L_86->get_pause_4();
 		if (L_87)
 		{
-			goto IL_0323;
+			goto IL_0327;
 		}
 	}
 	{
@@ -38364,7 +38361,7 @@ IL_02f8:
 		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_89, (bool)1, /*hidden argument*/NULL);
 	}
 
-IL_0323:
+IL_0327:
 	{
 		// }
 		return;
