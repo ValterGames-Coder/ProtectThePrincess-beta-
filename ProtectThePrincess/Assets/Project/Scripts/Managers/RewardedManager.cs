@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Random = UnityEngine.Random;
+using Unity.Notifications.Android;
 
 public class RewardedManager : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class RewardedManager : MonoBehaviour
 
     void Start()
     {
+    	CreateNotificationChannel();
         if (!PlayerPrefs.HasKey("LastOpen")) PlayerPrefs.SetString("LastOpen", lastOpen.ToString());
         _rewardButton = GetComponent<Button>();
         lastOpen = ulong.Parse(PlayerPrefs.GetString("LastOpen"));
@@ -57,11 +59,9 @@ public class RewardedManager : MonoBehaviour
         lastOpen = (ulong)DateTime.Now.Ticks;
         PlayerPrefs.SetString("LastOpen", lastOpen.ToString());
         _rewardButton.interactable = false;
-
-        int money = PlayerPrefs.GetInt("Money");
-        int randomMoney = Random.Range(50, 150);
-        FindObjectOfType<ShopManager>().money += randomMoney;
-        PlayerPrefs.SetInt("Money", money + randomMoney);
+        
+        int randomMoney = Random.Range(25, 50);
+        PlayerPrefs.SetInt("Money", FindObjectOfType<ShopManager>().money += randomMoney );
     }
 
     private bool IsReady()
@@ -69,6 +69,7 @@ public class RewardedManager : MonoBehaviour
         ulong diff = ((ulong)DateTime.Now.Ticks - lastOpen);
         ulong m = diff / TimeSpan.TicksPerMillisecond;
         float seconleft = (float)(msToWait - m) / 1000f;
+        SendNotification(seconleft);
 
         if(seconleft <= 0)
         {
@@ -77,5 +78,30 @@ public class RewardedManager : MonoBehaviour
             return true;
         }
         return false;
+    }
+    
+
+    public void CreateNotificationChannel()
+    {
+        var channel = new AndroidNotificationChannel()
+        {
+            Id = "channel_id",
+            Name = "Default Channel",
+            Importance = Importance.High,
+            Description = "Generic notifications",
+        };
+
+        AndroidNotificationCenter.RegisterNotificationChannel(channel);
+    }
+
+    public void SendNotification(float time)
+    {
+        var notification = new AndroidNotification();
+        notification.Title = "A gift is waiting for you!";
+        notification.Text = "Enter the game and pick it up";
+        notification.LargeIcon = "icon_0";
+        notification.FireTime = System.DateTime.Now.AddSeconds(time);
+
+        AndroidNotificationCenter.SendNotification(notification, "channel_id");
     }
 }

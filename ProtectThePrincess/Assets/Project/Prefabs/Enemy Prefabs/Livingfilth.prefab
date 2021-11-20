@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30149e78cdc26be6ca2f05ae0b212395, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 60
   maxHealth: 0
   _colorDied: {r: 1, g: 0.1528954, b: 0.0039063096, a: 0}
   _money: {fileID: 7346265761462387455, guid: 688cda28c215bee26b7804ff7f8e2bd1, type: 3}

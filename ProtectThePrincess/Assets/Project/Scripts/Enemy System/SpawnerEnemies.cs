@@ -7,6 +7,7 @@ using UnityEngine.SocialPlatforms;
 
 public class SpawnerEnemies : MonoBehaviour
 {
+    private SpawnerEnemies _instance;
     [Header("Enemies prefab")]
     [SerializeField] private GameObject[] _prefabEnemies; // Список врагов
     [SerializeField] private float[] _probabilities; // Список вероятностей спавна
@@ -16,21 +17,21 @@ public class SpawnerEnemies : MonoBehaviour
     [Header("Time")]
     [SerializeField] private float _timeToSpawn, _startTimeToSpawn; // Время спавна, старт время спавна
     [Header("Text")]
-    [SerializeField] private TMP_Text _waveText, _howManyEnemiesText; // Текст для волн, Текст для показа сколько осталось врагов
-    [SerializeField] private LocalizationText _waveLocalization, _howManyEnemiesLocalization;
+    [SerializeField] private TMP_Text _waveText; // Текст для волн, Текст для показа сколько осталось врагов
     private ScoreManager _scoreManager; // Счётчик очков
     public bool win, lose, timeIsOver, isWave, _firstWave = true; // Победа , проигрышь, волны ли, первая волна ли 
     [Header("Panels")]
     [SerializeField] private GameObject _panelWin, _panelLose; // Панель победы, паенль проигрыша 
     private bool _addWin;
 
-    public float[] _firstProbabitilies = {95, 40, 0, 0, 0};
+    public float[] _firstProbabitilies = {95, 25, 0, 0, 0};
     
     private const string _leaderBoard = "CgkIm8OJz4YMEAIQAQ";
     private int _wins;
 
     private void Start()
     {
+        if (_instance == null) _instance = this;
         if (PlayerPrefs.GetString("FirstEntered") != "true")
         {
             endWave = 3;
@@ -48,21 +49,12 @@ public class SpawnerEnemies : MonoBehaviour
     private void Update()
     {
         leftEnemy = GameObject.FindGameObjectsWithTag("Enemy").Length;
-        _waveLocalization.Localize("WaveLocalization");
-        _waveText.text += $" {wave + 1} / {endWave}"; // Текст с волноми
+        _waveText.text = $"{wave + 1}/{endWave}"; // Текст с волноми
         if (!win && !lose) // Если не выиграли и не проигрыли 
         {
             if (!isWave) // Если нет волны
             {
                 _timeToSpawn -= Time.deltaTime; // Запускается таймер
-                if (wave == 0) _howManyEnemiesLocalization.Localize("HowManyEnemiesLocalization1");
-                else _howManyEnemiesLocalization.Localize("HowManyEnemiesLocalization2");
-                _howManyEnemiesText.text += $" {_timeToSpawn.ToString("F1")}";  // Иначе другой текст
-            }
-            else
-            {
-                _howManyEnemiesLocalization.Localize("HowManyEnemiesLocalization3");
-                _howManyEnemiesText.text += $" {_scoreManager.killedEnemies} / {_howManyEnemies}";
             }
             if (_howManyEnemies - leftEnemy == _howManyEnemies && isWave) // Если убито столько же сколько и нужно
             {
@@ -98,16 +90,11 @@ public class SpawnerEnemies : MonoBehaviour
                 StartCoroutine(Spawn(_howManyEnemies));// Начинается спавн врагов
             }
         }
-        else if (win && !FindObjectOfType<TransitionsManager>().pause) // Если выиграли 
+        else if (win || lose && !FindObjectOfType<TransitionsManager>().pause) // Если выиграли 
         {
             FindObjectOfType<SpeedUpTime>().speedUpTime = false;
-            _panelWin.SetActive(true); // Включаем панель выиграша 
-        }
-        else if (lose && !FindObjectOfType<TransitionsManager>().pause) // Если проиграли 
-        {
-            FindObjectOfType<SpeedUpTime>().speedUpTime = false;
-            _panelLose.SetActive(true); // Включаем панель проигрыша
-            //TimeScale();
+            _panelLose.SetActive(lose);
+            _panelWin.SetActive(win);
         }
     }
 

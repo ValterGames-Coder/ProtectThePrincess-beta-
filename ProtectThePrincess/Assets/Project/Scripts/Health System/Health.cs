@@ -36,7 +36,7 @@ public class Health : MonoBehaviour
 
     void Update()
     {
-        if (health <= 0) // Если здововье меньше или равняется нулю
+        if (health <= 0 && FindObjectOfType<SpawnerEnemies>().lose == false) // Если здововье меньше или равняется нулю
         {
             if (gameObject.CompareTag("Building")) // Если это постройка 
             {
@@ -75,7 +75,7 @@ public class Health : MonoBehaviour
             GetComponent<Enemy>()._speed = 0;
             Destroy(gameObject, 0.2f); // Уничтожаем обьект
         }
-        if (gameObject.name == "Tower") // Если это башня
+        if (gameObject.name == "Tower" && Die == false) // Если это башня
         {
             StartCoroutine(AnimationTower());
         }

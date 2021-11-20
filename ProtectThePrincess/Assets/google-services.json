@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "164312668700",
+    "project_id": "protect-the-princess",
+    "storage_bucket": "protect-the-princess.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164312668700:android:31407479403435e8891dd9",
+        "android_client_info": {
+          "package_name": "com.ValterGames.ProtectthePrincess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164312668700-v0ab62mk2lqq1gbee5tc4jkkcch34m0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9MJ5Aerf-reW_7isCpT-5yMj75L5uNfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164312668700-v0ab62mk2lqq1gbee5tc4jkkcch34m0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

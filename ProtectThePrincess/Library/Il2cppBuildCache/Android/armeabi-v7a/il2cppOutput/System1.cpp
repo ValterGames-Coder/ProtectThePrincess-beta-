@@ -2406,6 +2406,15 @@ public:
 };
 
 
+// System.Collections.Generic.EnumerableHelpers
+struct EnumerableHelpers_t9A9DDA80CEB6822E903EC8C1AC3ED681A92C288D  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+
 // System.Net.ExceptionHelper
 struct ExceptionHelper_tE4851EB6FC80CBDD0C1AC41C850BA6C476846825  : public RuntimeObject
 {
@@ -16316,6 +16325,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumConverter__ctor_m2A61E754D52D9A89E47
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

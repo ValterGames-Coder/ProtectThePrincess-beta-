@@ -13,8 +13,1312 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
+    m_Keys:
+    - Assets/ExternalDependencyManager.meta
+    - Assets/ExternalDependencyManager/Editor.meta
+    - Assets/ExternalDependencyManager/Editor/1.2.167.meta
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll.mdb
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll.meta
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll.mdb
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll.meta
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll.mdb
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll.meta
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll.mdb
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll.meta
+    - Assets/ExternalDependencyManager/Editor/CHANGELOG.md
+    - Assets/ExternalDependencyManager/Editor/CHANGELOG.md.meta
+    - Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll
+    - Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.mdb
+    - Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.meta
+    - Assets/ExternalDependencyManager/Editor/LICENSE
+    - Assets/ExternalDependencyManager/Editor/LICENSE.meta
+    - Assets/ExternalDependencyManager/Editor/README.md
+    - Assets/ExternalDependencyManager/Editor/README.md.meta
+    - Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.167_manifest.txt
+    - Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.167_manifest.txt.meta
+    - Assets/ExternalDependencyManager/Firebase.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor/AppDependencies.xml
+    - Assets/ExternalDependencyManager/Firebase/Editor/AppDependencies.xml.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor/AuthDependencies.xml
+    - Assets/ExternalDependencyManager/Firebase/Editor/AuthDependencies.xml.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor/DatabaseDependencies.xml
+    - Assets/ExternalDependencyManager/Firebase/Editor/DatabaseDependencies.xml.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor/Firebase.Editor.dll
+    - Assets/ExternalDependencyManager/Firebase/Editor/Firebase.Editor.dll.mdb
+    - Assets/ExternalDependencyManager/Firebase/Editor/Firebase.Editor.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor/Firebase.Editor.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor/FirebaseAuth_version-8.6.1_manifest.txt
+    - Assets/ExternalDependencyManager/Firebase/Editor/FirebaseAuth_version-8.6.1_manifest.txt.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor/FirebaseDatabase_version-8.6.1_manifest.txt
+    - Assets/ExternalDependencyManager/Firebase/Editor/FirebaseDatabase_version-8.6.1_manifest.txt.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor/generate_xml_from_google_services_json.exe
+    - Assets/ExternalDependencyManager/Firebase/Editor/generate_xml_from_google_services_json.exe.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor/generate_xml_from_google_services_json.py
+    - Assets/ExternalDependencyManager/Firebase/Editor/generate_xml_from_google_services_json.py.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor/network_request.exe
+    - Assets/ExternalDependencyManager/Firebase/Editor/network_request.exe.meta
+    - Assets/ExternalDependencyManager/Firebase/Editor/network_request.py
+    - Assets/ExternalDependencyManager/Firebase/Editor/network_request.py.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.App.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.App.dll.mdb
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.App.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.App.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Auth.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Auth.dll.mdb
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Auth.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Auth.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Database.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Database.dll.mdb
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Database.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Database.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Platform.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Platform.dll.mdb
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Platform.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.Platform.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.TaskExtension.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.TaskExtension.dll.mdb
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.TaskExtension.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Firebase.TaskExtension.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Google.MiniJson.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/Google.MiniJson.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.App.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.App.dll.mdb
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.App.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.App.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.Auth.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.Auth.dll.mdb
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.Auth.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.Auth.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.Database.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.Database.dll.mdb
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.Database.dll.mdb.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/iOS/Firebase.Database.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.bundle
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.bundle.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.so
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.so.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppAuth.bundle
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppAuth.bundle.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppAuth.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppAuth.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppAuth.so
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppAuth.so.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppDatabase.bundle
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppDatabase.bundle.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppDatabase.dll
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppDatabase.dll.meta
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppDatabase.so
+    - Assets/ExternalDependencyManager/Firebase/Plugins/x86_64/FirebaseCppDatabase.so.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.pom
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.pom.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.srcaar
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.srcaar.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/maven-metadata.xml
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/maven-metadata.xml.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.pom
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.pom.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.srcaar
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.srcaar.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/maven-metadata.xml
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/maven-metadata.xml.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.pom
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.pom.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.srcaar
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.srcaar.meta
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/maven-metadata.xml
+    - Assets/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/maven-metadata.xml.meta
+    - Assets/GPS.cs
+    - Assets/GPS.cs.meta
+    - Assets/GeneratedLocalRepo.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.aar
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.aar.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.pom
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.pom.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.aar
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.aar.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.pom
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.pom.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.aar
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.aar.meta
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.pom
+    - Assets/GeneratedLocalRepo/ExternalDependencyManager/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.pom.meta
+    - Assets/GeneratedLocalRepo/GooglePlayGames.meta
+    - Assets/GeneratedLocalRepo/GooglePlayGames/Editor.meta
+    - Assets/GeneratedLocalRepo/GooglePlayGames/Editor/m2repository.meta
+    - Assets/GeneratedLocalRepo/GooglePlayGames/Editor/m2repository/com.meta
+    - Assets/GeneratedLocalRepo/GooglePlayGames/Editor/m2repository/com/google.meta
+    - Assets/GeneratedLocalRepo/GooglePlayGames/Editor/m2repository/com/google/games.meta
+    - Assets/GeneratedLocalRepo/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support.meta
+    - Assets/GeneratedLocalRepo/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12.meta
+    - Assets/GeneratedLocalRepo/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.aar
+    - Assets/GeneratedLocalRepo/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.aar.meta
+    - Assets/GeneratedLocalRepo/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.pom
+    - Assets/GeneratedLocalRepo/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.pom.meta
+    - Assets/GoogleMobileAds.meta
+    - Assets/GoogleMobileAds/CHANGELOG.md
+    - Assets/GoogleMobileAds/CHANGELOG.md.meta
+    - Assets/GoogleMobileAds/Editor.meta
+    - Assets/GoogleMobileAds/Editor/BuildPreProcessor.cs
+    - Assets/GoogleMobileAds/Editor/BuildPreProcessor.cs.meta
+    - Assets/GoogleMobileAds/Editor/GoogleMobileAds.Editor.asmdef
+    - Assets/GoogleMobileAds/Editor/GoogleMobileAds.Editor.asmdef.meta
+    - Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml
+    - Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml.meta
+    - Assets/GoogleMobileAds/Editor/GoogleMobileAdsSKAdNetworkItems.xml
+    - Assets/GoogleMobileAds/Editor/GoogleMobileAdsSKAdNetworkItems.xml.meta
+    - Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettings.cs
+    - Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettings.cs.meta
+    - Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettingsEditor.cs
+    - Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettingsEditor.cs.meta
+    - Assets/GoogleMobileAds/Editor/ManifestProcessor.cs
+    - Assets/GoogleMobileAds/Editor/ManifestProcessor.cs.meta
+    - Assets/GoogleMobileAds/Editor/PListProcessor.cs
+    - Assets/GoogleMobileAds/Editor/PListProcessor.cs.meta
+    - Assets/GoogleMobileAds/Editor/Resources.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/1024x768.png
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/1024x768.png.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/300x250.png
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/300x250.png.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x100.png
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x100.png.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x480.png
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x480.png.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x50.png
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x50.png.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/468x60.png
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/468x60.png.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/480x320.png
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/480x320.png.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/728x90.png
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/728x90.png.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/768x1024.png
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/768x1024.png.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/ADAPTIVE.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/ADAPTIVE.prefab.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/BANNER.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/BANNER.prefab.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/CENTER.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/CENTER.prefab.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/FULL_BANNER.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/FULL_BANNER.prefab.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/LARGE_BANNER.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/LARGE_BANNER.prefab.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/LEADERBOARD.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/LEADERBOARD.prefab.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/MEDIUM_RECTANGLE.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/MEDIUM_RECTANGLE.prefab.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/SMART_BANNER.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Banners/SMART_BANNER.prefab.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Interstitials.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Interstitials/1024x768.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Interstitials/1024x768.prefab.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Interstitials/768x1024.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Interstitials/768x1024.prefab.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Rewarded.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Rewarded/1024x768.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Rewarded/1024x768.prefab.meta
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Rewarded/768x1024.prefab
+    - Assets/GoogleMobileAds/Editor/Resources/DummyAds/Rewarded/768x1024.prefab.meta
+    - Assets/GoogleMobileAds/GoogleMobileAds.Android.dll
+    - Assets/GoogleMobileAds/GoogleMobileAds.Android.dll.meta
+    - Assets/GoogleMobileAds/GoogleMobileAds.Common.dll
+    - Assets/GoogleMobileAds/GoogleMobileAds.Common.dll.meta
+    - Assets/GoogleMobileAds/GoogleMobileAds.Core.dll
+    - Assets/GoogleMobileAds/GoogleMobileAds.Core.dll.meta
+    - Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll
+    - Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll.meta
+    - Assets/GoogleMobileAds/GoogleMobileAds.dll
+    - Assets/GoogleMobileAds/GoogleMobileAds.dll.meta
+    - Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll
+    - Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll.meta
+    - Assets/GoogleMobileAds/GoogleMobileAds_version-6.0.2_manifest.txt
+    - Assets/GoogleMobileAds/GoogleMobileAds_version-6.0.2_manifest.txt.meta
+    - Assets/GoogleMobileAds/Resources.meta
+    - Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset
+    - Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset.meta
+    - Assets/GoogleMobileAds/link.xml
+    - Assets/GoogleMobileAds/link.xml.meta
+    - Assets/GooglePlayGames.meta
+    - Assets/GooglePlayGames/BasicApi.meta
+    - Assets/GooglePlayGames/BasicApi/Achievement.cs
+    - Assets/GooglePlayGames/BasicApi/Achievement.cs.meta
+    - Assets/GooglePlayGames/BasicApi/CommonStatusCodes.cs
+    - Assets/GooglePlayGames/BasicApi/CommonStatusCodes.cs.meta
+    - Assets/GooglePlayGames/BasicApi/CommonTypes.cs
+    - Assets/GooglePlayGames/BasicApi/CommonTypes.cs.meta
+    - Assets/GooglePlayGames/BasicApi/DummyClient.cs
+    - Assets/GooglePlayGames/BasicApi/DummyClient.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Events.meta
+    - Assets/GooglePlayGames/BasicApi/Events/Event.cs
+    - Assets/GooglePlayGames/BasicApi/Events/Event.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Events/IEvent.cs
+    - Assets/GooglePlayGames/BasicApi/Events/IEvent.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Events/IEventsClient.cs
+    - Assets/GooglePlayGames/BasicApi/Events/IEventsClient.cs.meta
+    - Assets/GooglePlayGames/BasicApi/IPlayGamesClient.cs
+    - Assets/GooglePlayGames/BasicApi/IPlayGamesClient.cs.meta
+    - Assets/GooglePlayGames/BasicApi/LeaderboardScoreData.cs
+    - Assets/GooglePlayGames/BasicApi/LeaderboardScoreData.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Nearby.meta
+    - Assets/GooglePlayGames/BasicApi/Nearby/AdvertisingResult.cs
+    - Assets/GooglePlayGames/BasicApi/Nearby/AdvertisingResult.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Nearby/ConnectionRequest.cs
+    - Assets/GooglePlayGames/BasicApi/Nearby/ConnectionRequest.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Nearby/ConnectionResponse.cs
+    - Assets/GooglePlayGames/BasicApi/Nearby/ConnectionResponse.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Nearby/DummyNearbyConnectionClient.cs
+    - Assets/GooglePlayGames/BasicApi/Nearby/DummyNearbyConnectionClient.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Nearby/EndpointDetails.cs
+    - Assets/GooglePlayGames/BasicApi/Nearby/EndpointDetails.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Nearby/INearbyConnectionClient.cs
+    - Assets/GooglePlayGames/BasicApi/Nearby/INearbyConnectionClient.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Nearby/NearbyConnectionConfiguration.cs
+    - Assets/GooglePlayGames/BasicApi/Nearby/NearbyConnectionConfiguration.cs.meta
+    - Assets/GooglePlayGames/BasicApi/PlayGamesClientConfiguration.cs
+    - Assets/GooglePlayGames/BasicApi/PlayGamesClientConfiguration.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Player.cs
+    - Assets/GooglePlayGames/BasicApi/Player.cs.meta
+    - Assets/GooglePlayGames/BasicApi/PlayerProfile.cs
+    - Assets/GooglePlayGames/BasicApi/PlayerProfile.cs.meta
+    - Assets/GooglePlayGames/BasicApi/PlayerStats.cs
+    - Assets/GooglePlayGames/BasicApi/PlayerStats.cs.meta
+    - Assets/GooglePlayGames/BasicApi/SavedGame.meta
+    - Assets/GooglePlayGames/BasicApi/SavedGame/ISavedGameClient.cs
+    - Assets/GooglePlayGames/BasicApi/SavedGame/ISavedGameClient.cs.meta
+    - Assets/GooglePlayGames/BasicApi/SavedGame/ISavedGameMetadata.cs
+    - Assets/GooglePlayGames/BasicApi/SavedGame/ISavedGameMetadata.cs.meta
+    - Assets/GooglePlayGames/BasicApi/SavedGame/SavedGameMetadataUpdate.cs
+    - Assets/GooglePlayGames/BasicApi/SavedGame/SavedGameMetadataUpdate.cs.meta
+    - Assets/GooglePlayGames/BasicApi/ScorePageToken.cs
+    - Assets/GooglePlayGames/BasicApi/ScorePageToken.cs.meta
+    - Assets/GooglePlayGames/BasicApi/SignInHelper.cs
+    - Assets/GooglePlayGames/BasicApi/SignInHelper.cs.meta
+    - Assets/GooglePlayGames/BasicApi/SignInInteractivity.cs
+    - Assets/GooglePlayGames/BasicApi/SignInInteractivity.cs.meta
+    - Assets/GooglePlayGames/BasicApi/SignInStatus.cs
+    - Assets/GooglePlayGames/BasicApi/SignInStatus.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Video.meta
+    - Assets/GooglePlayGames/BasicApi/Video/CaptureOverlayStateListener.cs
+    - Assets/GooglePlayGames/BasicApi/Video/CaptureOverlayStateListener.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Video/IVideoClient.cs
+    - Assets/GooglePlayGames/BasicApi/Video/IVideoClient.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Video/VideoCapabilities.cs
+    - Assets/GooglePlayGames/BasicApi/Video/VideoCapabilities.cs.meta
+    - Assets/GooglePlayGames/BasicApi/Video/VideoCaptureState.cs
+    - Assets/GooglePlayGames/BasicApi/Video/VideoCaptureState.cs.meta
+    - Assets/GooglePlayGames/Editor.meta
+    - Assets/GooglePlayGames/Editor/GPGSAndroidSetupUI.cs
+    - Assets/GooglePlayGames/Editor/GPGSAndroidSetupUI.cs.meta
+    - Assets/GooglePlayGames/Editor/GPGSDocsUI.cs
+    - Assets/GooglePlayGames/Editor/GPGSDocsUI.cs.meta
+    - Assets/GooglePlayGames/Editor/GPGSPostBuild.cs
+    - Assets/GooglePlayGames/Editor/GPGSPostBuild.cs.meta
+    - Assets/GooglePlayGames/Editor/GPGSProjectSettings.cs
+    - Assets/GooglePlayGames/Editor/GPGSProjectSettings.cs.meta
+    - Assets/GooglePlayGames/Editor/GPGSStrings.cs
+    - Assets/GooglePlayGames/Editor/GPGSStrings.cs.meta
+    - Assets/GooglePlayGames/Editor/GPGSUpgrader.cs
+    - Assets/GooglePlayGames/Editor/GPGSUpgrader.cs.meta
+    - Assets/GooglePlayGames/Editor/GPGSUtil.cs
+    - Assets/GooglePlayGames/Editor/GPGSUtil.cs.meta
+    - Assets/GooglePlayGames/Editor/GooglePlayGamesPluginDependencies.xml
+    - Assets/GooglePlayGames/Editor/GooglePlayGamesPluginDependencies.xml.meta
+    - Assets/GooglePlayGames/Editor/GooglePlayGamesPlugin_v0.10.12.txt
+    - Assets/GooglePlayGames/Editor/GooglePlayGamesPlugin_v0.10.12.txt.meta
+    - Assets/GooglePlayGames/Editor/NearbyConnectionUI.cs
+    - Assets/GooglePlayGames/Editor/NearbyConnectionUI.cs.meta
+    - Assets/GooglePlayGames/Editor/m2repository.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.pom
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.pom.md5
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.pom.md5.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.pom.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.pom.sha1
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.pom.sha1.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.srcaar
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.srcaar.md5
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.srcaar.md5.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.srcaar.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.srcaar.sha1
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.10.12/gpgs-plugin-support-0.10.12.srcaar.sha1.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/maven-metadata.xml
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/maven-metadata.xml.md5
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/maven-metadata.xml.md5.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/maven-metadata.xml.meta
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/maven-metadata.xml.sha1
+    - Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/maven-metadata.xml.sha1.meta
+    - Assets/GooglePlayGames/Editor/template-AndroidManifest.txt
+    - Assets/GooglePlayGames/Editor/template-AndroidManifest.txt.meta
+    - Assets/GooglePlayGames/Editor/template-Constants.txt
+    - Assets/GooglePlayGames/Editor/template-Constants.txt.meta
+    - Assets/GooglePlayGames/Editor/template-GameInfo.txt
+    - Assets/GooglePlayGames/Editor/template-GameInfo.txt.meta
+    - Assets/GooglePlayGames/GameInfo.cs
+    - Assets/GooglePlayGames/GameInfo.cs.meta
+    - Assets/GooglePlayGames/ISocialPlatform.meta
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesAchievement.cs
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesAchievement.cs.meta
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesLeaderboard.cs
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesLeaderboard.cs.meta
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesLocalUser.cs
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesLocalUser.cs.meta
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesPlatform.cs
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesPlatform.cs.meta
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesScore.cs
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesScore.cs.meta
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesUserProfile.cs
+    - Assets/GooglePlayGames/ISocialPlatform/PlayGamesUserProfile.cs.meta
+    - Assets/GooglePlayGames/OurUtils.meta
+    - Assets/GooglePlayGames/OurUtils/Logger.cs
+    - Assets/GooglePlayGames/OurUtils/Logger.cs.meta
+    - Assets/GooglePlayGames/OurUtils/Misc.cs
+    - Assets/GooglePlayGames/OurUtils/Misc.cs.meta
+    - Assets/GooglePlayGames/OurUtils/NearbyHelperObject.cs
+    - Assets/GooglePlayGames/OurUtils/NearbyHelperObject.cs.meta
+    - Assets/GooglePlayGames/OurUtils/PlatformUtils.cs
+    - Assets/GooglePlayGames/OurUtils/PlatformUtils.cs.meta
+    - Assets/GooglePlayGames/OurUtils/PlayGamesHelperObject.cs
+    - Assets/GooglePlayGames/OurUtils/PlayGamesHelperObject.cs.meta
+    - Assets/GooglePlayGames/Platforms.meta
+    - Assets/GooglePlayGames/Platforms/Android.meta
+    - Assets/GooglePlayGames/Platforms/Android/AndroidClient.cs
+    - Assets/GooglePlayGames/Platforms/Android/AndroidClient.cs.meta
+    - Assets/GooglePlayGames/Platforms/Android/AndroidEventsClient.cs
+    - Assets/GooglePlayGames/Platforms/Android/AndroidEventsClient.cs.meta
+    - Assets/GooglePlayGames/Platforms/Android/AndroidHelperFragment.cs
+    - Assets/GooglePlayGames/Platforms/Android/AndroidHelperFragment.cs.meta
+    - Assets/GooglePlayGames/Platforms/Android/AndroidJavaConverter.cs
+    - Assets/GooglePlayGames/Platforms/Android/AndroidJavaConverter.cs.meta
+    - Assets/GooglePlayGames/Platforms/Android/AndroidNearbyConnectionClient.cs
+    - Assets/GooglePlayGames/Platforms/Android/AndroidNearbyConnectionClient.cs.meta
+    - Assets/GooglePlayGames/Platforms/Android/AndroidSavedGameClient.cs
+    - Assets/GooglePlayGames/Platforms/Android/AndroidSavedGameClient.cs.meta
+    - Assets/GooglePlayGames/Platforms/Android/AndroidSnapshotMetadata.cs
+    - Assets/GooglePlayGames/Platforms/Android/AndroidSnapshotMetadata.cs.meta
+    - Assets/GooglePlayGames/Platforms/Android/AndroidTaskUtils.cs
+    - Assets/GooglePlayGames/Platforms/Android/AndroidTaskUtils.cs.meta
+    - Assets/GooglePlayGames/Platforms/Android/AndroidTokenClient.cs
+    - Assets/GooglePlayGames/Platforms/Android/AndroidTokenClient.cs.meta
+    - Assets/GooglePlayGames/Platforms/Android/AndroidVideoClient.cs
+    - Assets/GooglePlayGames/Platforms/Android/AndroidVideoClient.cs.meta
+    - Assets/GooglePlayGames/Platforms/NearbyConnectionClientFactory.cs
+    - Assets/GooglePlayGames/Platforms/NearbyConnectionClientFactory.cs.meta
+    - Assets/GooglePlayGames/Platforms/PlayGamesClientFactory.cs
+    - Assets/GooglePlayGames/Platforms/PlayGamesClientFactory.cs.meta
+    - Assets/GooglePlayGames/Platforms/TokenClient.cs
+    - Assets/GooglePlayGames/Platforms/TokenClient.cs.meta
+    - Assets/GooglePlayGames/PluginVersion.cs
+    - Assets/GooglePlayGames/PluginVersion.cs.meta
+    - Assets/GooglePlayGames/Plugins.meta
+    - Assets/GooglePlayGames/Plugins/Android.meta
+    - Assets/GooglePlayGames/Plugins/Android/GooglePlayGamesManifest.plugin.meta
+    - Assets/GooglePlayGames/Plugins/Android/GooglePlayGamesManifest.plugin/AndroidManifest.xml
+    - Assets/GooglePlayGames/Plugins/Android/GooglePlayGamesManifest.plugin/AndroidManifest.xml.meta
+    - Assets/GooglePlayGames/Plugins/Android/GooglePlayGamesManifest.plugin/project.properties
+    - Assets/GooglePlayGames/Plugins/Android/GooglePlayGamesManifest.plugin/project.properties.meta
+    - Assets/Plugins.meta
+    - Assets/Plugins/Android.meta
+    - Assets/Plugins/Android/AndroidManifest.xml
+    - Assets/Plugins/Android/AndroidManifest.xml.meta
+    - Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib.meta
+    - Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/AndroidManifest.xml
+    - Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/AndroidManifest.xml.meta
+    - Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/project.properties
+    - Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib/project.properties.meta
+    - Assets/Plugins/Android/LauncherManifest.xml
+    - Assets/Plugins/Android/LauncherManifest.xml.meta
+    - Assets/Plugins/Android/baseProjectTemplate.gradle
+    - Assets/Plugins/Android/baseProjectTemplate.gradle.meta
+    - Assets/Plugins/Android/googlemobileads-unity.aar
+    - Assets/Plugins/Android/googlemobileads-unity.aar.meta
+    - Assets/Plugins/Android/gradleTemplate.properties
+    - Assets/Plugins/Android/gradleTemplate.properties.meta
+    - Assets/Plugins/Android/launcherTemplate.gradle
+    - Assets/Plugins/Android/launcherTemplate.gradle.meta
+    - Assets/Plugins/Android/mainTemplate.gradle
+    - Assets/Plugins/Android/mainTemplate.gradle.meta
+    - Assets/Project.meta
+    - Assets/Project/Animation.meta
+    - Assets/Project/Animation/AdButton.controller
+    - Assets/Project/Animation/AdButton.controller.meta
+    - Assets/Project/Animation/AddMoney.anim
+    - Assets/Project/Animation/AddMoney.anim.meta
+    - Assets/Project/Animation/ArcherAnimation.meta
+    - Assets/Project/Animation/ArcherAnimation/ArcherAnimator.controller
+    - Assets/Project/Animation/ArcherAnimation/ArcherAnimator.controller.meta
+    - Assets/Project/Animation/ArcherAnimation/Attack.anim
+    - Assets/Project/Animation/ArcherAnimation/Attack.anim.meta
+    - Assets/Project/Animation/ArcherAnimation/Idle.anim
+    - Assets/Project/Animation/ArcherAnimation/Idle.anim.meta
+    - Assets/Project/Animation/BuildAnimation.anim
+    - Assets/Project/Animation/BuildAnimation.anim.meta
+    - Assets/Project/Animation/BuildAnimation.controller
+    - Assets/Project/Animation/BuildAnimation.controller.meta
+    - Assets/Project/Animation/BuildButtonsOff.anim
+    - Assets/Project/Animation/BuildButtonsOff.anim.meta
+    - Assets/Project/Animation/BuildButtonsOn.anim
+    - Assets/Project/Animation/BuildButtonsOn.anim.meta
+    - Assets/Project/Animation/ButtonAdAnimation.anim
+    - Assets/Project/Animation/ButtonAdAnimation.anim.meta
+    - Assets/Project/Animation/ButtonBackAnimation.anim
+    - Assets/Project/Animation/ButtonBackAnimation.anim.meta
+    - Assets/Project/Animation/ChangePanel.controller
+    - Assets/Project/Animation/ChangePanel.controller.meta
+    - Assets/Project/Animation/ChangePanelOff.anim
+    - Assets/Project/Animation/ChangePanelOff.anim.meta
+    - Assets/Project/Animation/ChangePanelOn.anim
+    - Assets/Project/Animation/ChangePanelOn.anim.meta
+    - Assets/Project/Animation/Game Button.controller
+    - Assets/Project/Animation/Game Button.controller.meta
+    - Assets/Project/Animation/Goblin.controller
+    - Assets/Project/Animation/Goblin.controller.meta
+    - Assets/Project/Animation/GoblinAttack.anim
+    - Assets/Project/Animation/GoblinAttack.anim.meta
+    - Assets/Project/Animation/GoblinIdle.anim
+    - Assets/Project/Animation/GoblinIdle.anim.meta
+    - Assets/Project/Animation/GoblinWalk.anim
+    - Assets/Project/Animation/GoblinWalk.anim.meta
+    - Assets/Project/Animation/Image.controller
+    - Assets/Project/Animation/Image.controller.meta
+    - Assets/Project/Animation/KnightAnimation.meta
+    - Assets/Project/Animation/KnightAnimation/Attack.anim
+    - Assets/Project/Animation/KnightAnimation/Attack.anim.meta
+    - Assets/Project/Animation/KnightAnimation/Idle.anim
+    - Assets/Project/Animation/KnightAnimation/Idle.anim.meta
+    - Assets/Project/Animation/KnightAnimation/KnightAnimator.controller
+    - Assets/Project/Animation/KnightAnimation/KnightAnimator.controller.meta
+    - Assets/Project/Animation/Lava Golem.controller
+    - Assets/Project/Animation/Lava Golem.controller.meta
+    - Assets/Project/Animation/LavaGoblinAttack.anim
+    - Assets/Project/Animation/LavaGoblinAttack.anim.meta
+    - Assets/Project/Animation/LavaGoblinWalk.anim
+    - Assets/Project/Animation/LavaGoblinWalk.anim.meta
+    - Assets/Project/Animation/LavaGolemIdle.anim
+    - Assets/Project/Animation/LavaGolemIdle.anim.meta
+    - Assets/Project/Animation/LeftBuildButtons .controller
+    - Assets/Project/Animation/LeftBuildButtons .controller.meta
+    - Assets/Project/Animation/LeftBuildButtons.controller
+    - Assets/Project/Animation/LeftBuildButtons.controller.meta
+    - Assets/Project/Animation/LeftBuildsAnimation.anim
+    - Assets/Project/Animation/LeftBuildsAnimation.anim.meta
+    - Assets/Project/Animation/Livingfilth.controller
+    - Assets/Project/Animation/Livingfilth.controller.meta
+    - Assets/Project/Animation/LivingfilthAttack.anim
+    - Assets/Project/Animation/LivingfilthAttack.anim.meta
+    - Assets/Project/Animation/LivingfilthIdle.anim
+    - Assets/Project/Animation/LivingfilthIdle.anim.meta
+    - Assets/Project/Animation/LivingfilthWalk.anim
+    - Assets/Project/Animation/LivingfilthWalk.anim.meta
+    - Assets/Project/Animation/LogoAnimation.anim
+    - Assets/Project/Animation/LogoAnimation.anim.meta
+    - Assets/Project/Animation/LogoProtectThePrincess.controller
+    - Assets/Project/Animation/LogoProtectThePrincess.controller.meta
+    - Assets/Project/Animation/Main Camera 1.controller
+    - Assets/Project/Animation/Main Camera 1.controller.meta
+    - Assets/Project/Animation/Main Camera.controller
+    - Assets/Project/Animation/Main Camera.controller.meta
+    - Assets/Project/Animation/MoneyImage.controller
+    - Assets/Project/Animation/MoneyImage.controller.meta
+    - Assets/Project/Animation/PanelDown.anim
+    - Assets/Project/Animation/PanelDown.anim.meta
+    - Assets/Project/Animation/PanelIdle.anim
+    - Assets/Project/Animation/PanelIdle.anim.meta
+    - Assets/Project/Animation/PanelUp.anim
+    - Assets/Project/Animation/PanelUp.anim.meta
+    - Assets/Project/Animation/PoliceAnimation.meta
+    - Assets/Project/Animation/PoliceAnimation/Attack.anim
+    - Assets/Project/Animation/PoliceAnimation/Attack.anim.meta
+    - Assets/Project/Animation/PoliceAnimation/Idle.anim
+    - Assets/Project/Animation/PoliceAnimation/Idle.anim.meta
+    - Assets/Project/Animation/PoliceAnimation/PoliceAnimator.controller
+    - Assets/Project/Animation/PoliceAnimation/PoliceAnimator.controller.meta
+    - Assets/Project/Animation/PrincessRun.anim
+    - Assets/Project/Animation/PrincessRun.anim.meta
+    - Assets/Project/Animation/Rewarded Button.controller
+    - Assets/Project/Animation/Rewarded Button.controller.meta
+    - Assets/Project/Animation/RightBuildButtons.controller
+    - Assets/Project/Animation/RightBuildButtons.controller.meta
+    - Assets/Project/Animation/RightBuildsAnimation.anim
+    - Assets/Project/Animation/RightBuildsAnimation.anim.meta
+    - Assets/Project/Animation/Sceleton.controller
+    - Assets/Project/Animation/Sceleton.controller.meta
+    - Assets/Project/Animation/SceletonAttack.anim
+    - Assets/Project/Animation/SceletonAttack.anim.meta
+    - Assets/Project/Animation/SceletonIdle.anim
+    - Assets/Project/Animation/SceletonIdle.anim.meta
+    - Assets/Project/Animation/SceletonWalk.anim
+    - Assets/Project/Animation/SceletonWalk.anim.meta
+    - Assets/Project/Animation/ShakeCamera.anim
+    - Assets/Project/Animation/ShakeCamera.anim.meta
+    - Assets/Project/Animation/SpeedTime.controller
+    - Assets/Project/Animation/SpeedTime.controller.meta
+    - Assets/Project/Animation/Spider.controller
+    - Assets/Project/Animation/Spider.controller.meta
+    - Assets/Project/Animation/SpiderAttack.anim
+    - Assets/Project/Animation/SpiderAttack.anim.meta
+    - Assets/Project/Animation/SpiderIdle.anim
+    - Assets/Project/Animation/SpiderIdle.anim.meta
+    - Assets/Project/Animation/SpiderWalk.anim
+    - Assets/Project/Animation/SpiderWalk.anim.meta
+    - Assets/Project/Animation/StartCameraAnimation.anim
+    - Assets/Project/Animation/StartCameraAnimation.anim.meta
+    - Assets/Project/Animation/StartStateCamera.anim
+    - Assets/Project/Animation/StartStateCamera.anim.meta
+    - Assets/Project/Animation/UIStart.anim
+    - Assets/Project/Animation/UIStart.anim.meta
+    - Assets/Project/Animation/UpgradesPanel.controller
+    - Assets/Project/Animation/UpgradesPanel.controller.meta
+    - Assets/Project/Animation/WizardAnimation.meta
+    - Assets/Project/Animation/WizardAnimation/Attack.anim
+    - Assets/Project/Animation/WizardAnimation/Attack.anim.meta
+    - Assets/Project/Animation/WizardAnimation/Idle.anim
+    - Assets/Project/Animation/WizardAnimation/Idle.anim.meta
+    - Assets/Project/Animation/WizardAnimation/WizardAnimator.controller
+    - Assets/Project/Animation/WizardAnimation/WizardAnimator.controller.meta
+    - Assets/Project/Audio.meta
+    - Assets/Project/Audio/04365.mp3
+    - Assets/Project/Audio/04365.mp3.meta
+    - Assets/Project/Audio/176767__eugenkorine__akl-game-sound.mp3
+    - Assets/Project/Audio/176767__eugenkorine__akl-game-sound.mp3.meta
+    - Assets/Project/Audio/2c74e74fb421a48.mp3
+    - Assets/Project/Audio/2c74e74fb421a48.mp3.meta
+    - Assets/Project/Audio/34874bb42466947.mp3
+    - Assets/Project/Audio/34874bb42466947.mp3.meta
+    - Assets/Project/Audio/8b7d35c979940fb.mp3
+    - Assets/Project/Audio/8b7d35c979940fb.mp3.meta
+    - Assets/Project/Audio/cinder_block_impact_04.mp3
+    - Assets/Project/Audio/cinder_block_impact_04.mp3.meta
+    - Assets/Project/Audio/e24d412dfc46f86.mp3
+    - Assets/Project/Audio/e24d412dfc46f86.mp3.meta
+    - Assets/Project/Audio/magic-wand-blast-shot_z1gogh4u.mp3
+    - Assets/Project/Audio/magic-wand-blast-shot_z1gogh4u.mp3.meta
+    - Assets/Project/Audio/mech-sablya-vzmah-v-vozduhe-2_[Pro-Sound.org].mp3
+    - Assets/Project/Audio/mech-sablya-vzmah-v-vozduhe-2_[Pro-Sound.org].mp3.meta
+    - Assets/Project/Audio/pushchennaya-strela-iz-luka_[Pro-Sound.org].mp3
+    - Assets/Project/Audio/pushchennaya-strela-iz-luka_[Pro-Sound.org].mp3.meta
+    - Assets/Project/Fonts.meta
+    - Assets/Project/Fonts/Aqum SDF.asset
+    - Assets/Project/Fonts/Aqum SDF.asset.meta
+    - Assets/Project/Fonts/vag-world-bold SDF.asset
+    - Assets/Project/Fonts/vag-world-bold SDF.asset.meta
+    - Assets/Project/Fonts/vag-world-bold.ttf
+    - Assets/Project/Fonts/vag-world-bold.ttf.meta
+    - Assets/Project/Item.meta
+    - Assets/Project/Item/Buildings Item.meta
+    - Assets/Project/Item/Defenders Item.meta
+    - Assets/Project/Item/Defenders Item/Archer.asset
+    - Assets/Project/Item/Defenders Item/Archer.asset.meta
+    - Assets/Project/Item/Defenders Item/Knight.asset
+    - Assets/Project/Item/Defenders Item/Knight.asset.meta
+    - Assets/Project/Item/Defenders Item/Miner.asset
+    - Assets/Project/Item/Defenders Item/Miner.asset.meta
+    - Assets/Project/Item/Defenders Item/Police.asset
+    - Assets/Project/Item/Defenders Item/Police.asset.meta
+    - Assets/Project/Item/Defenders Item/Wizard.asset
+    - Assets/Project/Item/Defenders Item/Wizard.asset.meta
+    - Assets/Project/Item/Enemies Item.meta
+    - Assets/Project/Localization.meta
+    - Assets/Project/Localization/LocalizationSettings.xml
+    - Assets/Project/Localization/LocalizationSettings.xml.meta
+    - Assets/Project/PhysicMaterials.meta
+    - Assets/Project/PhysicMaterials/Money.physicsMaterial2D
+    - Assets/Project/PhysicMaterials/Money.physicsMaterial2D.meta
+    - Assets/Project/Prefabs.meta
+    - Assets/Project/Prefabs/Arrows Prefabs.meta
+    - Assets/Project/Prefabs/Arrows Prefabs/Arrow.prefab
+    - Assets/Project/Prefabs/Arrows Prefabs/Arrow.prefab.meta
+    - Assets/Project/Prefabs/Arrows Prefabs/Knight.prefab
+    - Assets/Project/Prefabs/Arrows Prefabs/Knight.prefab.meta
+    - Assets/Project/Prefabs/Arrows Prefabs/Magic sphere.prefab
+    - Assets/Project/Prefabs/Arrows Prefabs/Magic sphere.prefab.meta
+    - Assets/Project/Prefabs/Arrows Prefabs/Pick.prefab
+    - Assets/Project/Prefabs/Arrows Prefabs/Pick.prefab.meta
+    - Assets/Project/Prefabs/Arrows Prefabs/Stick.prefab
+    - Assets/Project/Prefabs/Arrows Prefabs/Stick.prefab.meta
+    - Assets/Project/Prefabs/Background Music.prefab
+    - Assets/Project/Prefabs/Background Music.prefab.meta
+    - Assets/Project/Prefabs/Building Button .prefab
+    - Assets/Project/Prefabs/Building Button .prefab.meta
+    - Assets/Project/Prefabs/Building Prefaps.meta
+    - Assets/Project/Prefabs/Building Prefaps/Iron Fence.prefab
+    - Assets/Project/Prefabs/Building Prefaps/Iron Fence.prefab.meta
+    - Assets/Project/Prefabs/Building Prefaps/Needles.prefab
+    - Assets/Project/Prefabs/Building Prefaps/Needles.prefab.meta
+    - Assets/Project/Prefabs/Building Prefaps/Stones.prefab
+    - Assets/Project/Prefabs/Building Prefaps/Stones.prefab.meta
+    - Assets/Project/Prefabs/Building Prefaps/Wooden stakes.prefab
+    - Assets/Project/Prefabs/Building Prefaps/Wooden stakes.prefab.meta
+    - Assets/Project/Prefabs/ChangePanel.prefab
+    - Assets/Project/Prefabs/ChangePanel.prefab.meta
+    - Assets/Project/Prefabs/Defender Button .prefab
+    - Assets/Project/Prefabs/Defender Button .prefab.meta
+    - Assets/Project/Prefabs/Enemy Prefabs.meta
+    - Assets/Project/Prefabs/Enemy Prefabs/Goblin.prefab
+    - Assets/Project/Prefabs/Enemy Prefabs/Goblin.prefab.meta
+    - Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab
+    - Assets/Project/Prefabs/Enemy Prefabs/Lava Golem.prefab.meta
+    - Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab
+    - Assets/Project/Prefabs/Enemy Prefabs/Livingfilth.prefab.meta
+    - Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab
+    - Assets/Project/Prefabs/Enemy Prefabs/Sceleton.prefab.meta
+    - Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab
+    - Assets/Project/Prefabs/Enemy Prefabs/Spider.prefab.meta
+    - Assets/Project/Prefabs/FireParticle.prefab
+    - Assets/Project/Prefabs/FireParticle.prefab.meta
+    - Assets/Project/Prefabs/HealthBar.prefab
+    - Assets/Project/Prefabs/HealthBar.prefab.meta
+    - Assets/Project/Prefabs/HealthCanvas.prefab
+    - Assets/Project/Prefabs/HealthCanvas.prefab.meta
+    - Assets/Project/Prefabs/Money.prefab
+    - Assets/Project/Prefabs/Money.prefab.meta
+    - Assets/Project/Prefabs/MoneyEffect.prefab
+    - Assets/Project/Prefabs/MoneyEffect.prefab.meta
+    - Assets/Project/Prefabs/Square.prefab
+    - Assets/Project/Prefabs/Square.prefab.meta
+    - Assets/Project/Prefabs/Upgrade Button .prefab
+    - Assets/Project/Prefabs/Upgrade Button .prefab.meta
+    - Assets/Project/Scenes.meta
+    - Assets/Project/Scenes/GameScene.unity
+    - Assets/Project/Scenes/GameScene.unity.meta
+    - Assets/Project/Scenes/MenuScene.unity
+    - Assets/Project/Scenes/MenuScene.unity.meta
+    - Assets/Project/Scenes/ShopScene.unity
+    - Assets/Project/Scenes/ShopScene.unity.meta
+    - Assets/Project/Scripts.meta
+    - Assets/Project/Scripts/Ads System.meta
+    - Assets/Project/Scripts/Ads System/AdsInitializ.cs
+    - Assets/Project/Scripts/Ads System/AdsInitializ.cs.meta
+    - Assets/Project/Scripts/Ads System/AdsInterstitial.cs
+    - Assets/Project/Scripts/Ads System/AdsInterstitial.cs.meta
+    - Assets/Project/Scripts/Ads System/AdsRewarded.cs
+    - Assets/Project/Scripts/Ads System/AdsRewarded.cs.meta
+    - Assets/Project/Scripts/Analytics System.meta
+    - Assets/Project/Scripts/Analytics System/AnalyticsManager.cs
+    - Assets/Project/Scripts/Analytics System/AnalyticsManager.cs.meta
+    - Assets/Project/Scripts/Building System.meta
+    - Assets/Project/Scripts/Building System/BuildingFortification.cs
+    - Assets/Project/Scripts/Building System/BuildingFortification.cs.meta
+    - Assets/Project/Scripts/Building System/BuildingManager.cs
+    - Assets/Project/Scripts/Building System/BuildingManager.cs.meta
+    - Assets/Project/Scripts/Building System/BuildsButtonsManager.cs
+    - Assets/Project/Scripts/Building System/BuildsButtonsManager.cs.meta
+    - Assets/Project/Scripts/Defender System.meta
+    - Assets/Project/Scripts/Defender System/AttackDefender.cs
+    - Assets/Project/Scripts/Defender System/AttackDefender.cs.meta
+    - Assets/Project/Scripts/Defender System/BattleStatistics.cs
+    - Assets/Project/Scripts/Defender System/BattleStatistics.cs.meta
+    - Assets/Project/Scripts/Defender System/Bullet.cs
+    - Assets/Project/Scripts/Defender System/Bullet.cs.meta
+    - Assets/Project/Scripts/Defender System/Defender.cs
+    - Assets/Project/Scripts/Defender System/Defender.cs.meta
+    - Assets/Project/Scripts/Defender System/EnemyNotification.cs
+    - Assets/Project/Scripts/Defender System/EnemyNotification.cs.meta
+    - Assets/Project/Scripts/Defender System/Tower.cs
+    - Assets/Project/Scripts/Defender System/Tower.cs.meta
+    - Assets/Project/Scripts/Enemy System.meta
+    - Assets/Project/Scripts/Enemy System/Enemy.cs
+    - Assets/Project/Scripts/Enemy System/Enemy.cs.meta
+    - Assets/Project/Scripts/Enemy System/EnemyAttack.cs
+    - Assets/Project/Scripts/Enemy System/EnemyAttack.cs.meta
+    - Assets/Project/Scripts/Enemy System/SpawnerEnemies.cs
+    - Assets/Project/Scripts/Enemy System/SpawnerEnemies.cs.meta
+    - Assets/Project/Scripts/Health System.meta
+    - Assets/Project/Scripts/Health System/BarHealth.cs
+    - Assets/Project/Scripts/Health System/BarHealth.cs.meta
+    - Assets/Project/Scripts/Health System/Health.cs
+    - Assets/Project/Scripts/Health System/Health.cs.meta
+    - Assets/Project/Scripts/Item System.meta
+    - Assets/Project/Scripts/Item System/CardBuildingItem.cs
+    - Assets/Project/Scripts/Item System/CardBuildingItem.cs.meta
+    - Assets/Project/Scripts/Item System/CardDefenderItem.cs
+    - Assets/Project/Scripts/Item System/CardDefenderItem.cs.meta
+    - Assets/Project/Scripts/Item System/DefenderItem.cs
+    - Assets/Project/Scripts/Item System/DefenderItem.cs.meta
+    - Assets/Project/Scripts/Leaderboard System.meta
+    - Assets/Project/Scripts/Leaderboard System/LeaderBoard.cs
+    - Assets/Project/Scripts/Leaderboard System/LeaderBoard.cs.meta
+    - Assets/Project/Scripts/Localization System.meta
+    - Assets/Project/Scripts/Localization System/LocalizationDropdown.cs
+    - Assets/Project/Scripts/Localization System/LocalizationDropdown.cs.meta
+    - Assets/Project/Scripts/Localization System/LocalizationManager.cs
+    - Assets/Project/Scripts/Localization System/LocalizationManager.cs.meta
+    - Assets/Project/Scripts/Localization System/LocalizationText.cs
+    - Assets/Project/Scripts/Localization System/LocalizationText.cs.meta
+    - Assets/Project/Scripts/Managers.meta
+    - Assets/Project/Scripts/Managers/BackgroundManager.cs
+    - Assets/Project/Scripts/Managers/BackgroundManager.cs.meta
+    - Assets/Project/Scripts/Managers/ButtonClick.cs
+    - Assets/Project/Scripts/Managers/ButtonClick.cs.meta
+    - Assets/Project/Scripts/Managers/CameraConstantWidth.cs
+    - Assets/Project/Scripts/Managers/CameraConstantWidth.cs.meta
+    - Assets/Project/Scripts/Managers/ChangeManager.cs
+    - Assets/Project/Scripts/Managers/ChangeManager.cs.meta
+    - Assets/Project/Scripts/Managers/CloudSpawner.cs
+    - Assets/Project/Scripts/Managers/CloudSpawner.cs.meta
+    - Assets/Project/Scripts/Managers/FirstEnteredManager.cs
+    - Assets/Project/Scripts/Managers/FirstEnteredManager.cs.meta
+    - Assets/Project/Scripts/Managers/MusicController.cs
+    - Assets/Project/Scripts/Managers/MusicController.cs.meta
+    - Assets/Project/Scripts/Managers/ParallaxBehaviour.cs
+    - Assets/Project/Scripts/Managers/ParallaxBehaviour.cs.meta
+    - Assets/Project/Scripts/Managers/RewardedManager.cs
+    - Assets/Project/Scripts/Managers/RewardedManager.cs.meta
+    - Assets/Project/Scripts/Managers/ScoreManager.cs
+    - Assets/Project/Scripts/Managers/ScoreManager.cs.meta
+    - Assets/Project/Scripts/Managers/ShakeCameraController.cs
+    - Assets/Project/Scripts/Managers/ShakeCameraController.cs.meta
+    - Assets/Project/Scripts/Managers/SocialNetworksManager.cs
+    - Assets/Project/Scripts/Managers/SocialNetworksManager.cs.meta
+    - Assets/Project/Scripts/Managers/SpeedUpTime.cs
+    - Assets/Project/Scripts/Managers/SpeedUpTime.cs.meta
+    - Assets/Project/Scripts/Managers/SwipeCamera.cs
+    - Assets/Project/Scripts/Managers/SwipeCamera.cs.meta
+    - Assets/Project/Scripts/Managers/TransitionsManager.cs
+    - Assets/Project/Scripts/Managers/TransitionsManager.cs.meta
+    - Assets/Project/Scripts/Settings System.meta
+    - Assets/Project/Scripts/Settings System/AudioManager.cs
+    - Assets/Project/Scripts/Settings System/AudioManager.cs.meta
+    - Assets/Project/Scripts/Settings System/BackgroundMusic.cs
+    - Assets/Project/Scripts/Settings System/BackgroundMusic.cs.meta
+    - Assets/Project/Scripts/Settings System/SettingsManager.cs
+    - Assets/Project/Scripts/Settings System/SettingsManager.cs.meta
+    - Assets/Project/Scripts/Shop System.meta
+    - Assets/Project/Scripts/Shop System/BuyButton.cs
+    - Assets/Project/Scripts/Shop System/BuyButton.cs.meta
+    - Assets/Project/Scripts/Shop System/Money.cs
+    - Assets/Project/Scripts/Shop System/Money.cs.meta
+    - Assets/Project/Scripts/Shop System/ShopManager.cs
+    - Assets/Project/Scripts/Shop System/ShopManager.cs.meta
+    - Assets/Project/Scripts/Shop System/UpgradeButton.cs
+    - Assets/Project/Scripts/Shop System/UpgradeButton.cs.meta
+    - Assets/Project/Sprites.meta
+    - Assets/Project/Sprites/BackGround.png
+    - Assets/Project/Sprites/BackGround.png.meta
+    - Assets/Project/Sprites/Backgrounds.meta
+    - Assets/Project/Sprites/Backgrounds/Defender&KnightBackground.png
+    - Assets/Project/Sprites/Backgrounds/Defender&KnightBackground.png.meta
+    - Assets/Project/Sprites/Backgrounds/MinerBackground.png
+    - Assets/Project/Sprites/Backgrounds/MinerBackground.png.meta
+    - Assets/Project/Sprites/Backgrounds/PoliceBackground.png.png
+    - Assets/Project/Sprites/Backgrounds/PoliceBackground.png.png.meta
+    - Assets/Project/Sprites/Backgrounds/WizardBackground.png
+    - Assets/Project/Sprites/Backgrounds/WizardBackground.png.meta
+    - Assets/Project/Sprites/Buildings.meta
+    - Assets/Project/Sprites/Buildings/Iron Fence.png
+    - Assets/Project/Sprites/Buildings/Iron Fence.png.meta
+    - Assets/Project/Sprites/Buildings/Needles.png
+    - Assets/Project/Sprites/Buildings/Needles.png.meta
+    - Assets/Project/Sprites/Buildings/Stones.png
+    - Assets/Project/Sprites/Buildings/Stones.png.meta
+    - Assets/Project/Sprites/Buildings/Wooden stakes.png
+    - Assets/Project/Sprites/Buildings/Wooden stakes.png.meta
+    - Assets/Project/Sprites/Circle.png
+    - Assets/Project/Sprites/Circle.png.meta
+    - Assets/Project/Sprites/Concept.png
+    - Assets/Project/Sprites/Concept.png.meta
+    - Assets/Project/Sprites/Enemy.meta
+    - Assets/Project/Sprites/Enemy/Goblin.png
+    - Assets/Project/Sprites/Enemy/Goblin.png.meta
+    - Assets/Project/Sprites/Enemy/Lava golem .png
+    - Assets/Project/Sprites/Enemy/Lava golem .png.meta
+    - Assets/Project/Sprites/Enemy/Living filth .png
+    - Assets/Project/Sprites/Enemy/Living filth .png.meta
+    - Assets/Project/Sprites/Enemy/Sceleton.png
+    - Assets/Project/Sprites/Enemy/Sceleton.png.meta
+    - Assets/Project/Sprites/Enemy/Spider.png
+    - Assets/Project/Sprites/Enemy/Spider.png.meta
+    - Assets/Project/Sprites/Humans.meta
+    - Assets/Project/Sprites/Humans/Archer.png
+    - Assets/Project/Sprites/Humans/Archer.png.meta
+    - Assets/Project/Sprites/Humans/Knight.png
+    - Assets/Project/Sprites/Humans/Knight.png.meta
+    - Assets/Project/Sprites/Humans/Miner.png
+    - Assets/Project/Sprites/Humans/Miner.png.meta
+    - Assets/Project/Sprites/Humans/Police.png
+    - Assets/Project/Sprites/Humans/Police.png.meta
+    - Assets/Project/Sprites/Humans/Princess.png
+    - Assets/Project/Sprites/Humans/Princess.png.meta
+    - Assets/Project/Sprites/Humans/Wizard.png
+    - Assets/Project/Sprites/Humans/Wizard.png.meta
+    - Assets/Project/Sprites/Square.png
+    - Assets/Project/Sprites/Square.png.meta
+    - Assets/Project/Sprites/Tools .png
+    - Assets/Project/Sprites/Tools .png.meta
+    - Assets/Project/Sprites/Towers.meta
+    - Assets/Project/Sprites/Towers/Archer's  & Knight's tower.png
+    - Assets/Project/Sprites/Towers/Archer's  & Knight's tower.png.meta
+    - Assets/Project/Sprites/Towers/Miner's tower.png
+    - Assets/Project/Sprites/Towers/Miner's tower.png.meta
+    - Assets/Project/Sprites/Towers/Police's tower.png
+    - Assets/Project/Sprites/Towers/Police's tower.png.meta
+    - Assets/Project/Sprites/Towers/Wizard's tower.png
+    - Assets/Project/Sprites/Towers/Wizard's tower.png.meta
+    - Assets/Project/Sprites/UI.meta
+    - Assets/Project/Sprites/UI/BigPanel.png
+    - Assets/Project/Sprites/UI/BigPanel.png.meta
+    - Assets/Project/Sprites/UI/Circle.png
+    - Assets/Project/Sprites/UI/Circle.png.meta
+    - Assets/Project/Sprites/UI/Fence.png
+    - Assets/Project/Sprites/UI/Fence.png.meta
+    - Assets/Project/Sprites/UI/Homes.png
+    - Assets/Project/Sprites/UI/Homes.png.meta
+    - Assets/Project/Sprites/UI/Money.png
+    - Assets/Project/Sprites/UI/Money.png.meta
+    - Assets/Project/Sprites/UI/Music .png
+    - Assets/Project/Sprites/UI/Music .png.meta
+    - Assets/Project/Sprites/UI/NonBuilding.png
+    - Assets/Project/Sprites/UI/NonBuilding.png.meta
+    - Assets/Project/Sprites/UI/PlusBuilding.png
+    - Assets/Project/Sprites/UI/PlusBuilding.png.meta
+    - Assets/Project/Sprites/UI/Rewarded.png
+    - Assets/Project/Sprites/UI/Rewarded.png.meta
+    - Assets/Project/Sprites/UI/ShopUI.png
+    - Assets/Project/Sprites/UI/ShopUI.png.meta
+    - Assets/Project/Sprites/UI/SmallPanel.png
+    - Assets/Project/Sprites/UI/SmallPanel.png.meta
+    - Assets/Project/Sprites/UI/UI Buttons .png
+    - Assets/Project/Sprites/UI/UI Buttons .png.meta
+    - Assets/Project/Sprites/UI/UI.png
+    - Assets/Project/Sprites/UI/UI.png.meta
+    - Assets/Project/Sprites/UI/UIDefender.png
+    - Assets/Project/Sprites/UI/UIDefender.png.meta
+    - Assets/Project/Sprites/UI/UISettings.png
+    - Assets/Project/Sprites/UI/UISettings.png.meta
+    - Assets/Project/Sprites/UI/UpgradeUI.png
+    - Assets/Project/Sprites/UI/UpgradeUI.png.meta
+    - Assets/Project/Sprites/UI/arrow.png
+    - Assets/Project/Sprites/UI/arrow.png.meta
+    - Assets/Project/Sprites/UI/ground.png
+    - Assets/Project/Sprites/UI/ground.png.meta
+    - Assets/Project/Sprites/ValterGames.meta
+    - Assets/Project/Sprites/ValterGames/LogoWithText.png
+    - Assets/Project/Sprites/ValterGames/LogoWithText.png.meta
+    - Assets/Project/Sprites/ValterGames/LogoWithTextMini.png
+    - Assets/Project/Sprites/ValterGames/LogoWithTextMini.png.meta
+    - Assets/Project/Sprites/ValterGames/Prewie .png
+    - Assets/Project/Sprites/ValterGames/Prewie .png.meta
+    - Assets/Project/Sprites/icon.jpg
+    - Assets/Project/Sprites/icon.jpg.meta
+    - Assets/Project/Timeline.meta
+    - Assets/Project/Timeline/StartGame.playable
+    - Assets/Project/Timeline/StartGame.playable.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Examples & Extras.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue
+      to Purple - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue
+      to Purple - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow
+      to Orange - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow
+      to Orange - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Outline.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Outline.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Sunny Days.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Sunny Days.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Outline.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Outline.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Glow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Glow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Logo.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Logo.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Metalic Green.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Metalic Green.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Overlay.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Overlay.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Soft Mask.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Soft Mask.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold
+      SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold
+      SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Surface.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Surface.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite
+      Asset.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite
+      Asset.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode
+      example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode
+      example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      Image 1.png
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      Image 1.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      UI Screenshot.png
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      UI Screenshot.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/google-services.json
+    - Assets/google-services.json.meta
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

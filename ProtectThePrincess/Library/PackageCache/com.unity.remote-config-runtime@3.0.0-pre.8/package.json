@@ -1,0 +1,62 @@
+{
+  "name": "com.unity.remote-config-runtime",
+  "displayName": "Remote Config Runtime",
+  "version": "3.0.0-pre.8",
+  "unity": "2019.4",
+  "description": "Remote Config is a cloud service that lets you tune and customize your app over the air without requiring an update to your game.  This package is intended to be inherited as a dependency, and should not be directly installed, by end users. Unity Developers that want to implement Unity Remote Config in their game/application, should use the Remote Config Package `com.unity.remote-config` rather than this package directly.",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "2.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unityanalytics": "1.0.0",
+    "com.unity.services.core": "1.1.0-pre.8",
+    "com.unity.services.authentication": "1.0.0-pre.4"
+  },
+  "keywords": [
+    "remote",
+    "config",
+    "configuration",
+    "settings",
+    "remote settings",
+    "remote config",
+    "firebase",
+    "staged rollouts",
+    "feature flagging",
+    "roll-out",
+    "adapt",
+    "tune",
+    "tailor",
+    "test",
+    "experiment",
+    "experimentation",
+    "app update",
+    "taget",
+    "targeting",
+    "segment",
+    "segmentation",
+    "segmenting",
+    "override",
+    "rules",
+    "variants",
+    "variation",
+    "parameter",
+    "condtions",
+    "conditional",
+    "continuous delivery",
+    "deploy"
+  ],
+  "upmCi": {
+    "footprint": "ccdda794461c0e19fc3d1f394488c462eb64aa3c"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.remote-config-runtime.git",
+    "type": "git",
+    "revision": "c8f6052de7e862ae777693174aa3a2bdf3226eb0"
+  },
+  "samples": [
+    {
+      "displayName": "Example Sample",
+      "description": "This sample example C# file can be used to quickly utilise usage of Remote Config APIs. For more comprehensive code integration, visit https://docs.unity3d.com/Packages/com.unity.remote-config@latest",
+      "path": "Samples~/Example"
+    }
+  ]
+}

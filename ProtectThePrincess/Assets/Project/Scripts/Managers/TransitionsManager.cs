@@ -6,8 +6,10 @@ public class TransitionsManager : MonoBehaviour
     [HideInInspector] public bool pause;
     private bool _openSettings;
     public GameObject panel;
+    private TransitionsManager _instance;
     private void Start()
     {
+        if (_instance == null) _instance = this;
         Time.timeScale = 1; // Время идёт
     }
 
