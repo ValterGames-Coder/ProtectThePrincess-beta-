@@ -15,7 +15,7 @@ MonoBehaviour:
   defenderSprite: {fileID: 5334313739595688503, guid: f8ee8fb4a69ed60dc941a53fb651e18e, type: 3}
   zonePosition: {x: 5, y: -0.5, z: -10}
   zoneRadius: 6.1
-  accuracy: 12
+  accuracy: 13
   bullet: {fileID: 7105199156039522281, guid: 2c28ef2650e77aefe85ae69a3f5e2444, type: 3}
   attackPosition: {x: 0.62, y: -0.095}
   offset: 0

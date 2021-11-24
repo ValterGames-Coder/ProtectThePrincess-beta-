@@ -16,7 +16,6 @@ public class BuyButton : MonoBehaviour
     void Start()
     {
         if(PlayerPrefs.HasKey("AllBuilding")) PlayerPrefs.SetInt("AllBuilding", 1); // Если есть билдинги,то сохраняем 1
-        print(PlayerPrefs.GetInt("SelectedDefender"));
         textMeaning = textMeaning.GetComponent<TMP_Text>(); // Получаем компонент
         _meaningLocalization = textMeaning.GetComponent<LocalizationText>();
         /*if (_productType == ControlType.Defender) // Если это защитник
@@ -137,7 +136,6 @@ public class BuyButton : MonoBehaviour
                     PlayerPrefs.SetInt("Money",
                         FindObjectOfType<ShopManager>().money); // Сохраняем монеты
                     PlayerPrefs.SetInt("BuyBuilding" + index, 1);
-                    print("Buy and Select");
                 }
                 PlayerPrefs.Save(); // Сохраняем
             }
@@ -152,7 +150,6 @@ public class BuyButton : MonoBehaviour
                         PlayerPrefs.Save();
                         _meaningLocalization.Localize("MeaningSelected");
                         textMeaning.color = Color.green;
-                        print(PlayerPrefs.GetInt("SelectedBuildingsLenght"));
                     }
                 }
                 else if(PlayerPrefs.GetInt("SelectedBuildingsLenght") > 1)
@@ -162,7 +159,6 @@ public class BuyButton : MonoBehaviour
                     PlayerPrefs.Save();
                     _meaningLocalization.Localize("MeaningSelect");
                     textMeaning.color = Color.yellow;
-                    print(PlayerPrefs.GetInt("SelectedBuildingsLenght"));
                 }
             }  
         }

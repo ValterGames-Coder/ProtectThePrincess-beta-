@@ -2,13 +2,11 @@ using UnityEngine;
 
 public class FirstEnteredManager : MonoBehaviour
 {
-    [SerializeField] private GameObject _panel, _text1, _text2;
+    [SerializeField] private GameObject _panel;
     void Start()
     {
         if (!PlayerPrefs.HasKey("FirstEntered") || PlayerPrefs.GetString("FirstEntered") != "true")
         {
-            _text1.SetActive(false);
-            _text2.SetActive(false);
             Invoke("OpenPanel", 3.5f);
         }
     }
@@ -22,8 +20,6 @@ public class FirstEnteredManager : MonoBehaviour
     public void ClosePanel()
     {
         _panel.SetActive(false);
-        _text1.SetActive(true);
-        _text2.SetActive(true);
         Time.timeScale = 1f;
         PlayerPrefs.SetString("FirstEntered", "true");
     }

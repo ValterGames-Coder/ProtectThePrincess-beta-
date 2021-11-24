@@ -6,24 +6,40 @@ public class UpgradeButton : MonoBehaviour
 {
     [Header("Defender")]
     [SerializeField] private DefenderItem _defender;
-    [SerializeField] private int index; // Номер защитника
+    public int index; // Номер защитника
     [Header("Upgrade")]
     public int _upgrade; // На сколько апгрейд
-    [SerializeField] private float[] _upgradeList; // Апгрейд лист
+    public float[] _upgradeList; // Апгрейд лист
     [SerializeField] private int[] _priceList; // Лист со стоимостью
     [SerializeField] private Image[] _upgradePoints;
     [SerializeField] private Image _iconImage;
     [SerializeField] private Sprite _spriteImage;
     [SerializeField] private TMP_Text _priceText;
     [SerializeField] private float _attackForce;
-    [SerializeField] private int _towerHealth;
+    public int _towerHealth;
     [SerializeField] private GameObject _notFullUpgrade, _fullUpgrade, _button, _arrow;
 
     void Start()
     {
         _upgrade = PlayerPrefs.GetInt("Upgrade" + index); // Получаем инфу об апгрейде
-        _attackForce = PlayerPrefs.GetFloat("AttackForce" + index);
-        _towerHealth = PlayerPrefs.GetInt("HealthTower" + index);
+        if (PlayerPrefs.HasKey("AttackForce") == false)
+        {
+            PlayerPrefs.SetFloat("AttackForce" + index, _upgradeList[0]);
+            _attackForce = PlayerPrefs.GetFloat("AttackForce" + index);
+        }
+        else
+        {
+            _attackForce = PlayerPrefs.GetFloat("AttackForce" + index);
+        }
+        if (PlayerPrefs.HasKey("HealthTower") == false)
+        {
+            PlayerPrefs.SetInt("HealthTower" + index, _towerHealth);
+            _towerHealth = PlayerPrefs.GetInt("HealthTower" + index);
+        }
+        else
+        {
+            _towerHealth = PlayerPrefs.GetInt("HealthTower" + index);
+        }
         _iconImage.sprite = _spriteImage;
         if (_upgrade == 5)
         {

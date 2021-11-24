@@ -434,7 +434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _timeAttack: 1.5
   _startTimeAttack: 1.7
-  _damage: 20
+  _damage: 17
   _radius: 0.42
   _attackPos: {fileID: 422096781905398481}
 --- !u!95 &927056123224390895
