@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8560a56ed6784557b9fc45dd6c366eb6, type: 3}
+  m_Name: Pirate
+  m_EditorClassIdentifier: 
+  defenderSprite: {fileID: -5511627094238632041, guid: e50bc1a4dfd5be0bcb92a406eb0e3054, type: 3}
+  zonePosition: {x: 5, y: -0.5, z: 0}
+  zoneRadius: 5
+  accuracy: 8
+  bullet: {fileID: 3226378630404413231, guid: 52292f7b55c374cfb9c786884b52db87, type: 3}
+  attackPosition: {x: 0.88, y: -0.4}
+  offset: 0
+  startTimeAttack: 2
+  force: 2
+  attackAudio: {fileID: 8300000, guid: 21930558577a1b44c9be806af8701b28, type: 3}
+  towerSprite: {fileID: 4933589020751632823, guid: 006323aee0a9cd000a05ee1337042bb6, type: 3}
+  defenderPosition: {x: 1.05, y: -0.8}
+  isHaveDoor: 0
+  doorSprite: {fileID: 0}
+  doorPosition: {x: 0, y: 0}
