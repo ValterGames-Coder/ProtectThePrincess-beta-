@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
     public float _speed; // Скорость врага
     private EnemyNotification _enemyNotification; // Где находится враг
     public int startWave;
+    public Transform target;
 
     void Start()
     {

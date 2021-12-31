@@ -26,7 +26,7 @@ public class SpawnerEnemies : MonoBehaviour
 
     public float[] _firstProbabitilies = {95, 25, 0, 0, 0};
     
-    private const string _leaderBoard = "CgkIm8OJz4YMEAIQAQ";
+    private const string _leaderBoard = "CgkIm8OJz4YMEAIQAg";
     private int _wins;
 
     private void Start()

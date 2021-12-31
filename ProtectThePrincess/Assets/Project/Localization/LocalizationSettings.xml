@@ -290,8 +290,22 @@
   <Key Name="LoseButton">
       <Translates>
            <EN>Lose</EN>
-           <RU>Проигрышь</RU>
+           <RU>Проигрыш</RU>
            <DE>Verlieren</DE>
+      </Translates>
+  </Key>
+  <Key Name="Pirate">
+      <Translates>
+           <EN>Pirate</EN>
+           <RU>Пират</RU>
+           <DE>Pirat</DE>
+      </Translates>
+  </Key>
+  <Key Name="Anchor">
+      <Translates>
+           <EN>Anchor</EN>
+           <RU>Якорь</RU>
+           <DE>Anker</DE>
       </Translates>
   </Key>
 </Keys>

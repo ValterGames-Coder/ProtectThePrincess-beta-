@@ -36,7 +36,7 @@ public class AdsRewarded : MonoBehaviour
     {
         int money = Random.Range(_minMoney,_maxMoney);
         _addMoneyText.text = money.ToString();
-        PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money") + money);
+        FindObjectOfType<ShopManager>().money += money;
         _addMoney.Play();
     }
 }

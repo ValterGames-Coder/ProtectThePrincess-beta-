@@ -1568,7 +1568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4192183025484330180, guid: 7366b5be1aea93051a8d2caa96210f3b, type: 3}
       propertyPath: m_text
-      value: Stones
+      value: Anchor
       objectReference: {fileID: 0}
     - target: {fileID: 5240715641709860117, guid: 7366b5be1aea93051a8d2caa96210f3b, type: 3}
       propertyPath: m_Pivot.x
@@ -4928,6 +4928,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   msToWait: 43200000
+  _timerText: {fileID: 820971173}
+  _rewardButton: {fileID: 1215854318}
   lastOpen: 0
 --- !u!114 &1215854318
 MonoBehaviour:
@@ -6854,7 +6856,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: f707187feb7a03df7bc6330a9807153a, type: 2}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _attackForce
-      value: 150
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _spriteImage
@@ -6862,11 +6864,11 @@ PrefabInstance:
       objectReference: {fileID: 5334313739595688503, guid: f8ee8fb4a69ed60dc941a53fb651e18e, type: 3}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _towerHealth
-      value: 20
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[0]
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8118928903605747790, guid: cbf73bd9b851f4a529a90323e71346eb, type: 3}
       propertyPath: _upgradeList.Array.data[1]

@@ -25,8 +25,8 @@ static Il2CppMethodPointer s_methodPointers[3] =
 };
 static const int32_t s_InvokerIndices[3] = 
 {
-	3266,
-	3266,
+	3271,
+	3271,
 	-1,
 };
 extern const CustomAttributesCacheGenerator g_Unity_Collections_LowLevel_ILSupport_AttributeGenerators[];

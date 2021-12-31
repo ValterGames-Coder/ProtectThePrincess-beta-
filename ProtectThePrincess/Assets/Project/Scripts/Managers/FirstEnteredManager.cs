@@ -13,7 +13,7 @@ public class FirstEnteredManager : MonoBehaviour
 
     private void OpenPanel()
     {
-        Time.timeScale = 0f;
+        Time.timeScale = 0.01f;
         _panel.SetActive(true);
     }
 

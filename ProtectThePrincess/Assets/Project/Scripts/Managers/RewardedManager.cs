@@ -8,15 +8,17 @@ using Unity.Notifications.Android;
 public class RewardedManager : MonoBehaviour
 {
     [SerializeField] private float msToWait = 5000f;
-    private TMP_Text _timerText;
-    private Button _rewardButton;
+    public TMP_Text _timerText;
+    public Button _rewardButton;
     public ulong lastOpen;
     private LocalizationText _rewardedText;
     private enum ControlType { Money, Chests }
+    private bool _isPush;
 
     void Start()
     {
     	CreateNotificationChannel();
+    	if (PlayerPrefs.GetInt("Send") == 1 && IsReady() == true) PlayerPrefs.SetInt("Send", 0);
         if (!PlayerPrefs.HasKey("LastOpen")) PlayerPrefs.SetString("LastOpen", lastOpen.ToString());
         _rewardButton = GetComponent<Button>();
         lastOpen = ulong.Parse(PlayerPrefs.GetString("LastOpen"));
@@ -61,7 +63,7 @@ public class RewardedManager : MonoBehaviour
         _rewardButton.interactable = false;
         
         int randomMoney = Random.Range(25, 50);
-        PlayerPrefs.SetInt("Money", FindObjectOfType<ShopManager>().money += randomMoney );
+        PlayerPrefs.SetInt("Money", FindObjectOfType<ShopManager>().money += randomMoney);
     }
 
     private bool IsReady()
@@ -69,11 +71,14 @@ public class RewardedManager : MonoBehaviour
         ulong diff = ((ulong)DateTime.Now.Ticks - lastOpen);
         ulong m = diff / TimeSpan.TicksPerMillisecond;
         float seconleft = (float)(msToWait - m) / 1000f;
-        SendNotification(seconleft);
 
         if(seconleft <= 0)
         {
             _rewardedText.Localize("RewardedButton");
+            if(PlayerPrefs.GetInt("Send") == 0) {
+            	SendNotification(seconleft);
+            	PlayerPrefs.SetInt("Send", 1);
+            }
             //_timerText.text = "Ready";
             return true;
         }

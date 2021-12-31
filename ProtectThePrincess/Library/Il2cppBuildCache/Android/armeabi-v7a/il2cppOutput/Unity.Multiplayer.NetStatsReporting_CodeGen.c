@@ -20,7 +20,7 @@ static Il2CppMethodPointer s_methodPointers[1] =
 };
 static const int32_t s_InvokerIndices[1] = 
 {
-	4899,
+	4912,
 };
 extern const CustomAttributesCacheGenerator g_Unity_Multiplayer_NetStatsReporting_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Multiplayer_NetStatsReporting_CodeGenModule;

@@ -21,6 +21,7 @@
 -a="/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Library/PlayerScriptAssemblies/Unity.Collections.dll"
 -a="/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Library/PlayerScriptAssemblies/Unity.Netcode.Adapter.UTP.dll"
 -a="/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Library/PlayerScriptAssemblies/Unity.Multiplayer.NetStats.dll"
+-a="/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Library/PlayerScriptAssemblies/Unity.Notifications.Android.dll"
 -a="/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Library/PlayerScriptAssemblies/Unity.Recorder.dll"
 -a="/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Library/PlayerScriptAssemblies/Unity.Multiplayer.NetworkSolutionInterface.dll"
 -a="/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess/Library/PlayerScriptAssemblies/Unity.Recorder.Base.dll"

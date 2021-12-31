@@ -296,6 +296,8 @@ struct HumanBoneU5BU5D_t14692080F98E661E41D9C3D5F232550999B4E3E1;
 struct Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32;
 // System.Int32Enum[]
 struct Int32EnumU5BU5D_t9327F857579EE00EB201E1913599094BF837D3CD;
+// System.Int64[]
+struct Int64U5BU5D_tCA61E42872C63A4286B24EEE6E0650143B43DCE6;
 // TMPro.MaterialReference[]
 struct MaterialReferenceU5BU5D_t06D1C1249B8051EC092684920106F77B6FC203FD;
 // System.Reflection.MethodInfo[]
@@ -21687,6 +21689,34 @@ public:
 };
 
 
+// System.Nullable`1<UnityEngine.Color>
+struct Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498 
+{
+public:
+	// T System.Nullable`1::value
+	Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value_0;
+	// System.Boolean System.Nullable`1::has_value
+	bool ___has_value_1;
+
+public:
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498, ___value_0)); }
+	inline Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  get_value_0() const { return ___value_0; }
+	inline Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 * get_address_of_value_0() { return &___value_0; }
+	inline void set_value_0(Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  value)
+	{
+		___value_0 = value;
+	}
+
+	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498, ___has_value_1)); }
+	inline bool get_has_value_1() const { return ___has_value_1; }
+	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
+	inline void set_has_value_1(bool value)
+	{
+		___has_value_1 = value;
+	}
+};
+
+
 // System.Nullable`1<System.DateTime>
 struct Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D 
 {
@@ -32031,6 +32061,24 @@ public:
 };
 
 
+// Unity.Notifications.Android.GroupAlertBehaviours
+struct GroupAlertBehaviours_tBC5175985945B0E631AD81184B12A38D4EA43880 
+{
+public:
+	// System.Int32 Unity.Notifications.Android.GroupAlertBehaviours::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(GroupAlertBehaviours_tBC5175985945B0E631AD81184B12A38D4EA43880, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // TMPro.HighlightState
 struct HighlightState_t52CE27A1187034A1037ABC13A70BAEE4AC3B5759 
 {
@@ -32149,6 +32197,24 @@ public:
 	inline void set_m_UseDefaultValues_4(int32_t value)
 	{
 		___m_UseDefaultValues_4 = value;
+	}
+};
+
+
+// Unity.Notifications.Android.Importance
+struct Importance_t2E944C849409B739BFC5062780EC9595276B2FA4 
+{
+public:
+	// System.Int32 Unity.Notifications.Android.Importance::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Importance_t2E944C849409B739BFC5062780EC9595276B2FA4, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
 	}
 };
 
@@ -32374,6 +32440,24 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(LocalPhysicsMode_t0BC6949E496E4E126141A944F9B5A26939798BE6, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Unity.Notifications.Android.LockScreenVisibility
+struct LockScreenVisibility_t3B2EB9A0896DA46641A2A0D57A0FDE1957557C42 
+{
+public:
+	// System.Int32 Unity.Notifications.Android.LockScreenVisibility::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(LockScreenVisibility_t3B2EB9A0896DA46641A2A0D57A0FDE1957557C42, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -32760,6 +32844,24 @@ public:
 	inline int16_t get_value___2() const { return ___value___2; }
 	inline int16_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int16_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Unity.Notifications.Android.NotificationStyle
+struct NotificationStyle_t069969DC8CECAD16AF8C5609692F93B6252F6DED 
+{
+public:
+	// System.Int32 Unity.Notifications.Android.NotificationStyle::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(NotificationStyle_t069969DC8CECAD16AF8C5609692F93B6252F6DED, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
 	{
 		___value___2 = value;
 	}
@@ -41704,6 +41806,397 @@ struct AdvertisingResult_t9924760C749A87DD07FECCB8A1C144A65D71532E_marshaled_com
 {
 	int32_t ___mStatus_0;
 	Il2CppChar* ___mLocalEndpointName_1;
+};
+
+// Unity.Notifications.Android.AndroidNotification
+struct AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89 
+{
+public:
+	// System.String Unity.Notifications.Android.AndroidNotification::<Title>k__BackingField
+	String_t* ___U3CTitleU3Ek__BackingField_0;
+	// System.String Unity.Notifications.Android.AndroidNotification::<Text>k__BackingField
+	String_t* ___U3CTextU3Ek__BackingField_1;
+	// System.String Unity.Notifications.Android.AndroidNotification::<SmallIcon>k__BackingField
+	String_t* ___U3CSmallIconU3Ek__BackingField_2;
+	// System.DateTime Unity.Notifications.Android.AndroidNotification::<FireTime>k__BackingField
+	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___U3CFireTimeU3Ek__BackingField_3;
+	// System.String Unity.Notifications.Android.AndroidNotification::<LargeIcon>k__BackingField
+	String_t* ___U3CLargeIconU3Ek__BackingField_4;
+	// Unity.Notifications.Android.NotificationStyle Unity.Notifications.Android.AndroidNotification::<Style>k__BackingField
+	int32_t ___U3CStyleU3Ek__BackingField_5;
+	// System.Int32 Unity.Notifications.Android.AndroidNotification::<Number>k__BackingField
+	int32_t ___U3CNumberU3Ek__BackingField_6;
+	// System.Boolean Unity.Notifications.Android.AndroidNotification::<ShouldAutoCancel>k__BackingField
+	bool ___U3CShouldAutoCancelU3Ek__BackingField_7;
+	// System.Boolean Unity.Notifications.Android.AndroidNotification::<UsesStopwatch>k__BackingField
+	bool ___U3CUsesStopwatchU3Ek__BackingField_8;
+	// System.String Unity.Notifications.Android.AndroidNotification::<Group>k__BackingField
+	String_t* ___U3CGroupU3Ek__BackingField_9;
+	// System.Boolean Unity.Notifications.Android.AndroidNotification::<GroupSummary>k__BackingField
+	bool ___U3CGroupSummaryU3Ek__BackingField_10;
+	// Unity.Notifications.Android.GroupAlertBehaviours Unity.Notifications.Android.AndroidNotification::<GroupAlertBehaviour>k__BackingField
+	int32_t ___U3CGroupAlertBehaviourU3Ek__BackingField_11;
+	// System.String Unity.Notifications.Android.AndroidNotification::<SortKey>k__BackingField
+	String_t* ___U3CSortKeyU3Ek__BackingField_12;
+	// System.String Unity.Notifications.Android.AndroidNotification::<IntentData>k__BackingField
+	String_t* ___U3CIntentDataU3Ek__BackingField_13;
+	// System.Boolean Unity.Notifications.Android.AndroidNotification::<ShowTimestamp>k__BackingField
+	bool ___U3CShowTimestampU3Ek__BackingField_14;
+	// System.Boolean Unity.Notifications.Android.AndroidNotification::<ShowCustomTimestamp>k__BackingField
+	bool ___U3CShowCustomTimestampU3Ek__BackingField_15;
+	// UnityEngine.Color Unity.Notifications.Android.AndroidNotification::m_Color
+	Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___m_Color_16;
+	// System.TimeSpan Unity.Notifications.Android.AndroidNotification::m_RepeatInterval
+	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___m_RepeatInterval_17;
+	// System.DateTime Unity.Notifications.Android.AndroidNotification::m_CustomTimestamp
+	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___m_CustomTimestamp_18;
+
+public:
+	inline static int32_t get_offset_of_U3CTitleU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CTitleU3Ek__BackingField_0)); }
+	inline String_t* get_U3CTitleU3Ek__BackingField_0() const { return ___U3CTitleU3Ek__BackingField_0; }
+	inline String_t** get_address_of_U3CTitleU3Ek__BackingField_0() { return &___U3CTitleU3Ek__BackingField_0; }
+	inline void set_U3CTitleU3Ek__BackingField_0(String_t* value)
+	{
+		___U3CTitleU3Ek__BackingField_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CTitleU3Ek__BackingField_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CTextU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CTextU3Ek__BackingField_1)); }
+	inline String_t* get_U3CTextU3Ek__BackingField_1() const { return ___U3CTextU3Ek__BackingField_1; }
+	inline String_t** get_address_of_U3CTextU3Ek__BackingField_1() { return &___U3CTextU3Ek__BackingField_1; }
+	inline void set_U3CTextU3Ek__BackingField_1(String_t* value)
+	{
+		___U3CTextU3Ek__BackingField_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CTextU3Ek__BackingField_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CSmallIconU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CSmallIconU3Ek__BackingField_2)); }
+	inline String_t* get_U3CSmallIconU3Ek__BackingField_2() const { return ___U3CSmallIconU3Ek__BackingField_2; }
+	inline String_t** get_address_of_U3CSmallIconU3Ek__BackingField_2() { return &___U3CSmallIconU3Ek__BackingField_2; }
+	inline void set_U3CSmallIconU3Ek__BackingField_2(String_t* value)
+	{
+		___U3CSmallIconU3Ek__BackingField_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CSmallIconU3Ek__BackingField_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CFireTimeU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CFireTimeU3Ek__BackingField_3)); }
+	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  get_U3CFireTimeU3Ek__BackingField_3() const { return ___U3CFireTimeU3Ek__BackingField_3; }
+	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * get_address_of_U3CFireTimeU3Ek__BackingField_3() { return &___U3CFireTimeU3Ek__BackingField_3; }
+	inline void set_U3CFireTimeU3Ek__BackingField_3(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  value)
+	{
+		___U3CFireTimeU3Ek__BackingField_3 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CLargeIconU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CLargeIconU3Ek__BackingField_4)); }
+	inline String_t* get_U3CLargeIconU3Ek__BackingField_4() const { return ___U3CLargeIconU3Ek__BackingField_4; }
+	inline String_t** get_address_of_U3CLargeIconU3Ek__BackingField_4() { return &___U3CLargeIconU3Ek__BackingField_4; }
+	inline void set_U3CLargeIconU3Ek__BackingField_4(String_t* value)
+	{
+		___U3CLargeIconU3Ek__BackingField_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CLargeIconU3Ek__BackingField_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CStyleU3Ek__BackingField_5() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CStyleU3Ek__BackingField_5)); }
+	inline int32_t get_U3CStyleU3Ek__BackingField_5() const { return ___U3CStyleU3Ek__BackingField_5; }
+	inline int32_t* get_address_of_U3CStyleU3Ek__BackingField_5() { return &___U3CStyleU3Ek__BackingField_5; }
+	inline void set_U3CStyleU3Ek__BackingField_5(int32_t value)
+	{
+		___U3CStyleU3Ek__BackingField_5 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CNumberU3Ek__BackingField_6() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CNumberU3Ek__BackingField_6)); }
+	inline int32_t get_U3CNumberU3Ek__BackingField_6() const { return ___U3CNumberU3Ek__BackingField_6; }
+	inline int32_t* get_address_of_U3CNumberU3Ek__BackingField_6() { return &___U3CNumberU3Ek__BackingField_6; }
+	inline void set_U3CNumberU3Ek__BackingField_6(int32_t value)
+	{
+		___U3CNumberU3Ek__BackingField_6 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CShouldAutoCancelU3Ek__BackingField_7() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CShouldAutoCancelU3Ek__BackingField_7)); }
+	inline bool get_U3CShouldAutoCancelU3Ek__BackingField_7() const { return ___U3CShouldAutoCancelU3Ek__BackingField_7; }
+	inline bool* get_address_of_U3CShouldAutoCancelU3Ek__BackingField_7() { return &___U3CShouldAutoCancelU3Ek__BackingField_7; }
+	inline void set_U3CShouldAutoCancelU3Ek__BackingField_7(bool value)
+	{
+		___U3CShouldAutoCancelU3Ek__BackingField_7 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CUsesStopwatchU3Ek__BackingField_8() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CUsesStopwatchU3Ek__BackingField_8)); }
+	inline bool get_U3CUsesStopwatchU3Ek__BackingField_8() const { return ___U3CUsesStopwatchU3Ek__BackingField_8; }
+	inline bool* get_address_of_U3CUsesStopwatchU3Ek__BackingField_8() { return &___U3CUsesStopwatchU3Ek__BackingField_8; }
+	inline void set_U3CUsesStopwatchU3Ek__BackingField_8(bool value)
+	{
+		___U3CUsesStopwatchU3Ek__BackingField_8 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CGroupU3Ek__BackingField_9() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CGroupU3Ek__BackingField_9)); }
+	inline String_t* get_U3CGroupU3Ek__BackingField_9() const { return ___U3CGroupU3Ek__BackingField_9; }
+	inline String_t** get_address_of_U3CGroupU3Ek__BackingField_9() { return &___U3CGroupU3Ek__BackingField_9; }
+	inline void set_U3CGroupU3Ek__BackingField_9(String_t* value)
+	{
+		___U3CGroupU3Ek__BackingField_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CGroupU3Ek__BackingField_9), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CGroupSummaryU3Ek__BackingField_10() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CGroupSummaryU3Ek__BackingField_10)); }
+	inline bool get_U3CGroupSummaryU3Ek__BackingField_10() const { return ___U3CGroupSummaryU3Ek__BackingField_10; }
+	inline bool* get_address_of_U3CGroupSummaryU3Ek__BackingField_10() { return &___U3CGroupSummaryU3Ek__BackingField_10; }
+	inline void set_U3CGroupSummaryU3Ek__BackingField_10(bool value)
+	{
+		___U3CGroupSummaryU3Ek__BackingField_10 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CGroupAlertBehaviourU3Ek__BackingField_11() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CGroupAlertBehaviourU3Ek__BackingField_11)); }
+	inline int32_t get_U3CGroupAlertBehaviourU3Ek__BackingField_11() const { return ___U3CGroupAlertBehaviourU3Ek__BackingField_11; }
+	inline int32_t* get_address_of_U3CGroupAlertBehaviourU3Ek__BackingField_11() { return &___U3CGroupAlertBehaviourU3Ek__BackingField_11; }
+	inline void set_U3CGroupAlertBehaviourU3Ek__BackingField_11(int32_t value)
+	{
+		___U3CGroupAlertBehaviourU3Ek__BackingField_11 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CSortKeyU3Ek__BackingField_12() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CSortKeyU3Ek__BackingField_12)); }
+	inline String_t* get_U3CSortKeyU3Ek__BackingField_12() const { return ___U3CSortKeyU3Ek__BackingField_12; }
+	inline String_t** get_address_of_U3CSortKeyU3Ek__BackingField_12() { return &___U3CSortKeyU3Ek__BackingField_12; }
+	inline void set_U3CSortKeyU3Ek__BackingField_12(String_t* value)
+	{
+		___U3CSortKeyU3Ek__BackingField_12 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CSortKeyU3Ek__BackingField_12), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CIntentDataU3Ek__BackingField_13() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CIntentDataU3Ek__BackingField_13)); }
+	inline String_t* get_U3CIntentDataU3Ek__BackingField_13() const { return ___U3CIntentDataU3Ek__BackingField_13; }
+	inline String_t** get_address_of_U3CIntentDataU3Ek__BackingField_13() { return &___U3CIntentDataU3Ek__BackingField_13; }
+	inline void set_U3CIntentDataU3Ek__BackingField_13(String_t* value)
+	{
+		___U3CIntentDataU3Ek__BackingField_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CIntentDataU3Ek__BackingField_13), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CShowTimestampU3Ek__BackingField_14() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CShowTimestampU3Ek__BackingField_14)); }
+	inline bool get_U3CShowTimestampU3Ek__BackingField_14() const { return ___U3CShowTimestampU3Ek__BackingField_14; }
+	inline bool* get_address_of_U3CShowTimestampU3Ek__BackingField_14() { return &___U3CShowTimestampU3Ek__BackingField_14; }
+	inline void set_U3CShowTimestampU3Ek__BackingField_14(bool value)
+	{
+		___U3CShowTimestampU3Ek__BackingField_14 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CShowCustomTimestampU3Ek__BackingField_15() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___U3CShowCustomTimestampU3Ek__BackingField_15)); }
+	inline bool get_U3CShowCustomTimestampU3Ek__BackingField_15() const { return ___U3CShowCustomTimestampU3Ek__BackingField_15; }
+	inline bool* get_address_of_U3CShowCustomTimestampU3Ek__BackingField_15() { return &___U3CShowCustomTimestampU3Ek__BackingField_15; }
+	inline void set_U3CShowCustomTimestampU3Ek__BackingField_15(bool value)
+	{
+		___U3CShowCustomTimestampU3Ek__BackingField_15 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Color_16() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___m_Color_16)); }
+	inline Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  get_m_Color_16() const { return ___m_Color_16; }
+	inline Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 * get_address_of_m_Color_16() { return &___m_Color_16; }
+	inline void set_m_Color_16(Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  value)
+	{
+		___m_Color_16 = value;
+	}
+
+	inline static int32_t get_offset_of_m_RepeatInterval_17() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___m_RepeatInterval_17)); }
+	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  get_m_RepeatInterval_17() const { return ___m_RepeatInterval_17; }
+	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 * get_address_of_m_RepeatInterval_17() { return &___m_RepeatInterval_17; }
+	inline void set_m_RepeatInterval_17(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  value)
+	{
+		___m_RepeatInterval_17 = value;
+	}
+
+	inline static int32_t get_offset_of_m_CustomTimestamp_18() { return static_cast<int32_t>(offsetof(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89, ___m_CustomTimestamp_18)); }
+	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  get_m_CustomTimestamp_18() const { return ___m_CustomTimestamp_18; }
+	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * get_address_of_m_CustomTimestamp_18() { return &___m_CustomTimestamp_18; }
+	inline void set_m_CustomTimestamp_18(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  value)
+	{
+		___m_CustomTimestamp_18 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of Unity.Notifications.Android.AndroidNotification
+struct AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89_marshaled_pinvoke
+{
+	char* ___U3CTitleU3Ek__BackingField_0;
+	char* ___U3CTextU3Ek__BackingField_1;
+	char* ___U3CSmallIconU3Ek__BackingField_2;
+	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___U3CFireTimeU3Ek__BackingField_3;
+	char* ___U3CLargeIconU3Ek__BackingField_4;
+	int32_t ___U3CStyleU3Ek__BackingField_5;
+	int32_t ___U3CNumberU3Ek__BackingField_6;
+	int32_t ___U3CShouldAutoCancelU3Ek__BackingField_7;
+	int32_t ___U3CUsesStopwatchU3Ek__BackingField_8;
+	char* ___U3CGroupU3Ek__BackingField_9;
+	int32_t ___U3CGroupSummaryU3Ek__BackingField_10;
+	int32_t ___U3CGroupAlertBehaviourU3Ek__BackingField_11;
+	char* ___U3CSortKeyU3Ek__BackingField_12;
+	char* ___U3CIntentDataU3Ek__BackingField_13;
+	int32_t ___U3CShowTimestampU3Ek__BackingField_14;
+	int32_t ___U3CShowCustomTimestampU3Ek__BackingField_15;
+	Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___m_Color_16;
+	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___m_RepeatInterval_17;
+	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___m_CustomTimestamp_18;
+};
+// Native definition for COM marshalling of Unity.Notifications.Android.AndroidNotification
+struct AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89_marshaled_com
+{
+	Il2CppChar* ___U3CTitleU3Ek__BackingField_0;
+	Il2CppChar* ___U3CTextU3Ek__BackingField_1;
+	Il2CppChar* ___U3CSmallIconU3Ek__BackingField_2;
+	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___U3CFireTimeU3Ek__BackingField_3;
+	Il2CppChar* ___U3CLargeIconU3Ek__BackingField_4;
+	int32_t ___U3CStyleU3Ek__BackingField_5;
+	int32_t ___U3CNumberU3Ek__BackingField_6;
+	int32_t ___U3CShouldAutoCancelU3Ek__BackingField_7;
+	int32_t ___U3CUsesStopwatchU3Ek__BackingField_8;
+	Il2CppChar* ___U3CGroupU3Ek__BackingField_9;
+	int32_t ___U3CGroupSummaryU3Ek__BackingField_10;
+	int32_t ___U3CGroupAlertBehaviourU3Ek__BackingField_11;
+	Il2CppChar* ___U3CSortKeyU3Ek__BackingField_12;
+	Il2CppChar* ___U3CIntentDataU3Ek__BackingField_13;
+	int32_t ___U3CShowTimestampU3Ek__BackingField_14;
+	int32_t ___U3CShowCustomTimestampU3Ek__BackingField_15;
+	Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___m_Color_16;
+	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___m_RepeatInterval_17;
+	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___m_CustomTimestamp_18;
+};
+
+// Unity.Notifications.Android.AndroidNotificationChannel
+struct AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1 
+{
+public:
+	// System.String Unity.Notifications.Android.AndroidNotificationChannel::<Id>k__BackingField
+	String_t* ___U3CIdU3Ek__BackingField_0;
+	// System.String Unity.Notifications.Android.AndroidNotificationChannel::<Name>k__BackingField
+	String_t* ___U3CNameU3Ek__BackingField_1;
+	// System.String Unity.Notifications.Android.AndroidNotificationChannel::<Description>k__BackingField
+	String_t* ___U3CDescriptionU3Ek__BackingField_2;
+	// Unity.Notifications.Android.Importance Unity.Notifications.Android.AndroidNotificationChannel::<Importance>k__BackingField
+	int32_t ___U3CImportanceU3Ek__BackingField_3;
+	// System.Boolean Unity.Notifications.Android.AndroidNotificationChannel::<CanBypassDnd>k__BackingField
+	bool ___U3CCanBypassDndU3Ek__BackingField_4;
+	// System.Boolean Unity.Notifications.Android.AndroidNotificationChannel::<CanShowBadge>k__BackingField
+	bool ___U3CCanShowBadgeU3Ek__BackingField_5;
+	// System.Boolean Unity.Notifications.Android.AndroidNotificationChannel::<EnableLights>k__BackingField
+	bool ___U3CEnableLightsU3Ek__BackingField_6;
+	// System.Boolean Unity.Notifications.Android.AndroidNotificationChannel::<EnableVibration>k__BackingField
+	bool ___U3CEnableVibrationU3Ek__BackingField_7;
+	// System.Int64[] Unity.Notifications.Android.AndroidNotificationChannel::<VibrationPattern>k__BackingField
+	Int64U5BU5D_tCA61E42872C63A4286B24EEE6E0650143B43DCE6* ___U3CVibrationPatternU3Ek__BackingField_8;
+	// Unity.Notifications.Android.LockScreenVisibility Unity.Notifications.Android.AndroidNotificationChannel::<LockScreenVisibility>k__BackingField
+	int32_t ___U3CLockScreenVisibilityU3Ek__BackingField_9;
+
+public:
+	inline static int32_t get_offset_of_U3CIdU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1, ___U3CIdU3Ek__BackingField_0)); }
+	inline String_t* get_U3CIdU3Ek__BackingField_0() const { return ___U3CIdU3Ek__BackingField_0; }
+	inline String_t** get_address_of_U3CIdU3Ek__BackingField_0() { return &___U3CIdU3Ek__BackingField_0; }
+	inline void set_U3CIdU3Ek__BackingField_0(String_t* value)
+	{
+		___U3CIdU3Ek__BackingField_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CIdU3Ek__BackingField_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CNameU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1, ___U3CNameU3Ek__BackingField_1)); }
+	inline String_t* get_U3CNameU3Ek__BackingField_1() const { return ___U3CNameU3Ek__BackingField_1; }
+	inline String_t** get_address_of_U3CNameU3Ek__BackingField_1() { return &___U3CNameU3Ek__BackingField_1; }
+	inline void set_U3CNameU3Ek__BackingField_1(String_t* value)
+	{
+		___U3CNameU3Ek__BackingField_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CNameU3Ek__BackingField_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CDescriptionU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1, ___U3CDescriptionU3Ek__BackingField_2)); }
+	inline String_t* get_U3CDescriptionU3Ek__BackingField_2() const { return ___U3CDescriptionU3Ek__BackingField_2; }
+	inline String_t** get_address_of_U3CDescriptionU3Ek__BackingField_2() { return &___U3CDescriptionU3Ek__BackingField_2; }
+	inline void set_U3CDescriptionU3Ek__BackingField_2(String_t* value)
+	{
+		___U3CDescriptionU3Ek__BackingField_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CDescriptionU3Ek__BackingField_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CImportanceU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1, ___U3CImportanceU3Ek__BackingField_3)); }
+	inline int32_t get_U3CImportanceU3Ek__BackingField_3() const { return ___U3CImportanceU3Ek__BackingField_3; }
+	inline int32_t* get_address_of_U3CImportanceU3Ek__BackingField_3() { return &___U3CImportanceU3Ek__BackingField_3; }
+	inline void set_U3CImportanceU3Ek__BackingField_3(int32_t value)
+	{
+		___U3CImportanceU3Ek__BackingField_3 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CCanBypassDndU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1, ___U3CCanBypassDndU3Ek__BackingField_4)); }
+	inline bool get_U3CCanBypassDndU3Ek__BackingField_4() const { return ___U3CCanBypassDndU3Ek__BackingField_4; }
+	inline bool* get_address_of_U3CCanBypassDndU3Ek__BackingField_4() { return &___U3CCanBypassDndU3Ek__BackingField_4; }
+	inline void set_U3CCanBypassDndU3Ek__BackingField_4(bool value)
+	{
+		___U3CCanBypassDndU3Ek__BackingField_4 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CCanShowBadgeU3Ek__BackingField_5() { return static_cast<int32_t>(offsetof(AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1, ___U3CCanShowBadgeU3Ek__BackingField_5)); }
+	inline bool get_U3CCanShowBadgeU3Ek__BackingField_5() const { return ___U3CCanShowBadgeU3Ek__BackingField_5; }
+	inline bool* get_address_of_U3CCanShowBadgeU3Ek__BackingField_5() { return &___U3CCanShowBadgeU3Ek__BackingField_5; }
+	inline void set_U3CCanShowBadgeU3Ek__BackingField_5(bool value)
+	{
+		___U3CCanShowBadgeU3Ek__BackingField_5 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CEnableLightsU3Ek__BackingField_6() { return static_cast<int32_t>(offsetof(AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1, ___U3CEnableLightsU3Ek__BackingField_6)); }
+	inline bool get_U3CEnableLightsU3Ek__BackingField_6() const { return ___U3CEnableLightsU3Ek__BackingField_6; }
+	inline bool* get_address_of_U3CEnableLightsU3Ek__BackingField_6() { return &___U3CEnableLightsU3Ek__BackingField_6; }
+	inline void set_U3CEnableLightsU3Ek__BackingField_6(bool value)
+	{
+		___U3CEnableLightsU3Ek__BackingField_6 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CEnableVibrationU3Ek__BackingField_7() { return static_cast<int32_t>(offsetof(AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1, ___U3CEnableVibrationU3Ek__BackingField_7)); }
+	inline bool get_U3CEnableVibrationU3Ek__BackingField_7() const { return ___U3CEnableVibrationU3Ek__BackingField_7; }
+	inline bool* get_address_of_U3CEnableVibrationU3Ek__BackingField_7() { return &___U3CEnableVibrationU3Ek__BackingField_7; }
+	inline void set_U3CEnableVibrationU3Ek__BackingField_7(bool value)
+	{
+		___U3CEnableVibrationU3Ek__BackingField_7 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CVibrationPatternU3Ek__BackingField_8() { return static_cast<int32_t>(offsetof(AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1, ___U3CVibrationPatternU3Ek__BackingField_8)); }
+	inline Int64U5BU5D_tCA61E42872C63A4286B24EEE6E0650143B43DCE6* get_U3CVibrationPatternU3Ek__BackingField_8() const { return ___U3CVibrationPatternU3Ek__BackingField_8; }
+	inline Int64U5BU5D_tCA61E42872C63A4286B24EEE6E0650143B43DCE6** get_address_of_U3CVibrationPatternU3Ek__BackingField_8() { return &___U3CVibrationPatternU3Ek__BackingField_8; }
+	inline void set_U3CVibrationPatternU3Ek__BackingField_8(Int64U5BU5D_tCA61E42872C63A4286B24EEE6E0650143B43DCE6* value)
+	{
+		___U3CVibrationPatternU3Ek__BackingField_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CVibrationPatternU3Ek__BackingField_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CLockScreenVisibilityU3Ek__BackingField_9() { return static_cast<int32_t>(offsetof(AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1, ___U3CLockScreenVisibilityU3Ek__BackingField_9)); }
+	inline int32_t get_U3CLockScreenVisibilityU3Ek__BackingField_9() const { return ___U3CLockScreenVisibilityU3Ek__BackingField_9; }
+	inline int32_t* get_address_of_U3CLockScreenVisibilityU3Ek__BackingField_9() { return &___U3CLockScreenVisibilityU3Ek__BackingField_9; }
+	inline void set_U3CLockScreenVisibilityU3Ek__BackingField_9(int32_t value)
+	{
+		___U3CLockScreenVisibilityU3Ek__BackingField_9 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of Unity.Notifications.Android.AndroidNotificationChannel
+struct AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1_marshaled_pinvoke
+{
+	char* ___U3CIdU3Ek__BackingField_0;
+	char* ___U3CNameU3Ek__BackingField_1;
+	char* ___U3CDescriptionU3Ek__BackingField_2;
+	int32_t ___U3CImportanceU3Ek__BackingField_3;
+	int32_t ___U3CCanBypassDndU3Ek__BackingField_4;
+	int32_t ___U3CCanShowBadgeU3Ek__BackingField_5;
+	int32_t ___U3CEnableLightsU3Ek__BackingField_6;
+	int32_t ___U3CEnableVibrationU3Ek__BackingField_7;
+	Il2CppSafeArray/*NONE*/* ___U3CVibrationPatternU3Ek__BackingField_8;
+	int32_t ___U3CLockScreenVisibilityU3Ek__BackingField_9;
+};
+// Native definition for COM marshalling of Unity.Notifications.Android.AndroidNotificationChannel
+struct AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1_marshaled_com
+{
+	Il2CppChar* ___U3CIdU3Ek__BackingField_0;
+	Il2CppChar* ___U3CNameU3Ek__BackingField_1;
+	Il2CppChar* ___U3CDescriptionU3Ek__BackingField_2;
+	int32_t ___U3CImportanceU3Ek__BackingField_3;
+	int32_t ___U3CCanBypassDndU3Ek__BackingField_4;
+	int32_t ___U3CCanShowBadgeU3Ek__BackingField_5;
+	int32_t ___U3CEnableLightsU3Ek__BackingField_6;
+	int32_t ___U3CEnableVibrationU3Ek__BackingField_7;
+	Il2CppSafeArray/*NONE*/* ___U3CVibrationPatternU3Ek__BackingField_8;
+	int32_t ___U3CLockScreenVisibilityU3Ek__BackingField_9;
 };
 
 // UnityEngine.Animations.AnimationClipPlayable
@@ -61032,6 +61525,13 @@ void* RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tF
 	return NULL;
 }
 
+void* RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_RuntimeObject_AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, RuntimeObject * p2, AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89  p3, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((int32_t*)args[0]), (RuntimeObject *)args[1], *((AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89 *)args[2]), methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_RuntimeObject_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, int32_t p1, RuntimeObject * p2, int32_t p3, const RuntimeMethod* method);
@@ -70782,6 +71282,14 @@ void* RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Nullabl
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int8_t (*Func)(void* obj, Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498  p1, const RuntimeMethod* method);
+	int8_t ret;
+	ret = ((Func)methodPointer)(obj, *((Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498 *)args[0]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef int8_t (*Func)(void* obj, Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D  p1, const RuntimeMethod* method);
@@ -73660,6 +74168,13 @@ void* RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable
 	return NULL;
 }
 
+void* RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498  p1, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498 *)args[0]), methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D  p1, const RuntimeMethod* method);
@@ -73685,6 +74200,13 @@ void* RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable
 {
 	typedef void (*Func)(void* obj, Nullable_1_t817784E58F22F201F73F40A25C68C0FFEC6621DF  p1, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, *((Nullable_1_t817784E58F22F201F73F40A25C68C0FFEC6621DF *)args[0]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_tCFBE5FE1DB8A702D620FFC81D556C8E8AD5B871F (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Nullable_1_tCFBE5FE1DB8A702D620FFC81D556C8E8AD5B871F  p1, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((Nullable_1_tCFBE5FE1DB8A702D620FFC81D556C8E8AD5B871F *)args[0]), methodMetadata);
 	return NULL;
 }
 
@@ -77608,6 +78130,14 @@ void* RuntimeInvoker_TrueNullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3 (I
 {
 	typedef Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  (*Func)(void* obj, const RuntimeMethod* method);
 	Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  ret;
+	ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_TrueNullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498  (*Func)(void* obj, const RuntimeMethod* method);
+	Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498  ret;
 	ret = ((Func)methodPointer)(obj, methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
@@ -85740,6 +86270,13 @@ void* RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_t
 	return NULL;
 }
 
+void* RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(int32_t p1, AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89  p2, RuntimeObject * p3, const RuntimeMethod* method);
+	((Func)methodPointer)(*((int32_t*)args[0]), *((AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89 *)args[1]), (RuntimeObject *)args[2], methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(int32_t p1, int32_t p2, void* p3, const RuntimeMethod* method);
@@ -86709,6 +87246,14 @@ void* RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_VoidU2
 	typedef int32_t (*Func)(void* p1, int32_t p2, const RuntimeMethod* method);
 	int32_t ret;
 	ret = ((Func)methodPointer)((void*)args[0], *((int32_t*)args[1]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int32_t (*Func)(AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89  p1, RuntimeObject * p2, const RuntimeMethod* method);
+	int32_t ret;
+	ret = ((Func)methodPointer)(*((AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89 *)args[0]), (RuntimeObject *)args[1], methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -89214,6 +89759,14 @@ void* RuntimeInvoker_FalseNullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3_R
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_FalseNullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498  (*Func)(RuntimeObject * p1, const RuntimeMethod* method);
+	Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498  ret;
+	ret = ((Func)methodPointer)((RuntimeObject *)args[0], methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_FalseNullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D_RuntimeObject (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D  (*Func)(RuntimeObject * p1, const RuntimeMethod* method);
@@ -89926,6 +90479,14 @@ void* RuntimeInvoker_FalseInt16_tD0F031114106263BB459DA1F099FF9F42691295A_TimeSp
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int32_t (*Func)(Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498  p1, const RuntimeMethod* method);
+	int32_t ret;
+	ret = ((Func)methodPointer)(*((Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498 *)args[0]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* p1, const RuntimeMethod* method);
@@ -90078,11 +90639,27 @@ void* RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Alloca
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_FalseInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_Nullable_1_tCFBE5FE1DB8A702D620FFC81D556C8E8AD5B871F (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int64_t (*Func)(Nullable_1_tCFBE5FE1DB8A702D620FFC81D556C8E8AD5B871F  p1, const RuntimeMethod* method);
+	int64_t ret;
+	ret = ((Func)methodPointer)(*((Nullable_1_tCFBE5FE1DB8A702D620FFC81D556C8E8AD5B871F *)args[0]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_FalseInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef int64_t (*Func)(void* p1, const RuntimeMethod* method);
 	int64_t ret;
 	ret = ((Func)methodPointer)((void*)args[0], methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_FalseInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int64_t (*Func)(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  p1, const RuntimeMethod* method);
+	int64_t ret;
+	ret = ((Func)methodPointer)(*((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)args[0]), methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -90275,6 +90852,14 @@ void* RuntimeInvoker_FalseRuntimeObject_Nullable_1_t1D1CD146BFCBDC2E53E1F700889F
 	typedef RuntimeObject * (*Func)(Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  p1, const RuntimeMethod* method);
 	RuntimeObject * ret;
 	ret = ((Func)methodPointer)(*((Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3 *)args[0]), methodMetadata);
+	return ret;
+}
+
+void* RuntimeInvoker_FalseRuntimeObject_Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef RuntimeObject * (*Func)(Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498  p1, const RuntimeMethod* method);
+	RuntimeObject * ret;
+	ret = ((Func)methodPointer)(*((Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498 *)args[0]), methodMetadata);
 	return ret;
 }
 
@@ -91316,6 +91901,13 @@ void* RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_VoidU2A
 	return NULL;
 }
 
+void* RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1  p1, const RuntimeMethod* method);
+	((Func)methodPointer)(*((AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1 *)args[0]), methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  p1, const RuntimeMethod* method);
@@ -92011,7 +92603,7 @@ void* RuntimeInvoker_FalseTransientBuildData_t9712699B02114AB8ED38C4D17EA5989208
 }
 
 IL2CPP_EXTERN_C const InvokerMethod g_Il2CppInvokerPointers[];
-const InvokerMethod g_Il2CppInvokerPointers[4931] = 
+const InvokerMethod g_Il2CppInvokerPointers[4944] = 
 {
 	RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_RuntimeObject_RuntimeObject_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
 	RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_RuntimeObject_RuntimeObject_Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
@@ -92943,6 +93535,7 @@ const InvokerMethod g_Il2CppInvokerPointers[4931] =
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_RuntimeObject,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_IntPtr_t_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B,
+	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_RuntimeObject_AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_RuntimeObject_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_RuntimeObject_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B,
@@ -94214,6 +94807,7 @@ const InvokerMethod g_Il2CppInvokerPointers[4931] =
 	RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_NativeList_1_t22CD8F19235FC18EE364ADD77A52633A598ACE91,
 	RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Nullable_1_t265E8632561529AD7DA4F074A8AC7B6D53E182C6,
 	RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3,
+	RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498,
 	RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D,
 	RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Nullable_1_t1FC1CAAE857F129AF99E6808D83D7CD7E3960AB9,
 	RuntimeInvoker_TrueSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_Nullable_1_t864FD0051A05D37F91C857AB496BFCB3FE756103,
@@ -94582,10 +95176,12 @@ const InvokerMethod g_Il2CppInvokerPointers[4931] =
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_NativeArray_1_t9D118727A643E61710D0A4DF5B0C8CD1A918A40B,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_NativeList_1_t22CD8F19235FC18EE364ADD77A52633A598ACE91,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3,
+	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_t864FD0051A05D37F91C857AB496BFCB3FE756103,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_t7880D2707BE1F30FCD9277BFE085E237050F6C2C,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_t817784E58F22F201F73F40A25C68C0FFEC6621DF,
+	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_tCFBE5FE1DB8A702D620FFC81D556C8E8AD5B871F,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_tA368B61397E0DCBFA85FBD6D0C7EFB54328303DD,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_t6D01EC45AFF535504EEB5FD3A877B3C71573F69C,
 	RuntimeInvoker_TrueVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_ProfilerCounter_1_t9A2E6B09FDB388F9BFAB6BD7B67E2CF98207FC1D,
@@ -95103,6 +95699,7 @@ const InvokerMethod g_Il2CppInvokerPointers[4931] =
 	RuntimeInvoker_TrueNativeArray_1_tDC300F9E80C8B60CB1CB0C1513A57F83A15E0D60,
 	RuntimeInvoker_TrueNativeList_1_t22CD8F19235FC18EE364ADD77A52633A598ACE91,
 	RuntimeInvoker_TrueNullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3,
+	RuntimeInvoker_TrueNullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498,
 	RuntimeInvoker_TrueNullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D,
 	RuntimeInvoker_TrueNullable_1_t864FD0051A05D37F91C857AB496BFCB3FE756103,
 	RuntimeInvoker_TrueNullable_1_t7880D2707BE1F30FCD9277BFE085E237050F6C2C,
@@ -96143,6 +96740,7 @@ const InvokerMethod g_Il2CppInvokerPointers[4931] =
 	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int16_tD0F031114106263BB459DA1F099FF9F42691295A_RuntimeObject_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
 	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
 	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B,
+	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89_RuntimeObject,
 	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
 	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046,
 	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_IntPtr_t_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
@@ -96272,6 +96870,7 @@ const InvokerMethod g_Il2CppInvokerPointers[4931] =
 	RuntimeInvoker_FalseInt16_tD0F031114106263BB459DA1F099FF9F42691295A_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
 	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046,
+	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_AndroidNotification_tDB5201A4CAFD8F63162D4FA9ECC4DA7E7B305A89_RuntimeObject,
 	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181,
 	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046,
 	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Int16_tD0F031114106263BB459DA1F099FF9F42691295A_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
@@ -96592,6 +97191,7 @@ const InvokerMethod g_Il2CppInvokerPointers[4931] =
 	RuntimeInvoker_FalseKeyValuePair_2_tE78AD78874BCE1BC993F92EF8CBBDC3B30E44CBB_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
 	RuntimeInvoker_FalseNullable_1_t265E8632561529AD7DA4F074A8AC7B6D53E182C6_RuntimeObject,
 	RuntimeInvoker_FalseNullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3_RuntimeObject,
+	RuntimeInvoker_FalseNullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498_RuntimeObject,
 	RuntimeInvoker_FalseNullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D_RuntimeObject,
 	RuntimeInvoker_FalseNullable_1_t1FC1CAAE857F129AF99E6808D83D7CD7E3960AB9_RuntimeObject,
 	RuntimeInvoker_FalseNullable_1_t864FD0051A05D37F91C857AB496BFCB3FE756103_RuntimeObject,
@@ -96681,6 +97281,7 @@ const InvokerMethod g_Il2CppInvokerPointers[4931] =
 	RuntimeInvoker_FalseInt16_tD0F031114106263BB459DA1F099FF9F42691295A_SByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B,
 	RuntimeInvoker_FalseInt16_tD0F031114106263BB459DA1F099FF9F42691295A_Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E,
 	RuntimeInvoker_FalseInt16_tD0F031114106263BB459DA1F099FF9F42691295A_TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203,
+	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498,
 	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
 	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_AnimationPlayableOutput_t14570F3E63619E52ABB0B0306D4F4AAA6225DE17,
 	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659,
@@ -96700,7 +97301,9 @@ const InvokerMethod g_Il2CppInvokerPointers[4931] =
 	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_uint2_t31B88562B6681D249453803230869FBE9ED565E7,
 	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_uint4_t646D1C6030F449510629C1CDBC418BC46ABE3635,
 	RuntimeInvoker_FalseInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_AllocatorHandle_tAFA82A7B19AC002D983535C10C63DE0AD2EE3F1A,
+	RuntimeInvoker_FalseInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_Nullable_1_tCFBE5FE1DB8A702D620FFC81D556C8E8AD5B871F,
 	RuntimeInvoker_FalseInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
+	RuntimeInvoker_FalseInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405,
 	RuntimeInvoker_FalseInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7,
 	RuntimeInvoker_FalseInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_DiscreteTime_tCF3EC7AD37854B10B43578F44DA55FA40D9D3C9F,
 	RuntimeInvoker_FalseInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181,
@@ -96725,6 +97328,7 @@ const InvokerMethod g_Il2CppInvokerPointers[4931] =
 	RuntimeInvoker_FalseNetworkObjectIdentifier_t4C2875384AAD7B97AE977B7EF11EE697D8C05725_RuntimeObject,
 	RuntimeInvoker_FalseRuntimeObject_Nullable_1_t265E8632561529AD7DA4F074A8AC7B6D53E182C6,
 	RuntimeInvoker_FalseRuntimeObject_Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3,
+	RuntimeInvoker_FalseRuntimeObject_Nullable_1_tA06400BA484934D9CEBAF66D0E71C822EF09A498,
 	RuntimeInvoker_FalseRuntimeObject_Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D,
 	RuntimeInvoker_FalseRuntimeObject_Nullable_1_t1FC1CAAE857F129AF99E6808D83D7CD7E3960AB9,
 	RuntimeInvoker_FalseRuntimeObject_Nullable_1_t864FD0051A05D37F91C857AB496BFCB3FE756103,
@@ -96855,6 +97459,7 @@ const InvokerMethod g_Il2CppInvokerPointers[4931] =
 	RuntimeInvoker_FalseVector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7_Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E,
 	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Nullable_1_tCFBE5FE1DB8A702D620FFC81D556C8E8AD5B871F,
 	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_VoidU2A_tC7FFEB695C165BD92A8656A0260E9CBC93892D9A,
+	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_AndroidNotificationChannel_t65E017763547EC13342CC68BDE000AE45EA935A1,
 	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659,
 	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405,
 	RuntimeInvoker_FalseVoid_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5_Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181,

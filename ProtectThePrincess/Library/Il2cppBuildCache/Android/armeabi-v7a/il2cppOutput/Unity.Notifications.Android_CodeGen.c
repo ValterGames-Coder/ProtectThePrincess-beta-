@@ -1,0 +1,462 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.String Unity.Notifications.Android.AndroidNotification::get_Title()
+extern void AndroidNotification_get_Title_mB3DABEE0F0991F9EEBDE33BF7972FD2FE8A1F4F9 (void);
+// 0x00000002 System.Void Unity.Notifications.Android.AndroidNotification::set_Title(System.String)
+extern void AndroidNotification_set_Title_m8F3CD2493CE4E1146CCF0FB5A22693A83189B2BF (void);
+// 0x00000003 System.String Unity.Notifications.Android.AndroidNotification::get_Text()
+extern void AndroidNotification_get_Text_m77E9CFB1D553D57D0FEF220DE7B28088DD356D6C (void);
+// 0x00000004 System.Void Unity.Notifications.Android.AndroidNotification::set_Text(System.String)
+extern void AndroidNotification_set_Text_mBFBF1951A5506A2442A519F044F5D6657B04F04B (void);
+// 0x00000005 System.String Unity.Notifications.Android.AndroidNotification::get_SmallIcon()
+extern void AndroidNotification_get_SmallIcon_m92B697D0D89530167902FC5897DD168266B81DD0 (void);
+// 0x00000006 System.DateTime Unity.Notifications.Android.AndroidNotification::get_FireTime()
+extern void AndroidNotification_get_FireTime_mF810AF8344094C697EFD40194CD1739CD02A662A (void);
+// 0x00000007 System.Void Unity.Notifications.Android.AndroidNotification::set_FireTime(System.DateTime)
+extern void AndroidNotification_set_FireTime_mB28FFB7F25BA44F896EB8C6289DCCF6603224C78 (void);
+// 0x00000008 System.Nullable`1<System.TimeSpan> Unity.Notifications.Android.AndroidNotification::get_RepeatInterval()
+extern void AndroidNotification_get_RepeatInterval_m09D70F0C0E53A601CEFCB774039B32E5578EA59E (void);
+// 0x00000009 System.Void Unity.Notifications.Android.AndroidNotification::set_RepeatInterval(System.Nullable`1<System.TimeSpan>)
+extern void AndroidNotification_set_RepeatInterval_m0FDA4870F0D148570B6D24034475E19965BD9E1F (void);
+// 0x0000000A System.String Unity.Notifications.Android.AndroidNotification::get_LargeIcon()
+extern void AndroidNotification_get_LargeIcon_mC26FD32D630C8467C043CC4A2B4E841892A1E6C0 (void);
+// 0x0000000B System.Void Unity.Notifications.Android.AndroidNotification::set_LargeIcon(System.String)
+extern void AndroidNotification_set_LargeIcon_m451EF5AA763036228687978F544A988DD5B521C5 (void);
+// 0x0000000C Unity.Notifications.Android.NotificationStyle Unity.Notifications.Android.AndroidNotification::get_Style()
+extern void AndroidNotification_get_Style_m97C174CB75421EFDD1C2E75C3FCDE4CCAEAD2F54 (void);
+// 0x0000000D System.Void Unity.Notifications.Android.AndroidNotification::set_Style(Unity.Notifications.Android.NotificationStyle)
+extern void AndroidNotification_set_Style_m98FB64EF2F07E24EB0B7328F685E2597AA8E8202 (void);
+// 0x0000000E System.Nullable`1<UnityEngine.Color> Unity.Notifications.Android.AndroidNotification::get_Color()
+extern void AndroidNotification_get_Color_mBBCAAD5E8A561583A30899B79071DC0E510931FA (void);
+// 0x0000000F System.Void Unity.Notifications.Android.AndroidNotification::set_Color(System.Nullable`1<UnityEngine.Color>)
+extern void AndroidNotification_set_Color_mACFEDF1A3E4EEDFBD972DAFFF28B323807431561 (void);
+// 0x00000010 System.Int32 Unity.Notifications.Android.AndroidNotification::get_Number()
+extern void AndroidNotification_get_Number_mA5DEDC608DC439A4A491EEB7FA4BBECCD34CA2A4 (void);
+// 0x00000011 System.Void Unity.Notifications.Android.AndroidNotification::set_Number(System.Int32)
+extern void AndroidNotification_set_Number_m8C6ADBFE6516F90F69096FBD9862480969128142 (void);
+// 0x00000012 System.Boolean Unity.Notifications.Android.AndroidNotification::get_ShouldAutoCancel()
+extern void AndroidNotification_get_ShouldAutoCancel_m0F7E321BA510637F3C9D8F553C0A77565E952C36 (void);
+// 0x00000013 System.Void Unity.Notifications.Android.AndroidNotification::set_ShouldAutoCancel(System.Boolean)
+extern void AndroidNotification_set_ShouldAutoCancel_mC5CDEF3BD3D064831BE0B70C65EDD17B3157111A (void);
+// 0x00000014 System.Boolean Unity.Notifications.Android.AndroidNotification::get_UsesStopwatch()
+extern void AndroidNotification_get_UsesStopwatch_m2DC6B59CB2E8A12A104C5A5E9EB91B1AA2F62080 (void);
+// 0x00000015 System.Void Unity.Notifications.Android.AndroidNotification::set_UsesStopwatch(System.Boolean)
+extern void AndroidNotification_set_UsesStopwatch_m55FC26AC094CC99D22432104A6C7AC3C629A1CA1 (void);
+// 0x00000016 System.String Unity.Notifications.Android.AndroidNotification::get_Group()
+extern void AndroidNotification_get_Group_m77A3E8F0A809D435B7FC889C6B9C163DD80E7BB1 (void);
+// 0x00000017 System.Void Unity.Notifications.Android.AndroidNotification::set_Group(System.String)
+extern void AndroidNotification_set_Group_m76EC700DCF7554BE82F92EC7A7E2513B1FF9E959 (void);
+// 0x00000018 System.Boolean Unity.Notifications.Android.AndroidNotification::get_GroupSummary()
+extern void AndroidNotification_get_GroupSummary_m1BC2AC6F3DE40B306602D5DABFEA1CAFBED76EA2 (void);
+// 0x00000019 System.Void Unity.Notifications.Android.AndroidNotification::set_GroupSummary(System.Boolean)
+extern void AndroidNotification_set_GroupSummary_m906CAB0D3329BC8F6DF1582E66A55F98372B9B56 (void);
+// 0x0000001A Unity.Notifications.Android.GroupAlertBehaviours Unity.Notifications.Android.AndroidNotification::get_GroupAlertBehaviour()
+extern void AndroidNotification_get_GroupAlertBehaviour_m0DE3415FFE52E7DED47D2AAB021A772ED72633D5 (void);
+// 0x0000001B System.Void Unity.Notifications.Android.AndroidNotification::set_GroupAlertBehaviour(Unity.Notifications.Android.GroupAlertBehaviours)
+extern void AndroidNotification_set_GroupAlertBehaviour_m0F6F30DF3CC18235A42B05ADE3293368FDA9265C (void);
+// 0x0000001C System.String Unity.Notifications.Android.AndroidNotification::get_SortKey()
+extern void AndroidNotification_get_SortKey_m2F51A80A8D61A86E05DBA8BC55F941B4DAAE25C8 (void);
+// 0x0000001D System.Void Unity.Notifications.Android.AndroidNotification::set_SortKey(System.String)
+extern void AndroidNotification_set_SortKey_m20919DC31CFF55EB4CC3C4FE2C7CC5DA24EC8EBB (void);
+// 0x0000001E System.String Unity.Notifications.Android.AndroidNotification::get_IntentData()
+extern void AndroidNotification_get_IntentData_mF6A7FC46547F023CA9DE369AE45958D1563E6206 (void);
+// 0x0000001F System.Void Unity.Notifications.Android.AndroidNotification::set_IntentData(System.String)
+extern void AndroidNotification_set_IntentData_m5F25F77921D71A8CE4177FEC32784518A7DA251A (void);
+// 0x00000020 System.Boolean Unity.Notifications.Android.AndroidNotification::get_ShowTimestamp()
+extern void AndroidNotification_get_ShowTimestamp_m4974F4442200DC1311A95ED3173B8EFEB07E10C6 (void);
+// 0x00000021 System.DateTime Unity.Notifications.Android.AndroidNotification::get_CustomTimestamp()
+extern void AndroidNotification_get_CustomTimestamp_m36E2E3570D2197AFB00C40E46B0E3665900CD42E (void);
+// 0x00000022 System.Boolean Unity.Notifications.Android.AndroidNotification::get_ShowCustomTimestamp()
+extern void AndroidNotification_get_ShowCustomTimestamp_m4D6097B1975D351245D2E0F929E4A4B11379FADE (void);
+// 0x00000023 System.Void Unity.Notifications.Android.NotificationCallback::.ctor()
+extern void NotificationCallback__ctor_m0079EEFEA69221760EBC29775A5DF78533B01183 (void);
+// 0x00000024 System.Void Unity.Notifications.Android.NotificationCallback::onSentNotification(UnityEngine.AndroidJavaObject)
+extern void NotificationCallback_onSentNotification_m312DAAE0557A90CB3BB39F4E55B510F5FEC18E2A (void);
+// 0x00000025 System.Boolean Unity.Notifications.Android.AndroidNotificationCenter::Initialize()
+extern void AndroidNotificationCenter_Initialize_m032C4F7B042514FA1E9227073A7FADBCD628E960 (void);
+// 0x00000026 System.Void Unity.Notifications.Android.AndroidNotificationCenter::RegisterNotificationChannel(Unity.Notifications.Android.AndroidNotificationChannel)
+extern void AndroidNotificationCenter_RegisterNotificationChannel_mA563D65A93EFC5BCD25F3181C21035E6E62D1B90 (void);
+// 0x00000027 System.Int32 Unity.Notifications.Android.AndroidNotificationCenter::SendNotification(Unity.Notifications.Android.AndroidNotification,System.String)
+extern void AndroidNotificationCenter_SendNotification_m8AA0ADF07030DDA5E70AB57048A685643AA2286B (void);
+// 0x00000028 System.Void Unity.Notifications.Android.AndroidNotificationCenter::SendNotification(System.Int32,Unity.Notifications.Android.AndroidNotification,System.String)
+extern void AndroidNotificationCenter_SendNotification_m4D634C911E041AACFD31290C602DDB216630B09D (void);
+// 0x00000029 Unity.Notifications.Android.AndroidNotificationIntentData Unity.Notifications.Android.AndroidNotificationCenter::ParseNotificationIntentData(UnityEngine.AndroidJavaObject)
+extern void AndroidNotificationCenter_ParseNotificationIntentData_mF3B3296CBFC0FA297D90855799441D944EED3522 (void);
+// 0x0000002A System.Void Unity.Notifications.Android.AndroidNotificationCenter::ReceivedNotificationCallback(UnityEngine.AndroidJavaObject)
+extern void AndroidNotificationCenter_ReceivedNotificationCallback_mF925FF2B7DDD6D1EE601205F3CF14A2B6F5318DF (void);
+// 0x0000002B System.Void Unity.Notifications.Android.AndroidNotificationCenter::.cctor()
+extern void AndroidNotificationCenter__cctor_m5F22B4F9AA8FCDF901A9EF1D5F1CD7A5F293C537 (void);
+// 0x0000002C System.Void Unity.Notifications.Android.AndroidNotificationCenter/NotificationReceivedCallback::.ctor(System.Object,System.IntPtr)
+extern void NotificationReceivedCallback__ctor_m076EC8CB3D125E921A77A3FCDEC8CBBBA95407AC (void);
+// 0x0000002D System.Void Unity.Notifications.Android.AndroidNotificationCenter/NotificationReceivedCallback::Invoke(Unity.Notifications.Android.AndroidNotificationIntentData)
+extern void NotificationReceivedCallback_Invoke_m3BA17AB01D93A0BD7B529EB155CA9B7930DBA3AB (void);
+// 0x0000002E System.IAsyncResult Unity.Notifications.Android.AndroidNotificationCenter/NotificationReceivedCallback::BeginInvoke(Unity.Notifications.Android.AndroidNotificationIntentData,System.AsyncCallback,System.Object)
+extern void NotificationReceivedCallback_BeginInvoke_mC6B9D77CDAC40141C3E1D096B0C16184A9DA5B29 (void);
+// 0x0000002F System.Void Unity.Notifications.Android.AndroidNotificationCenter/NotificationReceivedCallback::EndInvoke(System.IAsyncResult)
+extern void NotificationReceivedCallback_EndInvoke_mF9C345485E086AFE95CBEB115BC9DC5318D2C923 (void);
+// 0x00000030 System.Void Unity.Notifications.Android.AndroidNotificationCenter/<>c::.cctor()
+extern void U3CU3Ec__cctor_mA8D0AFE8E96C91435A7F7078676C2C62ADE79045 (void);
+// 0x00000031 System.Void Unity.Notifications.Android.AndroidNotificationCenter/<>c::.ctor()
+extern void U3CU3Ec__ctor_m5AB26E888AB42C1D212AEE08649D29C56099BE53 (void);
+// 0x00000032 System.Void Unity.Notifications.Android.AndroidNotificationCenter/<>c::<.cctor>b__29_0(Unity.Notifications.Android.AndroidNotificationIntentData)
+extern void U3CU3Ec_U3C_cctorU3Eb__29_0_m11878434192410AEB79062FBB5AAE2ACFBA5F2C9 (void);
+// 0x00000033 System.String Unity.Notifications.Android.AndroidNotificationChannel::get_Id()
+extern void AndroidNotificationChannel_get_Id_m8414CCF73AAE88237B22CEC99C72246ECFB476B7 (void);
+// 0x00000034 System.Void Unity.Notifications.Android.AndroidNotificationChannel::set_Id(System.String)
+extern void AndroidNotificationChannel_set_Id_mBA4BD4BBEDEC34758C2135CA09EB2F229D7799BA (void);
+// 0x00000035 System.String Unity.Notifications.Android.AndroidNotificationChannel::get_Name()
+extern void AndroidNotificationChannel_get_Name_m0AA10F1025091D228921E87AADD2047E7411091A (void);
+// 0x00000036 System.Void Unity.Notifications.Android.AndroidNotificationChannel::set_Name(System.String)
+extern void AndroidNotificationChannel_set_Name_m9C30D7E82CEC2028A0FA2E21127767027CBC5BC8 (void);
+// 0x00000037 System.String Unity.Notifications.Android.AndroidNotificationChannel::get_Description()
+extern void AndroidNotificationChannel_get_Description_m4628FD745E0AB56D1CA3736561A3AE392134F3D8 (void);
+// 0x00000038 System.Void Unity.Notifications.Android.AndroidNotificationChannel::set_Description(System.String)
+extern void AndroidNotificationChannel_set_Description_m895FC16334428373C8D15D893611F32077599CD1 (void);
+// 0x00000039 Unity.Notifications.Android.Importance Unity.Notifications.Android.AndroidNotificationChannel::get_Importance()
+extern void AndroidNotificationChannel_get_Importance_m9CCC8F1DAEC8EDA86D4651F5B5E77DADDEBCA124 (void);
+// 0x0000003A System.Void Unity.Notifications.Android.AndroidNotificationChannel::set_Importance(Unity.Notifications.Android.Importance)
+extern void AndroidNotificationChannel_set_Importance_mED3F8A45E4DE2B1085753FC57CAF56CF0DD56DEB (void);
+// 0x0000003B System.Boolean Unity.Notifications.Android.AndroidNotificationChannel::get_CanBypassDnd()
+extern void AndroidNotificationChannel_get_CanBypassDnd_mF5039966BD760C9431BCEF955301B65037ECAF84 (void);
+// 0x0000003C System.Boolean Unity.Notifications.Android.AndroidNotificationChannel::get_CanShowBadge()
+extern void AndroidNotificationChannel_get_CanShowBadge_mADC2608F5FA0EE2DA01CE2C48DE746C013629484 (void);
+// 0x0000003D System.Boolean Unity.Notifications.Android.AndroidNotificationChannel::get_EnableLights()
+extern void AndroidNotificationChannel_get_EnableLights_m940E7B2298ABA231695828C6ECE983230AE85997 (void);
+// 0x0000003E System.Boolean Unity.Notifications.Android.AndroidNotificationChannel::get_EnableVibration()
+extern void AndroidNotificationChannel_get_EnableVibration_mB2D0633D3475651540736DD2685498E159622ECD (void);
+// 0x0000003F System.Int64[] Unity.Notifications.Android.AndroidNotificationChannel::get_VibrationPattern()
+extern void AndroidNotificationChannel_get_VibrationPattern_m4E735D10633F66025E9387CC4B811565892148F7 (void);
+// 0x00000040 Unity.Notifications.Android.LockScreenVisibility Unity.Notifications.Android.AndroidNotificationChannel::get_LockScreenVisibility()
+extern void AndroidNotificationChannel_get_LockScreenVisibility_mD57C1C54E1E7BDFFDC7B676887730E72A742F09F (void);
+// 0x00000041 Unity.Notifications.Android.NotificationStyle Unity.Notifications.Android.AndroidNotificationExtensions::ToNotificationStyle(System.Int32)
+extern void AndroidNotificationExtensions_ToNotificationStyle_m30E2C72FD8233990852D5644A1C1DCB1552DCFB6 (void);
+// 0x00000042 Unity.Notifications.Android.GroupAlertBehaviours Unity.Notifications.Android.AndroidNotificationExtensions::ToGroupAlertBehaviours(System.Int32)
+extern void AndroidNotificationExtensions_ToGroupAlertBehaviours_m6BE71EE671DDF13C9333E8D84FA1C8F95A773624 (void);
+// 0x00000043 UnityEngine.Color Unity.Notifications.Android.AndroidNotificationExtensions::ToColor(System.Int32)
+extern void AndroidNotificationExtensions_ToColor_m4F0AC1E486292491D63BED6EDD5F27C28D3666E5 (void);
+// 0x00000044 System.Int32 Unity.Notifications.Android.AndroidNotificationExtensions::ToInt(System.Nullable`1<UnityEngine.Color>)
+extern void AndroidNotificationExtensions_ToInt_m145923D169D265B0EA179BFDB53703FC8901D276 (void);
+// 0x00000045 System.Int64 Unity.Notifications.Android.AndroidNotificationExtensions::ToLong(System.DateTime)
+extern void AndroidNotificationExtensions_ToLong_m8B2B0DE759417E42C3FC322EC1BC67EB0E551F70 (void);
+// 0x00000046 System.DateTime Unity.Notifications.Android.AndroidNotificationExtensions::ToDatetime(System.Int64)
+extern void AndroidNotificationExtensions_ToDatetime_m800EBFECFB1908CCAEF03513C58468E7845F0F43 (void);
+// 0x00000047 System.Int64 Unity.Notifications.Android.AndroidNotificationExtensions::ToLong(System.Nullable`1<System.TimeSpan>)
+extern void AndroidNotificationExtensions_ToLong_m17C90BDB52FAC47FAA4AA705CA37D13C1C4FD17A (void);
+// 0x00000048 System.TimeSpan Unity.Notifications.Android.AndroidNotificationExtensions::ToTimeSpan(System.Int64)
+extern void AndroidNotificationExtensions_ToTimeSpan_m82F05A65D739796F7E94F26566170DBCC56D1DD6 (void);
+// 0x00000049 System.Void Unity.Notifications.Android.AndroidNotificationIntentData::.ctor(System.Int32,System.String,Unity.Notifications.Android.AndroidNotification)
+extern void AndroidNotificationIntentData__ctor_mFA0B24EADF0B8CCAC424B598B7C75C99CAF0C80B (void);
+// 0x0000004A System.Void Unity.Notifications.Android.AndroidReceivedNotificationMainThreadDispatcher::EnqueueReceivedNotification(UnityEngine.AndroidJavaObject)
+extern void AndroidReceivedNotificationMainThreadDispatcher_EnqueueReceivedNotification_m91497715038968784C48633AAF410897DA041001 (void);
+// 0x0000004B Unity.Notifications.Android.AndroidReceivedNotificationMainThreadDispatcher Unity.Notifications.Android.AndroidReceivedNotificationMainThreadDispatcher::GetInstance()
+extern void AndroidReceivedNotificationMainThreadDispatcher_GetInstance_m0ECBDF3489F97FA7771BBA299D2CB3A8E233CD02 (void);
+// 0x0000004C System.Void Unity.Notifications.Android.AndroidReceivedNotificationMainThreadDispatcher::Update()
+extern void AndroidReceivedNotificationMainThreadDispatcher_Update_m73DC78B1913BE91F029C10B5CD39C853424CD09E (void);
+// 0x0000004D System.Void Unity.Notifications.Android.AndroidReceivedNotificationMainThreadDispatcher::Awake()
+extern void AndroidReceivedNotificationMainThreadDispatcher_Awake_mE29E5C70BC91344E219FFE45639E03645AA48944 (void);
+// 0x0000004E System.Void Unity.Notifications.Android.AndroidReceivedNotificationMainThreadDispatcher::OnDestroy()
+extern void AndroidReceivedNotificationMainThreadDispatcher_OnDestroy_mCB8274F4292C713C8D76D5F3A8016E3FD97069FE (void);
+// 0x0000004F System.Void Unity.Notifications.Android.AndroidReceivedNotificationMainThreadDispatcher::.ctor()
+extern void AndroidReceivedNotificationMainThreadDispatcher__ctor_m03FB58388F00FC3D554A889F7C3D79FFD3F8A1F6 (void);
+// 0x00000050 System.Void Unity.Notifications.Android.AndroidReceivedNotificationMainThreadDispatcher::.cctor()
+extern void AndroidReceivedNotificationMainThreadDispatcher__cctor_mFD6277622F1396F5C83B4DEC3D6C9466DA1D7C26 (void);
+static Il2CppMethodPointer s_methodPointers[80] = 
+{
+	AndroidNotification_get_Title_mB3DABEE0F0991F9EEBDE33BF7972FD2FE8A1F4F9,
+	AndroidNotification_set_Title_m8F3CD2493CE4E1146CCF0FB5A22693A83189B2BF,
+	AndroidNotification_get_Text_m77E9CFB1D553D57D0FEF220DE7B28088DD356D6C,
+	AndroidNotification_set_Text_mBFBF1951A5506A2442A519F044F5D6657B04F04B,
+	AndroidNotification_get_SmallIcon_m92B697D0D89530167902FC5897DD168266B81DD0,
+	AndroidNotification_get_FireTime_mF810AF8344094C697EFD40194CD1739CD02A662A,
+	AndroidNotification_set_FireTime_mB28FFB7F25BA44F896EB8C6289DCCF6603224C78,
+	AndroidNotification_get_RepeatInterval_m09D70F0C0E53A601CEFCB774039B32E5578EA59E,
+	AndroidNotification_set_RepeatInterval_m0FDA4870F0D148570B6D24034475E19965BD9E1F,
+	AndroidNotification_get_LargeIcon_mC26FD32D630C8467C043CC4A2B4E841892A1E6C0,
+	AndroidNotification_set_LargeIcon_m451EF5AA763036228687978F544A988DD5B521C5,
+	AndroidNotification_get_Style_m97C174CB75421EFDD1C2E75C3FCDE4CCAEAD2F54,
+	AndroidNotification_set_Style_m98FB64EF2F07E24EB0B7328F685E2597AA8E8202,
+	AndroidNotification_get_Color_mBBCAAD5E8A561583A30899B79071DC0E510931FA,
+	AndroidNotification_set_Color_mACFEDF1A3E4EEDFBD972DAFFF28B323807431561,
+	AndroidNotification_get_Number_mA5DEDC608DC439A4A491EEB7FA4BBECCD34CA2A4,
+	AndroidNotification_set_Number_m8C6ADBFE6516F90F69096FBD9862480969128142,
+	AndroidNotification_get_ShouldAutoCancel_m0F7E321BA510637F3C9D8F553C0A77565E952C36,
+	AndroidNotification_set_ShouldAutoCancel_mC5CDEF3BD3D064831BE0B70C65EDD17B3157111A,
+	AndroidNotification_get_UsesStopwatch_m2DC6B59CB2E8A12A104C5A5E9EB91B1AA2F62080,
+	AndroidNotification_set_UsesStopwatch_m55FC26AC094CC99D22432104A6C7AC3C629A1CA1,
+	AndroidNotification_get_Group_m77A3E8F0A809D435B7FC889C6B9C163DD80E7BB1,
+	AndroidNotification_set_Group_m76EC700DCF7554BE82F92EC7A7E2513B1FF9E959,
+	AndroidNotification_get_GroupSummary_m1BC2AC6F3DE40B306602D5DABFEA1CAFBED76EA2,
+	AndroidNotification_set_GroupSummary_m906CAB0D3329BC8F6DF1582E66A55F98372B9B56,
+	AndroidNotification_get_GroupAlertBehaviour_m0DE3415FFE52E7DED47D2AAB021A772ED72633D5,
+	AndroidNotification_set_GroupAlertBehaviour_m0F6F30DF3CC18235A42B05ADE3293368FDA9265C,
+	AndroidNotification_get_SortKey_m2F51A80A8D61A86E05DBA8BC55F941B4DAAE25C8,
+	AndroidNotification_set_SortKey_m20919DC31CFF55EB4CC3C4FE2C7CC5DA24EC8EBB,
+	AndroidNotification_get_IntentData_mF6A7FC46547F023CA9DE369AE45958D1563E6206,
+	AndroidNotification_set_IntentData_m5F25F77921D71A8CE4177FEC32784518A7DA251A,
+	AndroidNotification_get_ShowTimestamp_m4974F4442200DC1311A95ED3173B8EFEB07E10C6,
+	AndroidNotification_get_CustomTimestamp_m36E2E3570D2197AFB00C40E46B0E3665900CD42E,
+	AndroidNotification_get_ShowCustomTimestamp_m4D6097B1975D351245D2E0F929E4A4B11379FADE,
+	NotificationCallback__ctor_m0079EEFEA69221760EBC29775A5DF78533B01183,
+	NotificationCallback_onSentNotification_m312DAAE0557A90CB3BB39F4E55B510F5FEC18E2A,
+	AndroidNotificationCenter_Initialize_m032C4F7B042514FA1E9227073A7FADBCD628E960,
+	AndroidNotificationCenter_RegisterNotificationChannel_mA563D65A93EFC5BCD25F3181C21035E6E62D1B90,
+	AndroidNotificationCenter_SendNotification_m8AA0ADF07030DDA5E70AB57048A685643AA2286B,
+	AndroidNotificationCenter_SendNotification_m4D634C911E041AACFD31290C602DDB216630B09D,
+	AndroidNotificationCenter_ParseNotificationIntentData_mF3B3296CBFC0FA297D90855799441D944EED3522,
+	AndroidNotificationCenter_ReceivedNotificationCallback_mF925FF2B7DDD6D1EE601205F3CF14A2B6F5318DF,
+	AndroidNotificationCenter__cctor_m5F22B4F9AA8FCDF901A9EF1D5F1CD7A5F293C537,
+	NotificationReceivedCallback__ctor_m076EC8CB3D125E921A77A3FCDEC8CBBBA95407AC,
+	NotificationReceivedCallback_Invoke_m3BA17AB01D93A0BD7B529EB155CA9B7930DBA3AB,
+	NotificationReceivedCallback_BeginInvoke_mC6B9D77CDAC40141C3E1D096B0C16184A9DA5B29,
+	NotificationReceivedCallback_EndInvoke_mF9C345485E086AFE95CBEB115BC9DC5318D2C923,
+	U3CU3Ec__cctor_mA8D0AFE8E96C91435A7F7078676C2C62ADE79045,
+	U3CU3Ec__ctor_m5AB26E888AB42C1D212AEE08649D29C56099BE53,
+	U3CU3Ec_U3C_cctorU3Eb__29_0_m11878434192410AEB79062FBB5AAE2ACFBA5F2C9,
+	AndroidNotificationChannel_get_Id_m8414CCF73AAE88237B22CEC99C72246ECFB476B7,
+	AndroidNotificationChannel_set_Id_mBA4BD4BBEDEC34758C2135CA09EB2F229D7799BA,
+	AndroidNotificationChannel_get_Name_m0AA10F1025091D228921E87AADD2047E7411091A,
+	AndroidNotificationChannel_set_Name_m9C30D7E82CEC2028A0FA2E21127767027CBC5BC8,
+	AndroidNotificationChannel_get_Description_m4628FD745E0AB56D1CA3736561A3AE392134F3D8,
+	AndroidNotificationChannel_set_Description_m895FC16334428373C8D15D893611F32077599CD1,
+	AndroidNotificationChannel_get_Importance_m9CCC8F1DAEC8EDA86D4651F5B5E77DADDEBCA124,
+	AndroidNotificationChannel_set_Importance_mED3F8A45E4DE2B1085753FC57CAF56CF0DD56DEB,
+	AndroidNotificationChannel_get_CanBypassDnd_mF5039966BD760C9431BCEF955301B65037ECAF84,
+	AndroidNotificationChannel_get_CanShowBadge_mADC2608F5FA0EE2DA01CE2C48DE746C013629484,
+	AndroidNotificationChannel_get_EnableLights_m940E7B2298ABA231695828C6ECE983230AE85997,
+	AndroidNotificationChannel_get_EnableVibration_mB2D0633D3475651540736DD2685498E159622ECD,
+	AndroidNotificationChannel_get_VibrationPattern_m4E735D10633F66025E9387CC4B811565892148F7,
+	AndroidNotificationChannel_get_LockScreenVisibility_mD57C1C54E1E7BDFFDC7B676887730E72A742F09F,
+	AndroidNotificationExtensions_ToNotificationStyle_m30E2C72FD8233990852D5644A1C1DCB1552DCFB6,
+	AndroidNotificationExtensions_ToGroupAlertBehaviours_m6BE71EE671DDF13C9333E8D84FA1C8F95A773624,
+	AndroidNotificationExtensions_ToColor_m4F0AC1E486292491D63BED6EDD5F27C28D3666E5,
+	AndroidNotificationExtensions_ToInt_m145923D169D265B0EA179BFDB53703FC8901D276,
+	AndroidNotificationExtensions_ToLong_m8B2B0DE759417E42C3FC322EC1BC67EB0E551F70,
+	AndroidNotificationExtensions_ToDatetime_m800EBFECFB1908CCAEF03513C58468E7845F0F43,
+	AndroidNotificationExtensions_ToLong_m17C90BDB52FAC47FAA4AA705CA37D13C1C4FD17A,
+	AndroidNotificationExtensions_ToTimeSpan_m82F05A65D739796F7E94F26566170DBCC56D1DD6,
+	AndroidNotificationIntentData__ctor_mFA0B24EADF0B8CCAC424B598B7C75C99CAF0C80B,
+	AndroidReceivedNotificationMainThreadDispatcher_EnqueueReceivedNotification_m91497715038968784C48633AAF410897DA041001,
+	AndroidReceivedNotificationMainThreadDispatcher_GetInstance_m0ECBDF3489F97FA7771BBA299D2CB3A8E233CD02,
+	AndroidReceivedNotificationMainThreadDispatcher_Update_m73DC78B1913BE91F029C10B5CD39C853424CD09E,
+	AndroidReceivedNotificationMainThreadDispatcher_Awake_mE29E5C70BC91344E219FFE45639E03645AA48944,
+	AndroidReceivedNotificationMainThreadDispatcher_OnDestroy_mCB8274F4292C713C8D76D5F3A8016E3FD97069FE,
+	AndroidReceivedNotificationMainThreadDispatcher__ctor_m03FB58388F00FC3D554A889F7C3D79FFD3F8A1F6,
+	AndroidReceivedNotificationMainThreadDispatcher__cctor_mFD6277622F1396F5C83B4DEC3D6C9466DA1D7C26,
+};
+extern void AndroidNotification_get_Title_mB3DABEE0F0991F9EEBDE33BF7972FD2FE8A1F4F9_AdjustorThunk (void);
+extern void AndroidNotification_set_Title_m8F3CD2493CE4E1146CCF0FB5A22693A83189B2BF_AdjustorThunk (void);
+extern void AndroidNotification_get_Text_m77E9CFB1D553D57D0FEF220DE7B28088DD356D6C_AdjustorThunk (void);
+extern void AndroidNotification_set_Text_mBFBF1951A5506A2442A519F044F5D6657B04F04B_AdjustorThunk (void);
+extern void AndroidNotification_get_SmallIcon_m92B697D0D89530167902FC5897DD168266B81DD0_AdjustorThunk (void);
+extern void AndroidNotification_get_FireTime_mF810AF8344094C697EFD40194CD1739CD02A662A_AdjustorThunk (void);
+extern void AndroidNotification_set_FireTime_mB28FFB7F25BA44F896EB8C6289DCCF6603224C78_AdjustorThunk (void);
+extern void AndroidNotification_get_RepeatInterval_m09D70F0C0E53A601CEFCB774039B32E5578EA59E_AdjustorThunk (void);
+extern void AndroidNotification_set_RepeatInterval_m0FDA4870F0D148570B6D24034475E19965BD9E1F_AdjustorThunk (void);
+extern void AndroidNotification_get_LargeIcon_mC26FD32D630C8467C043CC4A2B4E841892A1E6C0_AdjustorThunk (void);
+extern void AndroidNotification_set_LargeIcon_m451EF5AA763036228687978F544A988DD5B521C5_AdjustorThunk (void);
+extern void AndroidNotification_get_Style_m97C174CB75421EFDD1C2E75C3FCDE4CCAEAD2F54_AdjustorThunk (void);
+extern void AndroidNotification_set_Style_m98FB64EF2F07E24EB0B7328F685E2597AA8E8202_AdjustorThunk (void);
+extern void AndroidNotification_get_Color_mBBCAAD5E8A561583A30899B79071DC0E510931FA_AdjustorThunk (void);
+extern void AndroidNotification_set_Color_mACFEDF1A3E4EEDFBD972DAFFF28B323807431561_AdjustorThunk (void);
+extern void AndroidNotification_get_Number_mA5DEDC608DC439A4A491EEB7FA4BBECCD34CA2A4_AdjustorThunk (void);
+extern void AndroidNotification_set_Number_m8C6ADBFE6516F90F69096FBD9862480969128142_AdjustorThunk (void);
+extern void AndroidNotification_get_ShouldAutoCancel_m0F7E321BA510637F3C9D8F553C0A77565E952C36_AdjustorThunk (void);
+extern void AndroidNotification_set_ShouldAutoCancel_mC5CDEF3BD3D064831BE0B70C65EDD17B3157111A_AdjustorThunk (void);
+extern void AndroidNotification_get_UsesStopwatch_m2DC6B59CB2E8A12A104C5A5E9EB91B1AA2F62080_AdjustorThunk (void);
+extern void AndroidNotification_set_UsesStopwatch_m55FC26AC094CC99D22432104A6C7AC3C629A1CA1_AdjustorThunk (void);
+extern void AndroidNotification_get_Group_m77A3E8F0A809D435B7FC889C6B9C163DD80E7BB1_AdjustorThunk (void);
+extern void AndroidNotification_set_Group_m76EC700DCF7554BE82F92EC7A7E2513B1FF9E959_AdjustorThunk (void);
+extern void AndroidNotification_get_GroupSummary_m1BC2AC6F3DE40B306602D5DABFEA1CAFBED76EA2_AdjustorThunk (void);
+extern void AndroidNotification_set_GroupSummary_m906CAB0D3329BC8F6DF1582E66A55F98372B9B56_AdjustorThunk (void);
+extern void AndroidNotification_get_GroupAlertBehaviour_m0DE3415FFE52E7DED47D2AAB021A772ED72633D5_AdjustorThunk (void);
+extern void AndroidNotification_set_GroupAlertBehaviour_m0F6F30DF3CC18235A42B05ADE3293368FDA9265C_AdjustorThunk (void);
+extern void AndroidNotification_get_SortKey_m2F51A80A8D61A86E05DBA8BC55F941B4DAAE25C8_AdjustorThunk (void);
+extern void AndroidNotification_set_SortKey_m20919DC31CFF55EB4CC3C4FE2C7CC5DA24EC8EBB_AdjustorThunk (void);
+extern void AndroidNotification_get_IntentData_mF6A7FC46547F023CA9DE369AE45958D1563E6206_AdjustorThunk (void);
+extern void AndroidNotification_set_IntentData_m5F25F77921D71A8CE4177FEC32784518A7DA251A_AdjustorThunk (void);
+extern void AndroidNotification_get_ShowTimestamp_m4974F4442200DC1311A95ED3173B8EFEB07E10C6_AdjustorThunk (void);
+extern void AndroidNotification_get_CustomTimestamp_m36E2E3570D2197AFB00C40E46B0E3665900CD42E_AdjustorThunk (void);
+extern void AndroidNotification_get_ShowCustomTimestamp_m4D6097B1975D351245D2E0F929E4A4B11379FADE_AdjustorThunk (void);
+extern void AndroidNotificationChannel_get_Id_m8414CCF73AAE88237B22CEC99C72246ECFB476B7_AdjustorThunk (void);
+extern void AndroidNotificationChannel_set_Id_mBA4BD4BBEDEC34758C2135CA09EB2F229D7799BA_AdjustorThunk (void);
+extern void AndroidNotificationChannel_get_Name_m0AA10F1025091D228921E87AADD2047E7411091A_AdjustorThunk (void);
+extern void AndroidNotificationChannel_set_Name_m9C30D7E82CEC2028A0FA2E21127767027CBC5BC8_AdjustorThunk (void);
+extern void AndroidNotificationChannel_get_Description_m4628FD745E0AB56D1CA3736561A3AE392134F3D8_AdjustorThunk (void);
+extern void AndroidNotificationChannel_set_Description_m895FC16334428373C8D15D893611F32077599CD1_AdjustorThunk (void);
+extern void AndroidNotificationChannel_get_Importance_m9CCC8F1DAEC8EDA86D4651F5B5E77DADDEBCA124_AdjustorThunk (void);
+extern void AndroidNotificationChannel_set_Importance_mED3F8A45E4DE2B1085753FC57CAF56CF0DD56DEB_AdjustorThunk (void);
+extern void AndroidNotificationChannel_get_CanBypassDnd_mF5039966BD760C9431BCEF955301B65037ECAF84_AdjustorThunk (void);
+extern void AndroidNotificationChannel_get_CanShowBadge_mADC2608F5FA0EE2DA01CE2C48DE746C013629484_AdjustorThunk (void);
+extern void AndroidNotificationChannel_get_EnableLights_m940E7B2298ABA231695828C6ECE983230AE85997_AdjustorThunk (void);
+extern void AndroidNotificationChannel_get_EnableVibration_mB2D0633D3475651540736DD2685498E159622ECD_AdjustorThunk (void);
+extern void AndroidNotificationChannel_get_VibrationPattern_m4E735D10633F66025E9387CC4B811565892148F7_AdjustorThunk (void);
+extern void AndroidNotificationChannel_get_LockScreenVisibility_mD57C1C54E1E7BDFFDC7B676887730E72A742F09F_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[48] = 
+{
+	{ 0x06000001, AndroidNotification_get_Title_mB3DABEE0F0991F9EEBDE33BF7972FD2FE8A1F4F9_AdjustorThunk },
+	{ 0x06000002, AndroidNotification_set_Title_m8F3CD2493CE4E1146CCF0FB5A22693A83189B2BF_AdjustorThunk },
+	{ 0x06000003, AndroidNotification_get_Text_m77E9CFB1D553D57D0FEF220DE7B28088DD356D6C_AdjustorThunk },
+	{ 0x06000004, AndroidNotification_set_Text_mBFBF1951A5506A2442A519F044F5D6657B04F04B_AdjustorThunk },
+	{ 0x06000005, AndroidNotification_get_SmallIcon_m92B697D0D89530167902FC5897DD168266B81DD0_AdjustorThunk },
+	{ 0x06000006, AndroidNotification_get_FireTime_mF810AF8344094C697EFD40194CD1739CD02A662A_AdjustorThunk },
+	{ 0x06000007, AndroidNotification_set_FireTime_mB28FFB7F25BA44F896EB8C6289DCCF6603224C78_AdjustorThunk },
+	{ 0x06000008, AndroidNotification_get_RepeatInterval_m09D70F0C0E53A601CEFCB774039B32E5578EA59E_AdjustorThunk },
+	{ 0x06000009, AndroidNotification_set_RepeatInterval_m0FDA4870F0D148570B6D24034475E19965BD9E1F_AdjustorThunk },
+	{ 0x0600000A, AndroidNotification_get_LargeIcon_mC26FD32D630C8467C043CC4A2B4E841892A1E6C0_AdjustorThunk },
+	{ 0x0600000B, AndroidNotification_set_LargeIcon_m451EF5AA763036228687978F544A988DD5B521C5_AdjustorThunk },
+	{ 0x0600000C, AndroidNotification_get_Style_m97C174CB75421EFDD1C2E75C3FCDE4CCAEAD2F54_AdjustorThunk },
+	{ 0x0600000D, AndroidNotification_set_Style_m98FB64EF2F07E24EB0B7328F685E2597AA8E8202_AdjustorThunk },
+	{ 0x0600000E, AndroidNotification_get_Color_mBBCAAD5E8A561583A30899B79071DC0E510931FA_AdjustorThunk },
+	{ 0x0600000F, AndroidNotification_set_Color_mACFEDF1A3E4EEDFBD972DAFFF28B323807431561_AdjustorThunk },
+	{ 0x06000010, AndroidNotification_get_Number_mA5DEDC608DC439A4A491EEB7FA4BBECCD34CA2A4_AdjustorThunk },
+	{ 0x06000011, AndroidNotification_set_Number_m8C6ADBFE6516F90F69096FBD9862480969128142_AdjustorThunk },
+	{ 0x06000012, AndroidNotification_get_ShouldAutoCancel_m0F7E321BA510637F3C9D8F553C0A77565E952C36_AdjustorThunk },
+	{ 0x06000013, AndroidNotification_set_ShouldAutoCancel_mC5CDEF3BD3D064831BE0B70C65EDD17B3157111A_AdjustorThunk },
+	{ 0x06000014, AndroidNotification_get_UsesStopwatch_m2DC6B59CB2E8A12A104C5A5E9EB91B1AA2F62080_AdjustorThunk },
+	{ 0x06000015, AndroidNotification_set_UsesStopwatch_m55FC26AC094CC99D22432104A6C7AC3C629A1CA1_AdjustorThunk },
+	{ 0x06000016, AndroidNotification_get_Group_m77A3E8F0A809D435B7FC889C6B9C163DD80E7BB1_AdjustorThunk },
+	{ 0x06000017, AndroidNotification_set_Group_m76EC700DCF7554BE82F92EC7A7E2513B1FF9E959_AdjustorThunk },
+	{ 0x06000018, AndroidNotification_get_GroupSummary_m1BC2AC6F3DE40B306602D5DABFEA1CAFBED76EA2_AdjustorThunk },
+	{ 0x06000019, AndroidNotification_set_GroupSummary_m906CAB0D3329BC8F6DF1582E66A55F98372B9B56_AdjustorThunk },
+	{ 0x0600001A, AndroidNotification_get_GroupAlertBehaviour_m0DE3415FFE52E7DED47D2AAB021A772ED72633D5_AdjustorThunk },
+	{ 0x0600001B, AndroidNotification_set_GroupAlertBehaviour_m0F6F30DF3CC18235A42B05ADE3293368FDA9265C_AdjustorThunk },
+	{ 0x0600001C, AndroidNotification_get_SortKey_m2F51A80A8D61A86E05DBA8BC55F941B4DAAE25C8_AdjustorThunk },
+	{ 0x0600001D, AndroidNotification_set_SortKey_m20919DC31CFF55EB4CC3C4FE2C7CC5DA24EC8EBB_AdjustorThunk },
+	{ 0x0600001E, AndroidNotification_get_IntentData_mF6A7FC46547F023CA9DE369AE45958D1563E6206_AdjustorThunk },
+	{ 0x0600001F, AndroidNotification_set_IntentData_m5F25F77921D71A8CE4177FEC32784518A7DA251A_AdjustorThunk },
+	{ 0x06000020, AndroidNotification_get_ShowTimestamp_m4974F4442200DC1311A95ED3173B8EFEB07E10C6_AdjustorThunk },
+	{ 0x06000021, AndroidNotification_get_CustomTimestamp_m36E2E3570D2197AFB00C40E46B0E3665900CD42E_AdjustorThunk },
+	{ 0x06000022, AndroidNotification_get_ShowCustomTimestamp_m4D6097B1975D351245D2E0F929E4A4B11379FADE_AdjustorThunk },
+	{ 0x06000033, AndroidNotificationChannel_get_Id_m8414CCF73AAE88237B22CEC99C72246ECFB476B7_AdjustorThunk },
+	{ 0x06000034, AndroidNotificationChannel_set_Id_mBA4BD4BBEDEC34758C2135CA09EB2F229D7799BA_AdjustorThunk },
+	{ 0x06000035, AndroidNotificationChannel_get_Name_m0AA10F1025091D228921E87AADD2047E7411091A_AdjustorThunk },
+	{ 0x06000036, AndroidNotificationChannel_set_Name_m9C30D7E82CEC2028A0FA2E21127767027CBC5BC8_AdjustorThunk },
+	{ 0x06000037, AndroidNotificationChannel_get_Description_m4628FD745E0AB56D1CA3736561A3AE392134F3D8_AdjustorThunk },
+	{ 0x06000038, AndroidNotificationChannel_set_Description_m895FC16334428373C8D15D893611F32077599CD1_AdjustorThunk },
+	{ 0x06000039, AndroidNotificationChannel_get_Importance_m9CCC8F1DAEC8EDA86D4651F5B5E77DADDEBCA124_AdjustorThunk },
+	{ 0x0600003A, AndroidNotificationChannel_set_Importance_mED3F8A45E4DE2B1085753FC57CAF56CF0DD56DEB_AdjustorThunk },
+	{ 0x0600003B, AndroidNotificationChannel_get_CanBypassDnd_mF5039966BD760C9431BCEF955301B65037ECAF84_AdjustorThunk },
+	{ 0x0600003C, AndroidNotificationChannel_get_CanShowBadge_mADC2608F5FA0EE2DA01CE2C48DE746C013629484_AdjustorThunk },
+	{ 0x0600003D, AndroidNotificationChannel_get_EnableLights_m940E7B2298ABA231695828C6ECE983230AE85997_AdjustorThunk },
+	{ 0x0600003E, AndroidNotificationChannel_get_EnableVibration_mB2D0633D3475651540736DD2685498E159622ECD_AdjustorThunk },
+	{ 0x0600003F, AndroidNotificationChannel_get_VibrationPattern_m4E735D10633F66025E9387CC4B811565892148F7_AdjustorThunk },
+	{ 0x06000040, AndroidNotificationChannel_get_LockScreenVisibility_mD57C1C54E1E7BDFFDC7B676887730E72A742F09F_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[80] = 
+{
+	3198,
+	2675,
+	3198,
+	2675,
+	3198,
+	3151,
+	2626,
+	3099,
+	2576,
+	3198,
+	2675,
+	3180,
+	2659,
+	3094,
+	2571,
+	3180,
+	2659,
+	3236,
+	2709,
+	3236,
+	2709,
+	3198,
+	2675,
+	3236,
+	2709,
+	3180,
+	2659,
+	3198,
+	2675,
+	3198,
+	2675,
+	3236,
+	3151,
+	3236,
+	3271,
+	2675,
+	4926,
+	4854,
+	4265,
+	4135,
+	4754,
+	4861,
+	4940,
+	1553,
+	2675,
+	784,
+	2675,
+	4940,
+	3271,
+	2675,
+	3198,
+	2675,
+	3198,
+	2675,
+	3198,
+	2675,
+	3180,
+	2659,
+	3236,
+	3236,
+	3236,
+	3236,
+	3198,
+	3180,
+	4683,
+	4683,
+	4625,
+	4676,
+	4698,
+	4632,
+	4696,
+	4835,
+	930,
+	4861,
+	4912,
+	3271,
+	3271,
+	3271,
+	3271,
+	4940,
+};
+extern const CustomAttributesCacheGenerator g_Unity_Notifications_Android_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Notifications_Android_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_Notifications_Android_CodeGenModule = 
+{
+	"Unity.Notifications.Android.dll",
+	80,
+	s_methodPointers,
+	48,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_Unity_Notifications_Android_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

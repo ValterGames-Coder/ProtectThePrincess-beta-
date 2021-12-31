@@ -9,9 +9,9 @@ using UnityEngine.UI;
 public class LeaderBoard : MonoBehaviour
 {
     [SerializeField] private Button _leaderBoardButton;
+    
     void Start()
     {
-
         PlayGamesPlatform.DebugLogEnabled = true;
         PlayGamesPlatform.Activate();
         Social.localUser.Authenticate(succes =>
