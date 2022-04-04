@@ -10,7 +10,7 @@ public class LeaderBoard : MonoBehaviour
 {
     [SerializeField] private Button _leaderBoardButton;
     
-    void Start()
+    /*void Start()
     {
         PlayGamesPlatform.DebugLogEnabled = true;
         PlayGamesPlatform.Activate();
@@ -27,6 +27,7 @@ public class LeaderBoard : MonoBehaviour
         });
      
     }
+    */
 
     public void ShowLeaderBoard()
     {

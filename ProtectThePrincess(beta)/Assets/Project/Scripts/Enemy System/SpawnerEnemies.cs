@@ -29,6 +29,8 @@ public class SpawnerEnemies : MonoBehaviour
     private const string _leaderBoard = "CgkIm8OJz4YMEAIQAg";
     private int _wins;
 
+    [SerializeField] private Animation _waveComplited;
+
     private void Start()
     {
         if (_instance == null) _instance = this;
@@ -42,8 +44,8 @@ public class SpawnerEnemies : MonoBehaviour
         _scoreManager = FindObjectOfType<ScoreManager>(); // Подключание очков 
         
         _wins = PlayerPrefs.GetInt("Wins");
-        PlayGamesPlatform.DebugLogEnabled = true;
-        PlayGamesPlatform.Activate();
+        /*PlayGamesPlatform.DebugLogEnabled = true;
+        PlayGamesPlatform.Activate();*/
     }
 
     private void Update()
@@ -71,6 +73,8 @@ public class SpawnerEnemies : MonoBehaviour
                 }
                 isWave = false; // Волны нет
                 _timeToSpawn = Random.Range(_startTimeToSpawn, 10); //Рандомное время таймера
+                _waveComplited.clip.legacy = true;
+                _waveComplited.Play();
                 _howManyEnemies = Random.Range(_howManyEnemies + 1, Random.Range(_howManyEnemies, _howManyEnemies + 5)); // Рандомное количество врагов
                 _scoreManager.killedEnemies = 0; // Убираем убитых
             }

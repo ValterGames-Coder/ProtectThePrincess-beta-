@@ -308,4 +308,11 @@
            <DE>Anker</DE>
       </Translates>
   </Key>
+  <Key Name="WaveComplited">
+      <Translates>
+           <EN>Wave Complited!</EN>
+           <RU>Волна Окончена!</RU>
+           <DE>Wave Complited!</DE>
+      </Translates>
+  </Key>
 </Keys>

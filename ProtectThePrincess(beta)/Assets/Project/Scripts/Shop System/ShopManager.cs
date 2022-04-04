@@ -9,9 +9,12 @@ public class ShopManager : MonoBehaviour
     [Header("Text")]
     public TMP_Text moneyText; // Текст для монет
 
+    [SerializeField] private bool _isOlimpiada;
+
     void Start()
     {
         money = PlayerPrefs.GetInt("Money"); //Получаем информацию о деньгах
+        if (_isOlimpiada) money = 10000; PlayerPrefs.SetInt("Money", money);
         if (PlayerPrefs.GetInt("BuyDefender" + 0) == 0) // Если это первый защитник 
         {
             PlayerPrefs.SetInt("BuyDefender" + 0, 1); // Сохраняем защитника как купленного

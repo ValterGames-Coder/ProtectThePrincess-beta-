@@ -23,10 +23,12 @@ public class Defender : MonoBehaviour
     public Transform _attackPosition, _groundPosition;
     [SerializeField] private float offset;
     [HideInInspector] public float _timeAttack;
+    [SerializeField] private float _rPlus;
     public float _startTimeAttack;
     private AudioSource _audio;
     private string _name;
     [HideInInspector] public Vector2 diff;
+    public bool IsRightDefender;
     void Start()
     {
         _timeAttack = _startTimeAttack; // Время атаки равняется старту время атаки
@@ -148,9 +150,48 @@ public class Defender : MonoBehaviour
 
     void BulletRotation()
     {
-        GetClosetEnemy(); // Ищем ближайщего врага
+        //Transform enemy = GetClosetEnemy(); // Ищем ближайщего врага
         if (GetClosetEnemy() != null) // Если есть ближайщий враг
         {
+            /*#region Вычесление упреждения
+            Vector2 direction = enemy.transform.position - _attackPosition.position;
+            float bulletTime = direction.magnitude / _bullet.GetComponent<Bullet>().speed;
+            float pathEnemy = enemy.GetComponent<Enemy>()._speed * bulletTime;
+            Vector3 nextEnemyPosition = new Vector3(pathEnemy + enemy.transform.position.x, enemy.transform.position.y + enemy.transform.localScale.y / 2);
+            if (IsRightDefender)
+            {
+                if (nextEnemyPosition.x < _attackPosition.position.x)
+                {
+                    if (gameObject.name == _name)
+                    {
+                        nextEnemyPosition.x = _attackPosition.position.x;
+                        Debug.Log(nextEnemyPosition.x);
+                    }
+                    else
+                    {
+                        nextEnemyPosition.x = 2.5f + _attackPosition.position.x;
+                    }
+                }
+            }
+            else
+            {
+                if (nextEnemyPosition.x > _attackPosition.position.x)
+                {
+                    if (gameObject.name == _name)
+                    {
+                        nextEnemyPosition.x = _attackPosition.position.x;
+                        Debug.Log(nextEnemyPosition.x);
+                    }
+                    else
+                    {
+                        nextEnemyPosition.x = 2.5f + _attackPosition.position.x;
+                    }
+                }
+            }
+            Vector3 finishPosition = nextEnemyPosition - _attackPosition.position;
+            float rotateZ = Mathf.Atan2(finishPosition.y, finishPosition.x) * Mathf.Rad2Deg;
+            _attackPosition.rotation = Quaternion.Euler(0f, 0f, rotateZ); // Разворачиваем позицию для атаки
+            #endregion*/
             int state = Camera.main.GetComponent<SwipeCamera>().state; // Получаем инфу и месте камеры
             var distance= Vector3.Distance(GetClosetEnemy().position, _attackPosition.position);
             float time = distance / _bullet.GetComponent<Bullet>().speed;
@@ -158,34 +199,39 @@ public class Defender : MonoBehaviour
             var enemyDistance= (time * enemy._speed);
             Vector3 difference = Vector3.zero;
             float rotateZ = 0;
+            if (enemyDistance == 0) _rPlus = 0;
             if (_name == "RightDefender") // Если это правый защитник
             {
                 if (state == 0 || state == 1) // Если камера на месте, то защитник смотрит в свою сторону
                 {
-                    difference = new Vector3(GetClosetEnemy().position.x - enemyDistance + .3f, GetClosetEnemy().position.y) - _attackPosition.position;
+                    if (enemyDistance < _attackPosition.position.x) enemyDistance = 0;
+                    difference = new Vector3(enemy.GetComponent<Transform>().position.x - enemyDistance + _rPlus, enemy.GetComponent<Transform>().position.y) - _attackPosition.position;
                     rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
-                    Mathf.Clamp(rotateZ, 0, 270);
+                    //rotateZ = Mathf.Clamp(rotateZ, 0, -90);
                 }
                 else if (state == -1) // Если камера смотрит налево, то защитник смотрит влево
                 {
-                    difference = new Vector3(GetClosetEnemy().position.x - enemyDistance - .3f, GetClosetEnemy().position.y) - _attackPosition.position;
+                    if (enemyDistance > _attackPosition.position.x) enemyDistance = 0;
+                    difference = new Vector3(enemy.GetComponent<Transform>().position.x + enemyDistance - _rPlus, enemy.GetComponent<Transform>().position.y) - _attackPosition.position;
                     rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
-                    Mathf.Clamp(rotateZ, -90, -180);
+                    //rotateZ = Mathf.Clamp(rotateZ, -90, -180);
                 }
             }
             if (_name == "LeftDefender") // Если это левый защитник
             {
                 if (state == 0 || state == -1) // Если камера на месте, то защитник смотрит в свою сторону
                 {
-                    difference = new Vector3(GetClosetEnemy().position.x - enemyDistance - .3f, GetClosetEnemy().position.y) - _attackPosition.position;
+                    if (enemyDistance > _attackPosition.position.x) enemyDistance = 0;
+                    difference = new Vector3(enemy.GetComponent<Transform>().position.x + enemyDistance - _rPlus, enemy.GetComponent<Transform>().position.y) - _attackPosition.position;
                     rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
-                    Mathf.Clamp(rotateZ, -90, -180);
+                    //rotateZ = Mathf.Clamp(rotateZ, -90, -180);
                 }
                 else if (state == 1) // Если камера смотрит налево, то защитник смотрит влево
                 {
-                    difference = new Vector3(GetClosetEnemy().position.x - enemyDistance + .3f, GetClosetEnemy().position.y) - _attackPosition.position;
+                    if (enemyDistance < _attackPosition.position.x) enemyDistance = 0;
+                    difference = new Vector3(enemy.GetComponent<Transform>().position.x - enemyDistance + _rPlus, enemy.GetComponent<Transform>().position.y) - _attackPosition.position;
                     rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
-                    Mathf.Clamp(rotateZ, 0, 270);
+                    //rotateZ = Mathf.Clamp(rotateZ, 0, -90);
                 }
             }
             _attackPosition.rotation = Quaternion.Euler(0f, 0f, rotateZ); // Разворачиваем позицию для атаки

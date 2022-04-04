@@ -13,14 +13,14 @@ public class AdsRewarded : MonoBehaviour
     private const string _rewardedAdUnitId = "ca-app-pub-4721480223801357/4410482404";
 #endif
 
-    private void OnEnable()
+    /*private void OnEnable()
     {
         _rewardedAd = new RewardedAd(_rewardedAdUnitId);
         AdRequest _adRequest = new AdRequest.Builder().Build();
         _rewardedAd.LoadAd(_adRequest);
         _rewardedAd.OnUserEarnedReward += HandleUserEarnedReward;
 
-    }
+    }*/
 
     private void OnDestroy()
     {

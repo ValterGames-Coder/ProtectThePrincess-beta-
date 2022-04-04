@@ -17,19 +17,21 @@ public class AdsSecondHealth : MonoBehaviour
         towerHealth = GameObject.Find("Tower").GetComponent<Health>();
     }
     
-    private void OnEnable()
+    /*private void OnEnable()
     {
-        _rewardedAd = new RewardedAd(_rewardedAdUnitId);
+        //_rewardedAd = new RewardedAd(_rewardedAdUnitId);
         AdRequest _adRequest = new AdRequest.Builder().Build();
         _rewardedAd.LoadAd(_adRequest);
         _rewardedAd.OnUserEarnedReward += HandleUserEarnedReward;
 
-    }
+    }*/
 
+    /*
     private void OnDestroy()
     {
         _rewardedAd.OnUserEarnedReward -= HandleUserEarnedReward;
     }
+    */
     
     public void ShowAd()
     {

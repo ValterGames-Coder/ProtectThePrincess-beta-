@@ -99,6 +99,13 @@ public class UpgradeButton : MonoBehaviour
             _notFullUpgrade.SetActive(false);
             _fullUpgrade.SetActive(true);
         }
+        
+        if (_upgrade == 5)
+        {
+            _notFullUpgrade.SetActive(false);
+            _fullUpgrade.SetActive(true);
+            _button.SetActive(false);
+        }
     }
 
     bool DisplayUpgradePoint(float upgrade, int pointNumber)

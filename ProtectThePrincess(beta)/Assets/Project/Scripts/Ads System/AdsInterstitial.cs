@@ -11,15 +11,15 @@ public class AdsInterstitial : MonoBehaviour
 
     private void Start()
     {
-        LoadAds();
+        //LoadAds();
     }
 
-    private void LoadAds()
+    /*private void LoadAds()
     {
         _interstitialAd = new InterstitialAd(_interstitialAdUnitId);
         AdRequest _adRequest = new AdRequest.Builder().Build();
         _interstitialAd.LoadAd(_adRequest);
-    }
+    }*/
 
     public void ShowAd()
     {

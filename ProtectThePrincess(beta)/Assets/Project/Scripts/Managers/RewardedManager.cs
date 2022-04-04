@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Random = UnityEngine.Random;
-using Unity.Notifications.Android;
+//using Unity.Notifications.Android;
 
 public class RewardedManager : MonoBehaviour
 {
@@ -17,7 +17,7 @@ public class RewardedManager : MonoBehaviour
 
     void Start()
     {
-    	CreateNotificationChannel();
+    	//CreateNotificationChannel();
     	if (PlayerPrefs.GetInt("Send") == 1 && IsReady() == true) PlayerPrefs.SetInt("Send", 0);
         if (!PlayerPrefs.HasKey("LastOpen")) PlayerPrefs.SetString("LastOpen", lastOpen.ToString());
         _rewardButton = GetComponent<Button>();
@@ -74,9 +74,9 @@ public class RewardedManager : MonoBehaviour
 
         if(seconleft <= 0)
         {
-            _rewardedText.Localize("RewardedButton");
+            //_rewardedText.Localize("RewardedButton");
             if(PlayerPrefs.GetInt("Send") == 0) {
-            	SendNotification(seconleft);
+                //SendNotification(seconleft);
             	PlayerPrefs.SetInt("Send", 1);
             }
             //_timerText.text = "Ready";
@@ -86,7 +86,7 @@ public class RewardedManager : MonoBehaviour
     }
     
 
-    public void CreateNotificationChannel()
+    /*public void CreateNotificationChannel()
     {
         var channel = new AndroidNotificationChannel()
         {
@@ -108,5 +108,5 @@ public class RewardedManager : MonoBehaviour
         notification.FireTime = System.DateTime.Now.AddSeconds(time);
 
         AndroidNotificationCenter.SendNotification(notification, "channel_id");
-    }
+    }*/
 }

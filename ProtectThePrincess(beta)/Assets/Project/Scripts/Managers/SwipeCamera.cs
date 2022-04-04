@@ -5,6 +5,8 @@ public class SwipeCamera : MonoBehaviour
 {
     [Header("Positions")]
     [SerializeField] private Transform _targetRight, _targetLeft, _targetNull; // Позиция справа, слева, и по середине
+
+    [SerializeField] private Defender _rightDefender, _leftDefender;
     [Header("Speed")]
     [SerializeField] private float _speed; // Скорость камеры
     private Transform _cameraPosition; // Позиция камеры
@@ -33,8 +35,16 @@ public class SwipeCamera : MonoBehaviour
     {
         if (_isSwipe)
         {
-            if (state == 0) state = 1;
-            else if (state == -1) state = 0;
+            if (state == 0)
+            {
+                state = 1;
+                _leftDefender.IsRightDefender = true;
+            }
+            else if (state == -1)
+            {
+                state = 0;
+                _rightDefender.IsRightDefender = true;
+            }
         }
     }
 
@@ -42,8 +52,16 @@ public class SwipeCamera : MonoBehaviour
     {
         if (_isSwipe)
         {
-            if (state == 0) state = -1;
-            else if (state == 1) state = 0;
+            if (state == 0)
+            {
+                state = -1;
+                _rightDefender.IsRightDefender = false;
+            }
+            else if (state == 1)
+            {
+                state = 0;
+                _leftDefender.IsRightDefender = false;
+            }
         }
     }
 

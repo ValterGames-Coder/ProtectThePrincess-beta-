@@ -22,6 +22,7 @@ ScriptsOnlyBuild:
     - CloudSpawner
     - Defender
     - DefenderItem
+    - DiedZone
     - Enemy
     - EnemyAttack
     - EnemyNotification
@@ -33,6 +34,7 @@ ScriptsOnlyBuild:
     - Money
     - MusicController
     - ParallaxBehaviour
+    - QuitManager
     - RewardedManager
     - ScoreManager
     - ShakeCameraController
@@ -45,12 +47,15 @@ ScriptsOnlyBuild:
     - TransitionsManager
     - UIButtonManager
     - UpgradeButton
+    GoogleMobileAds.Common.dll:
+    - GoogleMobileAds.Common.MobileAdsEventExecutor
     GoogleMobileAds.Editor.dll:
     - GoogleMobileAds.Editor.GoogleMobileAdsSettings
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -100,8 +105,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     Unity.Timeline.dll:
     - UnityEngine.Timeline.ActivationPlayableAsset
     - UnityEngine.Timeline.ActivationTrack
@@ -131,6 +134,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
@@ -177,6 +181,8 @@ ScriptsOnlyBuild:
     - Class: 96
       Script: {instanceID: 0}
     - Class: 104
+      Script: {instanceID: 0}
+    - Class: 111
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1720}
@@ -247,31 +253,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7848}
     - Class: 114
-      Script: {instanceID: 8082}
+      Script: {instanceID: 7990}
     - Class: 114
-      Script: {instanceID: 8102}
+      Script: {instanceID: 8084}
     - Class: 114
-      Script: {instanceID: 8144}
+      Script: {instanceID: 8104}
     - Class: 114
-      Script: {instanceID: 8358}
+      Script: {instanceID: 8146}
     - Class: 114
-      Script: {instanceID: 8466}
+      Script: {instanceID: 8360}
     - Class: 114
-      Script: {instanceID: 8724}
+      Script: {instanceID: 8468}
     - Class: 114
-      Script: {instanceID: 8798}
+      Script: {instanceID: 8726}
     - Class: 114
-      Script: {instanceID: 9036}
+      Script: {instanceID: 8800}
     - Class: 114
-      Script: {instanceID: 9276}
+      Script: {instanceID: 9038}
     - Class: 114
-      Script: {instanceID: 9420}
+      Script: {instanceID: 9278}
     - Class: 114
-      Script: {instanceID: 9432}
+      Script: {instanceID: 9422}
     - Class: 114
-      Script: {instanceID: 9438}
+      Script: {instanceID: 9434}
     - Class: 114
-      Script: {instanceID: 9802}
+      Script: {instanceID: 9440}
+    - Class: 114
+      Script: {instanceID: 9804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -416,33 +424,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7978}
     - Class: 114
-      Script: {instanceID: 8082}
+      Script: {instanceID: 8084}
     - Class: 114
-      Script: {instanceID: 8098}
+      Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 8244}
+      Script: {instanceID: 8246}
     - Class: 114
-      Script: {instanceID: 8316}
+      Script: {instanceID: 8318}
     - Class: 114
-      Script: {instanceID: 8416}
+      Script: {instanceID: 8418}
     - Class: 114
-      Script: {instanceID: 8578}
+      Script: {instanceID: 8580}
     - Class: 114
-      Script: {instanceID: 8660}
+      Script: {instanceID: 8662}
     - Class: 114
-      Script: {instanceID: 8988}
+      Script: {instanceID: 8990}
     - Class: 114
-      Script: {instanceID: 9036}
+      Script: {instanceID: 9038}
     - Class: 114
-      Script: {instanceID: 9426}
+      Script: {instanceID: 9428}
     - Class: 114
-      Script: {instanceID: 9500}
+      Script: {instanceID: 9502}
     - Class: 114
-      Script: {instanceID: 9842}
+      Script: {instanceID: 9844}
     - Class: 114
-      Script: {instanceID: 9910}
+      Script: {instanceID: 9912}
     - Class: 114
-      Script: {instanceID: 10250}
+      Script: {instanceID: 10252}
+    - Class: 114
+      Script: {instanceID: 80840}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -450,6 +460,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -475,6 +489,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 49
+      Script: {instanceID: 0}
+    - Class: 50
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
@@ -531,23 +547,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7848}
     - Class: 114
-      Script: {instanceID: 8082}
+      Script: {instanceID: 8084}
     - Class: 114
-      Script: {instanceID: 8358}
+      Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 8724}
+      Script: {instanceID: 8360}
     - Class: 114
-      Script: {instanceID: 8930}
+      Script: {instanceID: 8552}
     - Class: 114
-      Script: {instanceID: 8988}
+      Script: {instanceID: 8726}
     - Class: 114
-      Script: {instanceID: 9036}
+      Script: {instanceID: 8932}
     - Class: 114
-      Script: {instanceID: 9500}
+      Script: {instanceID: 8990}
     - Class: 114
-      Script: {instanceID: 9802}
+      Script: {instanceID: 9038}
     - Class: 114
-      Script: {instanceID: 10626}
+      Script: {instanceID: 9502}
+    - Class: 114
+      Script: {instanceID: 9804}
+    - Class: 114
+      Script: {instanceID: 10628}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -807,7 +827,7 @@ ScriptsOnlyBuild:
     className: BuyButton
   - hash:
       serializedVersion: 2
-      Hash: 1cb215c0f3ebf28ae9e46dba192a489d
+      Hash: 468ce7f0a73a4f74832bf2f39af388a7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RewardedManager
@@ -1281,7 +1301,7 @@ ScriptsOnlyBuild:
     className: ObjectSpin
   - hash:
       serializedVersion: 2
-      Hash: a5687b158a8211e686599d04bb0af5dc
+      Hash: 3cf725e23db7f21e0fc5da331572f9a3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Defender
@@ -1575,7 +1595,7 @@ ScriptsOnlyBuild:
     className: CardBuildingItem
   - hash:
       serializedVersion: 2
-      Hash: 9d47c917272443477621067c67078e4e
+      Hash: ed09c2171c39a25eadf39ca4e958842d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShopManager
@@ -1605,6 +1625,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerBitField
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DiedZone
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1617,7 +1643,7 @@ ScriptsOnlyBuild:
     className: Scrollbar
   - hash:
       serializedVersion: 2
-      Hash: 63f9fde462821a662a6de2f690562a4a
+      Hash: cadf6e4e1ca30be49fdfe7e2ace3e3d6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SwipeCamera
@@ -1695,7 +1721,7 @@ ScriptsOnlyBuild:
     className: TMP_FrameRateCounter
   - hash:
       serializedVersion: 2
-      Hash: 2ceb9a8b6472c01b86869b278bfe7d7b
+      Hash: df31d30af6fc7ee4ec1bdc7da2097ec1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnerEnemies
@@ -1731,7 +1757,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: cb61b3d480b93c45dcbe8c5bd8fe2aae
+      Hash: 65a79f63348ab7fe62f3b788b75a9c11
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bullet
@@ -1893,7 +1919,7 @@ ScriptsOnlyBuild:
     className: LeaderBoard
   - hash:
       serializedVersion: 2
-      Hash: b48d6a2d783b470488553f1d4b723c93
+      Hash: a1c6bd2370ec6b37bf04c44872fb8859
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -2065,10 +2091,16 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Services.Authentication.dll
     namespaceName: Unity.Services.Authentication.Utilities
     className: Scheduler
+  - hash:
+      serializedVersion: 2
+      Hash: 6e3841c707d437454f3f002b764631fa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuitManager
   platform: 13
   scenePathNames:
   - Assets/Project/Scenes/MenuScene.unity
   - Assets/Project/Scenes/ShopScene.unity
   - Assets/Project/Scenes/GameScene.unity
   playerPath: /home/valter/Projects/AndroidBuilds/Protect the Princess/Protect the
-    Princess 0.3.2.aab
+    Princess 0.5 APK.apk
