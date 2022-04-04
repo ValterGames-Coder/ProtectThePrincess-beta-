@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8560a56ed6784557b9fc45dd6c366eb6, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: 
+  defenderSprite: {fileID: 1747913851310489417, guid: 4970b1a5ace66275698f9af77fcf3798, type: 3}
+  zonePosition: {x: 5, y: 0.5, z: -10}
+  zoneRadius: 5.6
+  accuracy: 0
+  bullet: {fileID: 3259418757433683261, guid: 41543f9dc4ac14a00adbb4c5bdefa3da, type: 3}
+  attackPosition: {x: 0.2, y: -0.07}
+  offset: 0
+  startTimeAttack: 1.3
+  force: 1
+  attackAudio: {fileID: 8300000, guid: abd7387c78b6d39eea48e0e1b0d4dc58, type: 3}
+  towerSprite: {fileID: 5255334243134310995, guid: 35d85f13d5ef19dc9910fa5edb9fb301, type: 3}
+  defenderPosition: {x: 0.828, y: 2.878}
+  isHaveDoor: 1
+  doorSprite: {fileID: -4919615258828489423, guid: 35d85f13d5ef19dc9910fa5edb9fb301, type: 3}
+  doorPosition: {x: 0.538, y: 0.933}
