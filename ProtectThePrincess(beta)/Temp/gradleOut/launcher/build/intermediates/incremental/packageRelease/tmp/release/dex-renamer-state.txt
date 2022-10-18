@@ -1,4 +1,0 @@
-#Mon Apr 04 19:58:11 MSK 2022
-base.0=/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess(beta)/Temp/gradleOut/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

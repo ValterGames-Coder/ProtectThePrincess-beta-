@@ -1,4 +1,0 @@
-# Starting compiling Assembly-CSharp.dll
-/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7b61ae3f733cb098bb69389ba3103ba4
-# Starting IL post processing on Assembly-CSharp.dll
-/home/valter/UnityHub/2020.3.20f1/Editor/Data/MonoBleedingEdge/bin/mono "/home/valter/UnityHub/2020.3.20f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/home/valter/Projects/Unity Projects/ProtectThePrincessBeta/ProtectThePrincess(beta)/Temp/UnityTempFile-579ff49e01d8a8e34b6fd1b9c3e85794"
